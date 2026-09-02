@@ -1,0 +1,55 @@
+Opaline
+Copyright 2026 Opaline contributors
+
+This product is licensed under the Apache License, Version 2.0 (see LICENSE).
+
+-------------------------------------------------------------------------------
+Derived works
+-------------------------------------------------------------------------------
+
+Opaline is a derivative of the following Apache-2.0 projects. Their copyright
+notices are retained in the source files they contributed to.
+
+  Miuix
+  Copyright 2024-2026 compose-miuix-ui contributors (YuKongA and contributors)
+  https://github.com/compose-miuix-ui/miuix
+  Licensed under the Apache License, Version 2.0.
+  Origin of the component library, theming system, blur, shader, squircle,
+  navigation and icon modules, the example app and the documentation site.
+
+  COUI
+  Copyright 2025-2026 COUI contributors (suqi8 and contributors)
+  https://github.com/suqi8/coui
+  Licensed under the Apache License, Version 2.0.
+  A fork of Miuix (v1.1.0 was used) that rethemed it to the ColorOS 16 design
+  language and added several components (Chip, CodeTextField, DatePicker,
+  TimePicker, InputView, Stepper, TopTips, FullPageStatement, loading and
+  security dialogs, list/mark/recommended preferences, haptics).
+
+-------------------------------------------------------------------------------
+Changes made in Opaline
+-------------------------------------------------------------------------------
+
+  - Renamed the project, modules (opaline-*), Kotlin package
+    (io.github.a1b2d56.opaline) and public symbols (OpalineTheme, ...).
+  - Recalibrated colors, metrics, corner radii, typography and the dialog button
+    bar against ColorOS 17 (see docs/coui17-delta.md).
+  - Added the ColorOS 17 material presets (OpalineMaterial in opaline-blur).
+  - Restored upstream copyright notices and added this NOTICE file.
+
+-------------------------------------------------------------------------------
+Third-party code
+-------------------------------------------------------------------------------
+
+  Parts of opaline-navigation3-ui are copied from AndroidX Navigation 3,
+  Copyright The Android Open Source Project, licensed under the Apache License,
+  Version 2.0. Their original headers are kept unchanged.
+
+-------------------------------------------------------------------------------
+Trademarks
+-------------------------------------------------------------------------------
+
+  ColorOS, COUI, OPPO and OnePlus are trademarks of their respective owners.
+  Opaline is an independent project, not affiliated with or endorsed by them.
+  Design values (colors, dimensions, timing) were read from publicly distributed
+  ColorOS system software; Opaline does not include its source code.

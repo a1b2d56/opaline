@@ -1,0 +1,13 @@
+// Copyright 2025, compose-miuix-ui contributors
+// Modifications Copyright 2026, COUI contributors and Opaline contributors
+// SPDX-License-Identifier: Apache-2.0
+
+plugins {
+    `kotlin-dsl`
+}
+
+dependencies {
+    implementation(libs.android.gradle.plugin)
+    implementation(libs.kotlin.gradle.plugin)
+    implementation(libs.spotless.plugin.gradle)
+}
