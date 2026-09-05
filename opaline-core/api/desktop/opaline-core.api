@@ -1,0 +1,125 @@
+public final class io/github/a1b2d56/opaline/icon/OpalineIcons {
+	public static final field $stable I
+	public static final field INSTANCE Lio/github/a1b2d56/opaline/icon/OpalineIcons;
+}
+
+public final class io/github/a1b2d56/opaline/icon/OpalineIcons$Basic {
+	public static final field $stable I
+	public static final field INSTANCE Lio/github/a1b2d56/opaline/icon/OpalineIcons$Basic;
+}
+
+public final class io/github/a1b2d56/opaline/icon/OpalineIcons$Demibold {
+	public static final field $stable I
+	public static final field INSTANCE Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;
+}
+
+public final class io/github/a1b2d56/opaline/icon/OpalineIcons$Glass {
+	public static final field $stable I
+	public static final field INSTANCE Lio/github/a1b2d56/opaline/icon/OpalineIcons$Glass;
+}
+
+public final class io/github/a1b2d56/opaline/icon/OpalineIcons$Glass$Demibold {
+	public static final field $stable I
+	public static final field INSTANCE Lio/github/a1b2d56/opaline/icon/OpalineIcons$Glass$Demibold;
+}
+
+public final class io/github/a1b2d56/opaline/icon/OpalineIcons$Glass$Light {
+	public static final field $stable I
+	public static final field INSTANCE Lio/github/a1b2d56/opaline/icon/OpalineIcons$Glass$Light;
+}
+
+public final class io/github/a1b2d56/opaline/icon/OpalineIcons$Glass$Medium {
+	public static final field $stable I
+	public static final field INSTANCE Lio/github/a1b2d56/opaline/icon/OpalineIcons$Glass$Medium;
+}
+
+public final class io/github/a1b2d56/opaline/icon/OpalineIcons$Glass$Normal {
+	public static final field $stable I
+	public static final field INSTANCE Lio/github/a1b2d56/opaline/icon/OpalineIcons$Glass$Normal;
+}
+
+public final class io/github/a1b2d56/opaline/icon/OpalineIcons$Glass$Regular {
+	public static final field $stable I
+	public static final field INSTANCE Lio/github/a1b2d56/opaline/icon/OpalineIcons$Glass$Regular;
+}
+
+public final class io/github/a1b2d56/opaline/icon/OpalineIcons$Light {
+	public static final field $stable I
+	public static final field INSTANCE Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;
+}
+
+public final class io/github/a1b2d56/opaline/icon/OpalineIcons$Medium {
+	public static final field $stable I
+	public static final field INSTANCE Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;
+}
+
+public final class io/github/a1b2d56/opaline/icon/OpalineIcons$Normal {
+	public static final field $stable I
+	public static final field INSTANCE Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;
+}
+
+public final class io/github/a1b2d56/opaline/icon/OpalineIcons$Regular {
+	public static final field $stable I
+	public static final field INSTANCE Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;
+}
+
+public final class io/github/a1b2d56/opaline/material/MaterialKt {
+	public static final fun getLocalContentMaterialRenderer ()Landroidx/compose/runtime/ProvidableCompositionLocal;
+	public static final fun getLocalMaterialRenderer ()Landroidx/compose/runtime/ProvidableCompositionLocal;
+	public static final fun isMaterialActive (Lio/github/a1b2d56/opaline/material/MaterialType;Landroidx/compose/runtime/Composer;I)Z
+	public static final fun material-FHprtrg (Landroidx/compose/ui/Modifier;Lio/github/a1b2d56/opaline/material/MaterialType;Landroidx/compose/ui/graphics/Shape;ZJZLandroidx/compose/runtime/Composer;II)Landroidx/compose/ui/Modifier;
+	public static final fun materialFallbackColor (Lio/github/a1b2d56/opaline/material/MaterialType;Z)Landroidx/compose/ui/graphics/Color;
+}
+
+public abstract interface class io/github/a1b2d56/opaline/material/MaterialRenderer {
+	public abstract fun modifier-ww6aTOc (Lio/github/a1b2d56/opaline/material/MaterialType;Landroidx/compose/ui/graphics/Shape;ZJZLandroidx/compose/runtime/Composer;I)Landroidx/compose/ui/Modifier;
+	public fun supports (Lio/github/a1b2d56/opaline/material/MaterialType;)Z
+}
+
+public final class io/github/a1b2d56/opaline/material/MaterialRenderer$DefaultImpls {
+	public static fun supports (Lio/github/a1b2d56/opaline/material/MaterialRenderer;Lio/github/a1b2d56/opaline/material/MaterialType;)Z
+}
+
+public final class io/github/a1b2d56/opaline/material/MaterialType : java/lang/Enum {
+	public static final field BottomBar Lio/github/a1b2d56/opaline/material/MaterialType;
+	public static final field BottomSheetPanel Lio/github/a1b2d56/opaline/material/MaterialType;
+	public static final field ContentChipTab Lio/github/a1b2d56/opaline/material/MaterialType;
+	public static final field ContentChipTabSelected Lio/github/a1b2d56/opaline/material/MaterialType;
+	public static final field ContentPrimaryButton Lio/github/a1b2d56/opaline/material/MaterialType;
+	public static final field ContentSecondaryButton Lio/github/a1b2d56/opaline/material/MaterialType;
+	public static final field ContentSegment Lio/github/a1b2d56/opaline/material/MaterialType;
+	public static final field ContentTransparentButton Lio/github/a1b2d56/opaline/material/MaterialType;
+	public static final field DialogPanel Lio/github/a1b2d56/opaline/material/MaterialType;
+	public static final field FloatingBar Lio/github/a1b2d56/opaline/material/MaterialType;
+	public static final field SearchBar Lio/github/a1b2d56/opaline/material/MaterialType;
+	public static final field TopBarCapsule Lio/github/a1b2d56/opaline/material/MaterialType;
+	public static final field TopBarCircle Lio/github/a1b2d56/opaline/material/MaterialType;
+	public static fun getEntries ()Lkotlin/enums/EnumEntries;
+	public final fun isContent ()Z
+	public static fun valueOf (Ljava/lang/String;)Lio/github/a1b2d56/opaline/material/MaterialType;
+	public static fun values ()[Lio/github/a1b2d56/opaline/material/MaterialType;
+}
+
+public final class io/github/a1b2d56/opaline/utils/Platform : java/lang/Enum {
+	public static final field Android Lio/github/a1b2d56/opaline/utils/Platform;
+	public static final field Desktop Lio/github/a1b2d56/opaline/utils/Platform;
+	public static final field IOS Lio/github/a1b2d56/opaline/utils/Platform;
+	public static final field Js Lio/github/a1b2d56/opaline/utils/Platform;
+	public static final field MacOS Lio/github/a1b2d56/opaline/utils/Platform;
+	public static final field WasmJs Lio/github/a1b2d56/opaline/utils/Platform;
+	public static fun getEntries ()Lkotlin/enums/EnumEntries;
+	public static fun valueOf (Ljava/lang/String;)Lio/github/a1b2d56/opaline/utils/Platform;
+	public static fun values ()[Lio/github/a1b2d56/opaline/utils/Platform;
+}
+
+public final class io/github/a1b2d56/opaline/utils/Utils_desktopKt {
+	public static final fun platform ()Lio/github/a1b2d56/opaline/utils/Platform;
+}
+
+public final class io/github/a1b2d56/opaline/utils/Utils_skikoKt {
+	public static final fun RemovePlatformDialogDefaultEffects (Landroidx/compose/runtime/Composer;I)V
+	public static final fun getHasFocusReassignBug ()Z
+	public static final fun getRoundedCorner (Landroidx/compose/runtime/Composer;I)F
+	public static final fun platformDialogProperties (Landroidx/compose/runtime/Composer;I)Landroidx/compose/ui/window/DialogProperties;
+}
+
