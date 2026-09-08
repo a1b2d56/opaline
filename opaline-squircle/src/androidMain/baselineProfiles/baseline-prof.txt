@@ -1,0 +1,8 @@
+HSPLio/github/a1b2d56/opaline/squircle/SquircleBackgroundKt**->**(**)**
+SPLio/github/a1b2d56/opaline/squircle/LocalSquircleEnabledKt**->**(**)**
+SPLio/github/a1b2d56/opaline/squircle/SquircleBorderKt**->**(**)**
+SPLio/github/a1b2d56/opaline/squircle/SquircleDefaults;->**(**)**
+SPLio/github/a1b2d56/opaline/squircle/SquirclePathKt**->**(**)**
+SPLio/github/a1b2d56/opaline/squircle/SquircleShaderBrush;->**(**)**
+SPLio/github/a1b2d56/opaline/squircle/internal/AlphaImageBitmap_androidKt**->**(**)**
+SPLio/github/a1b2d56/opaline/squircle/internal/BakedSquircleSdf;->**(**)**
