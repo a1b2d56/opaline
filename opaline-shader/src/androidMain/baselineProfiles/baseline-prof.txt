@@ -1,0 +1,3 @@
+Lio/github/a1b2d56/opaline/shader/RuntimeShader;
+SPLio/github/a1b2d56/opaline/shader/AndroidRuntimeShader;->**(**)**
+SPLio/github/a1b2d56/opaline/shader/RuntimeShader_androidKt**->**(**)**

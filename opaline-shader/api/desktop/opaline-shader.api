@@ -1,0 +1,27 @@
+public final class io/github/a1b2d56/opaline/shader/RenderEffect_skikoKt {
+	public static final fun isRenderEffectSupported ()Z
+}
+
+public abstract interface class io/github/a1b2d56/opaline/shader/RuntimeShader {
+	public abstract fun setColorUniform-4WTKRHQ (Ljava/lang/String;J)V
+	public abstract fun setFloatUniform (Ljava/lang/String;F)V
+	public abstract fun setFloatUniform (Ljava/lang/String;FF)V
+	public abstract fun setFloatUniform (Ljava/lang/String;FFF)V
+	public abstract fun setFloatUniform (Ljava/lang/String;FFFF)V
+	public abstract fun setFloatUniform (Ljava/lang/String;[F)V
+	public abstract fun setInputShader (Ljava/lang/String;Landroidx/compose/ui/graphics/Shader;)V
+	public abstract fun setIntUniform (Ljava/lang/String;I)V
+	public abstract fun setIntUniform (Ljava/lang/String;II)V
+	public abstract fun setIntUniform (Ljava/lang/String;III)V
+	public abstract fun setIntUniform (Ljava/lang/String;IIII)V
+	public abstract fun setIntUniform (Ljava/lang/String;[I)V
+}
+
+public final class io/github/a1b2d56/opaline/shader/RuntimeShader_skikoKt {
+	public static final fun RuntimeShader (Ljava/lang/String;)Lio/github/a1b2d56/opaline/shader/RuntimeShader;
+	public static final fun asBrush (Lio/github/a1b2d56/opaline/shader/RuntimeShader;)Landroidx/compose/ui/graphics/ShaderBrush;
+	public static final fun asComposeShader (Lio/github/a1b2d56/opaline/shader/RuntimeShader;)Landroidx/compose/ui/graphics/Shader;
+	public static final fun asSkikoRuntimeShader (Lio/github/a1b2d56/opaline/shader/RuntimeShader;)Lorg/jetbrains/skia/RuntimeShaderBuilder;
+	public static final fun isRuntimeShaderSupported ()Z
+}
+

@@ -1,0 +1,29 @@
+// Klib ABI Dump
+// Targets: [iosArm64, iosSimulatorArm64, js, macosArm64, wasmJs]
+// Rendering settings:
+// - Signature version: 2
+// - Show manifest properties: true
+// - Show declarations: true
+
+// Library unique name: <io.github.a1b2d56.opaline:opaline-shader>
+abstract interface io.github.a1b2d56.opaline.shader/RuntimeShader { // io.github.a1b2d56.opaline.shader/RuntimeShader|null[0]
+    abstract fun setColorUniform(kotlin/String, androidx.compose.ui.graphics/Color) // io.github.a1b2d56.opaline.shader/RuntimeShader.setColorUniform|setColorUniform(kotlin.String;androidx.compose.ui.graphics.Color){}[0]
+    abstract fun setFloatUniform(kotlin/String, kotlin/Float) // io.github.a1b2d56.opaline.shader/RuntimeShader.setFloatUniform|setFloatUniform(kotlin.String;kotlin.Float){}[0]
+    abstract fun setFloatUniform(kotlin/String, kotlin/Float, kotlin/Float) // io.github.a1b2d56.opaline.shader/RuntimeShader.setFloatUniform|setFloatUniform(kotlin.String;kotlin.Float;kotlin.Float){}[0]
+    abstract fun setFloatUniform(kotlin/String, kotlin/Float, kotlin/Float, kotlin/Float) // io.github.a1b2d56.opaline.shader/RuntimeShader.setFloatUniform|setFloatUniform(kotlin.String;kotlin.Float;kotlin.Float;kotlin.Float){}[0]
+    abstract fun setFloatUniform(kotlin/String, kotlin/Float, kotlin/Float, kotlin/Float, kotlin/Float) // io.github.a1b2d56.opaline.shader/RuntimeShader.setFloatUniform|setFloatUniform(kotlin.String;kotlin.Float;kotlin.Float;kotlin.Float;kotlin.Float){}[0]
+    abstract fun setFloatUniform(kotlin/String, kotlin/FloatArray) // io.github.a1b2d56.opaline.shader/RuntimeShader.setFloatUniform|setFloatUniform(kotlin.String;kotlin.FloatArray){}[0]
+    abstract fun setInputShader(kotlin/String, androidx.compose.ui.graphics/Shader) // io.github.a1b2d56.opaline.shader/RuntimeShader.setInputShader|setInputShader(kotlin.String;androidx.compose.ui.graphics.Shader){}[0]
+    abstract fun setIntUniform(kotlin/String, kotlin/Int) // io.github.a1b2d56.opaline.shader/RuntimeShader.setIntUniform|setIntUniform(kotlin.String;kotlin.Int){}[0]
+    abstract fun setIntUniform(kotlin/String, kotlin/Int, kotlin/Int) // io.github.a1b2d56.opaline.shader/RuntimeShader.setIntUniform|setIntUniform(kotlin.String;kotlin.Int;kotlin.Int){}[0]
+    abstract fun setIntUniform(kotlin/String, kotlin/Int, kotlin/Int, kotlin/Int) // io.github.a1b2d56.opaline.shader/RuntimeShader.setIntUniform|setIntUniform(kotlin.String;kotlin.Int;kotlin.Int;kotlin.Int){}[0]
+    abstract fun setIntUniform(kotlin/String, kotlin/Int, kotlin/Int, kotlin/Int, kotlin/Int) // io.github.a1b2d56.opaline.shader/RuntimeShader.setIntUniform|setIntUniform(kotlin.String;kotlin.Int;kotlin.Int;kotlin.Int;kotlin.Int){}[0]
+    abstract fun setIntUniform(kotlin/String, kotlin/IntArray) // io.github.a1b2d56.opaline.shader/RuntimeShader.setIntUniform|setIntUniform(kotlin.String;kotlin.IntArray){}[0]
+}
+
+final fun (io.github.a1b2d56.opaline.shader/RuntimeShader).io.github.a1b2d56.opaline.shader/asBrush(): androidx.compose.ui.graphics/ShaderBrush // io.github.a1b2d56.opaline.shader/asBrush|asBrush@io.github.a1b2d56.opaline.shader.RuntimeShader(){}[0]
+final fun (io.github.a1b2d56.opaline.shader/RuntimeShader).io.github.a1b2d56.opaline.shader/asComposeShader(): androidx.compose.ui.graphics/Shader // io.github.a1b2d56.opaline.shader/asComposeShader|asComposeShader@io.github.a1b2d56.opaline.shader.RuntimeShader(){}[0]
+final fun (io.github.a1b2d56.opaline.shader/RuntimeShader).io.github.a1b2d56.opaline.shader/asSkikoRuntimeShader(): org.jetbrains.skia/RuntimeShaderBuilder // io.github.a1b2d56.opaline.shader/asSkikoRuntimeShader|asSkikoRuntimeShader@io.github.a1b2d56.opaline.shader.RuntimeShader(){}[0]
+final fun io.github.a1b2d56.opaline.shader/RuntimeShader(kotlin/String): io.github.a1b2d56.opaline.shader/RuntimeShader // io.github.a1b2d56.opaline.shader/RuntimeShader|RuntimeShader(kotlin.String){}[0]
+final fun io.github.a1b2d56.opaline.shader/isRenderEffectSupported(): kotlin/Boolean // io.github.a1b2d56.opaline.shader/isRenderEffectSupported|isRenderEffectSupported(){}[0]
+final fun io.github.a1b2d56.opaline.shader/isRuntimeShaderSupported(): kotlin/Boolean // io.github.a1b2d56.opaline.shader/isRuntimeShaderSupported|isRuntimeShaderSupported(){}[0]
