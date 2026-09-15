@@ -1,0 +1,37 @@
+// Copyright 2025, compose-miuix-ui contributors
+// Modifications Copyright 2026, COUI contributors and Opaline contributors
+// SPDX-License-Identifier: Apache-2.0
+package io.github.a1b2d56.opaline.color.api
+
+import androidx.compose.ui.graphics.Color
+import io.github.a1b2d56.opaline.color.core.Transforms
+import io.github.a1b2d56.opaline.color.space.Hsv
+import io.github.a1b2d56.opaline.color.space.OkLab
+import io.github.a1b2d56.opaline.color.space.OkLch
+
+/** Convert Compose Color to user-friendly OkLab. */
+fun Color.toOkLab(): OkLab {
+    val lab = Transforms.colorToOkLab(this)
+    val l = (lab[0] * 100f).coerceIn(0f, 100f)
+    val a = (lab[1] / 0.4f * 100f).coerceIn(-100f, 100f)
+    val b = (lab[2] / 0.4f * 100f).coerceIn(-100f, 100f)
+    return OkLab(l, a, b)
+}
+
+/** Convert Compose Color to Hvs. */
+fun Color.toHsv(): Hsv {
+    val hsvArr = Transforms.colorToHsv(this)
+    val h = hsvArr[0]
+    val s = (hsvArr[1] * 100f).coerceIn(0f, 100f)
+    val v = (hsvArr[2] * 100f).coerceIn(0f, 100f)
+    return Hsv(h, s, v)
+}
+
+/** Convert Compose Color to user-friendly OkLch. */
+fun Color.toOkLch(): OkLch {
+    val lch = Transforms.colorToOklch(this)
+    val l = (lch[0] * 100f).coerceIn(0f, 100f)
+    val c = (lch[1] / 0.4f * 100f).coerceIn(0f, 100f)
+    val h = lch[2] // degrees already normalized
+    return OkLch(l, c, h)
+}
