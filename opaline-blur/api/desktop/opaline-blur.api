@@ -1,0 +1,468 @@
+public abstract interface class io/github/a1b2d56/opaline/blur/Backdrop {
+	public abstract fun drawBackdrop (Landroidx/compose/ui/graphics/drawscope/DrawScope;Landroidx/compose/ui/unit/Density;Landroidx/compose/ui/layout/LayoutCoordinates;Lkotlin/jvm/functions/Function1;I)V
+	public static synthetic fun drawBackdrop$default (Lio/github/a1b2d56/opaline/blur/Backdrop;Landroidx/compose/ui/graphics/drawscope/DrawScope;Landroidx/compose/ui/unit/Density;Landroidx/compose/ui/layout/LayoutCoordinates;Lkotlin/jvm/functions/Function1;IILjava/lang/Object;)V
+	public fun getOffsetResidualX ()F
+	public fun getOffsetResidualY ()F
+	public abstract fun isCoordinatesDependent ()Z
+}
+
+public final class io/github/a1b2d56/opaline/blur/Backdrop$DefaultImpls {
+	public static synthetic fun drawBackdrop$default (Lio/github/a1b2d56/opaline/blur/Backdrop;Landroidx/compose/ui/graphics/drawscope/DrawScope;Landroidx/compose/ui/unit/Density;Landroidx/compose/ui/layout/LayoutCoordinates;Lkotlin/jvm/functions/Function1;IILjava/lang/Object;)V
+	public static fun getOffsetResidualX (Lio/github/a1b2d56/opaline/blur/Backdrop;)F
+	public static fun getOffsetResidualY (Lio/github/a1b2d56/opaline/blur/Backdrop;)F
+}
+
+public abstract interface class io/github/a1b2d56/opaline/blur/BackdropEffectScope : androidx/compose/ui/unit/Density, io/github/a1b2d56/opaline/blur/RuntimeShaderCache {
+	public abstract fun getDownscaleFactor ()I
+	public abstract fun getLayoutDirection ()Landroidx/compose/ui/unit/LayoutDirection;
+	public abstract fun getNoiseCoefficient ()F
+	public abstract fun getPadding ()F
+	public abstract fun getRenderEffect ()Landroidx/compose/ui/graphics/RenderEffect;
+	public abstract fun getShape ()Landroidx/compose/ui/graphics/Shape;
+	public abstract fun getSize-NH-jbRc ()J
+	public abstract fun setDownscaleFactor (I)V
+	public abstract fun setNoiseCoefficient (F)V
+	public abstract fun setPadding (F)V
+	public abstract fun setRenderEffect (Landroidx/compose/ui/graphics/RenderEffect;)V
+}
+
+public final class io/github/a1b2d56/opaline/blur/BackdropEffectScope$DefaultImpls {
+	public static fun roundToPx--R2X_6o (Lio/github/a1b2d56/opaline/blur/BackdropEffectScope;J)I
+	public static fun roundToPx-0680j_4 (Lio/github/a1b2d56/opaline/blur/BackdropEffectScope;F)I
+	public static fun toDp-GaN1DYA (Lio/github/a1b2d56/opaline/blur/BackdropEffectScope;J)F
+	public static fun toDp-u2uoSUM (Lio/github/a1b2d56/opaline/blur/BackdropEffectScope;F)F
+	public static fun toDp-u2uoSUM (Lio/github/a1b2d56/opaline/blur/BackdropEffectScope;I)F
+	public static fun toDpSize-k-rfVVM (Lio/github/a1b2d56/opaline/blur/BackdropEffectScope;J)J
+	public static fun toPx--R2X_6o (Lio/github/a1b2d56/opaline/blur/BackdropEffectScope;J)F
+	public static fun toPx-0680j_4 (Lio/github/a1b2d56/opaline/blur/BackdropEffectScope;F)F
+	public static fun toRect (Lio/github/a1b2d56/opaline/blur/BackdropEffectScope;Landroidx/compose/ui/unit/DpRect;)Landroidx/compose/ui/geometry/Rect;
+	public static fun toSize-XkaWNTQ (Lio/github/a1b2d56/opaline/blur/BackdropEffectScope;J)J
+	public static fun toSp-0xMU5do (Lio/github/a1b2d56/opaline/blur/BackdropEffectScope;F)J
+	public static fun toSp-kPz2Gy4 (Lio/github/a1b2d56/opaline/blur/BackdropEffectScope;F)J
+	public static fun toSp-kPz2Gy4 (Lio/github/a1b2d56/opaline/blur/BackdropEffectScope;I)J
+}
+
+public final class io/github/a1b2d56/opaline/blur/BackdropEffectScopeKt {
+	public static final fun colorControls (Lio/github/a1b2d56/opaline/blur/BackdropEffectScope;FFF)V
+	public static synthetic fun colorControls$default (Lio/github/a1b2d56/opaline/blur/BackdropEffectScope;FFFILjava/lang/Object;)V
+	public static final fun effect (Lio/github/a1b2d56/opaline/blur/BackdropEffectScope;Landroidx/compose/ui/graphics/RenderEffect;)V
+	public static final fun runtimeShaderEffect (Lio/github/a1b2d56/opaline/blur/BackdropEffectScope;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lkotlin/jvm/functions/Function1;)V
+}
+
+public final class io/github/a1b2d56/opaline/blur/BackdropEffectsKt {
+	public static final fun blendColors (Lio/github/a1b2d56/opaline/blur/BackdropEffectScope;Lio/github/a1b2d56/opaline/blur/BlurColors;)V
+	public static final fun blur (Lio/github/a1b2d56/opaline/blur/BackdropEffectScope;FF)V
+	public static synthetic fun blur$default (Lio/github/a1b2d56/opaline/blur/BackdropEffectScope;FFILjava/lang/Object;)V
+	public static final fun noiseDither (Lio/github/a1b2d56/opaline/blur/BackdropEffectScope;F)V
+	public static final fun progressiveBlur (Lio/github/a1b2d56/opaline/blur/BackdropEffectScope;FFLio/github/a1b2d56/opaline/blur/ProgressiveBlur;)V
+	public static synthetic fun progressiveBlur$default (Lio/github/a1b2d56/opaline/blur/BackdropEffectScope;FFLio/github/a1b2d56/opaline/blur/ProgressiveBlur;ILjava/lang/Object;)V
+	public static final fun progressiveTextureBlurEffect (Lio/github/a1b2d56/opaline/blur/BackdropEffectScope;FFLio/github/a1b2d56/opaline/blur/ProgressiveBlur;FLio/github/a1b2d56/opaline/blur/BlurColors;)V
+	public static synthetic fun progressiveTextureBlurEffect$default (Lio/github/a1b2d56/opaline/blur/BackdropEffectScope;FFLio/github/a1b2d56/opaline/blur/ProgressiveBlur;FLio/github/a1b2d56/opaline/blur/BlurColors;ILjava/lang/Object;)V
+	public static final fun textureBlurEffect (Lio/github/a1b2d56/opaline/blur/BackdropEffectScope;FFFLio/github/a1b2d56/opaline/blur/BlurColors;)V
+	public static synthetic fun textureBlurEffect$default (Lio/github/a1b2d56/opaline/blur/BackdropEffectScope;FFFLio/github/a1b2d56/opaline/blur/BlurColors;ILjava/lang/Object;)V
+}
+
+public final class io/github/a1b2d56/opaline/blur/BackdropMaterialRenderer : io/github/a1b2d56/opaline/material/MaterialRenderer {
+	public static final field $stable I
+	public fun <init> (Lio/github/a1b2d56/opaline/blur/Backdrop;)V
+	public fun modifier-ww6aTOc (Lio/github/a1b2d56/opaline/material/MaterialType;Landroidx/compose/ui/graphics/Shape;ZJZLandroidx/compose/runtime/Composer;I)Landroidx/compose/ui/Modifier;
+	public fun supports (Lio/github/a1b2d56/opaline/material/MaterialType;)Z
+}
+
+public final class io/github/a1b2d56/opaline/blur/BlendColorEntry {
+	public static final field $stable I
+	public synthetic fun <init> (JIILkotlin/jvm/internal/DefaultConstructorMarker;)V
+	public synthetic fun <init> (JILkotlin/jvm/internal/DefaultConstructorMarker;)V
+	public final fun component1-0d7_KjU ()J
+	public final fun component2-Z6AM4Eo ()I
+	public final fun copy-ROSVJrQ (JI)Lio/github/a1b2d56/opaline/blur/BlendColorEntry;
+	public static synthetic fun copy-ROSVJrQ$default (Lio/github/a1b2d56/opaline/blur/BlendColorEntry;JIILjava/lang/Object;)Lio/github/a1b2d56/opaline/blur/BlendColorEntry;
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun getColor-0d7_KjU ()J
+	public final fun getMode-Z6AM4Eo ()I
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class io/github/a1b2d56/opaline/blur/BlurBlendMode {
+	public static final field Companion Lio/github/a1b2d56/opaline/blur/BlurBlendMode$Companion;
+	public static final synthetic fun box-impl (I)Lio/github/a1b2d56/opaline/blur/BlurBlendMode;
+	public static fun constructor-impl (I)I
+	public fun equals (Ljava/lang/Object;)Z
+	public static fun equals-impl (ILjava/lang/Object;)Z
+	public static final fun equals-impl0 (II)Z
+	public final fun getValue ()I
+	public fun hashCode ()I
+	public static fun hashCode-impl (I)I
+	public fun toString ()Ljava/lang/String;
+	public static fun toString-impl (I)Ljava/lang/String;
+	public final synthetic fun unbox-impl ()I
+}
+
+public final class io/github/a1b2d56/opaline/blur/BlurBlendMode$Companion {
+	public final fun getAlphaBlend-Z6AM4Eo ()I
+	public final fun getClear-Z6AM4Eo ()I
+	public final fun getColor-Z6AM4Eo ()I
+	public final fun getColorBurn-Z6AM4Eo ()I
+	public final fun getColorDodge-Z6AM4Eo ()I
+	public final fun getDarken-Z6AM4Eo ()I
+	public final fun getDifference-Z6AM4Eo ()I
+	public final fun getDst-Z6AM4Eo ()I
+	public final fun getDstAtop-Z6AM4Eo ()I
+	public final fun getDstIn-Z6AM4Eo ()I
+	public final fun getDstOut-Z6AM4Eo ()I
+	public final fun getDstOver-Z6AM4Eo ()I
+	public final fun getExclusion-Z6AM4Eo ()I
+	public final fun getHardLight-Z6AM4Eo ()I
+	public final fun getHue-Z6AM4Eo ()I
+	public final fun getLab-Z6AM4Eo ()I
+	public final fun getLabDarkenWithGreyscale-Z6AM4Eo ()I
+	public final fun getLabLightenWithGreyscale-Z6AM4Eo ()I
+	public final fun getLighten-Z6AM4Eo ()I
+	public final fun getLinearLight-Z6AM4Eo ()I
+	public final fun getLinearLightLab-Z6AM4Eo ()I
+	public final fun getLinearLightWithGreyscale-Z6AM4Eo ()I
+	public final fun getLuminosity-Z6AM4Eo ()I
+	public final fun getMiBrightness-Z6AM4Eo ()I
+	public final fun getMiColorBurn-Z6AM4Eo ()I
+	public final fun getMiColorDodge-Z6AM4Eo ()I
+	public final fun getMiDifference-Z6AM4Eo ()I
+	public final fun getMiLuminance-Z6AM4Eo ()I
+	public final fun getMiSaturation-Z6AM4Eo ()I
+	public final fun getModulate-Z6AM4Eo ()I
+	public final fun getMultiply-Z6AM4Eo ()I
+	public final fun getOverlay-Z6AM4Eo ()I
+	public final fun getPlus-Z6AM4Eo ()I
+	public final fun getPlusDarker-Z6AM4Eo ()I
+	public final fun getPlusLighter-Z6AM4Eo ()I
+	public final fun getSaturation-Z6AM4Eo ()I
+	public final fun getScreen-Z6AM4Eo ()I
+	public final fun getSoftLight-Z6AM4Eo ()I
+	public final fun getSrc-Z6AM4Eo ()I
+	public final fun getSrcAtop-Z6AM4Eo ()I
+	public final fun getSrcIn-Z6AM4Eo ()I
+	public final fun getSrcOut-Z6AM4Eo ()I
+	public final fun getSrcOver-Z6AM4Eo ()I
+	public final fun getXor-Z6AM4Eo ()I
+}
+
+public final class io/github/a1b2d56/opaline/blur/BlurColors {
+	public static final field $stable I
+	public fun <init> ()V
+	public fun <init> (Ljava/util/List;FFF)V
+	public synthetic fun <init> (Ljava/util/List;FFFILkotlin/jvm/internal/DefaultConstructorMarker;)V
+	public final fun component1 ()Ljava/util/List;
+	public final fun component2 ()F
+	public final fun component3 ()F
+	public final fun component4 ()F
+	public final fun copy (Ljava/util/List;FFF)Lio/github/a1b2d56/opaline/blur/BlurColors;
+	public static synthetic fun copy$default (Lio/github/a1b2d56/opaline/blur/BlurColors;Ljava/util/List;FFFILjava/lang/Object;)Lio/github/a1b2d56/opaline/blur/BlurColors;
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun getBlendColors ()Ljava/util/List;
+	public final fun getBrightness ()F
+	public final fun getContrast ()F
+	public final fun getSaturation ()F
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class io/github/a1b2d56/opaline/blur/BlurDefaults {
+	public static final field $stable I
+	public static final field INSTANCE Lio/github/a1b2d56/opaline/blur/BlurDefaults;
+	public final fun blurColors (Ljava/util/List;FFFLandroidx/compose/runtime/Composer;II)Lio/github/a1b2d56/opaline/blur/BlurColors;
+	public final fun getBlurRadius ()F
+	public final fun getMaxBlurRadius ()F
+	public final fun getNoiseCoefficient ()F
+	public final fun getProgressiveNoiseCoefficient ()F
+}
+
+public final class io/github/a1b2d56/opaline/blur/DrawBackdropModifierKt {
+	public static final fun drawBackdrop-xK6vTOc (Landroidx/compose/ui/Modifier;Lio/github/a1b2d56/opaline/blur/Backdrop;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function1;ILio/github/a1b2d56/opaline/blur/ProgressiveBlur;Z)Landroidx/compose/ui/Modifier;
+	public static synthetic fun drawBackdrop-xK6vTOc$default (Landroidx/compose/ui/Modifier;Lio/github/a1b2d56/opaline/blur/Backdrop;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function1;ILio/github/a1b2d56/opaline/blur/ProgressiveBlur;ZILjava/lang/Object;)Landroidx/compose/ui/Modifier;
+}
+
+public final class io/github/a1b2d56/opaline/blur/LayerBackdrop : io/github/a1b2d56/opaline/blur/Backdrop {
+	public static final field $stable I
+	public fun drawBackdrop (Landroidx/compose/ui/graphics/drawscope/DrawScope;Landroidx/compose/ui/unit/Density;Landroidx/compose/ui/layout/LayoutCoordinates;Lkotlin/jvm/functions/Function1;I)V
+	public final fun getGraphicsLayer ()Landroidx/compose/ui/graphics/layer/GraphicsLayer;
+	public fun getOffsetResidualX ()F
+	public fun getOffsetResidualY ()F
+	public fun isCoordinatesDependent ()Z
+}
+
+public final class io/github/a1b2d56/opaline/blur/LayerBackdropKt {
+	public static final fun rememberLayerBackdrop (Landroidx/compose/ui/graphics/layer/GraphicsLayer;Lkotlin/jvm/functions/Function1;Landroidx/compose/runtime/Composer;II)Lio/github/a1b2d56/opaline/blur/LayerBackdrop;
+}
+
+public final class io/github/a1b2d56/opaline/blur/LayerBackdropModifierKt {
+	public static final fun layerBackdrop (Landroidx/compose/ui/Modifier;Lio/github/a1b2d56/opaline/blur/LayerBackdrop;)Landroidx/compose/ui/Modifier;
+}
+
+public final class io/github/a1b2d56/opaline/blur/MaterialBackdropKt {
+	public static final fun ContentMaterialBox (Lkotlin/jvm/functions/Function3;Landroidx/compose/ui/Modifier;Lio/github/a1b2d56/opaline/blur/LayerBackdrop;Lkotlin/jvm/functions/Function3;Landroidx/compose/runtime/Composer;II)V
+	public static final fun MaterialBackdropSource (Lio/github/a1b2d56/opaline/blur/LayerBackdrop;Landroidx/compose/ui/Modifier;Lkotlin/jvm/functions/Function3;Landroidx/compose/runtime/Composer;II)V
+	public static final fun ProvideContentMaterial (Lio/github/a1b2d56/opaline/blur/Backdrop;Lkotlin/jvm/functions/Function2;Landroidx/compose/runtime/Composer;I)V
+	public static final fun ProvideMaterialBackdrop (Lio/github/a1b2d56/opaline/blur/Backdrop;Lkotlin/jvm/functions/Function2;Landroidx/compose/runtime/Composer;I)V
+}
+
+public final class io/github/a1b2d56/opaline/blur/OpalineMaterial : java/lang/Enum {
+	public static final field BottomSheetPanel Lio/github/a1b2d56/opaline/blur/OpalineMaterial;
+	public static final field ContentChipTab Lio/github/a1b2d56/opaline/blur/OpalineMaterial;
+	public static final field ContentChipTabNoBlur Lio/github/a1b2d56/opaline/blur/OpalineMaterial;
+	public static final field ContentChipTabSelected Lio/github/a1b2d56/opaline/blur/OpalineMaterial;
+	public static final field ContentChipTabSelectedNoBlur Lio/github/a1b2d56/opaline/blur/OpalineMaterial;
+	public static final field ContentSecondaryButton Lio/github/a1b2d56/opaline/blur/OpalineMaterial;
+	public static final field ContentSegmentButton Lio/github/a1b2d56/opaline/blur/OpalineMaterial;
+	public static final field ContentTransparentButton Lio/github/a1b2d56/opaline/blur/OpalineMaterial;
+	public static final field DialogPanel Lio/github/a1b2d56/opaline/blur/OpalineMaterial;
+	public static final field FrameworkBottomBar Lio/github/a1b2d56/opaline/blur/OpalineMaterial;
+	public static final field FrameworkTopBar Lio/github/a1b2d56/opaline/blur/OpalineMaterial;
+	public static final field FrameworkTopBarBlur Lio/github/a1b2d56/opaline/blur/OpalineMaterial;
+	public static final field FrameworkTopBarLight Lio/github/a1b2d56/opaline/blur/OpalineMaterial;
+	public static final field SearchBar Lio/github/a1b2d56/opaline/blur/OpalineMaterial;
+	public final fun blur (Z)Lio/github/a1b2d56/opaline/blur/OpalineMaterialBlur;
+	public static fun getEntries ()Lkotlin/enums/EnumEntries;
+	public final fun stroke (Z)Lio/github/a1b2d56/opaline/blur/OpalineMaterialStroke;
+	public static fun valueOf (Ljava/lang/String;)Lio/github/a1b2d56/opaline/blur/OpalineMaterial;
+	public static fun values ()[Lio/github/a1b2d56/opaline/blur/OpalineMaterial;
+}
+
+public final class io/github/a1b2d56/opaline/blur/OpalineMaterialBlur {
+	public static final field $stable I
+	public fun <init> (FLio/github/a1b2d56/opaline/blur/BlendColorEntry;Lio/github/a1b2d56/opaline/blur/BlendColorEntry;)V
+	public final fun component1 ()F
+	public final fun component2 ()Lio/github/a1b2d56/opaline/blur/BlendColorEntry;
+	public final fun component3 ()Lio/github/a1b2d56/opaline/blur/BlendColorEntry;
+	public final fun copy (FLio/github/a1b2d56/opaline/blur/BlendColorEntry;Lio/github/a1b2d56/opaline/blur/BlendColorEntry;)Lio/github/a1b2d56/opaline/blur/OpalineMaterialBlur;
+	public static synthetic fun copy$default (Lio/github/a1b2d56/opaline/blur/OpalineMaterialBlur;FLio/github/a1b2d56/opaline/blur/BlendColorEntry;Lio/github/a1b2d56/opaline/blur/BlendColorEntry;ILjava/lang/Object;)Lio/github/a1b2d56/opaline/blur/OpalineMaterialBlur;
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun getBlurRadiusPx ()F
+	public final fun getLayer1 ()Lio/github/a1b2d56/opaline/blur/BlendColorEntry;
+	public final fun getLayer2 ()Lio/github/a1b2d56/opaline/blur/BlendColorEntry;
+	public fun hashCode ()I
+	public final fun isEmpty ()Z
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class io/github/a1b2d56/opaline/blur/OpalineMaterialKt {
+	public static final fun opalineMaterial (Landroidx/compose/ui/Modifier;Lio/github/a1b2d56/opaline/blur/Backdrop;Landroidx/compose/ui/graphics/Shape;Lio/github/a1b2d56/opaline/blur/OpalineMaterial;ZZZLandroidx/compose/runtime/Composer;II)Landroidx/compose/ui/Modifier;
+	public static final fun opalineMaterial (Landroidx/compose/ui/Modifier;Lio/github/a1b2d56/opaline/blur/Backdrop;Landroidx/compose/ui/graphics/Shape;Lio/github/a1b2d56/opaline/blur/OpalineMaterialBlur;Lio/github/a1b2d56/opaline/blur/OpalineMaterialStroke;ZLandroidx/compose/runtime/Composer;II)Landroidx/compose/ui/Modifier;
+	public static final fun opalinePrimaryButtonMaterial-ek8zF_U (JZZ)Lkotlin/Pair;
+}
+
+public final class io/github/a1b2d56/opaline/blur/OpalineMaterialStroke {
+	public static final field $stable I
+	public synthetic fun <init> (FFZILkotlin/jvm/internal/DefaultConstructorMarker;)V
+	public synthetic fun <init> (FFZLkotlin/jvm/internal/DefaultConstructorMarker;)V
+	public final fun component1 ()F
+	public final fun component2-D9Ej5fM ()F
+	public final fun component3 ()Z
+	public final fun copy-lG28NQ4 (FFZ)Lio/github/a1b2d56/opaline/blur/OpalineMaterialStroke;
+	public static synthetic fun copy-lG28NQ4$default (Lio/github/a1b2d56/opaline/blur/OpalineMaterialStroke;FFZILjava/lang/Object;)Lio/github/a1b2d56/opaline/blur/OpalineMaterialStroke;
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun getEdgeAlpha ()F
+	public final fun getEdgeWidth-D9Ej5fM ()F
+	public fun hashCode ()I
+	public final fun isCircle ()Z
+	public final fun toHighlight ()Lio/github/a1b2d56/opaline/blur/highlight/Highlight;
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class io/github/a1b2d56/opaline/blur/ProgressiveBlur {
+	public static final field $stable I
+	public static final field Companion Lio/github/a1b2d56/opaline/blur/ProgressiveBlur$Companion;
+	public fun <init> ()V
+	public fun <init> (FFFF)V
+	public synthetic fun <init> (FFFFILkotlin/jvm/internal/DefaultConstructorMarker;)V
+	public final fun component1 ()F
+	public final fun component2 ()F
+	public final fun component3 ()F
+	public final fun component4 ()F
+	public final fun copy (FFFF)Lio/github/a1b2d56/opaline/blur/ProgressiveBlur;
+	public static synthetic fun copy$default (Lio/github/a1b2d56/opaline/blur/ProgressiveBlur;FFFFILjava/lang/Object;)Lio/github/a1b2d56/opaline/blur/ProgressiveBlur;
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun getAngle ()F
+	public final fun getCurve ()F
+	public final fun getEndFraction ()F
+	public final fun getStartFraction ()F
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class io/github/a1b2d56/opaline/blur/ProgressiveBlur$Companion {
+	public final fun getBottom ()Lio/github/a1b2d56/opaline/blur/ProgressiveBlur;
+	public final fun getLeft ()Lio/github/a1b2d56/opaline/blur/ProgressiveBlur;
+	public final fun getRight ()Lio/github/a1b2d56/opaline/blur/ProgressiveBlur;
+	public final fun getTop ()Lio/github/a1b2d56/opaline/blur/ProgressiveBlur;
+}
+
+public abstract interface class io/github/a1b2d56/opaline/blur/RuntimeShaderCache {
+	public abstract fun obtainRuntimeShader (Ljava/lang/String;Ljava/lang/String;)Lio/github/a1b2d56/opaline/shader/RuntimeShader;
+}
+
+public final class io/github/a1b2d56/opaline/blur/RuntimeShaderCacheKt {
+	public static final fun getLocalRuntimeShaderCache ()Landroidx/compose/runtime/ProvidableCompositionLocal;
+}
+
+public final class io/github/a1b2d56/opaline/blur/RuntimeShaderKt {
+	public static final fun RuntimeShader (Ljava/lang/String;)Lio/github/a1b2d56/opaline/shader/RuntimeShader;
+	public static final fun asBrush (Lio/github/a1b2d56/opaline/shader/RuntimeShader;)Landroidx/compose/ui/graphics/ShaderBrush;
+	public static final fun asComposeShader (Lio/github/a1b2d56/opaline/shader/RuntimeShader;)Landroidx/compose/ui/graphics/Shader;
+	public static final fun isRuntimeShaderSupported ()Z
+}
+
+public final class io/github/a1b2d56/opaline/blur/TextureEffectKt {
+	public static final fun progressiveTextureBlur-MkX_jMk (Landroidx/compose/ui/Modifier;Lio/github/a1b2d56/opaline/blur/Backdrop;Landroidx/compose/ui/graphics/Shape;FLio/github/a1b2d56/opaline/blur/ProgressiveBlur;FLio/github/a1b2d56/opaline/blur/BlurColors;Lio/github/a1b2d56/opaline/blur/highlight/Highlight;IZ)Landroidx/compose/ui/Modifier;
+	public static synthetic fun progressiveTextureBlur-MkX_jMk$default (Landroidx/compose/ui/Modifier;Lio/github/a1b2d56/opaline/blur/Backdrop;Landroidx/compose/ui/graphics/Shape;FLio/github/a1b2d56/opaline/blur/ProgressiveBlur;FLio/github/a1b2d56/opaline/blur/BlurColors;Lio/github/a1b2d56/opaline/blur/highlight/Highlight;IZILjava/lang/Object;)Landroidx/compose/ui/Modifier;
+	public static final fun progressiveTextureBlur-lOnTF60 (Landroidx/compose/ui/Modifier;Lio/github/a1b2d56/opaline/blur/Backdrop;Landroidx/compose/ui/graphics/Shape;FFLio/github/a1b2d56/opaline/blur/ProgressiveBlur;FLio/github/a1b2d56/opaline/blur/BlurColors;Lio/github/a1b2d56/opaline/blur/highlight/Highlight;IZ)Landroidx/compose/ui/Modifier;
+	public static synthetic fun progressiveTextureBlur-lOnTF60$default (Landroidx/compose/ui/Modifier;Lio/github/a1b2d56/opaline/blur/Backdrop;Landroidx/compose/ui/graphics/Shape;FFLio/github/a1b2d56/opaline/blur/ProgressiveBlur;FLio/github/a1b2d56/opaline/blur/BlurColors;Lio/github/a1b2d56/opaline/blur/highlight/Highlight;IZILjava/lang/Object;)Landroidx/compose/ui/Modifier;
+	public static final fun textureBlur-MkX_jMk (Landroidx/compose/ui/Modifier;Lio/github/a1b2d56/opaline/blur/Backdrop;Landroidx/compose/ui/graphics/Shape;FFFLio/github/a1b2d56/opaline/blur/BlurColors;Lio/github/a1b2d56/opaline/blur/highlight/Highlight;IZ)Landroidx/compose/ui/Modifier;
+	public static synthetic fun textureBlur-MkX_jMk$default (Landroidx/compose/ui/Modifier;Lio/github/a1b2d56/opaline/blur/Backdrop;Landroidx/compose/ui/graphics/Shape;FFFLio/github/a1b2d56/opaline/blur/BlurColors;Lio/github/a1b2d56/opaline/blur/highlight/Highlight;IZILjava/lang/Object;)Landroidx/compose/ui/Modifier;
+	public static final fun textureBlur-vspqH90 (Landroidx/compose/ui/Modifier;Lio/github/a1b2d56/opaline/blur/Backdrop;Landroidx/compose/ui/graphics/Shape;FFLio/github/a1b2d56/opaline/blur/BlurColors;Lio/github/a1b2d56/opaline/blur/highlight/Highlight;IZ)Landroidx/compose/ui/Modifier;
+	public static synthetic fun textureBlur-vspqH90$default (Landroidx/compose/ui/Modifier;Lio/github/a1b2d56/opaline/blur/Backdrop;Landroidx/compose/ui/graphics/Shape;FFLio/github/a1b2d56/opaline/blur/BlurColors;Lio/github/a1b2d56/opaline/blur/highlight/Highlight;IZILjava/lang/Object;)Landroidx/compose/ui/Modifier;
+	public static final fun textureEffect-MkX_jMk (Landroidx/compose/ui/Modifier;Lio/github/a1b2d56/opaline/blur/Backdrop;Landroidx/compose/ui/graphics/Shape;FFFLio/github/a1b2d56/opaline/blur/BlurColors;Lio/github/a1b2d56/opaline/blur/highlight/Highlight;IZ)Landroidx/compose/ui/Modifier;
+	public static synthetic fun textureEffect-MkX_jMk$default (Landroidx/compose/ui/Modifier;Lio/github/a1b2d56/opaline/blur/Backdrop;Landroidx/compose/ui/graphics/Shape;FFFLio/github/a1b2d56/opaline/blur/BlurColors;Lio/github/a1b2d56/opaline/blur/highlight/Highlight;IZILjava/lang/Object;)Landroidx/compose/ui/Modifier;
+	public static final fun textureEffect-vspqH90 (Landroidx/compose/ui/Modifier;Lio/github/a1b2d56/opaline/blur/Backdrop;Landroidx/compose/ui/graphics/Shape;FFLio/github/a1b2d56/opaline/blur/BlurColors;Lio/github/a1b2d56/opaline/blur/highlight/Highlight;IZ)Landroidx/compose/ui/Modifier;
+	public static synthetic fun textureEffect-vspqH90$default (Landroidx/compose/ui/Modifier;Lio/github/a1b2d56/opaline/blur/Backdrop;Landroidx/compose/ui/graphics/Shape;FFLio/github/a1b2d56/opaline/blur/BlurColors;Lio/github/a1b2d56/opaline/blur/highlight/Highlight;IZILjava/lang/Object;)Landroidx/compose/ui/Modifier;
+}
+
+public final class io/github/a1b2d56/opaline/blur/highlight/BloomStroke : io/github/a1b2d56/opaline/blur/highlight/HighlightStyle {
+	public static final field $stable I
+	public static final field Companion Lio/github/a1b2d56/opaline/blur/highlight/BloomStroke$Companion;
+	public fun <init> ()V
+	public synthetic fun <init> (JIFLio/github/a1b2d56/opaline/blur/highlight/LightSource;Lio/github/a1b2d56/opaline/blur/highlight/LightSource;ZILkotlin/jvm/internal/DefaultConstructorMarker;)V
+	public synthetic fun <init> (JIFLio/github/a1b2d56/opaline/blur/highlight/LightSource;Lio/github/a1b2d56/opaline/blur/highlight/LightSource;ZLkotlin/jvm/internal/DefaultConstructorMarker;)V
+	public final fun component1-0d7_KjU ()J
+	public final fun component2-0nO6VwU ()I
+	public final fun component3-D9Ej5fM ()F
+	public final fun component4 ()Lio/github/a1b2d56/opaline/blur/highlight/LightSource;
+	public final fun component5 ()Lio/github/a1b2d56/opaline/blur/highlight/LightSource;
+	public final fun component6 ()Z
+	public final fun copy-cVaNGlY (JIFLio/github/a1b2d56/opaline/blur/highlight/LightSource;Lio/github/a1b2d56/opaline/blur/highlight/LightSource;Z)Lio/github/a1b2d56/opaline/blur/highlight/BloomStroke;
+	public static synthetic fun copy-cVaNGlY$default (Lio/github/a1b2d56/opaline/blur/highlight/BloomStroke;JIFLio/github/a1b2d56/opaline/blur/highlight/LightSource;Lio/github/a1b2d56/opaline/blur/highlight/LightSource;ZILjava/lang/Object;)Lio/github/a1b2d56/opaline/blur/highlight/BloomStroke;
+	public fun createShader (Landroidx/compose/ui/graphics/drawscope/DrawScope;Landroidx/compose/ui/graphics/Shape;FFLio/github/a1b2d56/opaline/blur/RuntimeShaderCache;)Landroidx/compose/ui/graphics/Shader;
+	public fun equals (Ljava/lang/Object;)Z
+	public fun getBlendMode-0nO6VwU ()I
+	public fun getColor-0d7_KjU ()J
+	public final fun getDualPeak ()Z
+	public final fun getInnerBlurRadius-D9Ej5fM ()F
+	public final fun getPrimaryLight ()Lio/github/a1b2d56/opaline/blur/highlight/LightSource;
+	public final fun getSecondaryLight ()Lio/github/a1b2d56/opaline/blur/highlight/LightSource;
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class io/github/a1b2d56/opaline/blur/highlight/BloomStroke$Companion {
+	public final fun getGlassStrokeBigDark ()Lio/github/a1b2d56/opaline/blur/highlight/BloomStroke;
+	public final fun getGlassStrokeBigLight ()Lio/github/a1b2d56/opaline/blur/highlight/BloomStroke;
+	public final fun getGlassStrokeMiddleDark ()Lio/github/a1b2d56/opaline/blur/highlight/BloomStroke;
+	public final fun getGlassStrokeMiddleLight ()Lio/github/a1b2d56/opaline/blur/highlight/BloomStroke;
+	public final fun getGlassStrokeSmallDark ()Lio/github/a1b2d56/opaline/blur/highlight/BloomStroke;
+	public final fun getGlassStrokeSmallLight ()Lio/github/a1b2d56/opaline/blur/highlight/BloomStroke;
+}
+
+public final class io/github/a1b2d56/opaline/blur/highlight/Highlight {
+	public static final field $stable I
+	public static final field Companion Lio/github/a1b2d56/opaline/blur/highlight/Highlight$Companion;
+	public fun <init> ()V
+	public synthetic fun <init> (FFLio/github/a1b2d56/opaline/blur/highlight/HighlightStyle;ILkotlin/jvm/internal/DefaultConstructorMarker;)V
+	public synthetic fun <init> (FFLio/github/a1b2d56/opaline/blur/highlight/HighlightStyle;Lkotlin/jvm/internal/DefaultConstructorMarker;)V
+	public final fun component1-D9Ej5fM ()F
+	public final fun component2 ()F
+	public final fun component3 ()Lio/github/a1b2d56/opaline/blur/highlight/HighlightStyle;
+	public final fun copy-8Feqmps (FFLio/github/a1b2d56/opaline/blur/highlight/HighlightStyle;)Lio/github/a1b2d56/opaline/blur/highlight/Highlight;
+	public static synthetic fun copy-8Feqmps$default (Lio/github/a1b2d56/opaline/blur/highlight/Highlight;FFLio/github/a1b2d56/opaline/blur/highlight/HighlightStyle;ILjava/lang/Object;)Lio/github/a1b2d56/opaline/blur/highlight/Highlight;
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun getAlpha ()F
+	public final fun getStyle ()Lio/github/a1b2d56/opaline/blur/highlight/HighlightStyle;
+	public final fun getWidth-D9Ej5fM ()F
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class io/github/a1b2d56/opaline/blur/highlight/Highlight$Companion {
+	public final fun getDefault ()Lio/github/a1b2d56/opaline/blur/highlight/Highlight;
+	public final fun getGlassStrokeBigDark ()Lio/github/a1b2d56/opaline/blur/highlight/Highlight;
+	public final fun getGlassStrokeBigLight ()Lio/github/a1b2d56/opaline/blur/highlight/Highlight;
+	public final fun getGlassStrokeMiddleDark ()Lio/github/a1b2d56/opaline/blur/highlight/Highlight;
+	public final fun getGlassStrokeMiddleLight ()Lio/github/a1b2d56/opaline/blur/highlight/Highlight;
+	public final fun getGlassStrokeSmallDark ()Lio/github/a1b2d56/opaline/blur/highlight/Highlight;
+	public final fun getGlassStrokeSmallLight ()Lio/github/a1b2d56/opaline/blur/highlight/Highlight;
+}
+
+public abstract interface class io/github/a1b2d56/opaline/blur/highlight/HighlightStyle {
+	public static final field Companion Lio/github/a1b2d56/opaline/blur/highlight/HighlightStyle$Companion;
+	public abstract fun createShader (Landroidx/compose/ui/graphics/drawscope/DrawScope;Landroidx/compose/ui/graphics/Shape;FFLio/github/a1b2d56/opaline/blur/RuntimeShaderCache;)Landroidx/compose/ui/graphics/Shader;
+	public abstract fun getBlendMode-0nO6VwU ()I
+	public abstract fun getColor-0d7_KjU ()J
+}
+
+public final class io/github/a1b2d56/opaline/blur/highlight/HighlightStyle$Companion {
+	public final fun getDefault ()Lio/github/a1b2d56/opaline/blur/highlight/BloomStroke;
+}
+
+public final class io/github/a1b2d56/opaline/blur/highlight/LightPosition {
+	public static final field $stable I
+	public fun <init> (FFF)V
+	public final fun component1 ()F
+	public final fun component2 ()F
+	public final fun component3 ()F
+	public final fun copy (FFF)Lio/github/a1b2d56/opaline/blur/highlight/LightPosition;
+	public static synthetic fun copy$default (Lio/github/a1b2d56/opaline/blur/highlight/LightPosition;FFFILjava/lang/Object;)Lio/github/a1b2d56/opaline/blur/highlight/LightPosition;
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun getX ()F
+	public final fun getY ()F
+	public final fun getZ ()F
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class io/github/a1b2d56/opaline/blur/highlight/LightSource {
+	public static final field $stable I
+	public synthetic fun <init> (Lio/github/a1b2d56/opaline/blur/highlight/LightPosition;JFILkotlin/jvm/internal/DefaultConstructorMarker;)V
+	public synthetic fun <init> (Lio/github/a1b2d56/opaline/blur/highlight/LightPosition;JFLkotlin/jvm/internal/DefaultConstructorMarker;)V
+	public final fun component1 ()Lio/github/a1b2d56/opaline/blur/highlight/LightPosition;
+	public final fun component2-0d7_KjU ()J
+	public final fun component3 ()F
+	public final fun copy-bw27NRU (Lio/github/a1b2d56/opaline/blur/highlight/LightPosition;JF)Lio/github/a1b2d56/opaline/blur/highlight/LightSource;
+	public static synthetic fun copy-bw27NRU$default (Lio/github/a1b2d56/opaline/blur/highlight/LightSource;Lio/github/a1b2d56/opaline/blur/highlight/LightPosition;JFILjava/lang/Object;)Lio/github/a1b2d56/opaline/blur/highlight/LightSource;
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun getColor-0d7_KjU ()J
+	public final fun getIntensity ()F
+	public final fun getPosition ()Lio/github/a1b2d56/opaline/blur/highlight/LightPosition;
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class io/github/a1b2d56/opaline/blur/highlight/TiltLightKt {
+	public static final fun rememberTiltLight-sW7UJKQ (Lio/github/a1b2d56/opaline/blur/highlight/LightPosition;JFFLandroidx/compose/runtime/Composer;II)Lio/github/a1b2d56/opaline/blur/highlight/LightSource;
+}
+
+public final class io/github/a1b2d56/opaline/blur/sensor/DeviceTilt {
+	public static final field $stable I
+	public static final field Companion Lio/github/a1b2d56/opaline/blur/sensor/DeviceTilt$Companion;
+	public fun <init> (FFFF)V
+	public synthetic fun <init> (FFFFILkotlin/jvm/internal/DefaultConstructorMarker;)V
+	public final fun component1 ()F
+	public final fun component2 ()F
+	public final fun component3 ()F
+	public final fun component4 ()F
+	public final fun copy (FFFF)Lio/github/a1b2d56/opaline/blur/sensor/DeviceTilt;
+	public static synthetic fun copy$default (Lio/github/a1b2d56/opaline/blur/sensor/DeviceTilt;FFFFILjava/lang/Object;)Lio/github/a1b2d56/opaline/blur/sensor/DeviceTilt;
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun getGravityX ()F
+	public final fun getGravityY ()F
+	public final fun getPitch ()F
+	public final fun getRoll ()F
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class io/github/a1b2d56/opaline/blur/sensor/DeviceTilt$Companion {
+	public final fun getZero ()Lio/github/a1b2d56/opaline/blur/sensor/DeviceTilt;
+}
+
+public final class io/github/a1b2d56/opaline/blur/sensor/DeviceTilt_skikoKt {
+	public static final fun rememberDeviceTilt (FLandroidx/compose/runtime/Composer;II)Landroidx/compose/runtime/State;
+}
+
