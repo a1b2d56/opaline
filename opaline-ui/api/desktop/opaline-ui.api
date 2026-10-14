@@ -1,0 +1,2514 @@
+public final class io/github/a1b2d56/opaline/anim/AccelerateEasing : androidx/compose/animation/core/Easing {
+	public static final field $stable I
+	public fun <init> ()V
+	public fun <init> (F)V
+	public synthetic fun <init> (FILkotlin/jvm/internal/DefaultConstructorMarker;)V
+	public fun transform (F)F
+}
+
+public final class io/github/a1b2d56/opaline/anim/DecelerateEasing : androidx/compose/animation/core/Easing {
+	public static final field $stable I
+	public fun <init> ()V
+	public fun <init> (F)V
+	public synthetic fun <init> (FILkotlin/jvm/internal/DefaultConstructorMarker;)V
+	public fun transform (F)F
+}
+
+public final class io/github/a1b2d56/opaline/anim/OpalineEasingKt {
+	public static final fun folmeSpring (FFLjava/lang/Object;)Landroidx/compose/animation/core/SpringSpec;
+	public static synthetic fun folmeSpring$default (FFLjava/lang/Object;ILjava/lang/Object;)Landroidx/compose/animation/core/SpringSpec;
+}
+
+public final class io/github/a1b2d56/opaline/anim/SinOutEasingKt {
+	public static final fun getSinOutEasing ()Landroidx/compose/animation/core/Easing;
+}
+
+public final class io/github/a1b2d56/opaline/basic/BadgeColors {
+	public static final field $stable I
+	public synthetic fun <init> (JJJLkotlin/jvm/internal/DefaultConstructorMarker;)V
+	public final fun component1-0d7_KjU ()J
+	public final fun component2-0d7_KjU ()J
+	public final fun component3-0d7_KjU ()J
+	public final fun copy-ysEtTa8 (JJJ)Lio/github/a1b2d56/opaline/basic/BadgeColors;
+	public static synthetic fun copy-ysEtTa8$default (Lio/github/a1b2d56/opaline/basic/BadgeColors;JJJILjava/lang/Object;)Lio/github/a1b2d56/opaline/basic/BadgeColors;
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun getContainerColor-0d7_KjU ()J
+	public final fun getContentColor-0d7_KjU ()J
+	public final fun getStrokeColor-0d7_KjU ()J
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class io/github/a1b2d56/opaline/basic/BadgeDefaults {
+	public static final field $stable I
+	public static final field INSTANCE Lio/github/a1b2d56/opaline/basic/BadgeDefaults;
+	public final fun badgeColors-RGew2ao (JJJLandroidx/compose/runtime/Composer;II)Lio/github/a1b2d56/opaline/basic/BadgeColors;
+	public final fun getCountOverhang-D9Ej5fM ()F
+	public final fun getDotDiameter-D9Ej5fM ()F
+	public final fun getDotOverhang-D9Ej5fM ()F
+	public final fun getEllipsisDotDiameter-D9Ej5fM ()F
+	public final fun getEllipsisSpacing-D9Ej5fM ()F
+	public final fun getHeight-D9Ej5fM ()F
+	public final fun getLargeWidth-D9Ej5fM ()F
+	public final fun getMediumWidth-D9Ej5fM ()F
+	public final fun getScaleAnimDurationMillis ()I
+	public final fun getSmallWidth-D9Ej5fM ()F
+	public final fun getStrokeWidth-D9Ej5fM ()F
+	public final fun getTextSize-D9Ej5fM ()F
+}
+
+public final class io/github/a1b2d56/opaline/basic/BadgeKt {
+	public static final fun Badge-AGcomas (Landroidx/compose/ui/Modifier;IZLio/github/a1b2d56/opaline/basic/BadgeColors;FFLandroidx/compose/runtime/Composer;II)V
+	public static final fun BadgeBox-942rkJo (Lkotlin/jvm/functions/Function2;Landroidx/compose/ui/Modifier;FLkotlin/jvm/functions/Function2;Landroidx/compose/runtime/Composer;II)V
+}
+
+public final class io/github/a1b2d56/opaline/basic/BasicComponentColors {
+	public static final field $stable I
+	public synthetic fun <init> (JJLkotlin/jvm/internal/DefaultConstructorMarker;)V
+	public final fun component1-0d7_KjU ()J
+	public final fun component2-0d7_KjU ()J
+	public final fun copy--OWjLjI (JJ)Lio/github/a1b2d56/opaline/basic/BasicComponentColors;
+	public static synthetic fun copy--OWjLjI$default (Lio/github/a1b2d56/opaline/basic/BasicComponentColors;JJILjava/lang/Object;)Lio/github/a1b2d56/opaline/basic/BasicComponentColors;
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun getColor-0d7_KjU ()J
+	public final fun getDisabledColor-0d7_KjU ()J
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class io/github/a1b2d56/opaline/basic/BasicComponentDefaults {
+	public static final field $stable I
+	public static final field INSTANCE Lio/github/a1b2d56/opaline/basic/BasicComponentDefaults;
+	public final fun getInsideMargin ()Landroidx/compose/foundation/layout/PaddingValues;
+	public final fun getMinHeight-D9Ej5fM ()F
+	public final fun summaryColor-dgg9oW8 (JJLandroidx/compose/runtime/Composer;II)Lio/github/a1b2d56/opaline/basic/BasicComponentColors;
+	public final fun titleColor-dgg9oW8 (JJLandroidx/compose/runtime/Composer;II)Lio/github/a1b2d56/opaline/basic/BasicComponentColors;
+}
+
+public final class io/github/a1b2d56/opaline/basic/BreadcrumbBarColors {
+	public static final field $stable I
+	public synthetic fun <init> (JJJJJJJLkotlin/jvm/internal/DefaultConstructorMarker;)V
+	public final fun component1-0d7_KjU ()J
+	public final fun component2-0d7_KjU ()J
+	public final fun component3-0d7_KjU ()J
+	public final fun component4-0d7_KjU ()J
+	public final fun component5-0d7_KjU ()J
+	public final fun component6-0d7_KjU ()J
+	public final fun component7-0d7_KjU ()J
+	public final fun copy-4JmcsL4 (JJJJJJJ)Lio/github/a1b2d56/opaline/basic/BreadcrumbBarColors;
+	public static synthetic fun copy-4JmcsL4$default (Lio/github/a1b2d56/opaline/basic/BreadcrumbBarColors;JJJJJJJILjava/lang/Object;)Lio/github/a1b2d56/opaline/basic/BreadcrumbBarColors;
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun getBackgroundColor-0d7_KjU ()J
+	public final fun getColor-0d7_KjU ()J
+	public final fun getDisabledBackgroundColor-0d7_KjU ()J
+	public final fun getDisabledColor-0d7_KjU ()J
+	public final fun getHighlightBackgroundColor-0d7_KjU ()J
+	public final fun getHighlightColor-0d7_KjU ()J
+	public final fun getSeparatorColor-0d7_KjU ()J
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class io/github/a1b2d56/opaline/basic/BreadcrumbBarDefaults {
+	public static final field $stable I
+	public static final field INSTANCE Lio/github/a1b2d56/opaline/basic/BreadcrumbBarDefaults;
+	public final fun breadcrumbBarColors-69fazGs (JJJJJJJLandroidx/compose/runtime/Composer;II)Lio/github/a1b2d56/opaline/basic/BreadcrumbBarColors;
+	public final fun getInsideMargin ()Landroidx/compose/foundation/layout/PaddingValues;
+	public final fun getItemHeight-D9Ej5fM ()F
+	public final fun getItemHorizontalPadding-D9Ej5fM ()F
+	public final fun getItemMaxWidth-D9Ej5fM ()F
+}
+
+public final class io/github/a1b2d56/opaline/basic/BreadcrumbBarKt {
+	public static final fun BreadcrumbBar-seJ8HY0 (Ljava/util/List;Lkotlin/jvm/functions/Function1;Landroidx/compose/ui/Modifier;IZLio/github/a1b2d56/opaline/basic/BreadcrumbBarColors;Landroidx/compose/foundation/layout/PaddingValues;FLandroidx/compose/foundation/lazy/LazyListState;Landroidx/compose/foundation/interaction/MutableInteractionSource;Landroidx/compose/foundation/Indication;Landroidx/compose/runtime/Composer;III)V
+	public static final fun joinToPath (Ljava/util/List;Ljava/lang/String;)Ljava/lang/String;
+	public static synthetic fun joinToPath$default (Ljava/util/List;Ljava/lang/String;ILjava/lang/Object;)Ljava/lang/String;
+}
+
+public final class io/github/a1b2d56/opaline/basic/BreadcrumbItem {
+	public static final field $stable I
+	public fun <init> (Ljava/lang/String;Ljava/lang/String;)V
+	public synthetic fun <init> (Ljava/lang/String;Ljava/lang/String;ILkotlin/jvm/internal/DefaultConstructorMarker;)V
+	public final fun component1 ()Ljava/lang/String;
+	public final fun component2 ()Ljava/lang/String;
+	public final fun copy (Ljava/lang/String;Ljava/lang/String;)Lio/github/a1b2d56/opaline/basic/BreadcrumbItem;
+	public static synthetic fun copy$default (Lio/github/a1b2d56/opaline/basic/BreadcrumbItem;Ljava/lang/String;Ljava/lang/String;ILjava/lang/Object;)Lio/github/a1b2d56/opaline/basic/BreadcrumbItem;
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun getPath ()Ljava/lang/String;
+	public final fun getText ()Ljava/lang/String;
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class io/github/a1b2d56/opaline/basic/ButtonColors {
+	public static final field $stable I
+	public synthetic fun <init> (JJJJLkotlin/jvm/internal/DefaultConstructorMarker;)V
+	public final fun component1-0d7_KjU ()J
+	public final fun component2-0d7_KjU ()J
+	public final fun component3-0d7_KjU ()J
+	public final fun component4-0d7_KjU ()J
+	public final fun copy-jRlVdoo (JJJJ)Lio/github/a1b2d56/opaline/basic/ButtonColors;
+	public static synthetic fun copy-jRlVdoo$default (Lio/github/a1b2d56/opaline/basic/ButtonColors;JJJJILjava/lang/Object;)Lio/github/a1b2d56/opaline/basic/ButtonColors;
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun getColor-0d7_KjU ()J
+	public final fun getContentColor-0d7_KjU ()J
+	public final fun getDisabledColor-0d7_KjU ()J
+	public final fun getDisabledContentColor-0d7_KjU ()J
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class io/github/a1b2d56/opaline/basic/ButtonDefaults {
+	public static final field $stable I
+	public static final field INSTANCE Lio/github/a1b2d56/opaline/basic/ButtonDefaults;
+	public final fun buttonColors-ro_MJ88 (JJJJLandroidx/compose/runtime/Composer;II)Lio/github/a1b2d56/opaline/basic/ButtonColors;
+	public final fun buttonColorsPrimary-ro_MJ88 (JJJJLandroidx/compose/runtime/Composer;II)Lio/github/a1b2d56/opaline/basic/ButtonColors;
+	public final fun getCornerRadius-D9Ej5fM ()F
+	public final fun getCornerRadiusSmall-D9Ej5fM ()F
+	public final fun getInsideMargin ()Landroidx/compose/foundation/layout/PaddingValues;
+	public final fun getInsideMarginSmall ()Landroidx/compose/foundation/layout/PaddingValues;
+	public final fun getMinHeight-D9Ej5fM ()F
+	public final fun getMinHeightSmall-D9Ej5fM ()F
+	public final fun getMinWidth-D9Ej5fM ()F
+	public final fun getMinWidthSmall-D9Ej5fM ()F
+	public final fun getPressedBrightness ()F
+	public final fun getPressedScale ()F
+	public final fun textButtonColors-ro_MJ88 (JJJJLandroidx/compose/runtime/Composer;II)Lio/github/a1b2d56/opaline/basic/TextButtonColors;
+	public final fun textButtonColorsBorderless-ro_MJ88 (JJJJLandroidx/compose/runtime/Composer;II)Lio/github/a1b2d56/opaline/basic/TextButtonColors;
+	public final fun textButtonColorsPrimary-ro_MJ88 (JJJJLandroidx/compose/runtime/Composer;II)Lio/github/a1b2d56/opaline/basic/TextButtonColors;
+}
+
+public final class io/github/a1b2d56/opaline/basic/ButtonKt {
+	public static final fun Button-v3dQN_U (Lkotlin/jvm/functions/Function0;Landroidx/compose/ui/Modifier;ZZFFFLio/github/a1b2d56/opaline/basic/ButtonColors;Landroidx/compose/foundation/layout/PaddingValues;Landroidx/compose/foundation/interaction/MutableInteractionSource;Landroidx/compose/foundation/Indication;Lkotlin/jvm/functions/Function3;Landroidx/compose/runtime/Composer;III)V
+	public static final fun TextButton-kHuuYvo (Ljava/lang/String;Lkotlin/jvm/functions/Function0;Landroidx/compose/ui/Modifier;ZZFFFLio/github/a1b2d56/opaline/basic/TextButtonColors;Landroidx/compose/foundation/layout/PaddingValues;Landroidx/compose/ui/text/TextStyle;Landroidx/compose/foundation/interaction/MutableInteractionSource;Landroidx/compose/foundation/Indication;Landroidx/compose/runtime/Composer;III)V
+}
+
+public final class io/github/a1b2d56/opaline/basic/CardColors {
+	public static final field $stable I
+	public synthetic fun <init> (JJJLkotlin/jvm/internal/DefaultConstructorMarker;)V
+	public final fun component1-0d7_KjU ()J
+	public final fun component2-0d7_KjU ()J
+	public final fun component3-0d7_KjU ()J
+	public final fun copy-ysEtTa8 (JJJ)Lio/github/a1b2d56/opaline/basic/CardColors;
+	public static synthetic fun copy-ysEtTa8$default (Lio/github/a1b2d56/opaline/basic/CardColors;JJJILjava/lang/Object;)Lio/github/a1b2d56/opaline/basic/CardColors;
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun getColor-0d7_KjU ()J
+	public final fun getContentColor-0d7_KjU ()J
+	public final fun getPressedColor-0d7_KjU ()J
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class io/github/a1b2d56/opaline/basic/CardDefaults {
+	public static final field $stable I
+	public static final field INSTANCE Lio/github/a1b2d56/opaline/basic/CardDefaults;
+	public final fun defaultColors-RGew2ao (JJJLandroidx/compose/runtime/Composer;II)Lio/github/a1b2d56/opaline/basic/CardColors;
+	public final fun getCornerRadius-D9Ej5fM ()F
+	public final fun getInsideMargin ()Landroidx/compose/foundation/layout/PaddingValues;
+}
+
+public final class io/github/a1b2d56/opaline/basic/CardKt {
+	public static final fun Card-EUb7tLY (Landroidx/compose/ui/Modifier;FLandroidx/compose/foundation/layout/PaddingValues;Lio/github/a1b2d56/opaline/basic/CardColors;Lkotlin/jvm/functions/Function3;Landroidx/compose/runtime/Composer;II)V
+	public static final fun Card-y8mjxYs (Landroidx/compose/ui/Modifier;FLandroidx/compose/foundation/layout/PaddingValues;Lio/github/a1b2d56/opaline/basic/CardColors;Lio/github/a1b2d56/opaline/utils/PressFeedbackType;ZZLkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function3;Landroidx/compose/runtime/Composer;II)V
+	public static final fun cardListPositionOf (II)Lio/github/a1b2d56/opaline/basic/CardListPosition;
+}
+
+public final class io/github/a1b2d56/opaline/basic/CardListPosition : java/lang/Enum {
+	public static final field Companion Lio/github/a1b2d56/opaline/basic/CardListPosition$Companion;
+	public static final field Full Lio/github/a1b2d56/opaline/basic/CardListPosition;
+	public static final field Head Lio/github/a1b2d56/opaline/basic/CardListPosition;
+	public static final field Middle Lio/github/a1b2d56/opaline/basic/CardListPosition;
+	public static final field None Lio/github/a1b2d56/opaline/basic/CardListPosition;
+	public static final field Tail Lio/github/a1b2d56/opaline/basic/CardListPosition;
+	public static fun getEntries ()Lkotlin/enums/EnumEntries;
+	public static fun valueOf (Ljava/lang/String;)Lio/github/a1b2d56/opaline/basic/CardListPosition;
+	public static fun values ()[Lio/github/a1b2d56/opaline/basic/CardListPosition;
+}
+
+public final class io/github/a1b2d56/opaline/basic/CardListPosition$Companion {
+	public final fun getHeadOrTailPadding-D9Ej5fM ()F
+}
+
+public final class io/github/a1b2d56/opaline/basic/CheckboxColors {
+	public static final field $stable I
+	public synthetic fun <init> (JJJJJJJJLkotlin/jvm/internal/DefaultConstructorMarker;)V
+	public final fun copy-FD3wquc (JJJJJJJJ)Lio/github/a1b2d56/opaline/basic/CheckboxColors;
+	public static synthetic fun copy-FD3wquc$default (Lio/github/a1b2d56/opaline/basic/CheckboxColors;JJJJJJJJILjava/lang/Object;)Lio/github/a1b2d56/opaline/basic/CheckboxColors;
+	public fun equals (Ljava/lang/Object;)Z
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class io/github/a1b2d56/opaline/basic/CheckboxDefaults {
+	public static final field $stable I
+	public static final field INSTANCE Lio/github/a1b2d56/opaline/basic/CheckboxDefaults;
+	public final fun checkboxColors-oq7We08 (JJJJJJJJLandroidx/compose/runtime/Composer;II)Lio/github/a1b2d56/opaline/basic/CheckboxColors;
+}
+
+public final class io/github/a1b2d56/opaline/basic/CheckboxKt {
+	public static final fun Checkbox (Landroidx/compose/ui/state/ToggleableState;Lkotlin/jvm/functions/Function0;Landroidx/compose/ui/Modifier;Lio/github/a1b2d56/opaline/basic/CheckboxColors;ZLandroidx/compose/runtime/Composer;II)V
+}
+
+public final class io/github/a1b2d56/opaline/basic/ChipColors {
+	public static final field $stable I
+	public synthetic fun <init> (JJJJJJJJLkotlin/jvm/internal/DefaultConstructorMarker;)V
+	public final fun component1-0d7_KjU ()J
+	public final fun component2-0d7_KjU ()J
+	public final fun component3-0d7_KjU ()J
+	public final fun component4-0d7_KjU ()J
+	public final fun component5-0d7_KjU ()J
+	public final fun component6-0d7_KjU ()J
+	public final fun component7-0d7_KjU ()J
+	public final fun component8-0d7_KjU ()J
+	public final fun copy-FD3wquc (JJJJJJJJ)Lio/github/a1b2d56/opaline/basic/ChipColors;
+	public static synthetic fun copy-FD3wquc$default (Lio/github/a1b2d56/opaline/basic/ChipColors;JJJJJJJJILjava/lang/Object;)Lio/github/a1b2d56/opaline/basic/ChipColors;
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun getContainerColor-0d7_KjU ()J
+	public final fun getContentColor-0d7_KjU ()J
+	public final fun getDisabledContainerColor-0d7_KjU ()J
+	public final fun getDisabledContentColor-0d7_KjU ()J
+	public final fun getSelectedContainerColor-0d7_KjU ()J
+	public final fun getSelectedContentColor-0d7_KjU ()J
+	public final fun getSelectedDisabledContainerColor-0d7_KjU ()J
+	public final fun getSelectedDisabledContentColor-0d7_KjU ()J
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class io/github/a1b2d56/opaline/basic/ChipDefaults {
+	public static final field $stable I
+	public static final field INSTANCE Lio/github/a1b2d56/opaline/basic/ChipDefaults;
+	public final fun chipColors-oq7We08 (JJJJJJJJLandroidx/compose/runtime/Composer;II)Lio/github/a1b2d56/opaline/basic/ChipColors;
+	public final fun getCornerRadius-D9Ej5fM ()F
+	public final fun getIconSize-D9Ej5fM ()F
+	public final fun getIconSpacing-D9Ej5fM ()F
+	public final fun getInsideMargin ()Landroidx/compose/foundation/layout/PaddingValues;
+	public final fun getMaxWidth-D9Ej5fM ()F
+	public final fun getMinHeight-D9Ej5fM ()F
+	public final fun getMinWidth-D9Ej5fM ()F
+	public final fun getTextMaxWidth-D9Ej5fM ()F
+	public final fun textStyle (Landroidx/compose/runtime/Composer;I)Landroidx/compose/ui/text/TextStyle;
+}
+
+public final class io/github/a1b2d56/opaline/basic/ChipKt {
+	public static final fun Chip-FEmb9yg (ZLkotlin/jvm/functions/Function0;Ljava/lang/String;Landroidx/compose/ui/Modifier;ZLkotlin/jvm/functions/Function2;FFFFLio/github/a1b2d56/opaline/basic/ChipColors;Landroidx/compose/foundation/layout/PaddingValues;Landroidx/compose/foundation/interaction/MutableInteractionSource;Landroidx/compose/foundation/Indication;Landroidx/compose/runtime/Composer;III)V
+}
+
+public final class io/github/a1b2d56/opaline/basic/CodeTextFieldColors {
+	public static final field $stable I
+	public synthetic fun <init> (JJJJJLkotlin/jvm/internal/DefaultConstructorMarker;)V
+	public final fun component1-0d7_KjU ()J
+	public final fun component2-0d7_KjU ()J
+	public final fun component3-0d7_KjU ()J
+	public final fun component4-0d7_KjU ()J
+	public final fun component5-0d7_KjU ()J
+	public final fun copy-t635Npw (JJJJJ)Lio/github/a1b2d56/opaline/basic/CodeTextFieldColors;
+	public static synthetic fun copy-t635Npw$default (Lio/github/a1b2d56/opaline/basic/CodeTextFieldColors;JJJJJILjava/lang/Object;)Lio/github/a1b2d56/opaline/basic/CodeTextFieldColors;
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun getCellBackgroundColor-0d7_KjU ()J
+	public final fun getCursorColor-0d7_KjU ()J
+	public final fun getFocusedStrokeColor-0d7_KjU ()J
+	public final fun getSecurityCircleColor-0d7_KjU ()J
+	public final fun getTextColor-0d7_KjU ()J
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class io/github/a1b2d56/opaline/basic/CodeTextFieldDefaults {
+	public static final field $stable I
+	public static final field INSTANCE Lio/github/a1b2d56/opaline/basic/CodeTextFieldDefaults;
+	public final fun codeTextFieldColors-zjMxDiM (JJJJJLandroidx/compose/runtime/Composer;II)Lio/github/a1b2d56/opaline/basic/CodeTextFieldColors;
+	public final fun getCellCornerRadius-D9Ej5fM ()F
+	public final fun getCellCount ()I
+	public final fun getCellSize-MYxV2XQ ()J
+	public final fun getCellStrokeWidth-D9Ej5fM ()F
+	public final fun getCursorWidth-D9Ej5fM ()F
+	public final fun getMaxCellSpacing-D9Ej5fM ()F
+	public final fun getMinCellSpacing-D9Ej5fM ()F
+	public final fun getReferenceWidth-D9Ej5fM ()F
+	public final fun getSecurityCircleRadius-D9Ej5fM ()F
+	public final fun textStyle (Landroidx/compose/runtime/Composer;I)Landroidx/compose/ui/text/TextStyle;
+}
+
+public final class io/github/a1b2d56/opaline/basic/CodeTextFieldKt {
+	public static final fun CodeTextField-OPwgEpM (Ljava/lang/String;Lkotlin/jvm/functions/Function1;Landroidx/compose/ui/Modifier;IZZJFLio/github/a1b2d56/opaline/basic/CodeTextFieldColors;Landroidx/compose/ui/text/TextStyle;Landroidx/compose/foundation/text/KeyboardOptions;Lkotlin/jvm/functions/Function1;Landroidx/compose/foundation/interaction/MutableInteractionSource;Landroidx/compose/runtime/Composer;III)V
+}
+
+public final class io/github/a1b2d56/opaline/basic/ColorPaletteKt {
+	public static final fun ColorPalette--AnvQ9Q (JLkotlin/jvm/functions/Function1;Landroidx/compose/ui/Modifier;IIZZFFLandroidx/compose/runtime/Composer;II)V
+}
+
+public final class io/github/a1b2d56/opaline/basic/ColorPickerKt {
+	public static final fun ColorPicker-ZPw9REg (JLkotlin/jvm/functions/Function1;Landroidx/compose/ui/Modifier;ZLio/github/a1b2d56/opaline/basic/SliderDefaults$SliderHapticEffect;Lio/github/a1b2d56/opaline/basic/ColorSpace;Landroidx/compose/runtime/Composer;II)V
+	public static final fun HsvAlphaSlider (FFFFLkotlin/jvm/functions/Function1;Lio/github/a1b2d56/opaline/basic/SliderDefaults$SliderHapticEffect;Landroidx/compose/runtime/Composer;II)V
+	public static final fun HsvColorPicker-yWKOrZg (JLkotlin/jvm/functions/Function1;Landroidx/compose/ui/Modifier;ZLio/github/a1b2d56/opaline/basic/SliderDefaults$SliderHapticEffect;Landroidx/compose/runtime/Composer;II)V
+	public static final fun HsvHueSlider (FLkotlin/jvm/functions/Function1;Lio/github/a1b2d56/opaline/basic/SliderDefaults$SliderHapticEffect;Landroidx/compose/runtime/Composer;II)V
+	public static final fun HsvSaturationSlider (FFLkotlin/jvm/functions/Function1;Lio/github/a1b2d56/opaline/basic/SliderDefaults$SliderHapticEffect;Landroidx/compose/runtime/Composer;II)V
+	public static final fun HsvValueSlider (FFFLkotlin/jvm/functions/Function1;Lio/github/a1b2d56/opaline/basic/SliderDefaults$SliderHapticEffect;Landroidx/compose/runtime/Composer;II)V
+	public static final fun OkHsvAlphaSlider (FFFFLkotlin/jvm/functions/Function1;Lio/github/a1b2d56/opaline/basic/SliderDefaults$SliderHapticEffect;Landroidx/compose/runtime/Composer;II)V
+	public static final fun OkHsvColorPicker-yWKOrZg (JLkotlin/jvm/functions/Function1;Landroidx/compose/ui/Modifier;ZLio/github/a1b2d56/opaline/basic/SliderDefaults$SliderHapticEffect;Landroidx/compose/runtime/Composer;II)V
+	public static final fun OkHsvHueSlider (FLkotlin/jvm/functions/Function1;Lio/github/a1b2d56/opaline/basic/SliderDefaults$SliderHapticEffect;Landroidx/compose/runtime/Composer;II)V
+	public static final fun OkHsvSaturationSlider (FFLkotlin/jvm/functions/Function1;Lio/github/a1b2d56/opaline/basic/SliderDefaults$SliderHapticEffect;Landroidx/compose/runtime/Composer;II)V
+	public static final fun OkHsvValueSlider (FFFLkotlin/jvm/functions/Function1;Lio/github/a1b2d56/opaline/basic/SliderDefaults$SliderHapticEffect;Landroidx/compose/runtime/Composer;II)V
+	public static final fun OkLabAChannelSlider (FFFLkotlin/jvm/functions/Function1;Lio/github/a1b2d56/opaline/basic/SliderDefaults$SliderHapticEffect;Landroidx/compose/runtime/Composer;II)V
+	public static final fun OkLabAlphaSlider (FFFFLkotlin/jvm/functions/Function1;Lio/github/a1b2d56/opaline/basic/SliderDefaults$SliderHapticEffect;Landroidx/compose/runtime/Composer;II)V
+	public static final fun OkLabBChannelSlider (FFFLkotlin/jvm/functions/Function1;Lio/github/a1b2d56/opaline/basic/SliderDefaults$SliderHapticEffect;Landroidx/compose/runtime/Composer;II)V
+	public static final fun OkLabColorPicker-yWKOrZg (JLkotlin/jvm/functions/Function1;Landroidx/compose/ui/Modifier;ZLio/github/a1b2d56/opaline/basic/SliderDefaults$SliderHapticEffect;Landroidx/compose/runtime/Composer;II)V
+	public static final fun OkLabLightnessSlider (FFFLkotlin/jvm/functions/Function1;Lio/github/a1b2d56/opaline/basic/SliderDefaults$SliderHapticEffect;Landroidx/compose/runtime/Composer;II)V
+	public static final fun OkLchAlphaSlider (FFFFLkotlin/jvm/functions/Function1;Lio/github/a1b2d56/opaline/basic/SliderDefaults$SliderHapticEffect;Landroidx/compose/runtime/Composer;II)V
+	public static final fun OkLchChromaSlider (FFFLkotlin/jvm/functions/Function1;Lio/github/a1b2d56/opaline/basic/SliderDefaults$SliderHapticEffect;Landroidx/compose/runtime/Composer;II)V
+	public static final fun OkLchColorPicker-yWKOrZg (JLkotlin/jvm/functions/Function1;Landroidx/compose/ui/Modifier;ZLio/github/a1b2d56/opaline/basic/SliderDefaults$SliderHapticEffect;Landroidx/compose/runtime/Composer;II)V
+	public static final fun OkLchHueSlider (FFFLkotlin/jvm/functions/Function1;Lio/github/a1b2d56/opaline/basic/SliderDefaults$SliderHapticEffect;Landroidx/compose/runtime/Composer;II)V
+	public static final fun OkLchLightnessSlider (FFFLkotlin/jvm/functions/Function1;Lio/github/a1b2d56/opaline/basic/SliderDefaults$SliderHapticEffect;Landroidx/compose/runtime/Composer;II)V
+	public static final fun drawCheckerboard-gUc8pyA (Landroidx/compose/ui/Modifier;FJJ)Landroidx/compose/ui/Modifier;
+	public static synthetic fun drawCheckerboard-gUc8pyA$default (Landroidx/compose/ui/Modifier;FJJILjava/lang/Object;)Landroidx/compose/ui/Modifier;
+}
+
+public final class io/github/a1b2d56/opaline/basic/ColorSpace : java/lang/Enum {
+	public static final field HSV Lio/github/a1b2d56/opaline/basic/ColorSpace;
+	public static final field OKHSV Lio/github/a1b2d56/opaline/basic/ColorSpace;
+	public static final field OKLAB Lio/github/a1b2d56/opaline/basic/ColorSpace;
+	public static final field OKLCH Lio/github/a1b2d56/opaline/basic/ColorSpace;
+	public static fun getEntries ()Lkotlin/enums/EnumEntries;
+	public static fun valueOf (Ljava/lang/String;)Lio/github/a1b2d56/opaline/basic/ColorSpace;
+	public static fun values ()[Lio/github/a1b2d56/opaline/basic/ColorSpace;
+}
+
+public final class io/github/a1b2d56/opaline/basic/ColorSwatchPickerDefaults {
+	public static final field $stable I
+	public static final field INSTANCE Lio/github/a1b2d56/opaline/basic/ColorSwatchPickerDefaults;
+	public final fun getCellSize-D9Ej5fM ()F
+	public final fun getRingEasing ()Landroidx/compose/animation/core/CubicBezierEasing;
+	public final fun getRingFadeInDuration ()I
+	public final fun getRingFadeOutDuration ()I
+	public final fun getRingStrokeWidth-D9Ej5fM ()F
+	public final fun getSpacing-D9Ej5fM ()F
+	public final fun getSwatchSize-D9Ej5fM ()F
+}
+
+public final class io/github/a1b2d56/opaline/basic/ColorSwatchPickerKt {
+	public static final fun ColorSwatchPicker-shE39Zc (Ljava/util/List;ILkotlin/jvm/functions/Function1;Landroidx/compose/ui/Modifier;ZFFFJFLandroidx/compose/runtime/Composer;II)V
+}
+
+public final class io/github/a1b2d56/opaline/basic/ComponentKt {
+	public static final fun BasicComponent-FKrtxEo (Landroidx/compose/ui/Modifier;Ljava/lang/String;Lio/github/a1b2d56/opaline/basic/BasicComponentColors;Ljava/lang/String;Lio/github/a1b2d56/opaline/basic/BasicComponentColors;Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function3;Lkotlin/jvm/functions/Function2;Landroidx/compose/foundation/layout/PaddingValues;Lio/github/a1b2d56/opaline/basic/CardListPosition;Lkotlin/jvm/functions/Function0;Ljava/lang/String;Landroidx/compose/ui/semantics/Role;ZZLandroidx/compose/foundation/interaction/MutableInteractionSource;Landroidx/compose/runtime/Composer;III)V
+	public static final fun BasicComponent-NHrqhKs (Landroidx/compose/ui/Modifier;Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function3;Lkotlin/jvm/functions/Function2;Landroidx/compose/foundation/layout/PaddingValues;Lio/github/a1b2d56/opaline/basic/CardListPosition;Lkotlin/jvm/functions/Function0;Ljava/lang/String;Landroidx/compose/ui/semantics/Role;ZZLandroidx/compose/foundation/interaction/MutableInteractionSource;Lkotlin/jvm/functions/Function3;Landroidx/compose/runtime/Composer;III)V
+}
+
+public final class io/github/a1b2d56/opaline/basic/ComposableSingletons$ScaffoldKt {
+	public static final field INSTANCE Lio/github/a1b2d56/opaline/basic/ComposableSingletons$ScaffoldKt;
+	public fun <init> ()V
+	public final fun getLambda$-1040365381$io_github_a1b2d56_opaline_opaline_ui ()Lkotlin/jvm/functions/Function2;
+	public final fun getLambda$-1372887319$io_github_a1b2d56_opaline_opaline_ui ()Lkotlin/jvm/functions/Function2;
+	public final fun getLambda$-808078520$io_github_a1b2d56_opaline_opaline_ui ()Lkotlin/jvm/functions/Function2;
+	public final fun getLambda$2119151192$io_github_a1b2d56_opaline_opaline_ui ()Lkotlin/jvm/functions/Function2;
+	public final fun getLambda$467370344$io_github_a1b2d56_opaline_opaline_ui ()Lkotlin/jvm/functions/Function2;
+	public final fun getLambda$73200956$io_github_a1b2d56_opaline_opaline_ui ()Lkotlin/jvm/functions/Function2;
+}
+
+public final class io/github/a1b2d56/opaline/basic/ComposableSingletons$SnackbarKt {
+	public static final field INSTANCE Lio/github/a1b2d56/opaline/basic/ComposableSingletons$SnackbarKt;
+	public fun <init> ()V
+	public final fun getLambda$-490338767$io_github_a1b2d56_opaline_opaline_ui ()Lkotlin/jvm/functions/Function3;
+}
+
+public final class io/github/a1b2d56/opaline/basic/ComposableSingletons$TopAppBarKt {
+	public static final field INSTANCE Lio/github/a1b2d56/opaline/basic/ComposableSingletons$TopAppBarKt;
+	public fun <init> ()V
+	public final fun getLambda$-1166530858$io_github_a1b2d56_opaline_opaline_ui ()Lkotlin/jvm/functions/Function2;
+	public final fun getLambda$-1338635555$io_github_a1b2d56_opaline_opaline_ui ()Lkotlin/jvm/functions/Function2;
+	public final fun getLambda$-1997689697$io_github_a1b2d56_opaline_opaline_ui ()Lkotlin/jvm/functions/Function3;
+	public final fun getLambda$-2029257625$io_github_a1b2d56_opaline_opaline_ui ()Lkotlin/jvm/functions/Function2;
+	public final fun getLambda$-2071843779$io_github_a1b2d56_opaline_opaline_ui ()Lkotlin/jvm/functions/Function2;
+	public final fun getLambda$-224771418$io_github_a1b2d56_opaline_opaline_ui ()Lkotlin/jvm/functions/Function3;
+	public final fun getLambda$1223114888$io_github_a1b2d56_opaline_opaline_ui ()Lkotlin/jvm/functions/Function2;
+	public final fun getLambda$229490244$io_github_a1b2d56_opaline_opaline_ui ()Lkotlin/jvm/functions/Function2;
+}
+
+public final class io/github/a1b2d56/opaline/basic/DatePickerDefaults {
+	public static final field $stable I
+	public static final field INSTANCE Lio/github/a1b2d56/opaline/basic/DatePickerDefaults;
+	public final fun getDayColumnWidth-D9Ej5fM ()F
+	public final fun getDayLabel ()Lkotlin/jvm/functions/Function1;
+	public final fun getInsideMargin ()Landroidx/compose/foundation/layout/PaddingValues;
+	public final fun getMonthColumnWidth-D9Ej5fM ()F
+	public final fun getMonthLabel ()Lkotlin/jvm/functions/Function1;
+	public final fun getYearColumnWidth-D9Ej5fM ()F
+	public final fun getYearLabel ()Lkotlin/jvm/functions/Function1;
+	public final fun getYearRange ()Lkotlin/ranges/IntRange;
+}
+
+public final class io/github/a1b2d56/opaline/basic/DatePickerKt {
+	public static final fun DatePicker-n3Udp38 (Lio/github/a1b2d56/opaline/basic/DateValue;Lkotlin/jvm/functions/Function1;Landroidx/compose/ui/Modifier;ZLkotlin/ranges/IntRange;Lkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function1;FFFLio/github/a1b2d56/opaline/basic/NumberPickerColors;Landroidx/compose/ui/text/TextStyle;FLandroidx/compose/foundation/layout/PaddingValues;Landroidx/compose/runtime/Composer;III)V
+}
+
+public final class io/github/a1b2d56/opaline/basic/DateValue {
+	public static final field $stable I
+	public fun <init> (III)V
+	public final fun component1 ()I
+	public final fun component2 ()I
+	public final fun component3 ()I
+	public final fun copy (III)Lio/github/a1b2d56/opaline/basic/DateValue;
+	public static synthetic fun copy$default (Lio/github/a1b2d56/opaline/basic/DateValue;IIIILjava/lang/Object;)Lio/github/a1b2d56/opaline/basic/DateValue;
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun getDay ()I
+	public final fun getMonth ()I
+	public final fun getYear ()I
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class io/github/a1b2d56/opaline/basic/DividerDefaults {
+	public static final field $stable I
+	public static final field INSTANCE Lio/github/a1b2d56/opaline/basic/DividerDefaults;
+	public final fun getCardInset-D9Ej5fM ()F
+	public final fun getDividerColor (Landroidx/compose/runtime/Composer;I)J
+	public final fun getThickness-D9Ej5fM ()F
+}
+
+public final class io/github/a1b2d56/opaline/basic/DividerKt {
+	public static final fun HorizontalDivider-9IZ8Weo (Landroidx/compose/ui/Modifier;FJLandroidx/compose/runtime/Composer;II)V
+	public static final fun VerticalDivider-9IZ8Weo (Landroidx/compose/ui/Modifier;FJLandroidx/compose/runtime/Composer;II)V
+}
+
+public final class io/github/a1b2d56/opaline/basic/DropdownColors {
+	public static final field $stable I
+	public synthetic fun <init> (JJJJJJJJJJILkotlin/jvm/internal/DefaultConstructorMarker;)V
+	public synthetic fun <init> (JJJJJJJJJJLkotlin/jvm/internal/DefaultConstructorMarker;)V
+	public final fun component1-0d7_KjU ()J
+	public final fun component10-0d7_KjU ()J
+	public final fun component2-0d7_KjU ()J
+	public final fun component3-0d7_KjU ()J
+	public final fun component4-0d7_KjU ()J
+	public final fun component5-0d7_KjU ()J
+	public final fun component6-0d7_KjU ()J
+	public final fun component7-0d7_KjU ()J
+	public final fun component8-0d7_KjU ()J
+	public final fun component9-0d7_KjU ()J
+	public final fun copy--K518z4 (JJJJJJJJJJ)Lio/github/a1b2d56/opaline/basic/DropdownColors;
+	public static synthetic fun copy--K518z4$default (Lio/github/a1b2d56/opaline/basic/DropdownColors;JJJJJJJJJJILjava/lang/Object;)Lio/github/a1b2d56/opaline/basic/DropdownColors;
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun getAlertContentColor-0d7_KjU ()J
+	public final fun getContainerColor-0d7_KjU ()J
+	public final fun getContentColor-0d7_KjU ()J
+	public final fun getDisabledContentColor-0d7_KjU ()J
+	public final fun getHeaderColor-0d7_KjU ()J
+	public final fun getSelectedContainerColor-0d7_KjU ()J
+	public final fun getSelectedContentColor-0d7_KjU ()J
+	public final fun getSelectedIndicatorColor-0d7_KjU ()J
+	public final fun getSelectedSummaryColor-0d7_KjU ()J
+	public final fun getSummaryColor-0d7_KjU ()J
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class io/github/a1b2d56/opaline/basic/DropdownDefaults {
+	public static final field $stable I
+	public static final field INSTANCE Lio/github/a1b2d56/opaline/basic/DropdownDefaults;
+	public final fun dialogDropdownColors-q0g_0yA (JJJJJJJJJJLandroidx/compose/runtime/Composer;III)Lio/github/a1b2d56/opaline/basic/DropdownColors;
+	public final fun dropdownColors-q0g_0yA (JJJJJJJJJJLandroidx/compose/runtime/Composer;III)Lio/github/a1b2d56/opaline/basic/DropdownColors;
+	public final fun getArrowSize-MYxV2XQ ()J
+	public final fun getCheckIconSize-D9Ej5fM ()F
+	public final fun getCheckIconStartPadding-D9Ej5fM ()F
+	public final fun getChevronSize-MYxV2XQ ()J
+	public final fun getDialogHorizontalPadding-D9Ej5fM ()F
+	public final fun getFirstLastVerticalPadding-D9Ej5fM ()F
+	public final fun getHeaderMaxLines ()I
+	public final fun getHintEndPadding-D9Ej5fM ()F
+	public final fun getHintMaxWidth-D9Ej5fM ()F
+	public final fun getIconEndPadding-D9Ej5fM ()F
+	public final fun getIconMinSize-D9Ej5fM ()F
+	public final fun getInsideHorizontalPadding-D9Ej5fM ()F
+	public final fun getMaxItemTextWidth-D9Ej5fM ()F
+	public final fun getMiddleVerticalPadding-D9Ej5fM ()F
+	public final fun getMinHeight-D9Ej5fM ()F
+	public final fun getMinWidth-D9Ej5fM ()F
+	public final fun getPopupGroupDividerColor-0d7_KjU ()J
+	public final fun getPopupGroupDividerThickness-D9Ej5fM ()F
+	public final fun getPopupHeaderItemMinHeight-D9Ej5fM ()F
+	public final fun getPopupItemMinHeight-D9Ej5fM ()F
+	public final fun getSummaryMaxLines ()I
+	public final fun getTitleMaxLines ()I
+	public final fun getTitleWithSummaryMaxLines ()I
+}
+
+public final class io/github/a1b2d56/opaline/basic/DropdownEntry {
+	public static final field $stable I
+	public fun <init> (Ljava/util/List;ZLjava/lang/String;)V
+	public synthetic fun <init> (Ljava/util/List;ZLjava/lang/String;ILkotlin/jvm/internal/DefaultConstructorMarker;)V
+	public final fun component1 ()Ljava/util/List;
+	public final fun component2 ()Z
+	public final fun component3 ()Ljava/lang/String;
+	public final fun copy (Ljava/util/List;ZLjava/lang/String;)Lio/github/a1b2d56/opaline/basic/DropdownEntry;
+	public static synthetic fun copy$default (Lio/github/a1b2d56/opaline/basic/DropdownEntry;Ljava/util/List;ZLjava/lang/String;ILjava/lang/Object;)Lio/github/a1b2d56/opaline/basic/DropdownEntry;
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun getEnabled ()Z
+	public final fun getItems ()Ljava/util/List;
+	public final fun getTitle ()Ljava/lang/String;
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class io/github/a1b2d56/opaline/basic/DropdownItem {
+	public static final field $stable I
+	public fun <init> (Ljava/lang/String;ZZLkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function3;Ljava/lang/String;Ljava/util/List;Lkotlin/jvm/functions/Function2;Z)V
+	public synthetic fun <init> (Ljava/lang/String;ZZLkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function3;Ljava/lang/String;Ljava/util/List;Lkotlin/jvm/functions/Function2;ZILkotlin/jvm/internal/DefaultConstructorMarker;)V
+	public fun <init> (Lkotlin/jvm/functions/Function3;Ljava/lang/String;Ljava/lang/String;)V
+	public synthetic fun <init> (Lkotlin/jvm/functions/Function3;Ljava/lang/String;Ljava/lang/String;ILkotlin/jvm/internal/DefaultConstructorMarker;)V
+	public final fun component1 ()Ljava/lang/String;
+	public final fun component2 ()Z
+	public final fun component3 ()Z
+	public final fun component4 ()Lkotlin/jvm/functions/Function0;
+	public final fun component5 ()Lkotlin/jvm/functions/Function3;
+	public final fun component6 ()Ljava/lang/String;
+	public final fun component7 ()Ljava/util/List;
+	public final fun component8 ()Lkotlin/jvm/functions/Function2;
+	public final fun component9 ()Z
+	public final fun copy (Ljava/lang/String;ZZLkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function3;Ljava/lang/String;Ljava/util/List;Lkotlin/jvm/functions/Function2;Z)Lio/github/a1b2d56/opaline/basic/DropdownItem;
+	public static synthetic fun copy$default (Lio/github/a1b2d56/opaline/basic/DropdownItem;Ljava/lang/String;ZZLkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function3;Ljava/lang/String;Ljava/util/List;Lkotlin/jvm/functions/Function2;ZILjava/lang/Object;)Lio/github/a1b2d56/opaline/basic/DropdownItem;
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun getAlert ()Z
+	public final fun getChildren ()Ljava/util/List;
+	public final fun getEnabled ()Z
+	public final fun getHint ()Lkotlin/jvm/functions/Function2;
+	public final fun getIcon ()Lkotlin/jvm/functions/Function3;
+	public final fun getOnClick ()Lkotlin/jvm/functions/Function0;
+	public final fun getSelected ()Z
+	public final fun getSummary ()Ljava/lang/String;
+	public final fun getText ()Ljava/lang/String;
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class io/github/a1b2d56/opaline/basic/DropdownKt {
+	public static final fun DropdownArrowEndAction-3IgeMak (Landroidx/compose/foundation/layout/RowScope;JLandroidx/compose/ui/Modifier;Landroidx/compose/runtime/Composer;II)V
+	public static final fun DropdownHeaderItem-cf5BqRc (Ljava/lang/String;Landroidx/compose/ui/Modifier;JZLandroidx/compose/runtime/Composer;II)V
+	public static final fun DropdownImpl (Lio/github/a1b2d56/opaline/basic/DropdownItem;IZILio/github/a1b2d56/opaline/basic/DropdownColors;ZZZZZLkotlin/jvm/functions/Function1;Landroidx/compose/runtime/Composer;III)V
+	public static final fun DropdownImpl (Ljava/lang/String;IZILio/github/a1b2d56/opaline/basic/DropdownColors;ZZLkotlin/jvm/functions/Function1;Landroidx/compose/runtime/Composer;II)V
+	public static final fun SpinnerItemImpl (Lio/github/a1b2d56/opaline/basic/DropdownItem;IZILio/github/a1b2d56/opaline/basic/DropdownColors;ZLkotlin/jvm/functions/Function1;Landroidx/compose/runtime/Composer;II)V
+}
+
+public final class io/github/a1b2d56/opaline/basic/FabPosition {
+	public static final field Companion Lio/github/a1b2d56/opaline/basic/FabPosition$Companion;
+	public static final synthetic fun box-impl (I)Lio/github/a1b2d56/opaline/basic/FabPosition;
+	public fun equals (Ljava/lang/Object;)Z
+	public static fun equals-impl (ILjava/lang/Object;)Z
+	public static final fun equals-impl0 (II)Z
+	public fun hashCode ()I
+	public static fun hashCode-impl (I)I
+	public fun toString ()Ljava/lang/String;
+	public static fun toString-impl (I)Ljava/lang/String;
+	public final synthetic fun unbox-impl ()I
+}
+
+public final class io/github/a1b2d56/opaline/basic/FabPosition$Companion {
+	public final fun getCenter-A-yxdpE ()I
+	public final fun getEnd-A-yxdpE ()I
+	public final fun getEndOverlay-A-yxdpE ()I
+	public final fun getStart-A-yxdpE ()I
+}
+
+public final class io/github/a1b2d56/opaline/basic/FloatingActionButtonDefaults {
+	public static final field $stable I
+	public static final field INSTANCE Lio/github/a1b2d56/opaline/basic/FloatingActionButtonDefaults;
+	public final fun getMinHeight-D9Ej5fM ()F
+	public final fun getMinWidth-D9Ej5fM ()F
+	public final fun getPressedScale ()F
+	public final fun getShadowElevation-D9Ej5fM ()F
+}
+
+public final class io/github/a1b2d56/opaline/basic/FloatingActionButtonKt {
+	public static final fun FloatingActionButton-SoFnis4 (Lkotlin/jvm/functions/Function0;Landroidx/compose/ui/Modifier;Landroidx/compose/ui/graphics/Shape;JFFFLandroidx/compose/foundation/interaction/MutableInteractionSource;Lkotlin/jvm/functions/Function2;Landroidx/compose/runtime/Composer;II)V
+}
+
+public final class io/github/a1b2d56/opaline/basic/FloatingNavigationBarDefaults {
+	public static final field $stable I
+	public static final field INSTANCE Lio/github/a1b2d56/opaline/basic/FloatingNavigationBarDefaults;
+	public final fun getHorizontalOutSidePadding-D9Ej5fM ()F
+	public final fun getHorizontalPadding-D9Ej5fM ()F
+	public final fun getIconPadding-D9Ej5fM ()F
+	public final fun getIconSize-D9Ej5fM ()F
+	public final fun getItemSpacing-D9Ej5fM ()F
+	public final fun getShadowElevation-D9Ej5fM ()F
+	public final fun getUnselectedAlpha ()F
+}
+
+public final class io/github/a1b2d56/opaline/basic/FloatingToolbarDefaults {
+	public static final field $stable I
+	public static final field INSTANCE Lio/github/a1b2d56/opaline/basic/FloatingToolbarDefaults;
+	public final fun defaultColor-WaAFU9c (Landroidx/compose/runtime/Composer;I)J
+	public final fun getCornerRadius-D9Ej5fM ()F
+	public final fun getOutSidePadding ()Landroidx/compose/foundation/layout/PaddingValues;
+}
+
+public final class io/github/a1b2d56/opaline/basic/FloatingToolbarKt {
+	public static final fun FloatingToolbar-Ne5A6W8 (Landroidx/compose/ui/Modifier;JFLandroidx/compose/foundation/layout/PaddingValues;FZLkotlin/jvm/functions/Function2;Landroidx/compose/runtime/Composer;II)V
+}
+
+public final class io/github/a1b2d56/opaline/basic/FullPageStatementColors {
+	public static final field $stable I
+	public synthetic fun <init> (JJJLkotlin/jvm/internal/DefaultConstructorMarker;)V
+	public final fun component1-0d7_KjU ()J
+	public final fun component2-0d7_KjU ()J
+	public final fun component3-0d7_KjU ()J
+	public final fun copy-ysEtTa8 (JJJ)Lio/github/a1b2d56/opaline/basic/FullPageStatementColors;
+	public static synthetic fun copy-ysEtTa8$default (Lio/github/a1b2d56/opaline/basic/FullPageStatementColors;JJJILjava/lang/Object;)Lio/github/a1b2d56/opaline/basic/FullPageStatementColors;
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun getContentColor-0d7_KjU ()J
+	public final fun getSecondaryButtonColor-0d7_KjU ()J
+	public final fun getTitleColor-0d7_KjU ()J
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class io/github/a1b2d56/opaline/basic/FullPageStatementDefaults {
+	public static final field $stable I
+	public static final field INSTANCE Lio/github/a1b2d56/opaline/basic/FullPageStatementDefaults;
+	public final fun fullPageStatementColors-RGew2ao (JJJLandroidx/compose/runtime/Composer;II)Lio/github/a1b2d56/opaline/basic/FullPageStatementColors;
+	public final fun getContentPadding ()Landroidx/compose/foundation/layout/PaddingValues;
+	public final fun getExpandedWidthThreshold-D9Ej5fM ()F
+	public final fun getMediumWidthThreshold-D9Ej5fM ()F
+	public final fun getPrimaryButtonMarginBottom-D9Ej5fM ()F
+	public final fun getPrimaryButtonMarginTop-D9Ej5fM ()F
+	public final fun getPrimaryButtonWidthCompact-D9Ej5fM ()F
+	public final fun getPrimaryButtonWidthExpanded-D9Ej5fM ()F
+	public final fun getPrimaryButtonWidthMedium-D9Ej5fM ()F
+	public final fun getScrollFadeLength-D9Ej5fM ()F
+	public final fun getSecondaryButtonMarginBottom-D9Ej5fM ()F
+	public final fun getTitleMarginBottom-D9Ej5fM ()F
+	public final fun getTitleMarginHorizontal-D9Ej5fM ()F
+	public final fun getTitleMarginTop-D9Ej5fM ()F
+	public final fun primaryButtonWidth-5rwHm24 (F)F
+}
+
+public final class io/github/a1b2d56/opaline/basic/FullPageStatementKt {
+	public static final fun FullPageStatement-MCjU-c8 (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lkotlin/jvm/functions/Function0;Landroidx/compose/ui/Modifier;Ljava/lang/String;Lkotlin/jvm/functions/Function0;Landroidx/compose/ui/unit/Dp;Lio/github/a1b2d56/opaline/basic/FullPageStatementColors;Lio/github/a1b2d56/opaline/basic/ButtonColors;Landroidx/compose/foundation/layout/PaddingValues;Landroidx/compose/foundation/ScrollState;Landroidx/compose/runtime/Composer;III)V
+}
+
+public final class io/github/a1b2d56/opaline/basic/IconButtonDefaults {
+	public static final field $stable I
+	public static final field INSTANCE Lio/github/a1b2d56/opaline/basic/IconButtonDefaults;
+	public final fun getCornerRadius-D9Ej5fM ()F
+	public final fun getMinHeight-D9Ej5fM ()F
+	public final fun getMinWidth-D9Ej5fM ()F
+}
+
+public final class io/github/a1b2d56/opaline/basic/IconButtonKt {
+	public static final fun IconButton-0xlP5wg (Lkotlin/jvm/functions/Function0;Landroidx/compose/ui/Modifier;ZZJFFFLkotlin/jvm/functions/Function2;Landroidx/compose/runtime/Composer;II)V
+}
+
+public final class io/github/a1b2d56/opaline/basic/IconKt {
+	public static final fun Icon (Landroidx/compose/ui/graphics/painter/Painter;Landroidx/compose/ui/graphics/ColorProducer;Ljava/lang/String;Landroidx/compose/ui/Modifier;Landroidx/compose/runtime/Composer;II)V
+	public static final fun Icon-ww6aTOc (Landroidx/compose/ui/graphics/ImageBitmap;Ljava/lang/String;Landroidx/compose/ui/Modifier;JLandroidx/compose/runtime/Composer;II)V
+	public static final fun Icon-ww6aTOc (Landroidx/compose/ui/graphics/painter/Painter;Ljava/lang/String;Landroidx/compose/ui/Modifier;JLandroidx/compose/runtime/Composer;II)V
+	public static final fun Icon-ww6aTOc (Landroidx/compose/ui/graphics/vector/ImageVector;Ljava/lang/String;Landroidx/compose/ui/Modifier;JLandroidx/compose/runtime/Composer;II)V
+}
+
+public final class io/github/a1b2d56/opaline/basic/InputViewColors {
+	public static final field $stable I
+	public synthetic fun <init> (JJJJJLkotlin/jvm/internal/DefaultConstructorMarker;)V
+	public final fun component1-0d7_KjU ()J
+	public final fun component2-0d7_KjU ()J
+	public final fun component3-0d7_KjU ()J
+	public final fun component4-0d7_KjU ()J
+	public final fun component5-0d7_KjU ()J
+	public final fun copy-t635Npw (JJJJJ)Lio/github/a1b2d56/opaline/basic/InputViewColors;
+	public static synthetic fun copy-t635Npw$default (Lio/github/a1b2d56/opaline/basic/InputViewColors;JJJJJILjava/lang/Object;)Lio/github/a1b2d56/opaline/basic/InputViewColors;
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun getCardColor-0d7_KjU ()J
+	public final fun getCountColor-0d7_KjU ()J
+	public final fun getDisabledTitleColor-0d7_KjU ()J
+	public final fun getErrorColor-0d7_KjU ()J
+	public final fun getTitleColor-0d7_KjU ()J
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class io/github/a1b2d56/opaline/basic/InputViewDefaults {
+	public static final field $stable I
+	public static final field INSTANCE Lio/github/a1b2d56/opaline/basic/InputViewDefaults;
+	public final fun getContentPadding-D9Ej5fM ()F
+	public final fun getCornerRadius-D9Ej5fM ()F
+	public final fun getCountFontSize-XSAIIZE ()J
+	public final fun getErrorFontSize-XSAIIZE ()J
+	public final fun getErrorPaddingTop-D9Ej5fM ()F
+	public final fun getFieldPaddingBottomWithTitle-D9Ej5fM ()F
+	public final fun getFieldPaddingVertical-D9Ej5fM ()F
+	public final fun getMaxLines ()I
+	public final fun getMultiCountFontSize-XSAIIZE ()J
+	public final fun getMultiCountMarginBottom-D9Ej5fM ()F
+	public final fun getMultiCountSpacing-D9Ej5fM ()F
+	public final fun getMultiFieldPadding-D9Ej5fM ()F
+	public final fun getTitleMinHeight-D9Ej5fM ()F
+	public final fun getTitlePaddingBottom-D9Ej5fM ()F
+	public final fun getTitlePaddingTop-D9Ej5fM ()F
+	public final fun inputViewColors-zjMxDiM (JJJJJLandroidx/compose/runtime/Composer;II)Lio/github/a1b2d56/opaline/basic/InputViewColors;
+	public final fun titleTextStyle (Landroidx/compose/runtime/Composer;I)Landroidx/compose/ui/text/TextStyle;
+}
+
+public final class io/github/a1b2d56/opaline/basic/InputViewKt {
+	public static final fun InputView-2ho4pBw (Ljava/lang/String;Lkotlin/jvm/functions/Function1;Landroidx/compose/ui/Modifier;Ljava/lang/String;Ljava/lang/String;ZZZIZZLjava/lang/String;FLio/github/a1b2d56/opaline/basic/InputViewColors;Lio/github/a1b2d56/opaline/basic/TextFieldColors;Landroidx/compose/ui/text/TextStyle;Landroidx/compose/foundation/text/KeyboardOptions;Landroidx/compose/foundation/text/KeyboardActions;ZILandroidx/compose/ui/text/input/VisualTransformation;Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function2;Landroidx/compose/foundation/interaction/MutableInteractionSource;Landroidx/compose/runtime/Composer;IIII)V
+}
+
+public final class io/github/a1b2d56/opaline/basic/ListPopupDefaults {
+	public static final field $stable I
+	public static final field INSTANCE Lio/github/a1b2d56/opaline/basic/ListPopupDefaults;
+	public final fun dropdownPositionProvider-YgX7TsA (FF)Lio/github/a1b2d56/opaline/basic/PopupPositionProvider;
+	public static synthetic fun dropdownPositionProvider-YgX7TsA$default (Lio/github/a1b2d56/opaline/basic/ListPopupDefaults;FFILjava/lang/Object;)Lio/github/a1b2d56/opaline/basic/PopupPositionProvider;
+	public final fun getAlphaEnterAnimationSpec ()Landroidx/compose/animation/core/SpringSpec;
+	public final fun getAlphaExitAnimationSpec ()Landroidx/compose/animation/core/SpringSpec;
+	public final fun getBottomBarrier-D9Ej5fM ()F
+	public final fun getContextMenuPositionProvider ()Lio/github/a1b2d56/opaline/basic/PopupPositionProvider;
+	public final fun getDimEnterAnimationSpec ()Landroidx/compose/animation/core/TweenSpec;
+	public final fun getDimExitAnimationSpec ()Landroidx/compose/animation/core/TweenSpec;
+	public final fun getDropdownPositionProvider ()Lio/github/a1b2d56/opaline/basic/PopupPositionProvider;
+	public final fun getFractionAnimationSpec ()Landroidx/compose/animation/core/SpringSpec;
+	public final fun getFractionExitAnimationSpec ()Landroidx/compose/animation/core/SpringSpec;
+	public final fun getHorizontalBarrier-D9Ej5fM ()F
+	public final fun getMaxWidth-D9Ej5fM ()F
+	public final fun getMinPopupHeight-D9Ej5fM ()F
+	public final fun getMinWidth-D9Ej5fM ()F
+	public final fun getResetAnimationSpec ()Landroidx/compose/animation/core/SpringSpec;
+	public final fun getTopBarrier-D9Ej5fM ()F
+}
+
+public final class io/github/a1b2d56/opaline/basic/ListPopupKt {
+	public static final fun ListPopupColumn (Lkotlin/jvm/functions/Function2;Landroidx/compose/runtime/Composer;I)V
+	public static final fun ListPopupContent-SIU0soY (JLkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lio/github/a1b2d56/opaline/basic/PopupLayoutPosition;JLandroidx/compose/ui/Modifier;Lkotlin/jvm/functions/Function2;Landroidx/compose/runtime/Composer;II)V
+	public static final fun popupClipReveal-2lqI77k (Landroidx/compose/ui/Modifier;Lkotlin/jvm/functions/Function0;Lio/github/a1b2d56/opaline/basic/PopupLayoutPosition;FZ)Landroidx/compose/ui/Modifier;
+	public static final fun preciseClickAnchor (Landroidx/compose/ui/Modifier;Lio/github/a1b2d56/opaline/basic/PreciseClickState;)Landroidx/compose/ui/Modifier;
+	public static final fun rememberListPopupLayoutInfo-J5j9r9c (Lio/github/a1b2d56/opaline/basic/PopupPositionProvider$Align;Lio/github/a1b2d56/opaline/basic/PopupPositionProvider;Landroidx/compose/ui/unit/IntRect;JLandroidx/compose/runtime/Composer;I)Lio/github/a1b2d56/opaline/basic/ListPopupLayoutInfo;
+	public static final fun rememberPreciseClickState (Landroidx/compose/runtime/Composer;I)Lio/github/a1b2d56/opaline/basic/PreciseClickState;
+}
+
+public final class io/github/a1b2d56/opaline/basic/ListPopupLayoutInfo {
+	public static final field $stable I
+	public synthetic fun <init> (Landroidx/compose/ui/unit/IntRect;Landroidx/compose/ui/unit/IntRect;JJLio/github/a1b2d56/opaline/basic/PopupLayoutPosition;Lkotlin/jvm/internal/DefaultConstructorMarker;)V
+	public final fun component1 ()Landroidx/compose/ui/unit/IntRect;
+	public final fun component2 ()Landroidx/compose/ui/unit/IntRect;
+	public final fun component3-SzJe1aQ ()J
+	public final fun component4-SzJe1aQ ()J
+	public final fun component5 ()Lio/github/a1b2d56/opaline/basic/PopupLayoutPosition;
+	public final fun copy-ZojVf7I (Landroidx/compose/ui/unit/IntRect;Landroidx/compose/ui/unit/IntRect;JJLio/github/a1b2d56/opaline/basic/PopupLayoutPosition;)Lio/github/a1b2d56/opaline/basic/ListPopupLayoutInfo;
+	public static synthetic fun copy-ZojVf7I$default (Lio/github/a1b2d56/opaline/basic/ListPopupLayoutInfo;Landroidx/compose/ui/unit/IntRect;Landroidx/compose/ui/unit/IntRect;JJLio/github/a1b2d56/opaline/basic/PopupLayoutPosition;ILjava/lang/Object;)Lio/github/a1b2d56/opaline/basic/ListPopupLayoutInfo;
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun getEffectiveTransformOrigin-SzJe1aQ ()J
+	public final fun getLocalTransformOrigin-SzJe1aQ ()J
+	public final fun getPopupLayoutPosition ()Lio/github/a1b2d56/opaline/basic/PopupLayoutPosition;
+	public final fun getPopupMargin ()Landroidx/compose/ui/unit/IntRect;
+	public final fun getWindowBounds ()Landroidx/compose/ui/unit/IntRect;
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class io/github/a1b2d56/opaline/basic/LoadingButtonDefaults {
+	public static final field $stable I
+	public static final field INSTANCE Lio/github/a1b2d56/opaline/basic/LoadingButtonDefaults;
+	public final fun getDotRadius-D9Ej5fM ()F
+	public final fun getDotSpacing-D9Ej5fM ()F
+}
+
+public final class io/github/a1b2d56/opaline/basic/LoadingButtonKt {
+	public static final fun LoadingButton-gr913ko (Ljava/lang/String;Lkotlin/jvm/functions/Function0;Landroidx/compose/ui/Modifier;ZLjava/lang/String;ZFFFLio/github/a1b2d56/opaline/basic/TextButtonColors;Landroidx/compose/foundation/layout/PaddingValues;Landroidx/compose/foundation/interaction/MutableInteractionSource;Landroidx/compose/foundation/Indication;Landroidx/compose/runtime/Composer;III)V
+}
+
+public final class io/github/a1b2d56/opaline/basic/NavigationBarDefaults {
+	public static final field $stable I
+	public static final field INSTANCE Lio/github/a1b2d56/opaline/basic/NavigationBarDefaults;
+	public final fun getHorizontalPadding-D9Ej5fM ()F
+	public final fun getIconFadeDurationMillis ()I
+	public final fun getIconSize-D9Ej5fM ()F
+	public final fun getIconTopPadding-D9Ej5fM ()F
+	public final fun getItemHeight-D9Ej5fM ()F
+	public final fun getItemHorizontalPadding-D9Ej5fM ()F
+	public final fun getLabelBottomPadding-D9Ej5fM ()F
+	public final fun getLabelFontSize-XSAIIZE ()J
+	public final fun getTextFontSize-XSAIIZE ()J
+	public final fun navigationBarItemColors-RGew2ao (JJJLandroidx/compose/runtime/Composer;II)Lio/github/a1b2d56/opaline/basic/NavigationBarItemColors;
+}
+
+public final class io/github/a1b2d56/opaline/basic/NavigationBarDisplayMode : java/lang/Enum {
+	public static final field IconAndText Lio/github/a1b2d56/opaline/basic/NavigationBarDisplayMode;
+	public static final field IconOnly Lio/github/a1b2d56/opaline/basic/NavigationBarDisplayMode;
+	public static final field IconWithSelectedLabel Lio/github/a1b2d56/opaline/basic/NavigationBarDisplayMode;
+	public static final field TextOnly Lio/github/a1b2d56/opaline/basic/NavigationBarDisplayMode;
+	public static fun getEntries ()Lkotlin/enums/EnumEntries;
+	public static fun valueOf (Ljava/lang/String;)Lio/github/a1b2d56/opaline/basic/NavigationBarDisplayMode;
+	public static fun values ()[Lio/github/a1b2d56/opaline/basic/NavigationBarDisplayMode;
+}
+
+public final class io/github/a1b2d56/opaline/basic/NavigationBarItemColors {
+	public static final field $stable I
+	public synthetic fun <init> (JJJLkotlin/jvm/internal/DefaultConstructorMarker;)V
+	public final fun copy-ysEtTa8 (JJJ)Lio/github/a1b2d56/opaline/basic/NavigationBarItemColors;
+	public static synthetic fun copy-ysEtTa8$default (Lio/github/a1b2d56/opaline/basic/NavigationBarItemColors;JJJILjava/lang/Object;)Lio/github/a1b2d56/opaline/basic/NavigationBarItemColors;
+	public fun equals (Ljava/lang/Object;)Z
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class io/github/a1b2d56/opaline/basic/NavigationBarKt {
+	public static final fun FloatingNavigationBar-ZNt0Pmw (Landroidx/compose/ui/Modifier;JFLandroidx/compose/ui/Alignment$Horizontal;FFZZLkotlin/jvm/functions/Function2;Landroidx/compose/runtime/Composer;II)V
+	public static final fun FloatingNavigationBarItem (ZLkotlin/jvm/functions/Function0;Landroidx/compose/ui/graphics/vector/ImageVector;Ljava/lang/String;Landroidx/compose/ui/Modifier;ZLio/github/a1b2d56/opaline/basic/NavigationBarItemColors;Landroidx/compose/runtime/Composer;II)V
+	public static final fun NavigationBar-OadGlvw (Landroidx/compose/ui/Modifier;JZZLio/github/a1b2d56/opaline/basic/NavigationBarDisplayMode;Lkotlin/jvm/functions/Function3;Landroidx/compose/runtime/Composer;II)V
+	public static final fun NavigationBarItem (Landroidx/compose/foundation/layout/RowScope;ZLkotlin/jvm/functions/Function0;Landroidx/compose/ui/graphics/vector/ImageVector;Ljava/lang/String;Landroidx/compose/ui/Modifier;ZLio/github/a1b2d56/opaline/basic/NavigationBarItemColors;Landroidx/compose/runtime/Composer;II)V
+	public static final fun getLocalNavigationBarDisplayMode ()Landroidx/compose/runtime/ProvidableCompositionLocal;
+}
+
+public final class io/github/a1b2d56/opaline/basic/NavigationItem {
+	public static final field $stable I
+	public fun <init> (Ljava/lang/String;Landroidx/compose/ui/graphics/vector/ImageVector;)V
+	public final fun component1 ()Ljava/lang/String;
+	public final fun component2 ()Landroidx/compose/ui/graphics/vector/ImageVector;
+	public final fun copy (Ljava/lang/String;Landroidx/compose/ui/graphics/vector/ImageVector;)Lio/github/a1b2d56/opaline/basic/NavigationItem;
+	public static synthetic fun copy$default (Lio/github/a1b2d56/opaline/basic/NavigationItem;Ljava/lang/String;Landroidx/compose/ui/graphics/vector/ImageVector;ILjava/lang/Object;)Lio/github/a1b2d56/opaline/basic/NavigationItem;
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun getIcon ()Landroidx/compose/ui/graphics/vector/ImageVector;
+	public final fun getLabel ()Ljava/lang/String;
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class io/github/a1b2d56/opaline/basic/NavigationRailDefaults {
+	public static final field $stable I
+	public static final field INSTANCE Lio/github/a1b2d56/opaline/basic/NavigationRailDefaults;
+	public final fun getHeaderSpacing-D9Ej5fM ()F
+	public final fun getIconSize-D9Ej5fM ()F
+	public final fun getIconTextSpacing-D9Ej5fM ()F
+	public final fun getItemVerticalPadding-D9Ej5fM ()F
+	public final fun getLabelFontSize-XSAIIZE ()J
+	public final fun getMinWidth-D9Ej5fM ()F
+	public final fun getSelectedPressedAlpha ()F
+	public final fun getTextOnlyFontSize-XSAIIZE ()J
+	public final fun getTextOnlyVerticalPadding-D9Ej5fM ()F
+	public final fun getUnselectedAlpha ()F
+	public final fun getUnselectedPressedAlpha ()F
+	public final fun getVerticalPadding-D9Ej5fM ()F
+}
+
+public final class io/github/a1b2d56/opaline/basic/NavigationRailDisplayMode : java/lang/Enum {
+	public static final field IconAndText Lio/github/a1b2d56/opaline/basic/NavigationRailDisplayMode;
+	public static final field IconOnly Lio/github/a1b2d56/opaline/basic/NavigationRailDisplayMode;
+	public static final field IconWithSelectedLabel Lio/github/a1b2d56/opaline/basic/NavigationRailDisplayMode;
+	public static final field TextOnly Lio/github/a1b2d56/opaline/basic/NavigationRailDisplayMode;
+	public static fun getEntries ()Lkotlin/enums/EnumEntries;
+	public static fun valueOf (Ljava/lang/String;)Lio/github/a1b2d56/opaline/basic/NavigationRailDisplayMode;
+	public static fun values ()[Lio/github/a1b2d56/opaline/basic/NavigationRailDisplayMode;
+}
+
+public final class io/github/a1b2d56/opaline/basic/NavigationRailKt {
+	public static final fun NavigationRail-gibX1Mk (Landroidx/compose/ui/Modifier;Lkotlin/jvm/functions/Function3;JZZFLio/github/a1b2d56/opaline/basic/NavigationRailDisplayMode;Lkotlin/jvm/functions/Function3;Landroidx/compose/runtime/Composer;II)V
+	public static final fun NavigationRailItem (ZLkotlin/jvm/functions/Function0;Landroidx/compose/ui/graphics/vector/ImageVector;Ljava/lang/String;Landroidx/compose/ui/Modifier;ZLandroidx/compose/runtime/Composer;II)V
+	public static final fun getLocalNavigationRailDisplayMode ()Landroidx/compose/runtime/ProvidableCompositionLocal;
+}
+
+public final class io/github/a1b2d56/opaline/basic/NumberPickerColors {
+	public static final field $stable I
+	public synthetic fun <init> (JJJJLkotlin/jvm/internal/DefaultConstructorMarker;)V
+	public final fun copy-jRlVdoo (JJJJ)Lio/github/a1b2d56/opaline/basic/NumberPickerColors;
+	public static synthetic fun copy-jRlVdoo$default (Lio/github/a1b2d56/opaline/basic/NumberPickerColors;JJJJILjava/lang/Object;)Lio/github/a1b2d56/opaline/basic/NumberPickerColors;
+	public fun equals (Ljava/lang/Object;)Z
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class io/github/a1b2d56/opaline/basic/NumberPickerDefaults {
+	public static final field $stable I
+	public static final field INSTANCE Lio/github/a1b2d56/opaline/basic/NumberPickerDefaults;
+	public final fun colors-ro_MJ88 (JJJJLandroidx/compose/runtime/Composer;II)Lio/github/a1b2d56/opaline/basic/NumberPickerColors;
+	public final fun getItemHeight-D9Ej5fM ()F
+}
+
+public final class io/github/a1b2d56/opaline/basic/NumberPickerKt {
+	public static final fun NumberPicker-yKJFJhA (ILkotlin/jvm/functions/Function1;Landroidx/compose/ui/Modifier;ZLkotlin/ranges/IntRange;Lkotlin/jvm/functions/Function1;IZLio/github/a1b2d56/opaline/basic/NumberPickerColors;Landroidx/compose/ui/text/TextStyle;FLandroidx/compose/runtime/Composer;III)V
+}
+
+public final class io/github/a1b2d56/opaline/basic/PopupLayoutPosition {
+	public static final field $stable I
+	public fun <init> (ZZZ)V
+	public final fun component1 ()Z
+	public final fun component2 ()Z
+	public final fun component3 ()Z
+	public final fun copy (ZZZ)Lio/github/a1b2d56/opaline/basic/PopupLayoutPosition;
+	public static synthetic fun copy$default (Lio/github/a1b2d56/opaline/basic/PopupLayoutPosition;ZZZILjava/lang/Object;)Lio/github/a1b2d56/opaline/basic/PopupLayoutPosition;
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun getShowAbove ()Z
+	public final fun getShowBelow ()Z
+	public fun hashCode ()I
+	public final fun isRightAligned ()Z
+	public fun toString ()Ljava/lang/String;
+}
+
+public abstract interface class io/github/a1b2d56/opaline/basic/PopupPositionProvider {
+	public abstract fun calculatePosition-bdslMDE (Landroidx/compose/ui/unit/IntRect;Landroidx/compose/ui/unit/IntRect;Landroidx/compose/ui/unit/LayoutDirection;JLandroidx/compose/ui/unit/IntRect;Lio/github/a1b2d56/opaline/basic/PopupPositionProvider$Align;)J
+	public abstract fun getMargins ()Landroidx/compose/foundation/layout/PaddingValues;
+}
+
+public final class io/github/a1b2d56/opaline/basic/PopupPositionProvider$Align : java/lang/Enum {
+	public static final field BottomEnd Lio/github/a1b2d56/opaline/basic/PopupPositionProvider$Align;
+	public static final field BottomStart Lio/github/a1b2d56/opaline/basic/PopupPositionProvider$Align;
+	public static final field End Lio/github/a1b2d56/opaline/basic/PopupPositionProvider$Align;
+	public static final field Start Lio/github/a1b2d56/opaline/basic/PopupPositionProvider$Align;
+	public static final field TopEnd Lio/github/a1b2d56/opaline/basic/PopupPositionProvider$Align;
+	public static final field TopStart Lio/github/a1b2d56/opaline/basic/PopupPositionProvider$Align;
+	public static fun getEntries ()Lkotlin/enums/EnumEntries;
+	public static fun valueOf (Ljava/lang/String;)Lio/github/a1b2d56/opaline/basic/PopupPositionProvider$Align;
+	public static fun values ()[Lio/github/a1b2d56/opaline/basic/PopupPositionProvider$Align;
+}
+
+public final class io/github/a1b2d56/opaline/basic/PreciseClickState {
+	public static final field $stable I
+	public fun <init> ()V
+	public final fun clear ()V
+	public final fun getTouchPoint-F1C5BW0 ()J
+}
+
+public final class io/github/a1b2d56/opaline/basic/ProgressIndicatorColors {
+	public static final field $stable I
+	public synthetic fun <init> (JJJLkotlin/jvm/internal/DefaultConstructorMarker;)V
+	public final fun copy-ysEtTa8 (JJJ)Lio/github/a1b2d56/opaline/basic/ProgressIndicatorColors;
+	public static synthetic fun copy-ysEtTa8$default (Lio/github/a1b2d56/opaline/basic/ProgressIndicatorColors;JJJILjava/lang/Object;)Lio/github/a1b2d56/opaline/basic/ProgressIndicatorColors;
+	public fun equals (Ljava/lang/Object;)Z
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class io/github/a1b2d56/opaline/basic/ProgressIndicatorDefaults {
+	public static final field $stable I
+	public static final field INSTANCE Lio/github/a1b2d56/opaline/basic/ProgressIndicatorDefaults;
+	public final fun circularProgressIndicatorColors-RGew2ao (JJJLandroidx/compose/runtime/Composer;II)Lio/github/a1b2d56/opaline/basic/ProgressIndicatorColors;
+	public final fun getDefaultCircularProgressIndicatorSize-D9Ej5fM ()F
+	public final fun getDefaultCircularProgressIndicatorStrokeWidth-D9Ej5fM ()F
+	public final fun getDefaultInfiniteProgressIndicatorSize-D9Ej5fM ()F
+	public final fun getDefaultInfiniteProgressIndicatorStrokeWidth-D9Ej5fM ()F
+	public final fun getDefaultLinearProgressIndicatorHeight-D9Ej5fM ()F
+	public final fun getDefaultRotatingProgressIndicatorRingDiameter-D9Ej5fM ()F
+	public final fun getDefaultRotatingProgressIndicatorSize-D9Ej5fM ()F
+	public final fun getDefaultRotatingProgressIndicatorStrokeWidth-D9Ej5fM ()F
+	public final fun getLargeCircularProgressIndicatorSize-D9Ej5fM ()F
+	public final fun getLargeCircularProgressIndicatorStrokeWidth-D9Ej5fM ()F
+	public final fun getLargeInfiniteProgressIndicatorSize-D9Ej5fM ()F
+	public final fun getLargeInfiniteProgressIndicatorStrokeWidth-D9Ej5fM ()F
+	public final fun getMaxRotatingProgressIndicatorSize-D9Ej5fM ()F
+	public final fun getSmallRotatingProgressIndicatorRingDiameter-D9Ej5fM ()F
+	public final fun getSmallRotatingProgressIndicatorSize-D9Ej5fM ()F
+	public final fun getSmallRotatingProgressIndicatorStrokeWidth-D9Ej5fM ()F
+	public final fun progressIndicatorColors-RGew2ao (JJJLandroidx/compose/runtime/Composer;II)Lio/github/a1b2d56/opaline/basic/ProgressIndicatorColors;
+}
+
+public final class io/github/a1b2d56/opaline/basic/ProgressIndicatorKt {
+	public static final fun CircularProgressIndicator-6PoWaU8 (Landroidx/compose/ui/Modifier;Ljava/lang/Float;Lio/github/a1b2d56/opaline/basic/ProgressIndicatorColors;FFLandroidx/compose/runtime/Composer;II)V
+	public static final fun InfiniteProgressIndicator-oMI9zvI (Landroidx/compose/ui/Modifier;JFFLandroidx/compose/runtime/Composer;II)V
+	public static final fun LinearProgressIndicator--jt2gSs (Landroidx/compose/ui/Modifier;Ljava/lang/Float;Lio/github/a1b2d56/opaline/basic/ProgressIndicatorColors;FLandroidx/compose/runtime/Composer;II)V
+	public static final fun RotatingProgressIndicator-Yc2jOKI (Landroidx/compose/ui/Modifier;JFFFLandroidx/compose/runtime/Composer;II)V
+}
+
+public final class io/github/a1b2d56/opaline/basic/PullToRefreshDefaults {
+	public static final field $stable I
+	public static final field INSTANCE Lio/github/a1b2d56/opaline/basic/PullToRefreshDefaults;
+	public final fun getCircleSize-D9Ej5fM ()F
+	public final fun getColor-0d7_KjU ()J
+	public final fun getRefreshTextStyle ()Landroidx/compose/ui/text/TextStyle;
+	public final fun getRefreshTexts ()Ljava/util/List;
+}
+
+public final class io/github/a1b2d56/opaline/basic/PullToRefreshKt {
+	public static final fun PullToRefresh-2DWL1XU (ZLkotlin/jvm/functions/Function0;Landroidx/compose/ui/Modifier;Lio/github/a1b2d56/opaline/basic/PullToRefreshState;Landroidx/compose/foundation/layout/PaddingValues;Lio/github/a1b2d56/opaline/basic/ScrollBehavior;JFLjava/util/List;Landroidx/compose/ui/text/TextStyle;Lkotlin/jvm/functions/Function2;Landroidx/compose/runtime/Composer;III)V
+	public static final fun rememberPullToRefreshState (Landroidx/compose/runtime/Composer;I)Lio/github/a1b2d56/opaline/basic/PullToRefreshState;
+}
+
+public final class io/github/a1b2d56/opaline/basic/PullToRefreshState {
+	public static final field $stable I
+	public fun <init> (Lkotlinx/coroutines/CoroutineScope;)V
+	public final fun getCachedNestedScrollConnection ()Landroidx/compose/ui/input/nestedscroll/NestedScrollConnection;
+	public final fun getDragOffset ()F
+	public final fun getPullProgress ()F
+	public final fun getRefreshState ()Lio/github/a1b2d56/opaline/basic/RefreshState;
+	public final fun setCachedNestedScrollConnection (Landroidx/compose/ui/input/nestedscroll/NestedScrollConnection;)V
+	public final fun setDragOffset (F)V
+}
+
+public final class io/github/a1b2d56/opaline/basic/RadioButtonColors {
+	public static final field $stable I
+	public synthetic fun <init> (JJJJJJLkotlin/jvm/internal/DefaultConstructorMarker;)V
+	public final fun copy-tNS2XkQ (JJJJJJ)Lio/github/a1b2d56/opaline/basic/RadioButtonColors;
+	public static synthetic fun copy-tNS2XkQ$default (Lio/github/a1b2d56/opaline/basic/RadioButtonColors;JJJJJJILjava/lang/Object;)Lio/github/a1b2d56/opaline/basic/RadioButtonColors;
+	public fun equals (Ljava/lang/Object;)Z
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class io/github/a1b2d56/opaline/basic/RadioButtonDefaults {
+	public static final field $stable I
+	public static final field INSTANCE Lio/github/a1b2d56/opaline/basic/RadioButtonDefaults;
+	public final fun radioButtonColors-5tl4gsc (JJJJJJLandroidx/compose/runtime/Composer;II)Lio/github/a1b2d56/opaline/basic/RadioButtonColors;
+}
+
+public final class io/github/a1b2d56/opaline/basic/RadioButtonKt {
+	public static final fun RadioButton (ZLkotlin/jvm/functions/Function0;Landroidx/compose/ui/Modifier;Lio/github/a1b2d56/opaline/basic/RadioButtonColors;ZLandroidx/compose/runtime/Composer;II)V
+}
+
+public abstract interface class io/github/a1b2d56/opaline/basic/RefreshState {
+}
+
+public final class io/github/a1b2d56/opaline/basic/RefreshState$Idle : io/github/a1b2d56/opaline/basic/RefreshState {
+	public static final field $stable I
+	public static final field INSTANCE Lio/github/a1b2d56/opaline/basic/RefreshState$Idle;
+	public fun equals (Ljava/lang/Object;)Z
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class io/github/a1b2d56/opaline/basic/RefreshState$Pulling : io/github/a1b2d56/opaline/basic/RefreshState {
+	public static final field $stable I
+	public static final field INSTANCE Lio/github/a1b2d56/opaline/basic/RefreshState$Pulling;
+	public fun equals (Ljava/lang/Object;)Z
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class io/github/a1b2d56/opaline/basic/RefreshState$RefreshComplete : io/github/a1b2d56/opaline/basic/RefreshState {
+	public static final field $stable I
+	public static final field INSTANCE Lio/github/a1b2d56/opaline/basic/RefreshState$RefreshComplete;
+	public fun equals (Ljava/lang/Object;)Z
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class io/github/a1b2d56/opaline/basic/RefreshState$Refreshing : io/github/a1b2d56/opaline/basic/RefreshState {
+	public static final field $stable I
+	public static final field INSTANCE Lio/github/a1b2d56/opaline/basic/RefreshState$Refreshing;
+	public fun equals (Ljava/lang/Object;)Z
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class io/github/a1b2d56/opaline/basic/RefreshState$ThresholdReached : io/github/a1b2d56/opaline/basic/RefreshState {
+	public static final field $stable I
+	public static final field INSTANCE Lio/github/a1b2d56/opaline/basic/RefreshState$ThresholdReached;
+	public fun equals (Ljava/lang/Object;)Z
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class io/github/a1b2d56/opaline/basic/RichTooltipColors {
+	public static final field $stable I
+	public synthetic fun <init> (JJJJLkotlin/jvm/internal/DefaultConstructorMarker;)V
+	public final fun component1-0d7_KjU ()J
+	public final fun component2-0d7_KjU ()J
+	public final fun component3-0d7_KjU ()J
+	public final fun component4-0d7_KjU ()J
+	public final fun copy-jRlVdoo (JJJJ)Lio/github/a1b2d56/opaline/basic/RichTooltipColors;
+	public static synthetic fun copy-jRlVdoo$default (Lio/github/a1b2d56/opaline/basic/RichTooltipColors;JJJJILjava/lang/Object;)Lio/github/a1b2d56/opaline/basic/RichTooltipColors;
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun getActionContentColor-0d7_KjU ()J
+	public final fun getContainerColor-0d7_KjU ()J
+	public final fun getContentColor-0d7_KjU ()J
+	public final fun getTitleContentColor-0d7_KjU ()J
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class io/github/a1b2d56/opaline/basic/ScaffoldKt {
+	public static final fun Scaffold-jQRpi14 (Landroidx/compose/ui/Modifier;Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function2;ILkotlin/jvm/functions/Function2;ILkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function2;JLandroidx/compose/foundation/layout/WindowInsets;Lkotlin/jvm/functions/Function3;Landroidx/compose/runtime/Composer;III)V
+}
+
+public abstract interface class io/github/a1b2d56/opaline/basic/ScrollBarAdapter {
+	public abstract fun getContentSize ()D
+	public abstract fun getScrollOffset ()D
+	public abstract fun getViewportSize ()D
+	public abstract fun scrollTo (DLkotlin/coroutines/Continuation;)Ljava/lang/Object;
+}
+
+public final class io/github/a1b2d56/opaline/basic/ScrollBarColors {
+	public static final field $stable I
+	public synthetic fun <init> (JJLkotlin/jvm/internal/DefaultConstructorMarker;)V
+	public final fun component1-0d7_KjU ()J
+	public final fun component2-0d7_KjU ()J
+	public final fun copy--OWjLjI (JJ)Lio/github/a1b2d56/opaline/basic/ScrollBarColors;
+	public static synthetic fun copy--OWjLjI$default (Lio/github/a1b2d56/opaline/basic/ScrollBarColors;JJILjava/lang/Object;)Lio/github/a1b2d56/opaline/basic/ScrollBarColors;
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun getThumbColor-0d7_KjU ()J
+	public final fun getTrackColor-0d7_KjU ()J
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class io/github/a1b2d56/opaline/basic/ScrollBarDefaults {
+	public static final field $stable I
+	public static final field INSTANCE Lio/github/a1b2d56/opaline/basic/ScrollBarDefaults;
+	public final fun getCornerRadius-D9Ej5fM ()F
+	public final fun getDragAnimationDurationMillis ()I
+	public final fun getDragEndPadding-D9Ej5fM ()F
+	public final fun getDragThumbAlpha ()F
+	public final fun getDragThumbWidth-D9Ej5fM ()F
+	public final fun getEndPadding-D9Ej5fM ()F
+	public final fun getFadeDelayMillis ()I
+	public final fun getFadeDurationMillis ()I
+	public final fun getThumbAlpha ()F
+	public final fun getThumbMinLength-D9Ej5fM ()F
+	public final fun getThumbWidth-D9Ej5fM ()F
+	public final fun getTouchTargetWidth-D9Ej5fM ()F
+	public final fun scrollBarColors--OWjLjI (JJ)Lio/github/a1b2d56/opaline/basic/ScrollBarColors;
+	public static synthetic fun scrollBarColors--OWjLjI$default (Lio/github/a1b2d56/opaline/basic/ScrollBarDefaults;JJILjava/lang/Object;)Lio/github/a1b2d56/opaline/basic/ScrollBarColors;
+}
+
+public final class io/github/a1b2d56/opaline/basic/ScrollBarKt {
+	public static final fun HorizontalScrollBar-s2pLCVw (Lio/github/a1b2d56/opaline/basic/ScrollBarAdapter;Landroidx/compose/ui/Modifier;ZLandroidx/compose/foundation/layout/PaddingValues;Lio/github/a1b2d56/opaline/basic/ScrollBarColors;FFFFLandroidx/compose/runtime/Composer;II)V
+	public static final fun VerticalScrollBar-s2pLCVw (Lio/github/a1b2d56/opaline/basic/ScrollBarAdapter;Landroidx/compose/ui/Modifier;ZLandroidx/compose/foundation/layout/PaddingValues;Lio/github/a1b2d56/opaline/basic/ScrollBarColors;FFFFLandroidx/compose/runtime/Composer;II)V
+	public static final fun rememberScrollBarAdapter (Landroidx/compose/foundation/ScrollState;Landroidx/compose/runtime/Composer;I)Lio/github/a1b2d56/opaline/basic/ScrollBarAdapter;
+	public static final fun rememberScrollBarAdapter (Landroidx/compose/foundation/lazy/LazyListState;Landroidx/compose/runtime/Composer;I)Lio/github/a1b2d56/opaline/basic/ScrollBarAdapter;
+	public static final fun rememberScrollBarAdapter (Landroidx/compose/foundation/lazy/grid/LazyGridState;Landroidx/compose/runtime/Composer;I)Lio/github/a1b2d56/opaline/basic/ScrollBarAdapter;
+}
+
+public abstract interface class io/github/a1b2d56/opaline/basic/ScrollBehavior {
+	public abstract fun getFlingAnimationSpec ()Landroidx/compose/animation/core/DecayAnimationSpec;
+	public abstract fun getNestedScrollConnection ()Landroidx/compose/ui/input/nestedscroll/NestedScrollConnection;
+	public abstract fun getSnapAnimationSpec ()Landroidx/compose/animation/core/AnimationSpec;
+	public abstract fun getState ()Lio/github/a1b2d56/opaline/basic/TopAppBarState;
+	public abstract fun isPinned ()Z
+}
+
+public final class io/github/a1b2d56/opaline/basic/SearchBarColors {
+	public static final field $stable I
+	public synthetic fun <init> (JJJJLkotlin/jvm/internal/DefaultConstructorMarker;)V
+	public final fun component1-0d7_KjU ()J
+	public final fun component2-0d7_KjU ()J
+	public final fun component3-0d7_KjU ()J
+	public final fun component4-0d7_KjU ()J
+	public final fun copy-jRlVdoo (JJJJ)Lio/github/a1b2d56/opaline/basic/SearchBarColors;
+	public static synthetic fun copy-jRlVdoo$default (Lio/github/a1b2d56/opaline/basic/SearchBarColors;JJJJILjava/lang/Object;)Lio/github/a1b2d56/opaline/basic/SearchBarColors;
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun getBackgroundColor-0d7_KjU ()J
+	public final fun getClearIconColor-0d7_KjU ()J
+	public final fun getIconColor-0d7_KjU ()J
+	public final fun getLabelColor-0d7_KjU ()J
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class io/github/a1b2d56/opaline/basic/SearchBarDefaults {
+	public static final field $stable I
+	public static final field INSTANCE Lio/github/a1b2d56/opaline/basic/SearchBarDefaults;
+	public final fun getInputFieldFontSize-XSAIIZE ()J
+	public final fun getInputFieldMinHeight-D9Ej5fM ()F
+	public final fun getInsideMargin-MYxV2XQ ()J
+	public final fun getLeadingIconEndPadding-D9Ej5fM ()F
+	public final fun getLeadingIconStartPadding-D9Ej5fM ()F
+	public final fun getTrailingIconEndPadding-D9Ej5fM ()F
+	public final fun getTrailingIconStartPadding-D9Ej5fM ()F
+	public final fun getTrailingIconTouchTargetSize-D9Ej5fM ()F
+	public final fun getTrailingIconVisualSize-D9Ej5fM ()F
+	public final fun searchBarColors-ro_MJ88 (JJJJLandroidx/compose/runtime/Composer;II)Lio/github/a1b2d56/opaline/basic/SearchBarColors;
+}
+
+public final class io/github/a1b2d56/opaline/basic/SearchBarKt {
+	public static final fun InputField (Ljava/lang/String;Lkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function1;ZLkotlin/jvm/functions/Function1;Landroidx/compose/ui/Modifier;Ljava/lang/String;ZLandroidx/compose/ui/text/TextStyle;Lio/github/a1b2d56/opaline/basic/SearchBarColors;Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function2;Landroidx/compose/foundation/interaction/MutableInteractionSource;Landroidx/compose/runtime/Composer;III)V
+	public static final fun SearchBar-B9LtWk4 (Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function1;Landroidx/compose/ui/Modifier;JZLkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function3;Landroidx/compose/runtime/Composer;II)V
+}
+
+public final class io/github/a1b2d56/opaline/basic/SliderColors {
+	public static final field $stable I
+	public synthetic fun <init> (JJJJJJJJLkotlin/jvm/internal/DefaultConstructorMarker;)V
+	public final fun copy-FD3wquc (JJJJJJJJ)Lio/github/a1b2d56/opaline/basic/SliderColors;
+	public static synthetic fun copy-FD3wquc$default (Lio/github/a1b2d56/opaline/basic/SliderColors;JJJJJJJJILjava/lang/Object;)Lio/github/a1b2d56/opaline/basic/SliderColors;
+	public fun equals (Ljava/lang/Object;)Z
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class io/github/a1b2d56/opaline/basic/SliderDefaults {
+	public static final field $stable I
+	public static final field INSTANCE Lio/github/a1b2d56/opaline/basic/SliderDefaults;
+	public final fun getDefaultHapticEffect ()Lio/github/a1b2d56/opaline/basic/SliderDefaults$SliderHapticEffect;
+	public final fun getKeyPointRadius-D9Ej5fM ()F
+	public final fun getMinHeight-D9Ej5fM ()F
+	public final fun sliderColors-oq7We08 (JJJJJJJJLandroidx/compose/runtime/Composer;II)Lio/github/a1b2d56/opaline/basic/SliderColors;
+}
+
+public final class io/github/a1b2d56/opaline/basic/SliderDefaults$SliderHapticEffect : java/lang/Enum {
+	public static final field Edge Lio/github/a1b2d56/opaline/basic/SliderDefaults$SliderHapticEffect;
+	public static final field None Lio/github/a1b2d56/opaline/basic/SliderDefaults$SliderHapticEffect;
+	public static final field Step Lio/github/a1b2d56/opaline/basic/SliderDefaults$SliderHapticEffect;
+	public static fun getEntries ()Lkotlin/enums/EnumEntries;
+	public static fun valueOf (Ljava/lang/String;)Lio/github/a1b2d56/opaline/basic/SliderDefaults$SliderHapticEffect;
+	public static fun values ()[Lio/github/a1b2d56/opaline/basic/SliderDefaults$SliderHapticEffect;
+}
+
+public final class io/github/a1b2d56/opaline/basic/SliderKt {
+	public static final fun RangeSlider-xKBSf-U (Lkotlin/ranges/ClosedFloatingPointRange;Lkotlin/jvm/functions/Function1;Landroidx/compose/ui/Modifier;ZLkotlin/ranges/ClosedFloatingPointRange;ILkotlin/jvm/functions/Function0;FLio/github/a1b2d56/opaline/basic/SliderColors;Lio/github/a1b2d56/opaline/basic/SliderDefaults$SliderHapticEffect;ZLjava/util/List;FLandroidx/compose/runtime/Composer;III)V
+	public static final fun Slider-9UqVb8Q (FLkotlin/jvm/functions/Function1;Landroidx/compose/ui/Modifier;ZLkotlin/ranges/ClosedFloatingPointRange;ILkotlin/jvm/functions/Function0;ZFLio/github/a1b2d56/opaline/basic/SliderColors;Lio/github/a1b2d56/opaline/basic/SliderDefaults$SliderHapticEffect;ZLjava/util/List;FLandroidx/compose/runtime/Composer;III)V
+	public static final fun VerticalSlider-fs30GE4 (FLkotlin/jvm/functions/Function1;Landroidx/compose/ui/Modifier;ZLkotlin/ranges/ClosedFloatingPointRange;ILkotlin/jvm/functions/Function0;ZFLio/github/a1b2d56/opaline/basic/SliderColors;ZLio/github/a1b2d56/opaline/basic/SliderDefaults$SliderHapticEffect;ZLjava/util/List;FLandroidx/compose/runtime/Composer;III)V
+}
+
+public final class io/github/a1b2d56/opaline/basic/SmallTitleDefaults {
+	public static final field $stable I
+	public static final field INSTANCE Lio/github/a1b2d56/opaline/basic/SmallTitleDefaults;
+	public final fun getInsideMargin ()Landroidx/compose/foundation/layout/PaddingValues;
+	public final fun getMinHeight-D9Ej5fM ()F
+}
+
+public final class io/github/a1b2d56/opaline/basic/SmallTitleKt {
+	public static final fun SmallTitle-cf5BqRc (Ljava/lang/String;Landroidx/compose/ui/Modifier;JLandroidx/compose/foundation/layout/PaddingValues;Landroidx/compose/runtime/Composer;II)V
+}
+
+public final class io/github/a1b2d56/opaline/basic/SnackbarColors {
+	public static final field $stable I
+	public synthetic fun <init> (JJJJLkotlin/jvm/internal/DefaultConstructorMarker;)V
+	public final fun component1-0d7_KjU ()J
+	public final fun component2-0d7_KjU ()J
+	public final fun component3-0d7_KjU ()J
+	public final fun component4-0d7_KjU ()J
+	public final fun copy-jRlVdoo (JJJJ)Lio/github/a1b2d56/opaline/basic/SnackbarColors;
+	public static synthetic fun copy-jRlVdoo$default (Lio/github/a1b2d56/opaline/basic/SnackbarColors;JJJJILjava/lang/Object;)Lio/github/a1b2d56/opaline/basic/SnackbarColors;
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun getActionContentColor-0d7_KjU ()J
+	public final fun getContainerColor-0d7_KjU ()J
+	public final fun getContentColor-0d7_KjU ()J
+	public final fun getDismissActionContentColor-0d7_KjU ()J
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public abstract interface class io/github/a1b2d56/opaline/basic/SnackbarData {
+	public abstract fun dismiss (Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+	public abstract fun getVisuals ()Lio/github/a1b2d56/opaline/basic/SnackbarVisuals;
+	public abstract fun performAction (Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+}
+
+public final class io/github/a1b2d56/opaline/basic/SnackbarDefaults {
+	public static final field $stable I
+	public static final field INSTANCE Lio/github/a1b2d56/opaline/basic/SnackbarDefaults;
+	public final fun getCornerRadius-D9Ej5fM ()F
+	public final fun getIconSize-D9Ej5fM ()F
+	public final fun getInsideMargin ()Landroidx/compose/foundation/layout/PaddingValues;
+	public final fun getSingleLineCornerRadius-D9Ej5fM ()F
+	public final fun snackbarColors-ro_MJ88 (JJJJLandroidx/compose/runtime/Composer;II)Lio/github/a1b2d56/opaline/basic/SnackbarColors;
+	public final fun textStyle (Landroidx/compose/runtime/Composer;I)Landroidx/compose/ui/text/TextStyle;
+}
+
+public abstract interface class io/github/a1b2d56/opaline/basic/SnackbarDuration {
+}
+
+public final class io/github/a1b2d56/opaline/basic/SnackbarDuration$Custom : io/github/a1b2d56/opaline/basic/SnackbarDuration {
+	public static final field $stable I
+	public fun <init> (J)V
+	public final fun component1 ()J
+	public final fun copy (J)Lio/github/a1b2d56/opaline/basic/SnackbarDuration$Custom;
+	public static synthetic fun copy$default (Lio/github/a1b2d56/opaline/basic/SnackbarDuration$Custom;JILjava/lang/Object;)Lio/github/a1b2d56/opaline/basic/SnackbarDuration$Custom;
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun getDurationMillis ()J
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class io/github/a1b2d56/opaline/basic/SnackbarDuration$Indefinite : io/github/a1b2d56/opaline/basic/SnackbarDuration {
+	public static final field $stable I
+	public static final field INSTANCE Lio/github/a1b2d56/opaline/basic/SnackbarDuration$Indefinite;
+	public fun equals (Ljava/lang/Object;)Z
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class io/github/a1b2d56/opaline/basic/SnackbarDuration$Long : io/github/a1b2d56/opaline/basic/SnackbarDuration {
+	public static final field $stable I
+	public static final field INSTANCE Lio/github/a1b2d56/opaline/basic/SnackbarDuration$Long;
+	public fun equals (Ljava/lang/Object;)Z
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class io/github/a1b2d56/opaline/basic/SnackbarDuration$Short : io/github/a1b2d56/opaline/basic/SnackbarDuration {
+	public static final field $stable I
+	public static final field INSTANCE Lio/github/a1b2d56/opaline/basic/SnackbarDuration$Short;
+	public fun equals (Ljava/lang/Object;)Z
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class io/github/a1b2d56/opaline/basic/SnackbarHostState {
+	public static final field $stable I
+	public fun <init> ()V
+	public final fun newestSnackbarData (Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+	public final fun oldestSnackbarData (Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+	public final fun showSnackbar (Ljava/lang/String;Ljava/lang/String;ZLio/github/a1b2d56/opaline/basic/SnackbarDuration;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+	public static synthetic fun showSnackbar$default (Lio/github/a1b2d56/opaline/basic/SnackbarHostState;Ljava/lang/String;Ljava/lang/String;ZLio/github/a1b2d56/opaline/basic/SnackbarDuration;Lkotlin/coroutines/Continuation;ILjava/lang/Object;)Ljava/lang/Object;
+}
+
+public final class io/github/a1b2d56/opaline/basic/SnackbarKt {
+	public static final fun Snackbar-YlGCr2M (Lio/github/a1b2d56/opaline/basic/SnackbarData;Landroidx/compose/ui/Modifier;Lkotlin/jvm/functions/Function2;FFLio/github/a1b2d56/opaline/basic/SnackbarColors;Landroidx/compose/foundation/layout/PaddingValues;Landroidx/compose/runtime/Composer;II)V
+	public static final fun SnackbarHost (Lio/github/a1b2d56/opaline/basic/SnackbarHostState;Landroidx/compose/ui/Modifier;ZLkotlin/jvm/functions/Function3;Landroidx/compose/runtime/Composer;II)V
+}
+
+public final class io/github/a1b2d56/opaline/basic/SnackbarResult : java/lang/Enum {
+	public static final field ActionPerformed Lio/github/a1b2d56/opaline/basic/SnackbarResult;
+	public static final field Dismissed Lio/github/a1b2d56/opaline/basic/SnackbarResult;
+	public static fun getEntries ()Lkotlin/enums/EnumEntries;
+	public static fun valueOf (Ljava/lang/String;)Lio/github/a1b2d56/opaline/basic/SnackbarResult;
+	public static fun values ()[Lio/github/a1b2d56/opaline/basic/SnackbarResult;
+}
+
+public final class io/github/a1b2d56/opaline/basic/SnackbarVisuals {
+	public static final field $stable I
+	public fun <init> (Ljava/lang/String;Ljava/lang/String;ZLio/github/a1b2d56/opaline/basic/SnackbarDuration;)V
+	public final fun component1 ()Ljava/lang/String;
+	public final fun component2 ()Ljava/lang/String;
+	public final fun component3 ()Z
+	public final fun component4 ()Lio/github/a1b2d56/opaline/basic/SnackbarDuration;
+	public final fun copy (Ljava/lang/String;Ljava/lang/String;ZLio/github/a1b2d56/opaline/basic/SnackbarDuration;)Lio/github/a1b2d56/opaline/basic/SnackbarVisuals;
+	public static synthetic fun copy$default (Lio/github/a1b2d56/opaline/basic/SnackbarVisuals;Ljava/lang/String;Ljava/lang/String;ZLio/github/a1b2d56/opaline/basic/SnackbarDuration;ILjava/lang/Object;)Lio/github/a1b2d56/opaline/basic/SnackbarVisuals;
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun getActionLabel ()Ljava/lang/String;
+	public final fun getDuration ()Lio/github/a1b2d56/opaline/basic/SnackbarDuration;
+	public final fun getMessage ()Ljava/lang/String;
+	public final fun getWithDismissAction ()Z
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class io/github/a1b2d56/opaline/basic/SpinnerDefaults {
+	public static final field $stable I
+	public static final field INSTANCE Lio/github/a1b2d56/opaline/basic/SpinnerDefaults;
+	public final fun dialogSpinnerColors-q0g_0yA (JJJJJJJJJJLandroidx/compose/runtime/Composer;III)Lio/github/a1b2d56/opaline/basic/DropdownColors;
+	public final fun spinnerColors-q0g_0yA (JJJJJJJJJJLandroidx/compose/runtime/Composer;III)Lio/github/a1b2d56/opaline/basic/DropdownColors;
+}
+
+public final class io/github/a1b2d56/opaline/basic/StepperColors {
+	public static final field $stable I
+	public synthetic fun <init> (JJJLkotlin/jvm/internal/DefaultConstructorMarker;)V
+	public final fun component1-0d7_KjU ()J
+	public final fun component2-0d7_KjU ()J
+	public final fun component3-0d7_KjU ()J
+	public final fun copy-ysEtTa8 (JJJ)Lio/github/a1b2d56/opaline/basic/StepperColors;
+	public static synthetic fun copy-ysEtTa8$default (Lio/github/a1b2d56/opaline/basic/StepperColors;JJJILjava/lang/Object;)Lio/github/a1b2d56/opaline/basic/StepperColors;
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun getButtonColor-0d7_KjU ()J
+	public final fun getContentColor-0d7_KjU ()J
+	public final fun getDisabledContentColor-0d7_KjU ()J
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class io/github/a1b2d56/opaline/basic/StepperDefaults {
+	public static final field $stable I
+	public static final field INSTANCE Lio/github/a1b2d56/opaline/basic/StepperDefaults;
+	public final fun getButtonSize-D9Ej5fM ()F
+	public final fun getGlyphSize-D9Ej5fM ()F
+	public final fun getGlyphStrokeWidth-D9Ej5fM ()F
+	public final fun getIndicatorMinWidth-D9Ej5fM ()F
+	public final fun getSpacing-D9Ej5fM ()F
+	public final fun stepperColors-RGew2ao (JJJLandroidx/compose/runtime/Composer;II)Lio/github/a1b2d56/opaline/basic/StepperColors;
+	public final fun textStyle (Landroidx/compose/runtime/Composer;I)Landroidx/compose/ui/text/TextStyle;
+}
+
+public final class io/github/a1b2d56/opaline/basic/StepperKt {
+	public static final fun Stepper (ILkotlin/jvm/functions/Function1;Landroidx/compose/ui/Modifier;IIIZLio/github/a1b2d56/opaline/basic/StepperColors;Landroidx/compose/runtime/Composer;II)V
+}
+
+public final class io/github/a1b2d56/opaline/basic/SurfaceDefaults {
+	public static final field $stable I
+	public static final field INSTANCE Lio/github/a1b2d56/opaline/basic/SurfaceDefaults;
+	public final fun getShadowElevation-D9Ej5fM ()F
+	public final fun getShape ()Landroidx/compose/ui/graphics/Shape;
+}
+
+public final class io/github/a1b2d56/opaline/basic/SurfaceKt {
+	public static final fun Surface-DLKPS7M (Lkotlin/jvm/functions/Function0;Landroidx/compose/ui/Modifier;ZLandroidx/compose/ui/graphics/Shape;JJLandroidx/compose/foundation/BorderStroke;FLandroidx/compose/foundation/interaction/MutableInteractionSource;Landroidx/compose/foundation/Indication;Lkotlin/jvm/functions/Function2;Landroidx/compose/runtime/Composer;III)V
+	public static final fun Surface-F-jzlyU (Landroidx/compose/ui/Modifier;Landroidx/compose/ui/graphics/Shape;JJLandroidx/compose/foundation/BorderStroke;FLkotlin/jvm/functions/Function2;Landroidx/compose/runtime/Composer;II)V
+}
+
+public final class io/github/a1b2d56/opaline/basic/SwitchColors {
+	public static final field $stable I
+	public synthetic fun <init> (JJJJJJJJLkotlin/jvm/internal/DefaultConstructorMarker;)V
+	public final fun copy-FD3wquc (JJJJJJJJ)Lio/github/a1b2d56/opaline/basic/SwitchColors;
+	public static synthetic fun copy-FD3wquc$default (Lio/github/a1b2d56/opaline/basic/SwitchColors;JJJJJJJJILjava/lang/Object;)Lio/github/a1b2d56/opaline/basic/SwitchColors;
+	public fun equals (Ljava/lang/Object;)Z
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class io/github/a1b2d56/opaline/basic/SwitchDefaults {
+	public static final field $stable I
+	public static final field INSTANCE Lio/github/a1b2d56/opaline/basic/SwitchDefaults;
+	public final fun getDragOverscrollFactor ()F
+	public final fun getDragSettleSpec ()Landroidx/compose/animation/core/AnimationSpec;
+	public final fun getThumbEndOffset-D9Ej5fM ()F
+	public final fun getThumbShadow ()Landroidx/compose/ui/graphics/shadow/Shadow;
+	public final fun getThumbSize-D9Ej5fM ()F
+	public final fun getThumbStartOffset-D9Ej5fM ()F
+	public final fun getTrackHeight-D9Ej5fM ()F
+	public final fun getTrackWidth-D9Ej5fM ()F
+	public final fun getTravel-D9Ej5fM ()F
+	public final fun switchColors-oq7We08 (JJJJJJJJLandroidx/compose/runtime/Composer;II)Lio/github/a1b2d56/opaline/basic/SwitchColors;
+}
+
+public final class io/github/a1b2d56/opaline/basic/SwitchKt {
+	public static final fun Switch (ZLkotlin/jvm/functions/Function1;Landroidx/compose/ui/Modifier;Lio/github/a1b2d56/opaline/basic/SwitchColors;ZZLandroidx/compose/runtime/Composer;II)V
+}
+
+public final class io/github/a1b2d56/opaline/basic/TabRowColors {
+	public static final field $stable I
+	public synthetic fun <init> (JJJJLkotlin/jvm/internal/DefaultConstructorMarker;)V
+	public final fun copy-jRlVdoo (JJJJ)Lio/github/a1b2d56/opaline/basic/TabRowColors;
+	public static synthetic fun copy-jRlVdoo$default (Lio/github/a1b2d56/opaline/basic/TabRowColors;JJJJILjava/lang/Object;)Lio/github/a1b2d56/opaline/basic/TabRowColors;
+	public fun equals (Ljava/lang/Object;)Z
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class io/github/a1b2d56/opaline/basic/TabRowDefaults {
+	public static final field $stable I
+	public static final field INSTANCE Lio/github/a1b2d56/opaline/basic/TabRowDefaults;
+	public final fun getTabRowCornerRadius-D9Ej5fM ()F
+	public final fun getTabRowHeight-D9Ej5fM ()F
+	public final fun getTabRowMaxWidth-D9Ej5fM ()F
+	public final fun getTabRowMinWidth-D9Ej5fM ()F
+	public final fun getTabRowWithContourCornerRadius-D9Ej5fM ()F
+	public final fun getTabRowWithContourHeight-D9Ej5fM ()F
+	public final fun getTabRowWithContourMaxWidth-D9Ej5fM ()F
+	public final fun getTabRowWithContourMinWidth-D9Ej5fM ()F
+	public final fun getTabRowWithContourPadding-D9Ej5fM ()F
+	public final fun getTabRowWithContourTinyCornerRadius-D9Ej5fM ()F
+	public final fun getTabRowWithContourTinyHeight-D9Ej5fM ()F
+	public final fun getTabRowWithContourTinyPadding-D9Ej5fM ()F
+	public final fun tabRowColors-ro_MJ88 (JJJJLandroidx/compose/runtime/Composer;II)Lio/github/a1b2d56/opaline/basic/TabRowColors;
+}
+
+public final class io/github/a1b2d56/opaline/basic/TabRowKt {
+	public static final fun TabRow-aPxkGAE (Ljava/util/List;ILkotlin/jvm/functions/Function1;Landroidx/compose/ui/Modifier;Lio/github/a1b2d56/opaline/basic/TabRowColors;FFFFFLandroidx/compose/ui/Alignment;Landroidx/compose/foundation/lazy/LazyListState;Landroidx/compose/foundation/interaction/MutableInteractionSource;Landroidx/compose/foundation/Indication;Landroidx/compose/runtime/Composer;III)V
+	public static final fun TabRowWithContour-iYUf_c0 (Ljava/util/List;ILkotlin/jvm/functions/Function1;Landroidx/compose/ui/Modifier;Lio/github/a1b2d56/opaline/basic/TabRowColors;FFFFFFLandroidx/compose/ui/Alignment;Landroidx/compose/foundation/lazy/LazyListState;Landroidx/compose/foundation/interaction/MutableInteractionSource;Landroidx/compose/foundation/Indication;Landroidx/compose/runtime/Composer;III)V
+}
+
+public final class io/github/a1b2d56/opaline/basic/TextButtonColors {
+	public static final field $stable I
+	public synthetic fun <init> (JJJJLkotlin/jvm/internal/DefaultConstructorMarker;)V
+	public final fun component1-0d7_KjU ()J
+	public final fun component2-0d7_KjU ()J
+	public final fun component3-0d7_KjU ()J
+	public final fun component4-0d7_KjU ()J
+	public final fun copy-jRlVdoo (JJJJ)Lio/github/a1b2d56/opaline/basic/TextButtonColors;
+	public static synthetic fun copy-jRlVdoo$default (Lio/github/a1b2d56/opaline/basic/TextButtonColors;JJJJILjava/lang/Object;)Lio/github/a1b2d56/opaline/basic/TextButtonColors;
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun getColor-0d7_KjU ()J
+	public final fun getDisabledColor-0d7_KjU ()J
+	public final fun getDisabledTextColor-0d7_KjU ()J
+	public final fun getTextColor-0d7_KjU ()J
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class io/github/a1b2d56/opaline/basic/TextFieldColors {
+	public static final field $stable I
+	public synthetic fun <init> (JJJJJJJJLkotlin/jvm/internal/DefaultConstructorMarker;)V
+	public final fun component1-0d7_KjU ()J
+	public final fun component2-0d7_KjU ()J
+	public final fun component3-0d7_KjU ()J
+	public final fun component4-0d7_KjU ()J
+	public final fun component5-0d7_KjU ()J
+	public final fun component6-0d7_KjU ()J
+	public final fun component7-0d7_KjU ()J
+	public final fun component8-0d7_KjU ()J
+	public final fun copy-FD3wquc (JJJJJJJJ)Lio/github/a1b2d56/opaline/basic/TextFieldColors;
+	public static synthetic fun copy-FD3wquc$default (Lio/github/a1b2d56/opaline/basic/TextFieldColors;JJJJJJJJILjava/lang/Object;)Lio/github/a1b2d56/opaline/basic/TextFieldColors;
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun getBackgroundColor-0d7_KjU ()J
+	public final fun getBorderColor-0d7_KjU ()J
+	public final fun getCounterColor-0d7_KjU ()J
+	public final fun getDisabledTextColor-0d7_KjU ()J
+	public final fun getErrorColor-0d7_KjU ()J
+	public final fun getIconColor-0d7_KjU ()J
+	public final fun getLabelColor-0d7_KjU ()J
+	public final fun getUnfocusedBorderColor-0d7_KjU ()J
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class io/github/a1b2d56/opaline/basic/TextFieldDefaults {
+	public static final field $stable I
+	public static final field INSTANCE Lio/github/a1b2d56/opaline/basic/TextFieldDefaults;
+	public final fun getCornerRadius-D9Ej5fM ()F
+	public final fun getCounterFontSize-XSAIIZE ()J
+	public final fun getInsideMargin-MYxV2XQ ()J
+	public final fun getLineInsideMargin-MYxV2XQ ()J
+	public final fun getNoneInsideMargin-MYxV2XQ ()J
+	public final fun insideMargin-Gh9hcWk (Lio/github/a1b2d56/opaline/basic/TextFieldMode;)J
+	public final fun textFieldColors-oq7We08 (JJJJJJJJLandroidx/compose/runtime/Composer;II)Lio/github/a1b2d56/opaline/basic/TextFieldColors;
+	public final fun textStyle (Lio/github/a1b2d56/opaline/basic/TextFieldMode;Landroidx/compose/runtime/Composer;I)Landroidx/compose/ui/text/TextStyle;
+}
+
+public final class io/github/a1b2d56/opaline/basic/TextFieldKt {
+	public static final fun TextField-XdXJCHY (Landroidx/compose/ui/text/input/TextFieldValue;Lkotlin/jvm/functions/Function1;Landroidx/compose/ui/Modifier;Lio/github/a1b2d56/opaline/basic/TextFieldMode;JLio/github/a1b2d56/opaline/basic/TextFieldColors;FLjava/lang/String;ZZZZZLjava/lang/Integer;ZZLandroidx/compose/ui/text/TextStyle;Landroidx/compose/foundation/text/KeyboardOptions;Landroidx/compose/foundation/text/KeyboardActions;Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function2;ZIILandroidx/compose/ui/text/input/VisualTransformation;Lkotlin/jvm/functions/Function1;Landroidx/compose/foundation/interaction/MutableInteractionSource;Landroidx/compose/ui/graphics/Brush;Landroidx/compose/runtime/Composer;IIII)V
+	public static final fun TextField-XdXJCHY (Ljava/lang/String;Lkotlin/jvm/functions/Function1;Landroidx/compose/ui/Modifier;Lio/github/a1b2d56/opaline/basic/TextFieldMode;JLio/github/a1b2d56/opaline/basic/TextFieldColors;FLjava/lang/String;ZZZZZLjava/lang/Integer;ZZLandroidx/compose/ui/text/TextStyle;Landroidx/compose/foundation/text/KeyboardOptions;Landroidx/compose/foundation/text/KeyboardActions;Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function2;ZIILandroidx/compose/ui/text/input/VisualTransformation;Lkotlin/jvm/functions/Function1;Landroidx/compose/foundation/interaction/MutableInteractionSource;Landroidx/compose/ui/graphics/Brush;Landroidx/compose/runtime/Composer;IIII)V
+	public static final fun TextField-fQqsXN0 (Landroidx/compose/foundation/text/input/TextFieldState;Landroidx/compose/ui/Modifier;Lio/github/a1b2d56/opaline/basic/TextFieldMode;JLio/github/a1b2d56/opaline/basic/TextFieldColors;FLjava/lang/String;ZZZZZLjava/lang/Integer;ZZLandroidx/compose/foundation/text/input/InputTransformation;Landroidx/compose/ui/text/TextStyle;Landroidx/compose/foundation/text/KeyboardOptions;Landroidx/compose/foundation/text/input/KeyboardActionHandler;Landroidx/compose/foundation/text/input/TextFieldLineLimits;Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function2;Landroidx/compose/foundation/interaction/MutableInteractionSource;Landroidx/compose/ui/graphics/Brush;Landroidx/compose/foundation/text/input/OutputTransformation;Landroidx/compose/foundation/ScrollState;Landroidx/compose/runtime/Composer;IIII)V
+}
+
+public final class io/github/a1b2d56/opaline/basic/TextFieldMode : java/lang/Enum {
+	public static final field Line Lio/github/a1b2d56/opaline/basic/TextFieldMode;
+	public static final field None Lio/github/a1b2d56/opaline/basic/TextFieldMode;
+	public static final field Rectangle Lio/github/a1b2d56/opaline/basic/TextFieldMode;
+	public static fun getEntries ()Lkotlin/enums/EnumEntries;
+	public static fun valueOf (Ljava/lang/String;)Lio/github/a1b2d56/opaline/basic/TextFieldMode;
+	public static fun values ()[Lio/github/a1b2d56/opaline/basic/TextFieldMode;
+}
+
+public final class io/github/a1b2d56/opaline/basic/TextKt {
+	public static final fun Text-G6fR4hs (Landroidx/compose/ui/text/AnnotatedString;Landroidx/compose/ui/graphics/ColorProducer;Landroidx/compose/ui/Modifier;Landroidx/compose/foundation/text/TextAutoSize;JLandroidx/compose/ui/text/font/FontStyle;Landroidx/compose/ui/text/font/FontWeight;Landroidx/compose/ui/text/font/FontFamily;JLandroidx/compose/ui/text/style/TextDecoration;Landroidx/compose/ui/text/style/TextAlign;JIZIILjava/util/Map;Lkotlin/jvm/functions/Function1;Landroidx/compose/ui/text/TextStyle;Landroidx/compose/runtime/Composer;III)V
+	public static final fun Text-Nvy7gAk (Ljava/lang/String;Landroidx/compose/ui/Modifier;JLandroidx/compose/foundation/text/TextAutoSize;JLandroidx/compose/ui/text/font/FontStyle;Landroidx/compose/ui/text/font/FontWeight;Landroidx/compose/ui/text/font/FontFamily;JLandroidx/compose/ui/text/style/TextDecoration;Landroidx/compose/ui/text/style/TextAlign;JIZIILkotlin/jvm/functions/Function1;Landroidx/compose/ui/text/TextStyle;Landroidx/compose/runtime/Composer;III)V
+	public static final fun Text-Z58ophY (Landroidx/compose/ui/text/AnnotatedString;Landroidx/compose/ui/Modifier;JLandroidx/compose/foundation/text/TextAutoSize;JLandroidx/compose/ui/text/font/FontStyle;Landroidx/compose/ui/text/font/FontWeight;Landroidx/compose/ui/text/font/FontFamily;JLandroidx/compose/ui/text/style/TextDecoration;Landroidx/compose/ui/text/style/TextAlign;JIZIILjava/util/Map;Lkotlin/jvm/functions/Function1;Landroidx/compose/ui/text/TextStyle;Landroidx/compose/runtime/Composer;III)V
+	public static final fun Text-eWZoKXM (Ljava/lang/String;Landroidx/compose/ui/graphics/ColorProducer;Landroidx/compose/ui/Modifier;Landroidx/compose/foundation/text/TextAutoSize;JLandroidx/compose/ui/text/font/FontStyle;Landroidx/compose/ui/text/font/FontWeight;Landroidx/compose/ui/text/font/FontFamily;JLandroidx/compose/ui/text/style/TextDecoration;Landroidx/compose/ui/text/style/TextAlign;JIZIILkotlin/jvm/functions/Function1;Landroidx/compose/ui/text/TextStyle;Landroidx/compose/runtime/Composer;III)V
+}
+
+public final class io/github/a1b2d56/opaline/basic/TimePickerDefaults {
+	public static final field $stable I
+	public static final field INSTANCE Lio/github/a1b2d56/opaline/basic/TimePickerDefaults;
+	public final fun getAmLabel ()Ljava/lang/String;
+	public final fun getAmPmColumnWidth-D9Ej5fM ()F
+	public final fun getHourColumnWidth-D9Ej5fM ()F
+	public final fun getHourUnit ()Ljava/lang/String;
+	public final fun getInsideMargin ()Landroidx/compose/foundation/layout/PaddingValues;
+	public final fun getMinuteColumnWidth-D9Ej5fM ()F
+	public final fun getMinuteUnit ()Ljava/lang/String;
+	public final fun getPmLabel ()Ljava/lang/String;
+	public final fun getUnitFontSize-XSAIIZE ()J
+	public final fun getUnitTextOffset-D9Ej5fM ()F
+}
+
+public final class io/github/a1b2d56/opaline/basic/TimePickerKt {
+	public static final fun TimePicker-IP6dm-4 (Lio/github/a1b2d56/opaline/basic/TimeValue;Lkotlin/jvm/functions/Function1;Landroidx/compose/ui/Modifier;ZZZLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;FFFLio/github/a1b2d56/opaline/basic/NumberPickerColors;Landroidx/compose/ui/text/TextStyle;FLandroidx/compose/foundation/layout/PaddingValues;Landroidx/compose/runtime/Composer;III)V
+}
+
+public final class io/github/a1b2d56/opaline/basic/TimeValue {
+	public static final field $stable I
+	public fun <init> (II)V
+	public final fun component1 ()I
+	public final fun component2 ()I
+	public final fun copy (II)Lio/github/a1b2d56/opaline/basic/TimeValue;
+	public static synthetic fun copy$default (Lio/github/a1b2d56/opaline/basic/TimeValue;IIILjava/lang/Object;)Lio/github/a1b2d56/opaline/basic/TimeValue;
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun getHour ()I
+	public final fun getMinute ()I
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class io/github/a1b2d56/opaline/basic/ToolbarPosition {
+	public static final field Companion Lio/github/a1b2d56/opaline/basic/ToolbarPosition$Companion;
+	public static final synthetic fun box-impl (I)Lio/github/a1b2d56/opaline/basic/ToolbarPosition;
+	public fun equals (Ljava/lang/Object;)Z
+	public static fun equals-impl (ILjava/lang/Object;)Z
+	public static final fun equals-impl0 (II)Z
+	public fun hashCode ()I
+	public static fun hashCode-impl (I)I
+	public fun toString ()Ljava/lang/String;
+	public static fun toString-impl (I)Ljava/lang/String;
+	public final synthetic fun unbox-impl ()I
+}
+
+public final class io/github/a1b2d56/opaline/basic/ToolbarPosition$Companion {
+	public final fun getBottomCenter-PyyuhJQ ()I
+	public final fun getBottomEnd-PyyuhJQ ()I
+	public final fun getBottomStart-PyyuhJQ ()I
+	public final fun getCenterEnd-PyyuhJQ ()I
+	public final fun getCenterStart-PyyuhJQ ()I
+	public final fun getTopCenter-PyyuhJQ ()I
+	public final fun getTopEnd-PyyuhJQ ()I
+	public final fun getTopStart-PyyuhJQ ()I
+}
+
+public final class io/github/a1b2d56/opaline/basic/TooltipAnchorPosition {
+	public static final field Companion Lio/github/a1b2d56/opaline/basic/TooltipAnchorPosition$Companion;
+	public static final synthetic fun box-impl (I)Lio/github/a1b2d56/opaline/basic/TooltipAnchorPosition;
+	public fun equals (Ljava/lang/Object;)Z
+	public static fun equals-impl (ILjava/lang/Object;)Z
+	public static final fun equals-impl0 (II)Z
+	public fun hashCode ()I
+	public static fun hashCode-impl (I)I
+	public fun toString ()Ljava/lang/String;
+	public static fun toString-impl (I)Ljava/lang/String;
+	public final synthetic fun unbox-impl ()I
+}
+
+public final class io/github/a1b2d56/opaline/basic/TooltipAnchorPosition$Companion {
+	public final fun getAbove-J_Gl0Po ()I
+	public final fun getBelow-J_Gl0Po ()I
+	public final fun getEnd-J_Gl0Po ()I
+	public final fun getLeft-J_Gl0Po ()I
+	public final fun getRight-J_Gl0Po ()I
+	public final fun getStart-J_Gl0Po ()I
+}
+
+public final class io/github/a1b2d56/opaline/basic/TooltipDefaults {
+	public static final field $stable I
+	public static final field INSTANCE Lio/github/a1b2d56/opaline/basic/TooltipDefaults;
+	public final fun caretShape ()Landroidx/compose/ui/graphics/Shape;
+	public final fun getCaretSize-MYxV2XQ ()J
+	public final fun getPlainTooltipContainerColor (Landroidx/compose/runtime/Composer;I)J
+	public final fun getPlainTooltipContentColor (Landroidx/compose/runtime/Composer;I)J
+	public final fun getPlainTooltipCornerRadius-D9Ej5fM ()F
+	public final fun getPlainTooltipInsideMargin ()Landroidx/compose/foundation/layout/PaddingValues;
+	public final fun getPlainTooltipMaxWidth-D9Ej5fM ()F
+	public final fun getRichTooltipActionCornerRadius-D9Ej5fM ()F
+	public final fun getRichTooltipActionInsideMargin ()Landroidx/compose/foundation/layout/PaddingValues;
+	public final fun getRichTooltipCornerRadius-D9Ej5fM ()F
+	public final fun getRichTooltipInsideMargin ()Landroidx/compose/foundation/layout/PaddingValues;
+	public final fun getRichTooltipMaxWidth-D9Ej5fM ()F
+	public final fun getSpacingBetweenTooltipAndAnchor-D9Ej5fM ()F
+	public final fun rememberTooltipPositionProvider-IBJy1n8 (IFLandroidx/compose/runtime/Composer;II)Landroidx/compose/ui/window/PopupPositionProvider;
+	public final fun richTooltipColors-ro_MJ88 (JJJJLandroidx/compose/runtime/Composer;II)Lio/github/a1b2d56/opaline/basic/RichTooltipColors;
+}
+
+public final class io/github/a1b2d56/opaline/basic/TooltipKt {
+	public static final fun PlainTooltip-pGdpM5E (Lio/github/a1b2d56/opaline/basic/TooltipScope;Landroidx/compose/ui/Modifier;Landroidx/compose/ui/graphics/Shape;FFJJLandroidx/compose/foundation/layout/PaddingValues;Lkotlin/jvm/functions/Function2;Landroidx/compose/runtime/Composer;II)V
+	public static final fun RichTooltip-_UtchM0 (Lio/github/a1b2d56/opaline/basic/TooltipScope;Landroidx/compose/ui/Modifier;Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function2;Landroidx/compose/ui/graphics/Shape;FFLio/github/a1b2d56/opaline/basic/RichTooltipColors;Landroidx/compose/foundation/layout/PaddingValues;Lkotlin/jvm/functions/Function2;Landroidx/compose/runtime/Composer;II)V
+	public static final fun RichTooltipBox-DuNMxGE (Ljava/lang/String;Landroidx/compose/ui/Modifier;Lio/github/a1b2d56/opaline/basic/TooltipState;Ljava/lang/String;Ljava/lang/String;Lkotlin/jvm/functions/Function0;ZILio/github/a1b2d56/opaline/basic/RichTooltipColors;Lkotlin/jvm/functions/Function2;Landroidx/compose/runtime/Composer;II)V
+	public static final fun TooltipBox (Landroidx/compose/ui/window/PopupPositionProvider;Lkotlin/jvm/functions/Function3;Lio/github/a1b2d56/opaline/basic/TooltipState;Landroidx/compose/ui/Modifier;ZZLkotlin/jvm/functions/Function2;Landroidx/compose/runtime/Composer;II)V
+	public static final fun TooltipBox-_d823W8 (Ljava/lang/String;Landroidx/compose/ui/Modifier;Lio/github/a1b2d56/opaline/basic/TooltipState;ZIJJLkotlin/jvm/functions/Function2;Landroidx/compose/runtime/Composer;II)V
+	public static final fun rememberTooltipState (ZZLandroidx/compose/foundation/MutatorMutex;Landroidx/compose/runtime/Composer;II)Lio/github/a1b2d56/opaline/basic/TooltipState;
+}
+
+public abstract interface class io/github/a1b2d56/opaline/basic/TooltipScope {
+	public abstract fun getPositioning-J_Gl0Po ()I
+	public abstract fun obtainAnchorBounds ()Landroidx/compose/ui/layout/LayoutCoordinates;
+}
+
+public abstract interface class io/github/a1b2d56/opaline/basic/TooltipState {
+	public abstract fun dismiss ()V
+	public abstract fun getTransition ()Landroidx/compose/animation/core/MutableTransitionState;
+	public abstract fun isPersistent ()Z
+	public abstract fun isVisible ()Z
+	public abstract fun onDispose ()V
+	public abstract fun show (Landroidx/compose/foundation/MutatePriority;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+	public static synthetic fun show$default (Lio/github/a1b2d56/opaline/basic/TooltipState;Landroidx/compose/foundation/MutatePriority;Lkotlin/coroutines/Continuation;ILjava/lang/Object;)Ljava/lang/Object;
+}
+
+public final class io/github/a1b2d56/opaline/basic/TooltipState$DefaultImpls {
+	public static synthetic fun show$default (Lio/github/a1b2d56/opaline/basic/TooltipState;Landroidx/compose/foundation/MutatePriority;Lkotlin/coroutines/Continuation;ILjava/lang/Object;)Ljava/lang/Object;
+}
+
+public final class io/github/a1b2d56/opaline/basic/TopAppBarDefaults {
+	public static final field $stable I
+	public static final field INSTANCE Lio/github/a1b2d56/opaline/basic/TopAppBarDefaults;
+	public final fun getActionIconGap-D9Ej5fM ()F
+	public final fun getActionIconPadding-D9Ej5fM ()F
+	public final fun getActionItemMinWidth-D9Ej5fM ()F
+	public final fun getActionItemSpacing-D9Ej5fM ()F
+	public final fun getCollapsedHeight-D9Ej5fM ()F
+	public final fun getExpandedHeight-D9Ej5fM ()F
+	public final fun getLargeTitleBottomPadding-D9Ej5fM ()F
+	public final fun getLargeTitleTopPadding-D9Ej5fM ()F
+	public final fun getNavigationIconGap-D9Ej5fM ()F
+	public final fun getNavigationIconPadding-D9Ej5fM ()F
+	public final fun getSmallTopAppBarCenterHeight-D9Ej5fM ()F
+	public final fun getSubtitleBottomPadding-D9Ej5fM ()F
+	public final fun getSubtitleMarginTop-D9Ej5fM ()F
+	public final fun getTitlePadding-D9Ej5fM ()F
+}
+
+public final class io/github/a1b2d56/opaline/basic/TopAppBarKt {
+	public static final fun OpalineScrollBehavior (Lio/github/a1b2d56/opaline/basic/TopAppBarState;Lkotlin/jvm/functions/Function0;Landroidx/compose/animation/core/AnimationSpec;Landroidx/compose/animation/core/DecayAnimationSpec;Landroidx/compose/runtime/Composer;II)Lio/github/a1b2d56/opaline/basic/ScrollBehavior;
+	public static final fun SmallTopAppBar-EJXvh-c (Ljava/lang/String;Landroidx/compose/ui/Modifier;JJLjava/lang/String;JJLkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function3;Lio/github/a1b2d56/opaline/basic/ScrollBehavior;ZZFFFLkotlin/jvm/functions/Function2;Landroidx/compose/runtime/Composer;III)V
+	public static final fun TopAppBar-QVWyRLc (Ljava/lang/String;Landroidx/compose/ui/Modifier;JJLjava/lang/String;JLjava/lang/String;JJLkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function3;Lio/github/a1b2d56/opaline/basic/ScrollBehavior;ZZZFFFLkotlin/jvm/functions/Function2;Landroidx/compose/runtime/Composer;III)V
+	public static final fun rememberTopAppBarState (FFFLandroidx/compose/runtime/Composer;II)Lio/github/a1b2d56/opaline/basic/TopAppBarState;
+}
+
+public final class io/github/a1b2d56/opaline/basic/TopAppBarState {
+	public static final field $stable I
+	public static final field Companion Lio/github/a1b2d56/opaline/basic/TopAppBarState$Companion;
+	public fun <init> (FFF)V
+	public final fun getCollapsedFraction ()F
+	public final fun getContentOffset ()F
+	public final fun getHeightOffset ()F
+	public final fun getHeightOffsetLimit ()F
+	public final fun getOverlappedFraction ()F
+	public final fun setContentOffset (F)V
+	public final fun setHeightOffset (F)V
+	public final fun setHeightOffsetLimit (F)V
+}
+
+public final class io/github/a1b2d56/opaline/basic/TopAppBarState$Companion {
+	public final fun getSaver ()Landroidx/compose/runtime/saveable/Saver;
+}
+
+public final class io/github/a1b2d56/opaline/basic/TopTipsColors {
+	public static final field $stable I
+	public synthetic fun <init> (JJJJJLkotlin/jvm/internal/DefaultConstructorMarker;)V
+	public final fun component1-0d7_KjU ()J
+	public final fun component2-0d7_KjU ()J
+	public final fun component3-0d7_KjU ()J
+	public final fun component4-0d7_KjU ()J
+	public final fun component5-0d7_KjU ()J
+	public final fun copy-t635Npw (JJJJJ)Lio/github/a1b2d56/opaline/basic/TopTipsColors;
+	public static synthetic fun copy-t635Npw$default (Lio/github/a1b2d56/opaline/basic/TopTipsColors;JJJJJILjava/lang/Object;)Lio/github/a1b2d56/opaline/basic/TopTipsColors;
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun getActionColor-0d7_KjU ()J
+	public final fun getCloseButtonColor-0d7_KjU ()J
+	public final fun getCloseIconColor-0d7_KjU ()J
+	public final fun getContainerColor-0d7_KjU ()J
+	public final fun getContentColor-0d7_KjU ()J
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class io/github/a1b2d56/opaline/basic/TopTipsDefaults {
+	public static final field $stable I
+	public static final field INSTANCE Lio/github/a1b2d56/opaline/basic/TopTipsDefaults;
+	public final fun actionTextStyle (Landroidx/compose/runtime/Composer;I)Landroidx/compose/ui/text/TextStyle;
+	public final fun getContentPadding-D9Ej5fM ()F
+	public final fun getIconSize-D9Ej5fM ()F
+	public final fun getIconSpacing-D9Ej5fM ()F
+	public final fun getMultiLineCornerRadius-D9Ej5fM ()F
+	public final fun getSingleLineCornerRadius-D9Ej5fM ()F
+	public final fun getTextMinHeight-D9Ej5fM ()F
+	public final fun getVerticalPadding-D9Ej5fM ()F
+	public final fun textStyle (Landroidx/compose/runtime/Composer;I)Landroidx/compose/ui/text/TextStyle;
+	public final fun topTipsColors-zjMxDiM (JJJJJLandroidx/compose/runtime/Composer;II)Lio/github/a1b2d56/opaline/basic/TopTipsColors;
+}
+
+public final class io/github/a1b2d56/opaline/basic/TopTipsKt {
+	public static final fun TopTips-s1Sihoo (Ljava/lang/String;Landroidx/compose/ui/Modifier;ZLkotlin/jvm/functions/Function2;Ljava/lang/String;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Landroidx/compose/ui/unit/Dp;Lio/github/a1b2d56/opaline/basic/TopTipsColors;Landroidx/compose/runtime/Composer;II)V
+}
+
+public final class io/github/a1b2d56/opaline/color/api/ExtensionsKt {
+	public static final fun toHsv-8_81llA (J)Lio/github/a1b2d56/opaline/color/space/Hsv;
+	public static final fun toOkLab-8_81llA (J)Lio/github/a1b2d56/opaline/color/space/OkLab;
+	public static final fun toOkLch-8_81llA (J)Lio/github/a1b2d56/opaline/color/space/OkLch;
+}
+
+public final class io/github/a1b2d56/opaline/color/core/Transforms {
+	public static final field $stable I
+	public static final field INSTANCE Lio/github/a1b2d56/opaline/color/core/Transforms;
+	public final fun colorToHsv-8_81llA (J)[F
+	public final fun colorToOkLab-8_81llA (J)[F
+	public final fun colorToOkhsv-8_81llA (J)[F
+	public final fun colorToOklch-8_81llA (J)[F
+	public final fun generateHsvHueColors ()Ljava/util/List;
+	public final fun generateOkHsvHueColors ()Ljava/util/List;
+	public final fun generateOkLchHueColors (FFI)Ljava/util/List;
+	public static synthetic fun generateOkLchHueColors$default (Lio/github/a1b2d56/opaline/color/core/Transforms;FFIILjava/lang/Object;)Ljava/util/List;
+	public final fun normalizeOklch (FFF)[F
+	public final fun okLabToColor-WaAFU9c ([FF)J
+	public static synthetic fun okLabToColor-WaAFU9c$default (Lio/github/a1b2d56/opaline/color/core/Transforms;[FFILjava/lang/Object;)J
+	public final fun okLabToOklch ([F)[F
+	public final fun okLabToRgb ([F)[F
+	public final fun okhsvToColor-wmQWz5c (FFFF)J
+	public static synthetic fun okhsvToColor-wmQWz5c$default (Lio/github/a1b2d56/opaline/color/core/Transforms;FFFFILjava/lang/Object;)J
+	public final fun okhsvToSrgb (FFF)[F
+	public final fun oklchToColor-wmQWz5c (FFFF)J
+	public static synthetic fun oklchToColor-wmQWz5c$default (Lio/github/a1b2d56/opaline/color/core/Transforms;FFFFILjava/lang/Object;)J
+	public final fun oklchToOkLab ([F)[F
+	public final fun rgbToHsv (III[F)V
+	public final fun rgbToOkLab ([F)[F
+	public final fun srgbToOkhsv (FFF)[F
+}
+
+public final class io/github/a1b2d56/opaline/color/space/Hsv {
+	public static final field $stable I
+	public fun <init> (FFF)V
+	public final fun component1 ()F
+	public final fun component2 ()F
+	public final fun component3 ()F
+	public final fun copy (FFF)Lio/github/a1b2d56/opaline/color/space/Hsv;
+	public static synthetic fun copy$default (Lio/github/a1b2d56/opaline/color/space/Hsv;FFFILjava/lang/Object;)Lio/github/a1b2d56/opaline/color/space/Hsv;
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun getH ()F
+	public final fun getS ()F
+	public final fun getV ()F
+	public fun hashCode ()I
+	public final fun toColor-vNxB06k (F)J
+	public static synthetic fun toColor-vNxB06k$default (Lio/github/a1b2d56/opaline/color/space/Hsv;FILjava/lang/Object;)J
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class io/github/a1b2d56/opaline/color/space/OkHsv {
+	public static final field $stable I
+	public fun <init> (FFF)V
+	public final fun component1 ()F
+	public final fun component2 ()F
+	public final fun component3 ()F
+	public final fun copy (FFF)Lio/github/a1b2d56/opaline/color/space/OkHsv;
+	public static synthetic fun copy$default (Lio/github/a1b2d56/opaline/color/space/OkHsv;FFFILjava/lang/Object;)Lio/github/a1b2d56/opaline/color/space/OkHsv;
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun getH ()F
+	public final fun getS ()F
+	public final fun getV ()F
+	public fun hashCode ()I
+	public final fun toColor-vNxB06k (F)J
+	public static synthetic fun toColor-vNxB06k$default (Lio/github/a1b2d56/opaline/color/space/OkHsv;FILjava/lang/Object;)J
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class io/github/a1b2d56/opaline/color/space/OkLab {
+	public static final field $stable I
+	public fun <init> (FFF)V
+	public final fun component1 ()F
+	public final fun component2 ()F
+	public final fun component3 ()F
+	public final fun copy (FFF)Lio/github/a1b2d56/opaline/color/space/OkLab;
+	public static synthetic fun copy$default (Lio/github/a1b2d56/opaline/color/space/OkLab;FFFILjava/lang/Object;)Lio/github/a1b2d56/opaline/color/space/OkLab;
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun getA ()F
+	public final fun getB ()F
+	public final fun getL ()F
+	public fun hashCode ()I
+	public final fun toColor-vNxB06k (F)J
+	public static synthetic fun toColor-vNxB06k$default (Lio/github/a1b2d56/opaline/color/space/OkLab;FILjava/lang/Object;)J
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class io/github/a1b2d56/opaline/color/space/OkLch {
+	public static final field $stable I
+	public fun <init> (FFF)V
+	public final fun component1 ()F
+	public final fun component2 ()F
+	public final fun component3 ()F
+	public final fun copy (FFF)Lio/github/a1b2d56/opaline/color/space/OkLch;
+	public static synthetic fun copy$default (Lio/github/a1b2d56/opaline/color/space/OkLch;FFFILjava/lang/Object;)Lio/github/a1b2d56/opaline/color/space/OkLch;
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun getC ()F
+	public final fun getH ()F
+	public final fun getL ()F
+	public fun hashCode ()I
+	public final fun toColor-vNxB06k (F)J
+	public static synthetic fun toColor-vNxB06k$default (Lio/github/a1b2d56/opaline/color/space/OkLch;FILjava/lang/Object;)J
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class io/github/a1b2d56/opaline/icon/basic/ArrowRightKt {
+	public static final fun getArrowRight (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Basic;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/basic/ArrowUpDownKt {
+	public static final fun getArrowUpDown (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Basic;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/basic/CheckKt {
+	public static final fun getCheck (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Basic;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/basic/CloseKt {
+	public static final fun getClose (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Basic;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/basic/SearchCleanupKt {
+	public static final fun getSearchCleanup (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Basic;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/basic/SearchKt {
+	public static final fun getSearch (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Basic;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/basic/SidebarKt {
+	public static final fun getSidebar (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Basic;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public abstract interface annotation class io/github/a1b2d56/opaline/interfaces/ExperimentalScrollBarApi : java/lang/annotation/Annotation {
+}
+
+public abstract interface class io/github/a1b2d56/opaline/interfaces/HoldDownInteraction : androidx/compose/foundation/interaction/Interaction {
+}
+
+public final class io/github/a1b2d56/opaline/interfaces/HoldDownInteraction$HoldDown : io/github/a1b2d56/opaline/interfaces/HoldDownInteraction {
+	public static final field $stable I
+	public fun <init> ()V
+}
+
+public final class io/github/a1b2d56/opaline/interfaces/HoldDownInteraction$Release : io/github/a1b2d56/opaline/interfaces/HoldDownInteraction {
+	public static final field $stable I
+	public fun <init> (Lio/github/a1b2d56/opaline/interfaces/HoldDownInteraction$HoldDown;)V
+	public final fun getHoldDown ()Lio/github/a1b2d56/opaline/interfaces/HoldDownInteraction$HoldDown;
+}
+
+public final class io/github/a1b2d56/opaline/interfaces/HoldDownInteractionKt {
+	public static final fun collectIsHeldDownAsState (Landroidx/compose/foundation/interaction/InteractionSource;Landroidx/compose/runtime/Composer;I)Landroidx/compose/runtime/State;
+}
+
+public final class io/github/a1b2d56/opaline/layout/BottomSheetDefaults {
+	public static final field $stable I
+	public static final field INSTANCE Lio/github/a1b2d56/opaline/layout/BottomSheetDefaults;
+	public final fun backgroundColor-WaAFU9c (Landroidx/compose/runtime/Composer;I)J
+	public final fun dragHandleColor-WaAFU9c (Landroidx/compose/runtime/Composer;I)J
+	public final fun getCornerRadius-D9Ej5fM ()F
+	public final fun getInsideMargin-MYxV2XQ ()J
+	public final fun getMaxWidth-D9Ej5fM ()F
+	public final fun getOutsideMargin-MYxV2XQ ()J
+}
+
+public final class io/github/a1b2d56/opaline/layout/BottomSheetSurfaceScope {
+	public static final field $stable I
+	public final fun getCornerRadius-D9Ej5fM ()F
+	public final fun getScrimColor ()Landroidx/compose/runtime/State;
+	public final fun isOverscroll ()Z
+}
+
+public final class io/github/a1b2d56/opaline/layout/CascadingPopupDefaults {
+	public static final field $stable I
+	public static final field INSTANCE Lio/github/a1b2d56/opaline/layout/CascadingPopupDefaults;
+	public final fun arrowRotation (Landroidx/compose/ui/unit/LayoutDirection;)F
+	public final fun arrowSpring (Z)Landroidx/compose/animation/core/SpringSpec;
+	public final fun expandSpring (Z)Landroidx/compose/animation/core/SpringSpec;
+	public final fun getPrimaryShrunkScale ()F
+}
+
+public final class io/github/a1b2d56/opaline/layout/DialogButtonBarAction {
+	public static final field $stable I
+	public fun <init> (Ljava/lang/String;ZLkotlin/jvm/functions/Function0;)V
+	public synthetic fun <init> (Ljava/lang/String;ZLkotlin/jvm/functions/Function0;ILkotlin/jvm/internal/DefaultConstructorMarker;)V
+	public final fun component1 ()Ljava/lang/String;
+	public final fun component2 ()Z
+	public final fun component3 ()Lkotlin/jvm/functions/Function0;
+	public final fun copy (Ljava/lang/String;ZLkotlin/jvm/functions/Function0;)Lio/github/a1b2d56/opaline/layout/DialogButtonBarAction;
+	public static synthetic fun copy$default (Lio/github/a1b2d56/opaline/layout/DialogButtonBarAction;Ljava/lang/String;ZLkotlin/jvm/functions/Function0;ILjava/lang/Object;)Lio/github/a1b2d56/opaline/layout/DialogButtonBarAction;
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun getEnabled ()Z
+	public final fun getOnClick ()Lkotlin/jvm/functions/Function0;
+	public final fun getText ()Ljava/lang/String;
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class io/github/a1b2d56/opaline/layout/DialogButtonBarDefaults {
+	public static final field $stable I
+	public static final field INSTANCE Lio/github/a1b2d56/opaline/layout/DialogButtonBarDefaults;
+	public final fun buttonColors (Landroidx/compose/runtime/Composer;I)Lio/github/a1b2d56/opaline/basic/TextButtonColors;
+	public final fun getButtonCornerRadius-D9Ej5fM ()F
+	public final fun getButtonHorizontalPadding-D9Ej5fM ()F
+	public final fun getButtonMinHeight-D9Ej5fM ()F
+	public final fun getCellPaddingBottom-D9Ej5fM ()F
+	public final fun getCellPaddingInner-D9Ej5fM ()F
+	public final fun getCellPaddingOuter-D9Ej5fM ()F
+	public final fun getCellPaddingTop-D9Ej5fM ()F
+	public final fun getRowButtonPaddingVertical-D9Ej5fM ()F
+	public final fun getStackedBarMarginTop-D9Ej5fM ()F
+	public final fun getStackedButtonPaddingBottomExtra-D9Ej5fM ()F
+	public final fun getStackedButtonPaddingTopExtra-D9Ej5fM ()F
+	public final fun getStackedButtonPaddingVertical-D9Ej5fM ()F
+	public final fun getStackedDividerInsetHorizontal-D9Ej5fM ()F
+	public final fun getStackedDividerThickness-D9Ej5fM ()F
+	public final fun neutralButtonColors (Landroidx/compose/runtime/Composer;I)Lio/github/a1b2d56/opaline/basic/TextButtonColors;
+	public final fun recommendedButtonColors (Landroidx/compose/runtime/Composer;I)Lio/github/a1b2d56/opaline/basic/TextButtonColors;
+}
+
+public final class io/github/a1b2d56/opaline/layout/DialogButtonBarKt {
+	public static final fun DialogButtonBar-5luvWPE (Lio/github/a1b2d56/opaline/layout/DialogButtonBarAction;Lio/github/a1b2d56/opaline/layout/DialogButtonBarAction;Landroidx/compose/ui/Modifier;Lio/github/a1b2d56/opaline/layout/DialogButtonBarAction;Lio/github/a1b2d56/opaline/layout/DialogButtonBarRole;ZZZLio/github/a1b2d56/opaline/basic/TextButtonColors;Lio/github/a1b2d56/opaline/basic/TextButtonColors;Lio/github/a1b2d56/opaline/basic/TextButtonColors;JLandroidx/compose/ui/text/TextStyle;Landroidx/compose/runtime/Composer;III)V
+}
+
+public final class io/github/a1b2d56/opaline/layout/DialogButtonBarRole : java/lang/Enum {
+	public static final field Negative Lio/github/a1b2d56/opaline/layout/DialogButtonBarRole;
+	public static final field Neutral Lio/github/a1b2d56/opaline/layout/DialogButtonBarRole;
+	public static final field Positive Lio/github/a1b2d56/opaline/layout/DialogButtonBarRole;
+	public static fun getEntries ()Lkotlin/enums/EnumEntries;
+	public static fun valueOf (Ljava/lang/String;)Lio/github/a1b2d56/opaline/layout/DialogButtonBarRole;
+	public static fun values ()[Lio/github/a1b2d56/opaline/layout/DialogButtonBarRole;
+}
+
+public final class io/github/a1b2d56/opaline/layout/DialogDefaults {
+	public static final field $stable I
+	public static final field INSTANCE Lio/github/a1b2d56/opaline/layout/DialogDefaults;
+	public final fun backgroundColor-WaAFU9c (Landroidx/compose/runtime/Composer;I)J
+	public final fun getCornerRadius-D9Ej5fM ()F
+	public final fun getInsideMargin-MYxV2XQ ()J
+	public final fun getMaxWidth-D9Ej5fM ()F
+	public final fun getOutsideMargin-MYxV2XQ ()J
+	public final fun summaryColor-WaAFU9c (Landroidx/compose/runtime/Composer;I)J
+	public final fun titleColor-WaAFU9c (Landroidx/compose/runtime/Composer;I)J
+}
+
+public final class io/github/a1b2d56/opaline/layout/DialogSurfaceScope {
+	public static final field $stable I
+	public final fun getCornerRadius-D9Ej5fM ()F
+	public final fun getScale ()Landroidx/compose/runtime/State;
+	public final fun getScrimColor ()Landroidx/compose/runtime/State;
+}
+
+public final class io/github/a1b2d56/opaline/layout/LoadingDialogDefaults {
+	public static final field $stable I
+	public static final field INSTANCE Lio/github/a1b2d56/opaline/layout/LoadingDialogDefaults;
+	public final fun getCardMinHeight-D9Ej5fM ()F
+	public final fun getCardWidth-D9Ej5fM ()F
+	public final fun getCornerRadius-D9Ej5fM ()F
+	public final fun getSpinnerSize-D9Ej5fM ()F
+	public final fun spinnerColor-WaAFU9c (Landroidx/compose/runtime/Composer;I)J
+	public final fun textColor-WaAFU9c (Landroidx/compose/runtime/Composer;I)J
+}
+
+public final class io/github/a1b2d56/opaline/layout/SecurityDialogColors {
+	public static final field $stable I
+	public synthetic fun <init> (JJJLkotlin/jvm/internal/DefaultConstructorMarker;)V
+	public final fun component1-0d7_KjU ()J
+	public final fun component2-0d7_KjU ()J
+	public final fun component3-0d7_KjU ()J
+	public final fun copy-ysEtTa8 (JJJ)Lio/github/a1b2d56/opaline/layout/SecurityDialogColors;
+	public static synthetic fun copy-ysEtTa8$default (Lio/github/a1b2d56/opaline/layout/SecurityDialogColors;JJJILjava/lang/Object;)Lio/github/a1b2d56/opaline/layout/SecurityDialogColors;
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun getCheckboxTextColor-0d7_KjU ()J
+	public final fun getLinkColor-0d7_KjU ()J
+	public final fun getStatementColor-0d7_KjU ()J
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class io/github/a1b2d56/opaline/layout/SecurityDialogDefaults {
+	public static final field $stable I
+	public static final field INSTANCE Lio/github/a1b2d56/opaline/layout/SecurityDialogDefaults;
+	public final fun getCancelText ()Ljava/lang/String;
+	public final fun getCheckboxText ()Ljava/lang/String;
+	public final fun getConfirmText ()Ljava/lang/String;
+	public final fun securityDialogColors-RGew2ao (JJJLandroidx/compose/runtime/Composer;II)Lio/github/a1b2d56/opaline/layout/SecurityDialogColors;
+}
+
+public final class io/github/a1b2d56/opaline/overlay/OverlayBottomSheetKt {
+	public static final fun OverlayBottomSheet-RwAgSN0 (ZLandroidx/compose/ui/Modifier;Ljava/lang/String;Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function2;JZFFLkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;JJZJZZZJLkotlin/jvm/functions/Function3;Lkotlin/jvm/functions/Function2;Landroidx/compose/runtime/Composer;IIII)V
+}
+
+public final class io/github/a1b2d56/opaline/overlay/OverlayCascadingListPopupKt {
+	public static final fun OverlayCascadingListPopup-EP_iJ18 (ZLjava/util/List;Lkotlin/jvm/functions/Function0;Landroidx/compose/ui/Modifier;Lkotlin/jvm/functions/Function0;Lio/github/a1b2d56/opaline/basic/PopupPositionProvider;Lio/github/a1b2d56/opaline/basic/PopupPositionProvider$Align;ZLandroidx/compose/ui/unit/Dp;FZLio/github/a1b2d56/opaline/basic/DropdownColors;ZLandroidx/compose/runtime/Composer;III)V
+	public static final fun OverlayCascadingListPopup-oTR_6UY (ZLjava/util/List;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function3;Landroidx/compose/ui/Modifier;Lkotlin/jvm/functions/Function0;Lio/github/a1b2d56/opaline/basic/PopupPositionProvider;Lio/github/a1b2d56/opaline/basic/PopupPositionProvider$Align;ZLandroidx/compose/ui/unit/Dp;FZLio/github/a1b2d56/opaline/basic/DropdownColors;ZLandroidx/compose/runtime/Composer;III)V
+}
+
+public final class io/github/a1b2d56/opaline/overlay/OverlayDialogKt {
+	public static final fun OverlayDialog-MGEgg34 (ZLandroidx/compose/ui/Modifier;Ljava/lang/String;JLjava/lang/String;JJZLkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;JJZZFLjava/lang/Boolean;Landroidx/compose/ui/unit/Dp;JLkotlin/jvm/functions/Function3;Lkotlin/jvm/functions/Function2;Landroidx/compose/runtime/Composer;III)V
+}
+
+public final class io/github/a1b2d56/opaline/overlay/OverlayListPopupKt {
+	public static final fun OverlayListPopup-mrlEthI (ZLandroidx/compose/ui/Modifier;Lio/github/a1b2d56/opaline/basic/PopupPositionProvider;Lio/github/a1b2d56/opaline/basic/PopupPositionProvider$Align;ZLkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Landroidx/compose/ui/unit/Dp;FZLio/github/a1b2d56/opaline/basic/PreciseClickState;Lkotlin/jvm/functions/Function2;Landroidx/compose/runtime/Composer;III)V
+}
+
+public final class io/github/a1b2d56/opaline/overlay/OverlayLoadingDialogKt {
+	public static final fun OverlayLoadingDialog-aJPAViM (ZLandroidx/compose/ui/Modifier;Ljava/lang/String;JJJZLkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;ZLandroidx/compose/runtime/Composer;II)V
+}
+
+public final class io/github/a1b2d56/opaline/overlay/OverlaySecurityDialogKt {
+	public static final fun OverlaySecurityDialog-JixYxRM (ZLkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function0;Landroidx/compose/ui/Modifier;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lkotlin/jvm/functions/Function0;Ljava/lang/String;ZLjava/lang/String;Ljava/lang/String;JJJLio/github/a1b2d56/opaline/layout/SecurityDialogColors;ZLkotlin/jvm/functions/Function0;ZLandroidx/compose/runtime/Composer;III)V
+}
+
+public final class io/github/a1b2d56/opaline/theme/ColorSchemeMode : java/lang/Enum {
+	public static final field Dark Lio/github/a1b2d56/opaline/theme/ColorSchemeMode;
+	public static final field Light Lio/github/a1b2d56/opaline/theme/ColorSchemeMode;
+	public static final field MonetDark Lio/github/a1b2d56/opaline/theme/ColorSchemeMode;
+	public static final field MonetLight Lio/github/a1b2d56/opaline/theme/ColorSchemeMode;
+	public static final field MonetSystem Lio/github/a1b2d56/opaline/theme/ColorSchemeMode;
+	public static final field System Lio/github/a1b2d56/opaline/theme/ColorSchemeMode;
+	public static fun getEntries ()Lkotlin/enums/EnumEntries;
+	public static fun valueOf (Ljava/lang/String;)Lio/github/a1b2d56/opaline/theme/ColorSchemeMode;
+	public static fun values ()[Lio/github/a1b2d56/opaline/theme/ColorSchemeMode;
+}
+
+public final class io/github/a1b2d56/opaline/theme/Colors {
+	public static final field $stable I
+	public synthetic fun <init> (JJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJLkotlin/jvm/internal/DefaultConstructorMarker;)V
+	public final fun copy-D1hvOHc (JJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJ)Lio/github/a1b2d56/opaline/theme/Colors;
+	public static synthetic fun copy-D1hvOHc$default (Lio/github/a1b2d56/opaline/theme/Colors;JJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJIILjava/lang/Object;)Lio/github/a1b2d56/opaline/theme/Colors;
+	public final fun getBackground-0d7_KjU ()J
+	public final fun getControls-0d7_KjU ()J
+	public final fun getDisabledOnPrimary-0d7_KjU ()J
+	public final fun getDisabledOnPrimaryButton-0d7_KjU ()J
+	public final fun getDisabledOnSecondary-0d7_KjU ()J
+	public final fun getDisabledOnSecondaryVariant-0d7_KjU ()J
+	public final fun getDisabledOnSurface-0d7_KjU ()J
+	public final fun getDisabledPrimary-0d7_KjU ()J
+	public final fun getDisabledPrimaryButton-0d7_KjU ()J
+	public final fun getDisabledPrimarySlider-0d7_KjU ()J
+	public final fun getDisabledSecondary-0d7_KjU ()J
+	public final fun getDisabledSecondaryVariant-0d7_KjU ()J
+	public final fun getDividerLine-0d7_KjU ()J
+	public final fun getError-0d7_KjU ()J
+	public final fun getErrorContainer-0d7_KjU ()J
+	public final fun getOnBackground-0d7_KjU ()J
+	public final fun getOnBackgroundVariant-0d7_KjU ()J
+	public final fun getOnError-0d7_KjU ()J
+	public final fun getOnErrorContainer-0d7_KjU ()J
+	public final fun getOnPrimary-0d7_KjU ()J
+	public final fun getOnPrimaryContainer-0d7_KjU ()J
+	public final fun getOnPrimaryVariant-0d7_KjU ()J
+	public final fun getOnSecondary-0d7_KjU ()J
+	public final fun getOnSecondaryContainer-0d7_KjU ()J
+	public final fun getOnSecondaryContainerVariant-0d7_KjU ()J
+	public final fun getOnSecondaryVariant-0d7_KjU ()J
+	public final fun getOnSurface-0d7_KjU ()J
+	public final fun getOnSurfaceContainer-0d7_KjU ()J
+	public final fun getOnSurfaceContainerHigh-0d7_KjU ()J
+	public final fun getOnSurfaceContainerHighest-0d7_KjU ()J
+	public final fun getOnSurfaceContainerVariant-0d7_KjU ()J
+	public final fun getOnSurfaceSecondary-0d7_KjU ()J
+	public final fun getOnSurfaceVariantActions-0d7_KjU ()J
+	public final fun getOnSurfaceVariantSummary-0d7_KjU ()J
+	public final fun getOnTertiaryContainer-0d7_KjU ()J
+	public final fun getOutline-0d7_KjU ()J
+	public final fun getPrimary-0d7_KjU ()J
+	public final fun getPrimaryContainer-0d7_KjU ()J
+	public final fun getPrimaryVariant-0d7_KjU ()J
+	public final fun getSecondary-0d7_KjU ()J
+	public final fun getSecondaryContainer-0d7_KjU ()J
+	public final fun getSecondaryContainerVariant-0d7_KjU ()J
+	public final fun getSecondaryVariant-0d7_KjU ()J
+	public final fun getSliderBackground-0d7_KjU ()J
+	public final fun getSliderKeyPoint-0d7_KjU ()J
+	public final fun getSliderKeyPointForeground-0d7_KjU ()J
+	public final fun getSurface-0d7_KjU ()J
+	public final fun getSurfaceContainer-0d7_KjU ()J
+	public final fun getSurfaceContainerHigh-0d7_KjU ()J
+	public final fun getSurfaceContainerHighest-0d7_KjU ()J
+	public final fun getSurfaceVariant-0d7_KjU ()J
+	public final fun getTertiaryContainer-0d7_KjU ()J
+	public final fun getTertiaryContainerVariant-0d7_KjU ()J
+	public final fun getWindowDimming-0d7_KjU ()J
+}
+
+public final class io/github/a1b2d56/opaline/theme/ColorsKt {
+	public static final fun darkColorScheme-D1hvOHc (JJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJ)Lio/github/a1b2d56/opaline/theme/Colors;
+	public static synthetic fun darkColorScheme-D1hvOHc$default (JJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJIILjava/lang/Object;)Lio/github/a1b2d56/opaline/theme/Colors;
+	public static final fun lightColorScheme-D1hvOHc (JJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJ)Lio/github/a1b2d56/opaline/theme/Colors;
+	public static synthetic fun lightColorScheme-D1hvOHc$default (JJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJIILjava/lang/Object;)Lio/github/a1b2d56/opaline/theme/Colors;
+}
+
+public final class io/github/a1b2d56/opaline/theme/ContentColorKt {
+	public static final fun getLocalContentColor ()Landroidx/compose/runtime/ProvidableCompositionLocal;
+}
+
+public final class io/github/a1b2d56/opaline/theme/DismissStateKt {
+	public static final fun getLocalDismissState ()Landroidx/compose/runtime/ProvidableCompositionLocal;
+}
+
+public final class io/github/a1b2d56/opaline/theme/DynamicColors_skikoKt {
+	public static final fun platformDynamicColors (ZLandroidx/compose/runtime/Composer;I)Lio/github/a1b2d56/opaline/theme/Colors;
+}
+
+public final class io/github/a1b2d56/opaline/theme/OpalineTheme {
+	public static final field $stable I
+	public static final field INSTANCE Lio/github/a1b2d56/opaline/theme/OpalineTheme;
+	public final fun getColorScheme (Landroidx/compose/runtime/Composer;I)Lio/github/a1b2d56/opaline/theme/Colors;
+	public final fun getColorSchemeMode (Landroidx/compose/runtime/Composer;I)Lio/github/a1b2d56/opaline/theme/ColorSchemeMode;
+	public final fun getTextStyles (Landroidx/compose/runtime/Composer;I)Lio/github/a1b2d56/opaline/theme/TextStyles;
+	public final fun isDynamicColor (Landroidx/compose/runtime/Composer;I)Z
+}
+
+public final class io/github/a1b2d56/opaline/theme/OpalineThemeKt {
+	public static final fun OpalineTheme (Lio/github/a1b2d56/opaline/theme/Colors;Lio/github/a1b2d56/opaline/theme/TextStyles;Lkotlin/jvm/functions/Function2;Landroidx/compose/runtime/Composer;II)V
+	public static final fun OpalineTheme (Lio/github/a1b2d56/opaline/theme/ThemeController;Lio/github/a1b2d56/opaline/theme/TextStyles;Lkotlin/jvm/functions/Function2;Landroidx/compose/runtime/Composer;II)V
+}
+
+public final class io/github/a1b2d56/opaline/theme/ProvideDisplayCutoutFixKt {
+	public static final fun getLocalDisplayCutoutFixEnabled ()Landroidx/compose/runtime/ProvidableCompositionLocal;
+}
+
+public final class io/github/a1b2d56/opaline/theme/ProvideDisplayCutoutFix_skikoKt {
+	public static final fun ProvideDisplayCutoutFix (Landroidx/compose/runtime/Composer;I)V
+}
+
+public final class io/github/a1b2d56/opaline/theme/TextStyles {
+	public static final field $stable I
+	public fun <init> (Landroidx/compose/ui/text/TextStyle;Landroidx/compose/ui/text/TextStyle;Landroidx/compose/ui/text/TextStyle;Landroidx/compose/ui/text/TextStyle;Landroidx/compose/ui/text/TextStyle;Landroidx/compose/ui/text/TextStyle;Landroidx/compose/ui/text/TextStyle;Landroidx/compose/ui/text/TextStyle;Landroidx/compose/ui/text/TextStyle;Landroidx/compose/ui/text/TextStyle;Landroidx/compose/ui/text/TextStyle;Landroidx/compose/ui/text/TextStyle;Landroidx/compose/ui/text/TextStyle;Landroidx/compose/ui/text/TextStyle;)V
+	public final fun copy (Landroidx/compose/ui/text/TextStyle;Landroidx/compose/ui/text/TextStyle;Landroidx/compose/ui/text/TextStyle;Landroidx/compose/ui/text/TextStyle;Landroidx/compose/ui/text/TextStyle;Landroidx/compose/ui/text/TextStyle;Landroidx/compose/ui/text/TextStyle;Landroidx/compose/ui/text/TextStyle;Landroidx/compose/ui/text/TextStyle;Landroidx/compose/ui/text/TextStyle;Landroidx/compose/ui/text/TextStyle;Landroidx/compose/ui/text/TextStyle;Landroidx/compose/ui/text/TextStyle;Landroidx/compose/ui/text/TextStyle;)Lio/github/a1b2d56/opaline/theme/TextStyles;
+	public static synthetic fun copy$default (Lio/github/a1b2d56/opaline/theme/TextStyles;Landroidx/compose/ui/text/TextStyle;Landroidx/compose/ui/text/TextStyle;Landroidx/compose/ui/text/TextStyle;Landroidx/compose/ui/text/TextStyle;Landroidx/compose/ui/text/TextStyle;Landroidx/compose/ui/text/TextStyle;Landroidx/compose/ui/text/TextStyle;Landroidx/compose/ui/text/TextStyle;Landroidx/compose/ui/text/TextStyle;Landroidx/compose/ui/text/TextStyle;Landroidx/compose/ui/text/TextStyle;Landroidx/compose/ui/text/TextStyle;Landroidx/compose/ui/text/TextStyle;Landroidx/compose/ui/text/TextStyle;ILjava/lang/Object;)Lio/github/a1b2d56/opaline/theme/TextStyles;
+	public final fun getBody1 ()Landroidx/compose/ui/text/TextStyle;
+	public final fun getBody2 ()Landroidx/compose/ui/text/TextStyle;
+	public final fun getButton ()Landroidx/compose/ui/text/TextStyle;
+	public final fun getFootnote1 ()Landroidx/compose/ui/text/TextStyle;
+	public final fun getFootnote2 ()Landroidx/compose/ui/text/TextStyle;
+	public final fun getHeadline1 ()Landroidx/compose/ui/text/TextStyle;
+	public final fun getHeadline2 ()Landroidx/compose/ui/text/TextStyle;
+	public final fun getMain ()Landroidx/compose/ui/text/TextStyle;
+	public final fun getParagraph ()Landroidx/compose/ui/text/TextStyle;
+	public final fun getSubtitle ()Landroidx/compose/ui/text/TextStyle;
+	public final fun getTitle1 ()Landroidx/compose/ui/text/TextStyle;
+	public final fun getTitle2 ()Landroidx/compose/ui/text/TextStyle;
+	public final fun getTitle3 ()Landroidx/compose/ui/text/TextStyle;
+	public final fun getTitle4 ()Landroidx/compose/ui/text/TextStyle;
+}
+
+public final class io/github/a1b2d56/opaline/theme/TextStylesKt {
+	public static final fun defaultTextStyles (Landroidx/compose/ui/text/TextStyle;Landroidx/compose/ui/text/TextStyle;Landroidx/compose/ui/text/TextStyle;Landroidx/compose/ui/text/TextStyle;Landroidx/compose/ui/text/TextStyle;Landroidx/compose/ui/text/TextStyle;Landroidx/compose/ui/text/TextStyle;Landroidx/compose/ui/text/TextStyle;Landroidx/compose/ui/text/TextStyle;Landroidx/compose/ui/text/TextStyle;Landroidx/compose/ui/text/TextStyle;Landroidx/compose/ui/text/TextStyle;Landroidx/compose/ui/text/TextStyle;Landroidx/compose/ui/text/TextStyle;)Lio/github/a1b2d56/opaline/theme/TextStyles;
+	public static synthetic fun defaultTextStyles$default (Landroidx/compose/ui/text/TextStyle;Landroidx/compose/ui/text/TextStyle;Landroidx/compose/ui/text/TextStyle;Landroidx/compose/ui/text/TextStyle;Landroidx/compose/ui/text/TextStyle;Landroidx/compose/ui/text/TextStyle;Landroidx/compose/ui/text/TextStyle;Landroidx/compose/ui/text/TextStyle;Landroidx/compose/ui/text/TextStyle;Landroidx/compose/ui/text/TextStyle;Landroidx/compose/ui/text/TextStyle;Landroidx/compose/ui/text/TextStyle;Landroidx/compose/ui/text/TextStyle;Landroidx/compose/ui/text/TextStyle;ILjava/lang/Object;)Lio/github/a1b2d56/opaline/theme/TextStyles;
+}
+
+public final class io/github/a1b2d56/opaline/theme/ThemeColorSpec : java/lang/Enum {
+	public static final field Spec2021 Lio/github/a1b2d56/opaline/theme/ThemeColorSpec;
+	public static final field Spec2025 Lio/github/a1b2d56/opaline/theme/ThemeColorSpec;
+	public static fun getEntries ()Lkotlin/enums/EnumEntries;
+	public static fun valueOf (Ljava/lang/String;)Lio/github/a1b2d56/opaline/theme/ThemeColorSpec;
+	public static fun values ()[Lio/github/a1b2d56/opaline/theme/ThemeColorSpec;
+}
+
+public final class io/github/a1b2d56/opaline/theme/ThemeController {
+	public static final field $stable I
+	public fun <init> ()V
+	public synthetic fun <init> (Lio/github/a1b2d56/opaline/theme/ColorSchemeMode;Lio/github/a1b2d56/opaline/theme/Colors;Lio/github/a1b2d56/opaline/theme/Colors;Landroidx/compose/ui/graphics/Color;Lio/github/a1b2d56/opaline/theme/ThemeColorSpec;Lio/github/a1b2d56/opaline/theme/ThemePaletteStyle;Ljava/lang/Boolean;ILkotlin/jvm/internal/DefaultConstructorMarker;)V
+	public synthetic fun <init> (Lio/github/a1b2d56/opaline/theme/ColorSchemeMode;Lio/github/a1b2d56/opaline/theme/Colors;Lio/github/a1b2d56/opaline/theme/Colors;Landroidx/compose/ui/graphics/Color;Lio/github/a1b2d56/opaline/theme/ThemeColorSpec;Lio/github/a1b2d56/opaline/theme/ThemePaletteStyle;Ljava/lang/Boolean;Lkotlin/jvm/internal/DefaultConstructorMarker;)V
+	public final fun currentColors (Landroidx/compose/runtime/Composer;I)Lio/github/a1b2d56/opaline/theme/Colors;
+	public final fun getColorSchemeMode ()Lio/github/a1b2d56/opaline/theme/ColorSchemeMode;
+	public final fun getColorSpec ()Lio/github/a1b2d56/opaline/theme/ThemeColorSpec;
+	public final fun getDarkColors ()Lio/github/a1b2d56/opaline/theme/Colors;
+	public final fun getKeyColor-QN2ZGVo ()Landroidx/compose/ui/graphics/Color;
+	public final fun getLightColors ()Lio/github/a1b2d56/opaline/theme/Colors;
+	public final fun getPaletteStyle ()Lio/github/a1b2d56/opaline/theme/ThemePaletteStyle;
+	public final fun isDark ()Ljava/lang/Boolean;
+}
+
+public final class io/github/a1b2d56/opaline/theme/ThemePaletteStyle : java/lang/Enum {
+	public static final field Cmf Lio/github/a1b2d56/opaline/theme/ThemePaletteStyle;
+	public static final field Content Lio/github/a1b2d56/opaline/theme/ThemePaletteStyle;
+	public static final field Expressive Lio/github/a1b2d56/opaline/theme/ThemePaletteStyle;
+	public static final field Fidelity Lio/github/a1b2d56/opaline/theme/ThemePaletteStyle;
+	public static final field FruitSalad Lio/github/a1b2d56/opaline/theme/ThemePaletteStyle;
+	public static final field Monochrome Lio/github/a1b2d56/opaline/theme/ThemePaletteStyle;
+	public static final field Neutral Lio/github/a1b2d56/opaline/theme/ThemePaletteStyle;
+	public static final field Rainbow Lio/github/a1b2d56/opaline/theme/ThemePaletteStyle;
+	public static final field TonalSpot Lio/github/a1b2d56/opaline/theme/ThemePaletteStyle;
+	public static final field Vibrant Lio/github/a1b2d56/opaline/theme/ThemePaletteStyle;
+	public static fun getEntries ()Lkotlin/enums/EnumEntries;
+	public static fun valueOf (Ljava/lang/String;)Lio/github/a1b2d56/opaline/theme/ThemePaletteStyle;
+	public static fun values ()[Lio/github/a1b2d56/opaline/theme/ThemePaletteStyle;
+}
+
+public final class io/github/a1b2d56/opaline/utils/ComposableSingletons$OpalinePopupUtilsKt {
+	public static final field INSTANCE Lio/github/a1b2d56/opaline/utils/ComposableSingletons$OpalinePopupUtilsKt;
+	public fun <init> ()V
+	public final fun getLambda$-1208427919$io_github_a1b2d56_opaline_opaline_ui ()Lkotlin/jvm/functions/Function2;
+	public final fun getLambda$-1837835213$io_github_a1b2d56_opaline_opaline_ui ()Lkotlin/jvm/functions/Function3;
+	public final fun getLambda$-729085411$io_github_a1b2d56_opaline_opaline_ui ()Lkotlin/jvm/functions/Function2;
+	public final fun getLambda$1489957610$io_github_a1b2d56_opaline_opaline_ui ()Lkotlin/jvm/functions/Function3;
+	public final fun getLambda$857917066$io_github_a1b2d56_opaline_opaline_ui ()Lkotlin/jvm/functions/Function3;
+}
+
+public final class io/github/a1b2d56/opaline/utils/OpalineHapticEffect : java/lang/Enum {
+	public static final field Strength Lio/github/a1b2d56/opaline/utils/OpalineHapticEffect;
+	public static final field Switch Lio/github/a1b2d56/opaline/utils/OpalineHapticEffect;
+	public static fun getEntries ()Lkotlin/enums/EnumEntries;
+	public static fun valueOf (Ljava/lang/String;)Lio/github/a1b2d56/opaline/utils/OpalineHapticEffect;
+	public static fun values ()[Lio/github/a1b2d56/opaline/utils/OpalineHapticEffect;
+}
+
+public final class io/github/a1b2d56/opaline/utils/OpalineHaptic_desktopKt {
+	public static final fun rememberOpalineHaptic (Landroidx/compose/runtime/Composer;I)Lkotlin/jvm/functions/Function1;
+}
+
+public final class io/github/a1b2d56/opaline/utils/OpalineIndication : androidx/compose/foundation/IndicationNodeFactory {
+	public static final field $stable I
+	public fun <init> ()V
+	public synthetic fun <init> (JILkotlin/jvm/internal/DefaultConstructorMarker;)V
+	public synthetic fun <init> (JLkotlin/jvm/internal/DefaultConstructorMarker;)V
+	public fun create (Landroidx/compose/foundation/interaction/InteractionSource;)Landroidx/compose/ui/node/DelegatableNode;
+	public fun equals (Ljava/lang/Object;)Z
+	public fun hashCode ()I
+	public fun rememberUpdatedInstance (Landroidx/compose/foundation/interaction/InteractionSource;Landroidx/compose/runtime/Composer;I)Landroidx/compose/foundation/IndicationInstance;
+}
+
+public final class io/github/a1b2d56/opaline/utils/OpalineOverscrollEffect : androidx/compose/foundation/OverscrollEffect {
+	public static final field $stable I
+	public fun <init> ()V
+	public fun applyToFling-BMRW4eQ (JLkotlin/jvm/functions/Function2;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+	public fun applyToScroll-Rhakbz0 (JILkotlin/jvm/functions/Function1;)J
+	public fun getEffectModifier ()Landroidx/compose/ui/Modifier;
+	public fun getNode ()Landroidx/compose/ui/node/DelegatableNode;
+	public fun isInProgress ()Z
+}
+
+public final class io/github/a1b2d56/opaline/utils/OpalineOverscrollFactory : androidx/compose/foundation/OverscrollFactory {
+	public static final field $stable I
+	public static final field INSTANCE Lio/github/a1b2d56/opaline/utils/OpalineOverscrollFactory;
+	public fun createOverscrollEffect ()Landroidx/compose/foundation/OverscrollEffect;
+	public fun equals (Ljava/lang/Object;)Z
+	public fun hashCode ()I
+}
+
+public final class io/github/a1b2d56/opaline/utils/OpalinePopupUtils {
+	public static final field $stable I
+	public static final field Companion Lio/github/a1b2d56/opaline/utils/OpalinePopupUtils$Companion;
+	public fun <init> ()V
+}
+
+public final class io/github/a1b2d56/opaline/utils/OpalinePopupUtils$Companion {
+	public final fun DialogLayout (Landroidx/compose/runtime/MutableState;Landroidx/compose/animation/EnterTransition;Landroidx/compose/animation/ExitTransition;ZZLandroidx/compose/animation/EnterTransition;Landroidx/compose/animation/ExitTransition;Landroidx/compose/runtime/MutableState;Lkotlin/jvm/functions/Function0;ZLkotlin/jvm/functions/Function2;Landroidx/compose/runtime/Composer;III)V
+	public final fun OpalinePopupHost (Landroidx/compose/runtime/Composer;I)V
+	public final fun PopupLayout (Landroidx/compose/runtime/MutableState;Landroidx/compose/animation/EnterTransition;Landroidx/compose/animation/ExitTransition;ZZLandroidx/compose/animation/EnterTransition;Landroidx/compose/animation/ExitTransition;ZLkotlin/jvm/functions/Function2;Landroidx/compose/runtime/Composer;II)V
+}
+
+public final class io/github/a1b2d56/opaline/utils/OpalinePopupUtils$DialogState {
+	public static final field $stable I
+	public fun <init> (Landroidx/compose/runtime/MutableState;F)V
+	public final fun getContent ()Lkotlin/jvm/functions/Function2;
+	public final fun getDimAlpha ()Landroidx/compose/runtime/MutableState;
+	public final fun getDimEnterTransition ()Landroidx/compose/animation/EnterTransition;
+	public final fun getDimExitTransition ()Landroidx/compose/animation/ExitTransition;
+	public final fun getEnableAutoLargeScreen ()Z
+	public final fun getEnableWindowDim ()Z
+	public final fun getEnterTransition ()Landroidx/compose/animation/EnterTransition;
+	public final fun getExitTransition ()Landroidx/compose/animation/ExitTransition;
+	public final fun getOnDismissFinished ()Lkotlin/jvm/functions/Function0;
+	public final fun getShowState ()Landroidx/compose/runtime/MutableState;
+	public final fun getZIndex ()F
+	public final fun setContent (Lkotlin/jvm/functions/Function2;)V
+	public final fun setDimAlpha (Landroidx/compose/runtime/MutableState;)V
+	public final fun setDimEnterTransition (Landroidx/compose/animation/EnterTransition;)V
+	public final fun setDimExitTransition (Landroidx/compose/animation/ExitTransition;)V
+	public final fun setEnableAutoLargeScreen (Z)V
+	public final fun setEnableWindowDim (Z)V
+	public final fun setEnterTransition (Landroidx/compose/animation/EnterTransition;)V
+	public final fun setExitTransition (Landroidx/compose/animation/ExitTransition;)V
+	public final fun setOnDismissFinished (Lkotlin/jvm/functions/Function0;)V
+}
+
+public final class io/github/a1b2d56/opaline/utils/OpalinePopupUtils$PopupState {
+	public static final field $stable I
+	public fun <init> (Landroidx/compose/runtime/MutableState;F)V
+	public final fun getContent ()Lkotlin/jvm/functions/Function2;
+	public final fun getDimEnterTransition ()Landroidx/compose/animation/EnterTransition;
+	public final fun getDimExitTransition ()Landroidx/compose/animation/ExitTransition;
+	public final fun getEnableBackHandler ()Z
+	public final fun getEnableWindowDim ()Z
+	public final fun getEnterTransition ()Landroidx/compose/animation/EnterTransition;
+	public final fun getExitTransition ()Landroidx/compose/animation/ExitTransition;
+	public final fun getShowState ()Landroidx/compose/runtime/MutableState;
+	public final fun getZIndex ()F
+	public final fun setContent (Lkotlin/jvm/functions/Function2;)V
+	public final fun setDimEnterTransition (Landroidx/compose/animation/EnterTransition;)V
+	public final fun setDimExitTransition (Landroidx/compose/animation/ExitTransition;)V
+	public final fun setEnableBackHandler (Z)V
+	public final fun setEnableWindowDim (Z)V
+	public final fun setEnterTransition (Landroidx/compose/animation/EnterTransition;)V
+	public final fun setExitTransition (Landroidx/compose/animation/ExitTransition;)V
+}
+
+public final class io/github/a1b2d56/opaline/utils/OverScrollState {
+	public static final field $stable I
+	public fun <init> ()V
+	public final fun isOverScrollActive ()Z
+}
+
+public final class io/github/a1b2d56/opaline/utils/OverscrollKt {
+	public static final fun getLocalOverScrollState ()Landroidx/compose/runtime/ProvidableCompositionLocal;
+	public static final fun overScrollHorizontal (Landroidx/compose/ui/Modifier;ZLkotlin/jvm/functions/Function0;)Landroidx/compose/ui/Modifier;
+	public static synthetic fun overScrollHorizontal$default (Landroidx/compose/ui/Modifier;ZLkotlin/jvm/functions/Function0;ILjava/lang/Object;)Landroidx/compose/ui/Modifier;
+	public static final fun overScrollOutOfBound (Landroidx/compose/ui/Modifier;ZZLkotlin/jvm/functions/Function0;)Landroidx/compose/ui/Modifier;
+	public static synthetic fun overScrollOutOfBound$default (Landroidx/compose/ui/Modifier;ZZLkotlin/jvm/functions/Function0;ILjava/lang/Object;)Landroidx/compose/ui/Modifier;
+	public static final fun overScrollVertical (Landroidx/compose/ui/Modifier;ZLkotlin/jvm/functions/Function0;)Landroidx/compose/ui/Modifier;
+	public static synthetic fun overScrollVertical$default (Landroidx/compose/ui/Modifier;ZLkotlin/jvm/functions/Function0;ILjava/lang/Object;)Landroidx/compose/ui/Modifier;
+}
+
+public final class io/github/a1b2d56/opaline/utils/PagerFlingTrackerConnection : androidx/compose/ui/input/nestedscroll/NestedScrollConnection {
+	public static final field $stable I
+	public fun <init> ()V
+	public final fun getHaltFling ()Z
+	public final fun isChildFlinging ()Z
+	public fun onPostFling-RZ2iAVY (JJLkotlin/coroutines/Continuation;)Ljava/lang/Object;
+	public fun onPostScroll-DzOQY0M (JJI)J
+	public fun onPreFling-QWom1Mo (JLkotlin/coroutines/Continuation;)Ljava/lang/Object;
+	public fun onPreScroll-OzD1aCk (JI)J
+}
+
+public final class io/github/a1b2d56/opaline/utils/PagerGestureNestedScrollConnection : androidx/compose/ui/input/nestedscroll/NestedScrollConnection {
+	public static final field $stable I
+	public static final field INSTANCE Lio/github/a1b2d56/opaline/utils/PagerGestureNestedScrollConnection;
+	public fun onPostFling-RZ2iAVY (JJLkotlin/coroutines/Continuation;)Ljava/lang/Object;
+	public fun onPostScroll-DzOQY0M (JJI)J
+	public fun onPreFling-QWom1Mo (JLkotlin/coroutines/Continuation;)Ljava/lang/Object;
+	public fun onPreScroll-OzD1aCk (JI)J
+}
+
+public final class io/github/a1b2d56/opaline/utils/PagerGestureUtilsKt {
+	public static final fun getPagerNavigationSpringSpec ()Landroidx/compose/animation/core/SpringSpec;
+	public static final fun iosStyleMomentumHalt (Landroidx/compose/ui/Modifier;Lio/github/a1b2d56/opaline/utils/PagerFlingTrackerConnection;ZLkotlin/jvm/functions/Function0;)Landroidx/compose/ui/Modifier;
+	public static synthetic fun iosStyleMomentumHalt$default (Landroidx/compose/ui/Modifier;Lio/github/a1b2d56/opaline/utils/PagerFlingTrackerConnection;ZLkotlin/jvm/functions/Function0;ILjava/lang/Object;)Landroidx/compose/ui/Modifier;
+	public static final fun pagerGestureOverride (Landroidx/compose/ui/Modifier;Landroidx/compose/foundation/pager/PagerState;Landroidx/compose/foundation/gestures/FlingBehavior;IZLio/github/a1b2d56/opaline/utils/PagerFlingTrackerConnection;Lkotlin/jvm/functions/Function0;)Landroidx/compose/ui/Modifier;
+	public static final fun pagerGestureOverride (Landroidx/compose/ui/Modifier;Landroidx/compose/foundation/pager/PagerState;Landroidx/compose/foundation/gestures/FlingBehavior;Lio/github/a1b2d56/opaline/utils/PagerInterceptionMode;ZLio/github/a1b2d56/opaline/utils/PagerFlingTrackerConnection;Lkotlin/jvm/functions/Function0;)Landroidx/compose/ui/Modifier;
+	public static final fun pagerGestureOverride (Landroidx/compose/ui/Modifier;Landroidx/compose/foundation/pager/PagerState;Landroidx/compose/foundation/gestures/FlingBehavior;Lio/github/a1b2d56/opaline/utils/PagerInterceptionMode;ZLkotlin/jvm/functions/Function0;Landroidx/compose/runtime/Composer;II)Landroidx/compose/ui/Modifier;
+	public static synthetic fun pagerGestureOverride$default (Landroidx/compose/ui/Modifier;Landroidx/compose/foundation/pager/PagerState;Landroidx/compose/foundation/gestures/FlingBehavior;IZLio/github/a1b2d56/opaline/utils/PagerFlingTrackerConnection;Lkotlin/jvm/functions/Function0;ILjava/lang/Object;)Landroidx/compose/ui/Modifier;
+	public static synthetic fun pagerGestureOverride$default (Landroidx/compose/ui/Modifier;Landroidx/compose/foundation/pager/PagerState;Landroidx/compose/foundation/gestures/FlingBehavior;Lio/github/a1b2d56/opaline/utils/PagerInterceptionMode;ZLio/github/a1b2d56/opaline/utils/PagerFlingTrackerConnection;Lkotlin/jvm/functions/Function0;ILjava/lang/Object;)Landroidx/compose/ui/Modifier;
+	public static final fun springAnimateToPage (Landroidx/compose/foundation/pager/PagerState;ILkotlin/coroutines/Continuation;)Ljava/lang/Object;
+}
+
+public final class io/github/a1b2d56/opaline/utils/PagerInterceptionMode : java/lang/Enum {
+	public static final field CrossAxis Lio/github/a1b2d56/opaline/utils/PagerInterceptionMode;
+	public static final field Native Lio/github/a1b2d56/opaline/utils/PagerInterceptionMode;
+	public static final field TapToHalt Lio/github/a1b2d56/opaline/utils/PagerInterceptionMode;
+	public static fun getEntries ()Lkotlin/enums/EnumEntries;
+	public final fun getTitle ()Ljava/lang/String;
+	public static fun valueOf (Ljava/lang/String;)Lio/github/a1b2d56/opaline/utils/PagerInterceptionMode;
+	public static fun values ()[Lio/github/a1b2d56/opaline/utils/PagerInterceptionMode;
+}
+
+public final class io/github/a1b2d56/opaline/utils/PressFeedbackType : java/lang/Enum {
+	public static final field None Lio/github/a1b2d56/opaline/utils/PressFeedbackType;
+	public static final field Sink Lio/github/a1b2d56/opaline/utils/PressFeedbackType;
+	public static final field Tilt Lio/github/a1b2d56/opaline/utils/PressFeedbackType;
+	public static final field Tint Lio/github/a1b2d56/opaline/utils/PressFeedbackType;
+	public static fun getEntries ()Lkotlin/enums/EnumEntries;
+	public static fun valueOf (Ljava/lang/String;)Lio/github/a1b2d56/opaline/utils/PressFeedbackType;
+	public static fun values ()[Lio/github/a1b2d56/opaline/utils/PressFeedbackType;
+}
+
+public final class io/github/a1b2d56/opaline/utils/PressableKt {
+	public static final fun pressable-QzZPfjk (Landroidx/compose/ui/Modifier;Landroidx/compose/foundation/interaction/MutableInteractionSource;Landroidx/compose/foundation/Indication;ZLandroidx/compose/ui/semantics/Role;Ljava/lang/Long;)Landroidx/compose/ui/Modifier;
+	public static synthetic fun pressable-QzZPfjk$default (Landroidx/compose/ui/Modifier;Landroidx/compose/foundation/interaction/MutableInteractionSource;Landroidx/compose/foundation/Indication;ZLandroidx/compose/ui/semantics/Role;Ljava/lang/Long;ILjava/lang/Object;)Landroidx/compose/ui/Modifier;
+}
+
+public final class io/github/a1b2d56/opaline/utils/ScrollEndHapticKt {
+	public static final fun scrollEndHaptic-zg-ukT8 (Landroidx/compose/ui/Modifier;I)Landroidx/compose/ui/Modifier;
+	public static synthetic fun scrollEndHaptic-zg-ukT8$default (Landroidx/compose/ui/Modifier;IILjava/lang/Object;)Landroidx/compose/ui/Modifier;
+}
+
+public final class io/github/a1b2d56/opaline/utils/SinkFeedback : androidx/compose/foundation/IndicationNodeFactory {
+	public static final field $stable I
+	public fun <init> ()V
+	public fun <init> (FLandroidx/compose/animation/core/AnimationSpec;)V
+	public synthetic fun <init> (FLandroidx/compose/animation/core/AnimationSpec;ILkotlin/jvm/internal/DefaultConstructorMarker;)V
+	public final fun component1 ()F
+	public final fun component2 ()Landroidx/compose/animation/core/AnimationSpec;
+	public final fun copy (FLandroidx/compose/animation/core/AnimationSpec;)Lio/github/a1b2d56/opaline/utils/SinkFeedback;
+	public static synthetic fun copy$default (Lio/github/a1b2d56/opaline/utils/SinkFeedback;FLandroidx/compose/animation/core/AnimationSpec;ILjava/lang/Object;)Lio/github/a1b2d56/opaline/utils/SinkFeedback;
+	public fun create (Landroidx/compose/foundation/interaction/InteractionSource;)Landroidx/compose/ui/node/DelegatableNode;
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun getAnimationSpec ()Landroidx/compose/animation/core/AnimationSpec;
+	public final fun getSinkAmount ()F
+	public fun hashCode ()I
+	public fun rememberUpdatedInstance (Landroidx/compose/foundation/interaction/InteractionSource;Landroidx/compose/runtime/Composer;I)Landroidx/compose/foundation/IndicationInstance;
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class io/github/a1b2d56/opaline/utils/TiltFeedback : androidx/compose/foundation/IndicationNodeFactory {
+	public static final field $stable I
+	public fun <init> ()V
+	public fun <init> (FLandroidx/compose/animation/core/AnimationSpec;)V
+	public synthetic fun <init> (FLandroidx/compose/animation/core/AnimationSpec;ILkotlin/jvm/internal/DefaultConstructorMarker;)V
+	public final fun component1 ()F
+	public final fun component2 ()Landroidx/compose/animation/core/AnimationSpec;
+	public final fun copy (FLandroidx/compose/animation/core/AnimationSpec;)Lio/github/a1b2d56/opaline/utils/TiltFeedback;
+	public static synthetic fun copy$default (Lio/github/a1b2d56/opaline/utils/TiltFeedback;FLandroidx/compose/animation/core/AnimationSpec;ILjava/lang/Object;)Lio/github/a1b2d56/opaline/utils/TiltFeedback;
+	public fun create (Landroidx/compose/foundation/interaction/InteractionSource;)Landroidx/compose/ui/node/DelegatableNode;
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun getAnimationSpec ()Landroidx/compose/animation/core/AnimationSpec;
+	public final fun getTiltAmount ()F
+	public fun hashCode ()I
+	public fun rememberUpdatedInstance (Landroidx/compose/foundation/interaction/InteractionSource;Landroidx/compose/runtime/Composer;I)Landroidx/compose/foundation/IndicationInstance;
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class io/github/a1b2d56/opaline/utils/WindowNavigationEventScope_skikoKt {
+	public static final fun WindowNavigationEventScope (Lkotlin/jvm/functions/Function2;Landroidx/compose/runtime/Composer;I)V
+}
+
+public final class io/github/a1b2d56/opaline/window/WindowBottomSheetKt {
+	public static final fun WindowBottomSheet-wJ2fIaQ (ZLandroidx/compose/ui/Modifier;Ljava/lang/String;Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function2;JZFFLkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;JJZJZZLkotlin/jvm/functions/Function2;Landroidx/compose/runtime/Composer;III)V
+}
+
+public final class io/github/a1b2d56/opaline/window/WindowCascadingListPopupKt {
+	public static final fun WindowCascadingListPopup-2gWK4U8 (ZLjava/util/List;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function3;Landroidx/compose/ui/Modifier;Lkotlin/jvm/functions/Function0;Lio/github/a1b2d56/opaline/basic/PopupPositionProvider;Lio/github/a1b2d56/opaline/basic/PopupPositionProvider$Align;ZLandroidx/compose/ui/unit/Dp;FLio/github/a1b2d56/opaline/basic/DropdownColors;ZLandroidx/compose/runtime/Composer;III)V
+	public static final fun WindowCascadingListPopup-fwZs_P8 (ZLjava/util/List;Lkotlin/jvm/functions/Function0;Landroidx/compose/ui/Modifier;Lkotlin/jvm/functions/Function0;Lio/github/a1b2d56/opaline/basic/PopupPositionProvider;Lio/github/a1b2d56/opaline/basic/PopupPositionProvider$Align;ZLandroidx/compose/ui/unit/Dp;FLio/github/a1b2d56/opaline/basic/DropdownColors;ZLandroidx/compose/runtime/Composer;III)V
+}
+
+public final class io/github/a1b2d56/opaline/window/WindowDialogKt {
+	public static final fun WindowDialog-LDIEPSc (ZLandroidx/compose/ui/Modifier;Ljava/lang/String;JLjava/lang/String;JJZLkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;JJZFLjava/lang/Boolean;Landroidx/compose/ui/unit/Dp;Lkotlin/jvm/functions/Function2;Landroidx/compose/runtime/Composer;III)V
+}
+
+public final class io/github/a1b2d56/opaline/window/WindowListPopupKt {
+	public static final fun WindowListPopup-zvmsXUs (ZLandroidx/compose/ui/Modifier;Lio/github/a1b2d56/opaline/basic/PopupPositionProvider;Lio/github/a1b2d56/opaline/basic/PopupPositionProvider$Align;ZLkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Landroidx/compose/ui/unit/Dp;FLio/github/a1b2d56/opaline/basic/PreciseClickState;Lkotlin/jvm/functions/Function2;Landroidx/compose/runtime/Composer;III)V
+}
+
+public final class io/github/a1b2d56/opaline/window/WindowLoadingDialogKt {
+	public static final fun WindowLoadingDialog-TtFQ49E (ZLandroidx/compose/ui/Modifier;Ljava/lang/String;JJJZLkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Landroidx/compose/runtime/Composer;II)V
+}
+
+public final class io/github/a1b2d56/opaline/window/WindowSecurityDialogKt {
+	public static final fun WindowSecurityDialog-2GaOgk4 (ZLkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function0;Landroidx/compose/ui/Modifier;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lkotlin/jvm/functions/Function0;Ljava/lang/String;ZLjava/lang/String;Ljava/lang/String;JJJLio/github/a1b2d56/opaline/layout/SecurityDialogColors;ZLkotlin/jvm/functions/Function0;Landroidx/compose/runtime/Composer;III)V
+}
+
