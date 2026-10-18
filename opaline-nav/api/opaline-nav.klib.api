@@ -1,0 +1,391 @@
+// Klib ABI Dump
+// Targets: [iosArm64, iosSimulatorArm64, js, macosArm64, wasmJs]
+// Rendering settings:
+// - Signature version: 2
+// - Show manifest properties: true
+// - Show declarations: true
+
+// Library unique name: <io.github.a1b2d56.opaline:opaline-nav>
+final enum class io.github.a1b2d56.opaline.nav.core/NavCornerClipMode : kotlin/Enum<io.github.a1b2d56.opaline.nav.core/NavCornerClipMode> { // io.github.a1b2d56.opaline.nav.core/NavCornerClipMode|null[0]
+    enum entry All // io.github.a1b2d56.opaline.nav.core/NavCornerClipMode.All|null[0]
+    enum entry Leading // io.github.a1b2d56.opaline.nav.core/NavCornerClipMode.Leading|null[0]
+
+    final val entries // io.github.a1b2d56.opaline.nav.core/NavCornerClipMode.entries|#static{}entries[0]
+        final fun <get-entries>(): kotlin.enums/EnumEntries<io.github.a1b2d56.opaline.nav.core/NavCornerClipMode> // io.github.a1b2d56.opaline.nav.core/NavCornerClipMode.entries.<get-entries>|<get-entries>#static(){}[0]
+
+    final fun valueOf(kotlin/String): io.github.a1b2d56.opaline.nav.core/NavCornerClipMode // io.github.a1b2d56.opaline.nav.core/NavCornerClipMode.valueOf|valueOf#static(kotlin.String){}[0]
+    final fun values(): kotlin/Array<io.github.a1b2d56.opaline.nav.core/NavCornerClipMode> // io.github.a1b2d56.opaline.nav.core/NavCornerClipMode.values|values#static(){}[0]
+}
+
+final enum class io.github.a1b2d56.opaline.nav.transition/NavRole : kotlin/Enum<io.github.a1b2d56.opaline.nav.transition/NavRole> { // io.github.a1b2d56.opaline.nav.transition/NavRole|null[0]
+    enum entry Covered // io.github.a1b2d56.opaline.nav.transition/NavRole.Covered|null[0]
+    enum entry Incoming // io.github.a1b2d56.opaline.nav.transition/NavRole.Incoming|null[0]
+    enum entry Outgoing // io.github.a1b2d56.opaline.nav.transition/NavRole.Outgoing|null[0]
+    enum entry Top // io.github.a1b2d56.opaline.nav.transition/NavRole.Top|null[0]
+
+    final val entries // io.github.a1b2d56.opaline.nav.transition/NavRole.entries|#static{}entries[0]
+        final fun <get-entries>(): kotlin.enums/EnumEntries<io.github.a1b2d56.opaline.nav.transition/NavRole> // io.github.a1b2d56.opaline.nav.transition/NavRole.entries.<get-entries>|<get-entries>#static(){}[0]
+
+    final fun valueOf(kotlin/String): io.github.a1b2d56.opaline.nav.transition/NavRole // io.github.a1b2d56.opaline.nav.transition/NavRole.valueOf|valueOf#static(kotlin.String){}[0]
+    final fun values(): kotlin/Array<io.github.a1b2d56.opaline.nav.transition/NavRole> // io.github.a1b2d56.opaline.nav.transition/NavRole.values|values#static(){}[0]
+}
+
+final enum class io.github.a1b2d56.opaline.nav.transition/NavSettlePhase : kotlin/Enum<io.github.a1b2d56.opaline.nav.transition/NavSettlePhase> { // io.github.a1b2d56.opaline.nav.transition/NavSettlePhase|null[0]
+    enum entry Cancel // io.github.a1b2d56.opaline.nav.transition/NavSettlePhase.Cancel|null[0]
+    enum entry Commit // io.github.a1b2d56.opaline.nav.transition/NavSettlePhase.Commit|null[0]
+    enum entry Programmatic // io.github.a1b2d56.opaline.nav.transition/NavSettlePhase.Programmatic|null[0]
+
+    final val entries // io.github.a1b2d56.opaline.nav.transition/NavSettlePhase.entries|#static{}entries[0]
+        final fun <get-entries>(): kotlin.enums/EnumEntries<io.github.a1b2d56.opaline.nav.transition/NavSettlePhase> // io.github.a1b2d56.opaline.nav.transition/NavSettlePhase.entries.<get-entries>|<get-entries>#static(){}[0]
+
+    final fun valueOf(kotlin/String): io.github.a1b2d56.opaline.nav.transition/NavSettlePhase // io.github.a1b2d56.opaline.nav.transition/NavSettlePhase.valueOf|valueOf#static(kotlin.String){}[0]
+    final fun values(): kotlin/Array<io.github.a1b2d56.opaline.nav.transition/NavSettlePhase> // io.github.a1b2d56.opaline.nav.transition/NavSettlePhase.values|values#static(){}[0]
+}
+
+final enum class io.github.a1b2d56.opaline.nav.transition/NavSwipeDirection : kotlin/Enum<io.github.a1b2d56.opaline.nav.transition/NavSwipeDirection> { // io.github.a1b2d56.opaline.nav.transition/NavSwipeDirection|null[0]
+    enum entry BottomToTop // io.github.a1b2d56.opaline.nav.transition/NavSwipeDirection.BottomToTop|null[0]
+    enum entry LeftToRight // io.github.a1b2d56.opaline.nav.transition/NavSwipeDirection.LeftToRight|null[0]
+    enum entry None // io.github.a1b2d56.opaline.nav.transition/NavSwipeDirection.None|null[0]
+    enum entry RightToLeft // io.github.a1b2d56.opaline.nav.transition/NavSwipeDirection.RightToLeft|null[0]
+    enum entry TopToBottom // io.github.a1b2d56.opaline.nav.transition/NavSwipeDirection.TopToBottom|null[0]
+
+    final val entries // io.github.a1b2d56.opaline.nav.transition/NavSwipeDirection.entries|#static{}entries[0]
+        final fun <get-entries>(): kotlin.enums/EnumEntries<io.github.a1b2d56.opaline.nav.transition/NavSwipeDirection> // io.github.a1b2d56.opaline.nav.transition/NavSwipeDirection.entries.<get-entries>|<get-entries>#static(){}[0]
+
+    final fun valueOf(kotlin/String): io.github.a1b2d56.opaline.nav.transition/NavSwipeDirection // io.github.a1b2d56.opaline.nav.transition/NavSwipeDirection.valueOf|valueOf#static(kotlin.String){}[0]
+    final fun values(): kotlin/Array<io.github.a1b2d56.opaline.nav.transition/NavSwipeDirection> // io.github.a1b2d56.opaline.nav.transition/NavSwipeDirection.values|values#static(){}[0]
+}
+
+final enum class io.github.a1b2d56.opaline.nav.transition/NavSwipeEdge : kotlin/Enum<io.github.a1b2d56.opaline.nav.transition/NavSwipeEdge> { // io.github.a1b2d56.opaline.nav.transition/NavSwipeEdge|null[0]
+    enum entry Left // io.github.a1b2d56.opaline.nav.transition/NavSwipeEdge.Left|null[0]
+    enum entry None // io.github.a1b2d56.opaline.nav.transition/NavSwipeEdge.None|null[0]
+    enum entry Right // io.github.a1b2d56.opaline.nav.transition/NavSwipeEdge.Right|null[0]
+
+    final val entries // io.github.a1b2d56.opaline.nav.transition/NavSwipeEdge.entries|#static{}entries[0]
+        final fun <get-entries>(): kotlin.enums/EnumEntries<io.github.a1b2d56.opaline.nav.transition/NavSwipeEdge> // io.github.a1b2d56.opaline.nav.transition/NavSwipeEdge.entries.<get-entries>|<get-entries>#static(){}[0]
+
+    final fun valueOf(kotlin/String): io.github.a1b2d56.opaline.nav.transition/NavSwipeEdge // io.github.a1b2d56.opaline.nav.transition/NavSwipeEdge.valueOf|valueOf#static(kotlin.String){}[0]
+    final fun values(): kotlin/Array<io.github.a1b2d56.opaline.nav.transition/NavSwipeEdge> // io.github.a1b2d56.opaline.nav.transition/NavSwipeEdge.values|values#static(){}[0]
+}
+
+abstract fun interface io.github.a1b2d56.opaline.nav.transition/NavTransition { // io.github.a1b2d56.opaline.nav.transition/NavTransition|null[0]
+    open val dismissDirection // io.github.a1b2d56.opaline.nav.transition/NavTransition.dismissDirection|{}dismissDirection[0]
+        open fun <get-dismissDirection>(): io.github.a1b2d56.opaline.nav.transition/NavSwipeDirection // io.github.a1b2d56.opaline.nav.transition/NavTransition.dismissDirection.<get-dismissDirection>|<get-dismissDirection>(){}[0]
+    open val motion // io.github.a1b2d56.opaline.nav.transition/NavTransition.motion|{}motion[0]
+        open fun <get-motion>(): io.github.a1b2d56.opaline.nav.transition/NavMotion // io.github.a1b2d56.opaline.nav.transition/NavTransition.motion.<get-motion>|<get-motion>(){}[0]
+    open val opaqueDepth // io.github.a1b2d56.opaline.nav.transition/NavTransition.opaqueDepth|{}opaqueDepth[0]
+        open fun <get-opaqueDepth>(): kotlin/Float // io.github.a1b2d56.opaline.nav.transition/NavTransition.opaqueDepth.<get-opaqueDepth>|<get-opaqueDepth>(){}[0]
+
+    abstract fun (androidx.compose.ui/Modifier).transformEntry(io.github.a1b2d56.opaline.nav.transition/NavTransitionScope): androidx.compose.ui/Modifier // io.github.a1b2d56.opaline.nav.transition/NavTransition.transformEntry|transformEntry@androidx.compose.ui.Modifier(io.github.a1b2d56.opaline.nav.transition.NavTransitionScope){}[0]
+    open fun scrimFraction(io.github.a1b2d56.opaline.nav.transition/NavTransitionScope): kotlin/Float // io.github.a1b2d56.opaline.nav.transition/NavTransition.scrimFraction|scrimFraction(io.github.a1b2d56.opaline.nav.transition.NavTransitionScope){}[0]
+}
+
+abstract interface io.github.a1b2d56.opaline.nav.core/NavKey // io.github.a1b2d56.opaline.nav.core/NavKey|null[0]
+
+abstract interface io.github.a1b2d56.opaline.nav.transition/NavSettle { // io.github.a1b2d56.opaline.nav.transition/NavSettle|null[0]
+    abstract val elapsedMillis // io.github.a1b2d56.opaline.nav.transition/NavSettle.elapsedMillis|{}elapsedMillis[0]
+        abstract fun <get-elapsedMillis>(): kotlin/Float // io.github.a1b2d56.opaline.nav.transition/NavSettle.elapsedMillis.<get-elapsedMillis>|<get-elapsedMillis>(){}[0]
+    abstract val phase // io.github.a1b2d56.opaline.nav.transition/NavSettle.phase|{}phase[0]
+        abstract fun <get-phase>(): io.github.a1b2d56.opaline.nav.transition/NavSettlePhase // io.github.a1b2d56.opaline.nav.transition/NavSettle.phase.<get-phase>|<get-phase>(){}[0]
+    abstract val releaseVelocity // io.github.a1b2d56.opaline.nav.transition/NavSettle.releaseVelocity|{}releaseVelocity[0]
+        abstract fun <get-releaseVelocity>(): kotlin/Float // io.github.a1b2d56.opaline.nav.transition/NavSettle.releaseVelocity.<get-releaseVelocity>|<get-releaseVelocity>(){}[0]
+}
+
+abstract interface io.github.a1b2d56.opaline.nav.transition/NavTransitionScope { // io.github.a1b2d56.opaline.nav.transition/NavTransitionScope|null[0]
+    abstract val change // io.github.a1b2d56.opaline.nav.transition/NavTransitionScope.change|{}change[0]
+        abstract fun <get-change>(): io.github.a1b2d56.opaline.nav.runtime/NavChange // io.github.a1b2d56.opaline.nav.transition/NavTransitionScope.change.<get-change>|<get-change>(){}[0]
+    abstract val density // io.github.a1b2d56.opaline.nav.transition/NavTransitionScope.density|{}density[0]
+        abstract fun <get-density>(): androidx.compose.ui.unit/Density // io.github.a1b2d56.opaline.nav.transition/NavTransitionScope.density.<get-density>|<get-density>(){}[0]
+    abstract val gesture // io.github.a1b2d56.opaline.nav.transition/NavTransitionScope.gesture|{}gesture[0]
+        abstract fun <get-gesture>(): io.github.a1b2d56.opaline.nav.transition/NavGesture? // io.github.a1b2d56.opaline.nav.transition/NavTransitionScope.gesture.<get-gesture>|<get-gesture>(){}[0]
+    abstract val layoutDirection // io.github.a1b2d56.opaline.nav.transition/NavTransitionScope.layoutDirection|{}layoutDirection[0]
+        abstract fun <get-layoutDirection>(): androidx.compose.ui.unit/LayoutDirection // io.github.a1b2d56.opaline.nav.transition/NavTransitionScope.layoutDirection.<get-layoutDirection>|<get-layoutDirection>(){}[0]
+    abstract val layoutSize // io.github.a1b2d56.opaline.nav.transition/NavTransitionScope.layoutSize|{}layoutSize[0]
+        abstract fun <get-layoutSize>(): androidx.compose.ui.unit/IntSize // io.github.a1b2d56.opaline.nav.transition/NavTransitionScope.layoutSize.<get-layoutSize>|<get-layoutSize>(){}[0]
+    abstract val relativeDepth // io.github.a1b2d56.opaline.nav.transition/NavTransitionScope.relativeDepth|{}relativeDepth[0]
+        abstract fun <get-relativeDepth>(): kotlin/Float // io.github.a1b2d56.opaline.nav.transition/NavTransitionScope.relativeDepth.<get-relativeDepth>|<get-relativeDepth>(){}[0]
+    abstract val role // io.github.a1b2d56.opaline.nav.transition/NavTransitionScope.role|{}role[0]
+        abstract fun <get-role>(): io.github.a1b2d56.opaline.nav.transition/NavRole // io.github.a1b2d56.opaline.nav.transition/NavTransitionScope.role.<get-role>|<get-role>(){}[0]
+    open val isRunning // io.github.a1b2d56.opaline.nav.transition/NavTransitionScope.isRunning|{}isRunning[0]
+        open fun <get-isRunning>(): kotlin/Boolean // io.github.a1b2d56.opaline.nav.transition/NavTransitionScope.isRunning.<get-isRunning>|<get-isRunning>(){}[0]
+    open val settle // io.github.a1b2d56.opaline.nav.transition/NavTransitionScope.settle|{}settle[0]
+        open fun <get-settle>(): io.github.a1b2d56.opaline.nav.transition/NavSettle? // io.github.a1b2d56.opaline.nav.transition/NavTransitionScope.settle.<get-settle>|<get-settle>(){}[0]
+}
+
+sealed interface io.github.a1b2d56.opaline.nav.runtime/NavChange { // io.github.a1b2d56.opaline.nav.runtime/NavChange|null[0]
+    final class MultiPop : io.github.a1b2d56.opaline.nav.runtime/NavChange { // io.github.a1b2d56.opaline.nav.runtime/NavChange.MultiPop|null[0]
+        constructor <init>(kotlin/Int) // io.github.a1b2d56.opaline.nav.runtime/NavChange.MultiPop.<init>|<init>(kotlin.Int){}[0]
+
+        final val count // io.github.a1b2d56.opaline.nav.runtime/NavChange.MultiPop.count|{}count[0]
+            final fun <get-count>(): kotlin/Int // io.github.a1b2d56.opaline.nav.runtime/NavChange.MultiPop.count.<get-count>|<get-count>(){}[0]
+
+        final fun component1(): kotlin/Int // io.github.a1b2d56.opaline.nav.runtime/NavChange.MultiPop.component1|component1(){}[0]
+        final fun copy(kotlin/Int = ...): io.github.a1b2d56.opaline.nav.runtime/NavChange.MultiPop // io.github.a1b2d56.opaline.nav.runtime/NavChange.MultiPop.copy|copy(kotlin.Int){}[0]
+        final fun equals(kotlin/Any?): kotlin/Boolean // io.github.a1b2d56.opaline.nav.runtime/NavChange.MultiPop.equals|equals(kotlin.Any?){}[0]
+        final fun hashCode(): kotlin/Int // io.github.a1b2d56.opaline.nav.runtime/NavChange.MultiPop.hashCode|hashCode(){}[0]
+        final fun toString(): kotlin/String // io.github.a1b2d56.opaline.nav.runtime/NavChange.MultiPop.toString|toString(){}[0]
+    }
+
+    final class MultiPush : io.github.a1b2d56.opaline.nav.runtime/NavChange { // io.github.a1b2d56.opaline.nav.runtime/NavChange.MultiPush|null[0]
+        constructor <init>(kotlin/Int) // io.github.a1b2d56.opaline.nav.runtime/NavChange.MultiPush.<init>|<init>(kotlin.Int){}[0]
+
+        final val count // io.github.a1b2d56.opaline.nav.runtime/NavChange.MultiPush.count|{}count[0]
+            final fun <get-count>(): kotlin/Int // io.github.a1b2d56.opaline.nav.runtime/NavChange.MultiPush.count.<get-count>|<get-count>(){}[0]
+
+        final fun component1(): kotlin/Int // io.github.a1b2d56.opaline.nav.runtime/NavChange.MultiPush.component1|component1(){}[0]
+        final fun copy(kotlin/Int = ...): io.github.a1b2d56.opaline.nav.runtime/NavChange.MultiPush // io.github.a1b2d56.opaline.nav.runtime/NavChange.MultiPush.copy|copy(kotlin.Int){}[0]
+        final fun equals(kotlin/Any?): kotlin/Boolean // io.github.a1b2d56.opaline.nav.runtime/NavChange.MultiPush.equals|equals(kotlin.Any?){}[0]
+        final fun hashCode(): kotlin/Int // io.github.a1b2d56.opaline.nav.runtime/NavChange.MultiPush.hashCode|hashCode(){}[0]
+        final fun toString(): kotlin/String // io.github.a1b2d56.opaline.nav.runtime/NavChange.MultiPush.toString|toString(){}[0]
+    }
+
+    final object None : io.github.a1b2d56.opaline.nav.runtime/NavChange { // io.github.a1b2d56.opaline.nav.runtime/NavChange.None|null[0]
+        final fun equals(kotlin/Any?): kotlin/Boolean // io.github.a1b2d56.opaline.nav.runtime/NavChange.None.equals|equals(kotlin.Any?){}[0]
+        final fun hashCode(): kotlin/Int // io.github.a1b2d56.opaline.nav.runtime/NavChange.None.hashCode|hashCode(){}[0]
+        final fun toString(): kotlin/String // io.github.a1b2d56.opaline.nav.runtime/NavChange.None.toString|toString(){}[0]
+    }
+
+    final object Pop : io.github.a1b2d56.opaline.nav.runtime/NavChange { // io.github.a1b2d56.opaline.nav.runtime/NavChange.Pop|null[0]
+        final fun equals(kotlin/Any?): kotlin/Boolean // io.github.a1b2d56.opaline.nav.runtime/NavChange.Pop.equals|equals(kotlin.Any?){}[0]
+        final fun hashCode(): kotlin/Int // io.github.a1b2d56.opaline.nav.runtime/NavChange.Pop.hashCode|hashCode(){}[0]
+        final fun toString(): kotlin/String // io.github.a1b2d56.opaline.nav.runtime/NavChange.Pop.toString|toString(){}[0]
+    }
+
+    final object Push : io.github.a1b2d56.opaline.nav.runtime/NavChange { // io.github.a1b2d56.opaline.nav.runtime/NavChange.Push|null[0]
+        final fun equals(kotlin/Any?): kotlin/Boolean // io.github.a1b2d56.opaline.nav.runtime/NavChange.Push.equals|equals(kotlin.Any?){}[0]
+        final fun hashCode(): kotlin/Int // io.github.a1b2d56.opaline.nav.runtime/NavChange.Push.hashCode|hashCode(){}[0]
+        final fun toString(): kotlin/String // io.github.a1b2d56.opaline.nav.runtime/NavChange.Push.toString|toString(){}[0]
+    }
+
+    final object Replace : io.github.a1b2d56.opaline.nav.runtime/NavChange { // io.github.a1b2d56.opaline.nav.runtime/NavChange.Replace|null[0]
+        final fun equals(kotlin/Any?): kotlin/Boolean // io.github.a1b2d56.opaline.nav.runtime/NavChange.Replace.equals|equals(kotlin.Any?){}[0]
+        final fun hashCode(): kotlin/Int // io.github.a1b2d56.opaline.nav.runtime/NavChange.Replace.hashCode|hashCode(){}[0]
+        final fun toString(): kotlin/String // io.github.a1b2d56.opaline.nav.runtime/NavChange.Replace.toString|toString(){}[0]
+    }
+
+    final object ReplaceAll : io.github.a1b2d56.opaline.nav.runtime/NavChange { // io.github.a1b2d56.opaline.nav.runtime/NavChange.ReplaceAll|null[0]
+        final fun equals(kotlin/Any?): kotlin/Boolean // io.github.a1b2d56.opaline.nav.runtime/NavChange.ReplaceAll.equals|equals(kotlin.Any?){}[0]
+        final fun hashCode(): kotlin/Int // io.github.a1b2d56.opaline.nav.runtime/NavChange.ReplaceAll.hashCode|hashCode(){}[0]
+        final fun toString(): kotlin/String // io.github.a1b2d56.opaline.nav.runtime/NavChange.ReplaceAll.toString|toString(){}[0]
+    }
+}
+
+sealed interface io.github.a1b2d56.opaline.nav.transition/NavSettleSpec { // io.github.a1b2d56.opaline.nav.transition/NavSettleSpec|null[0]
+    final class Spring : io.github.a1b2d56.opaline.nav.transition/NavSettleSpec { // io.github.a1b2d56.opaline.nav.transition/NavSettleSpec.Spring|null[0]
+        constructor <init>(kotlin/Float = ..., kotlin/Float = ..., kotlin/Boolean = ...) // io.github.a1b2d56.opaline.nav.transition/NavSettleSpec.Spring.<init>|<init>(kotlin.Float;kotlin.Float;kotlin.Boolean){}[0]
+
+        final val clampOvershoot // io.github.a1b2d56.opaline.nav.transition/NavSettleSpec.Spring.clampOvershoot|{}clampOvershoot[0]
+            final fun <get-clampOvershoot>(): kotlin/Boolean // io.github.a1b2d56.opaline.nav.transition/NavSettleSpec.Spring.clampOvershoot.<get-clampOvershoot>|<get-clampOvershoot>(){}[0]
+        final val dampingRatio // io.github.a1b2d56.opaline.nav.transition/NavSettleSpec.Spring.dampingRatio|{}dampingRatio[0]
+            final fun <get-dampingRatio>(): kotlin/Float // io.github.a1b2d56.opaline.nav.transition/NavSettleSpec.Spring.dampingRatio.<get-dampingRatio>|<get-dampingRatio>(){}[0]
+        final val stiffness // io.github.a1b2d56.opaline.nav.transition/NavSettleSpec.Spring.stiffness|{}stiffness[0]
+            final fun <get-stiffness>(): kotlin/Float // io.github.a1b2d56.opaline.nav.transition/NavSettleSpec.Spring.stiffness.<get-stiffness>|<get-stiffness>(){}[0]
+
+        final fun component1(): kotlin/Float // io.github.a1b2d56.opaline.nav.transition/NavSettleSpec.Spring.component1|component1(){}[0]
+        final fun component2(): kotlin/Float // io.github.a1b2d56.opaline.nav.transition/NavSettleSpec.Spring.component2|component2(){}[0]
+        final fun component3(): kotlin/Boolean // io.github.a1b2d56.opaline.nav.transition/NavSettleSpec.Spring.component3|component3(){}[0]
+        final fun copy(kotlin/Float = ..., kotlin/Float = ..., kotlin/Boolean = ...): io.github.a1b2d56.opaline.nav.transition/NavSettleSpec.Spring // io.github.a1b2d56.opaline.nav.transition/NavSettleSpec.Spring.copy|copy(kotlin.Float;kotlin.Float;kotlin.Boolean){}[0]
+        final fun equals(kotlin/Any?): kotlin/Boolean // io.github.a1b2d56.opaline.nav.transition/NavSettleSpec.Spring.equals|equals(kotlin.Any?){}[0]
+        final fun hashCode(): kotlin/Int // io.github.a1b2d56.opaline.nav.transition/NavSettleSpec.Spring.hashCode|hashCode(){}[0]
+        final fun toString(): kotlin/String // io.github.a1b2d56.opaline.nav.transition/NavSettleSpec.Spring.toString|toString(){}[0]
+    }
+
+    final class Tween : io.github.a1b2d56.opaline.nav.transition/NavSettleSpec { // io.github.a1b2d56.opaline.nav.transition/NavSettleSpec.Tween|null[0]
+        constructor <init>(kotlin/Int, androidx.compose.animation.core/Easing) // io.github.a1b2d56.opaline.nav.transition/NavSettleSpec.Tween.<init>|<init>(kotlin.Int;androidx.compose.animation.core.Easing){}[0]
+
+        final val durationMillis // io.github.a1b2d56.opaline.nav.transition/NavSettleSpec.Tween.durationMillis|{}durationMillis[0]
+            final fun <get-durationMillis>(): kotlin/Int // io.github.a1b2d56.opaline.nav.transition/NavSettleSpec.Tween.durationMillis.<get-durationMillis>|<get-durationMillis>(){}[0]
+        final val easing // io.github.a1b2d56.opaline.nav.transition/NavSettleSpec.Tween.easing|{}easing[0]
+            final fun <get-easing>(): androidx.compose.animation.core/Easing // io.github.a1b2d56.opaline.nav.transition/NavSettleSpec.Tween.easing.<get-easing>|<get-easing>(){}[0]
+
+        final fun component1(): kotlin/Int // io.github.a1b2d56.opaline.nav.transition/NavSettleSpec.Tween.component1|component1(){}[0]
+        final fun component2(): androidx.compose.animation.core/Easing // io.github.a1b2d56.opaline.nav.transition/NavSettleSpec.Tween.component2|component2(){}[0]
+        final fun copy(kotlin/Int = ..., androidx.compose.animation.core/Easing = ...): io.github.a1b2d56.opaline.nav.transition/NavSettleSpec.Tween // io.github.a1b2d56.opaline.nav.transition/NavSettleSpec.Tween.copy|copy(kotlin.Int;androidx.compose.animation.core.Easing){}[0]
+        final fun equals(kotlin/Any?): kotlin/Boolean // io.github.a1b2d56.opaline.nav.transition/NavSettleSpec.Tween.equals|equals(kotlin.Any?){}[0]
+        final fun hashCode(): kotlin/Int // io.github.a1b2d56.opaline.nav.transition/NavSettleSpec.Tween.hashCode|hashCode(){}[0]
+        final fun toString(): kotlin/String // io.github.a1b2d56.opaline.nav.transition/NavSettleSpec.Tween.toString|toString(){}[0]
+    }
+}
+
+final class <#A: io.github.a1b2d56.opaline.nav.core/NavKey> io.github.a1b2d56.opaline.nav.core/NavEntry { // io.github.a1b2d56.opaline.nav.core/NavEntry|null[0]
+    constructor <init>(#A, kotlin/Any, kotlin.collections/Map<kotlin/String, kotlin/Any>, kotlin/Function3<#A, androidx.compose.runtime/Composer, kotlin/Int, kotlin/Unit>) // io.github.a1b2d56.opaline.nav.core/NavEntry.<init>|<init>(1:0;kotlin.Any;kotlin.collections.Map<kotlin.String,kotlin.Any>;kotlin.Function3<1:0,androidx.compose.runtime.Composer,kotlin.Int,kotlin.Unit>){}[0]
+
+    final val contentKey // io.github.a1b2d56.opaline.nav.core/NavEntry.contentKey|{}contentKey[0]
+        final fun <get-contentKey>(): kotlin/Any // io.github.a1b2d56.opaline.nav.core/NavEntry.contentKey.<get-contentKey>|<get-contentKey>(){}[0]
+    final val key // io.github.a1b2d56.opaline.nav.core/NavEntry.key|{}key[0]
+        final fun <get-key>(): #A // io.github.a1b2d56.opaline.nav.core/NavEntry.key.<get-key>|<get-key>(){}[0]
+    final val metadata // io.github.a1b2d56.opaline.nav.core/NavEntry.metadata|{}metadata[0]
+        final fun <get-metadata>(): kotlin.collections/Map<kotlin/String, kotlin/Any> // io.github.a1b2d56.opaline.nav.core/NavEntry.metadata.<get-metadata>|<get-metadata>(){}[0]
+
+    final var presentation // io.github.a1b2d56.opaline.nav.core/NavEntry.presentation|{}presentation[0]
+        final fun <get-presentation>(): io.github.a1b2d56.opaline.nav.core/NavPresentationState // io.github.a1b2d56.opaline.nav.core/NavEntry.presentation.<get-presentation>|<get-presentation>(){}[0]
+        final fun <set-presentation>(io.github.a1b2d56.opaline.nav.core/NavPresentationState) // io.github.a1b2d56.opaline.nav.core/NavEntry.presentation.<set-presentation>|<set-presentation>(io.github.a1b2d56.opaline.nav.core.NavPresentationState){}[0]
+
+    final fun Content(androidx.compose.runtime/Composer?, kotlin/Int) // io.github.a1b2d56.opaline.nav.core/NavEntry.Content|Content(androidx.compose.runtime.Composer?;kotlin.Int){}[0]
+    final fun adoptFrom(io.github.a1b2d56.opaline.nav.core/NavEntry<*>) // io.github.a1b2d56.opaline.nav.core/NavEntry.adoptFrom|adoptFrom(io.github.a1b2d56.opaline.nav.core.NavEntry<*>){}[0]
+}
+
+final class io.github.a1b2d56.opaline.nav.core/NavController { // io.github.a1b2d56.opaline.nav.core/NavController|null[0]
+    constructor <init>(androidx.compose.runtime.snapshots/SnapshotStateList<io.github.a1b2d56.opaline.nav.core/NavKey>) // io.github.a1b2d56.opaline.nav.core/NavController.<init>|<init>(androidx.compose.runtime.snapshots.SnapshotStateList<io.github.a1b2d56.opaline.nav.core.NavKey>){}[0]
+
+    final val backStack // io.github.a1b2d56.opaline.nav.core/NavController.backStack|{}backStack[0]
+        final fun <get-backStack>(): androidx.compose.runtime.snapshots/SnapshotStateList<io.github.a1b2d56.opaline.nav.core/NavKey> // io.github.a1b2d56.opaline.nav.core/NavController.backStack.<get-backStack>|<get-backStack>(){}[0]
+
+    final fun pop(): kotlin/Boolean // io.github.a1b2d56.opaline.nav.core/NavController.pop|pop(){}[0]
+    final fun popUntil(kotlin/Function1<io.github.a1b2d56.opaline.nav.core/NavKey, kotlin/Boolean>) // io.github.a1b2d56.opaline.nav.core/NavController.popUntil|popUntil(kotlin.Function1<io.github.a1b2d56.opaline.nav.core.NavKey,kotlin.Boolean>){}[0]
+    final fun push(io.github.a1b2d56.opaline.nav.core/NavKey) // io.github.a1b2d56.opaline.nav.core/NavController.push|push(io.github.a1b2d56.opaline.nav.core.NavKey){}[0]
+    final fun replace(io.github.a1b2d56.opaline.nav.core/NavKey) // io.github.a1b2d56.opaline.nav.core/NavController.replace|replace(io.github.a1b2d56.opaline.nav.core.NavKey){}[0]
+}
+
+final class io.github.a1b2d56.opaline.nav.core/NavDisplayEffects { // io.github.a1b2d56.opaline.nav.core/NavDisplayEffects|null[0]
+    constructor <init>(kotlin/Boolean = ..., androidx.compose.ui.unit/Dp = ..., io.github.a1b2d56.opaline.nav.core/NavCornerClipMode = ..., kotlin/Float = ..., kotlin/Boolean = ..., androidx.compose.ui.graphics/Color = ...) // io.github.a1b2d56.opaline.nav.core/NavDisplayEffects.<init>|<init>(kotlin.Boolean;androidx.compose.ui.unit.Dp;io.github.a1b2d56.opaline.nav.core.NavCornerClipMode;kotlin.Float;kotlin.Boolean;androidx.compose.ui.graphics.Color){}[0]
+
+    final val backdropColor // io.github.a1b2d56.opaline.nav.core/NavDisplayEffects.backdropColor|{}backdropColor[0]
+        final fun <get-backdropColor>(): androidx.compose.ui.graphics/Color // io.github.a1b2d56.opaline.nav.core/NavDisplayEffects.backdropColor.<get-backdropColor>|<get-backdropColor>(){}[0]
+    final val blockInputDuringTransition // io.github.a1b2d56.opaline.nav.core/NavDisplayEffects.blockInputDuringTransition|{}blockInputDuringTransition[0]
+        final fun <get-blockInputDuringTransition>(): kotlin/Boolean // io.github.a1b2d56.opaline.nav.core/NavDisplayEffects.blockInputDuringTransition.<get-blockInputDuringTransition>|<get-blockInputDuringTransition>(){}[0]
+    final val cornerClipMode // io.github.a1b2d56.opaline.nav.core/NavDisplayEffects.cornerClipMode|{}cornerClipMode[0]
+        final fun <get-cornerClipMode>(): io.github.a1b2d56.opaline.nav.core/NavCornerClipMode // io.github.a1b2d56.opaline.nav.core/NavDisplayEffects.cornerClipMode.<get-cornerClipMode>|<get-cornerClipMode>(){}[0]
+    final val cornerClipRadius // io.github.a1b2d56.opaline.nav.core/NavDisplayEffects.cornerClipRadius|{}cornerClipRadius[0]
+        final fun <get-cornerClipRadius>(): androidx.compose.ui.unit/Dp // io.github.a1b2d56.opaline.nav.core/NavDisplayEffects.cornerClipRadius.<get-cornerClipRadius>|<get-cornerClipRadius>(){}[0]
+    final val dimAmount // io.github.a1b2d56.opaline.nav.core/NavDisplayEffects.dimAmount|{}dimAmount[0]
+        final fun <get-dimAmount>(): kotlin/Float // io.github.a1b2d56.opaline.nav.core/NavDisplayEffects.dimAmount.<get-dimAmount>|<get-dimAmount>(){}[0]
+    final val enableCornerClip // io.github.a1b2d56.opaline.nav.core/NavDisplayEffects.enableCornerClip|{}enableCornerClip[0]
+        final fun <get-enableCornerClip>(): kotlin/Boolean // io.github.a1b2d56.opaline.nav.core/NavDisplayEffects.enableCornerClip.<get-enableCornerClip>|<get-enableCornerClip>(){}[0]
+
+    final fun component1(): kotlin/Boolean // io.github.a1b2d56.opaline.nav.core/NavDisplayEffects.component1|component1(){}[0]
+    final fun component2(): androidx.compose.ui.unit/Dp // io.github.a1b2d56.opaline.nav.core/NavDisplayEffects.component2|component2(){}[0]
+    final fun component3(): io.github.a1b2d56.opaline.nav.core/NavCornerClipMode // io.github.a1b2d56.opaline.nav.core/NavDisplayEffects.component3|component3(){}[0]
+    final fun component4(): kotlin/Float // io.github.a1b2d56.opaline.nav.core/NavDisplayEffects.component4|component4(){}[0]
+    final fun component5(): kotlin/Boolean // io.github.a1b2d56.opaline.nav.core/NavDisplayEffects.component5|component5(){}[0]
+    final fun component6(): androidx.compose.ui.graphics/Color // io.github.a1b2d56.opaline.nav.core/NavDisplayEffects.component6|component6(){}[0]
+    final fun copy(kotlin/Boolean = ..., androidx.compose.ui.unit/Dp = ..., io.github.a1b2d56.opaline.nav.core/NavCornerClipMode = ..., kotlin/Float = ..., kotlin/Boolean = ..., androidx.compose.ui.graphics/Color = ...): io.github.a1b2d56.opaline.nav.core/NavDisplayEffects // io.github.a1b2d56.opaline.nav.core/NavDisplayEffects.copy|copy(kotlin.Boolean;androidx.compose.ui.unit.Dp;io.github.a1b2d56.opaline.nav.core.NavCornerClipMode;kotlin.Float;kotlin.Boolean;androidx.compose.ui.graphics.Color){}[0]
+    final fun equals(kotlin/Any?): kotlin/Boolean // io.github.a1b2d56.opaline.nav.core/NavDisplayEffects.equals|equals(kotlin.Any?){}[0]
+    final fun hashCode(): kotlin/Int // io.github.a1b2d56.opaline.nav.core/NavDisplayEffects.hashCode|hashCode(){}[0]
+    final fun shouldBlockInputAt(kotlin/Float): kotlin/Boolean // io.github.a1b2d56.opaline.nav.core/NavDisplayEffects.shouldBlockInputAt|shouldBlockInputAt(kotlin.Float){}[0]
+    final fun shouldClipCornersAt(kotlin/Float): kotlin/Boolean // io.github.a1b2d56.opaline.nav.core/NavDisplayEffects.shouldClipCornersAt|shouldClipCornersAt(kotlin.Float){}[0]
+    final fun toString(): kotlin/String // io.github.a1b2d56.opaline.nav.core/NavDisplayEffects.toString|toString(){}[0]
+
+    final object Companion { // io.github.a1b2d56.opaline.nav.core/NavDisplayEffects.Companion|null[0]
+        final val Default // io.github.a1b2d56.opaline.nav.core/NavDisplayEffects.Companion.Default|{}Default[0]
+            final fun <get-Default>(): io.github.a1b2d56.opaline.nav.core/NavDisplayEffects // io.github.a1b2d56.opaline.nav.core/NavDisplayEffects.Companion.Default.<get-Default>|<get-Default>(){}[0]
+        final val None // io.github.a1b2d56.opaline.nav.core/NavDisplayEffects.Companion.None|{}None[0]
+            final fun <get-None>(): io.github.a1b2d56.opaline.nav.core/NavDisplayEffects // io.github.a1b2d56.opaline.nav.core/NavDisplayEffects.Companion.None.<get-None>|<get-None>(){}[0]
+    }
+}
+
+final class io.github.a1b2d56.opaline.nav.core/NavEntryBuilder { // io.github.a1b2d56.opaline.nav.core/NavEntryBuilder|null[0]
+    constructor <init>() // io.github.a1b2d56.opaline.nav.core/NavEntryBuilder.<init>|<init>(){}[0]
+
+    final fun build(): kotlin/Function1<io.github.a1b2d56.opaline.nav.core/NavKey, io.github.a1b2d56.opaline.nav.core/NavEntry<*>> // io.github.a1b2d56.opaline.nav.core/NavEntryBuilder.build|build(){}[0]
+    final fun register(kotlin.reflect/KClass<*>, kotlin/Function1<io.github.a1b2d56.opaline.nav.core/NavKey, io.github.a1b2d56.opaline.nav.core/NavEntry<*>>) // io.github.a1b2d56.opaline.nav.core/NavEntryBuilder.register|register(kotlin.reflect.KClass<*>;kotlin.Function1<io.github.a1b2d56.opaline.nav.core.NavKey,io.github.a1b2d56.opaline.nav.core.NavEntry<*>>){}[0]
+    final inline fun <#A1: reified io.github.a1b2d56.opaline.nav.core/NavKey> entry(noinline kotlin/Function1<#A1, kotlin/Any>? = ..., io.github.a1b2d56.opaline.nav.transition/NavTransition? = ..., io.github.a1b2d56.opaline.nav.transition/NavSwipeDirection? = ..., kotlin.collections/Map<kotlin/String, kotlin/Any> = ..., noinline kotlin/Function3<#A1, androidx.compose.runtime/Composer, kotlin/Int, kotlin/Unit>) // io.github.a1b2d56.opaline.nav.core/NavEntryBuilder.entry|entry(kotlin.Function1<0:0,kotlin.Any>?;io.github.a1b2d56.opaline.nav.transition.NavTransition?;io.github.a1b2d56.opaline.nav.transition.NavSwipeDirection?;kotlin.collections.Map<kotlin.String,kotlin.Any>;kotlin.Function3<0:0,androidx.compose.runtime.Composer,kotlin.Int,kotlin.Unit>){0§<io.github.a1b2d56.opaline.nav.core.NavKey>}[0]
+}
+
+final class io.github.a1b2d56.opaline.nav.gesture/NavBackEvent { // io.github.a1b2d56.opaline.nav.gesture/NavBackEvent|null[0]
+    constructor <init>(kotlin/Float, io.github.a1b2d56.opaline.nav.transition/NavSwipeEdge, kotlin/Float, kotlin/Long = ...) // io.github.a1b2d56.opaline.nav.gesture/NavBackEvent.<init>|<init>(kotlin.Float;io.github.a1b2d56.opaline.nav.transition.NavSwipeEdge;kotlin.Float;kotlin.Long){}[0]
+
+    final val frameTimeMillis // io.github.a1b2d56.opaline.nav.gesture/NavBackEvent.frameTimeMillis|{}frameTimeMillis[0]
+        final fun <get-frameTimeMillis>(): kotlin/Long // io.github.a1b2d56.opaline.nav.gesture/NavBackEvent.frameTimeMillis.<get-frameTimeMillis>|<get-frameTimeMillis>(){}[0]
+    final val progress // io.github.a1b2d56.opaline.nav.gesture/NavBackEvent.progress|{}progress[0]
+        final fun <get-progress>(): kotlin/Float // io.github.a1b2d56.opaline.nav.gesture/NavBackEvent.progress.<get-progress>|<get-progress>(){}[0]
+    final val swipeEdge // io.github.a1b2d56.opaline.nav.gesture/NavBackEvent.swipeEdge|{}swipeEdge[0]
+        final fun <get-swipeEdge>(): io.github.a1b2d56.opaline.nav.transition/NavSwipeEdge // io.github.a1b2d56.opaline.nav.gesture/NavBackEvent.swipeEdge.<get-swipeEdge>|<get-swipeEdge>(){}[0]
+    final val touchY // io.github.a1b2d56.opaline.nav.gesture/NavBackEvent.touchY|{}touchY[0]
+        final fun <get-touchY>(): kotlin/Float // io.github.a1b2d56.opaline.nav.gesture/NavBackEvent.touchY.<get-touchY>|<get-touchY>(){}[0]
+}
+
+final class io.github.a1b2d56.opaline.nav.transition/NavGesture { // io.github.a1b2d56.opaline.nav.transition/NavGesture|null[0]
+    constructor <init>(kotlin/Float, io.github.a1b2d56.opaline.nav.transition/NavSwipeEdge, kotlin/Float, kotlin/Float = ...) // io.github.a1b2d56.opaline.nav.transition/NavGesture.<init>|<init>(kotlin.Float;io.github.a1b2d56.opaline.nav.transition.NavSwipeEdge;kotlin.Float;kotlin.Float){}[0]
+
+    final val initialTouchY // io.github.a1b2d56.opaline.nav.transition/NavGesture.initialTouchY|{}initialTouchY[0]
+        final fun <get-initialTouchY>(): kotlin/Float // io.github.a1b2d56.opaline.nav.transition/NavGesture.initialTouchY.<get-initialTouchY>|<get-initialTouchY>(){}[0]
+    final val progress // io.github.a1b2d56.opaline.nav.transition/NavGesture.progress|{}progress[0]
+        final fun <get-progress>(): kotlin/Float // io.github.a1b2d56.opaline.nav.transition/NavGesture.progress.<get-progress>|<get-progress>(){}[0]
+    final val swipeEdge // io.github.a1b2d56.opaline.nav.transition/NavGesture.swipeEdge|{}swipeEdge[0]
+        final fun <get-swipeEdge>(): io.github.a1b2d56.opaline.nav.transition/NavSwipeEdge // io.github.a1b2d56.opaline.nav.transition/NavGesture.swipeEdge.<get-swipeEdge>|<get-swipeEdge>(){}[0]
+    final val touchY // io.github.a1b2d56.opaline.nav.transition/NavGesture.touchY|{}touchY[0]
+        final fun <get-touchY>(): kotlin/Float // io.github.a1b2d56.opaline.nav.transition/NavGesture.touchY.<get-touchY>|<get-touchY>(){}[0]
+}
+
+final class io.github.a1b2d56.opaline.nav.transition/NavMotion { // io.github.a1b2d56.opaline.nav.transition/NavMotion|null[0]
+    constructor <init>(io.github.a1b2d56.opaline.nav.transition/NavSettleSpec = ..., io.github.a1b2d56.opaline.nav.transition/NavSettleSpec = ..., io.github.a1b2d56.opaline.nav.transition/NavSettleSpec = ...) // io.github.a1b2d56.opaline.nav.transition/NavMotion.<init>|<init>(io.github.a1b2d56.opaline.nav.transition.NavSettleSpec;io.github.a1b2d56.opaline.nav.transition.NavSettleSpec;io.github.a1b2d56.opaline.nav.transition.NavSettleSpec){}[0]
+
+    final val cancel // io.github.a1b2d56.opaline.nav.transition/NavMotion.cancel|{}cancel[0]
+        final fun <get-cancel>(): io.github.a1b2d56.opaline.nav.transition/NavSettleSpec // io.github.a1b2d56.opaline.nav.transition/NavMotion.cancel.<get-cancel>|<get-cancel>(){}[0]
+    final val commit // io.github.a1b2d56.opaline.nav.transition/NavMotion.commit|{}commit[0]
+        final fun <get-commit>(): io.github.a1b2d56.opaline.nav.transition/NavSettleSpec // io.github.a1b2d56.opaline.nav.transition/NavMotion.commit.<get-commit>|<get-commit>(){}[0]
+    final val programmatic // io.github.a1b2d56.opaline.nav.transition/NavMotion.programmatic|{}programmatic[0]
+        final fun <get-programmatic>(): io.github.a1b2d56.opaline.nav.transition/NavSettleSpec // io.github.a1b2d56.opaline.nav.transition/NavMotion.programmatic.<get-programmatic>|<get-programmatic>(){}[0]
+
+    final object Companion { // io.github.a1b2d56.opaline.nav.transition/NavMotion.Companion|null[0]
+        final val Default // io.github.a1b2d56.opaline.nav.transition/NavMotion.Companion.Default|{}Default[0]
+            final fun <get-Default>(): io.github.a1b2d56.opaline.nav.transition/NavMotion // io.github.a1b2d56.opaline.nav.transition/NavMotion.Companion.Default.<get-Default>|<get-Default>(){}[0]
+    }
+}
+
+final object io.github.a1b2d56.opaline.nav.transition/NavTransitions { // io.github.a1b2d56.opaline.nav.transition/NavTransitions|null[0]
+    final val Modal // io.github.a1b2d56.opaline.nav.transition/NavTransitions.Modal|{}Modal[0]
+        final fun <get-Modal>(): io.github.a1b2d56.opaline.nav.transition/NavTransition // io.github.a1b2d56.opaline.nav.transition/NavTransitions.Modal.<get-Modal>|<get-Modal>(){}[0]
+    final val None // io.github.a1b2d56.opaline.nav.transition/NavTransitions.None|{}None[0]
+        final fun <get-None>(): io.github.a1b2d56.opaline.nav.transition/NavTransition // io.github.a1b2d56.opaline.nav.transition/NavTransitions.None.<get-None>|<get-None>(){}[0]
+    final val OpalineDefault // io.github.a1b2d56.opaline.nav.transition/NavTransitions.OpalineDefault|{}OpalineDefault[0]
+        final fun <get-OpalineDefault>(): io.github.a1b2d56.opaline.nav.transition/NavTransition // io.github.a1b2d56.opaline.nav.transition/NavTransitions.OpalineDefault.<get-OpalineDefault>|<get-OpalineDefault>(){}[0]
+}
+
+final const val io.github.a1b2d56.opaline.nav.core/NAV_SWIPE_DISMISS_METADATA_KEY // io.github.a1b2d56.opaline.nav.core/NAV_SWIPE_DISMISS_METADATA_KEY|{}NAV_SWIPE_DISMISS_METADATA_KEY[0]
+    final fun <get-NAV_SWIPE_DISMISS_METADATA_KEY>(): kotlin/String // io.github.a1b2d56.opaline.nav.core/NAV_SWIPE_DISMISS_METADATA_KEY.<get-NAV_SWIPE_DISMISS_METADATA_KEY>|<get-NAV_SWIPE_DISMISS_METADATA_KEY>(){}[0]
+final const val io.github.a1b2d56.opaline.nav.core/NAV_TRANSITION_METADATA_KEY // io.github.a1b2d56.opaline.nav.core/NAV_TRANSITION_METADATA_KEY|{}NAV_TRANSITION_METADATA_KEY[0]
+    final fun <get-NAV_TRANSITION_METADATA_KEY>(): kotlin/String // io.github.a1b2d56.opaline.nav.core/NAV_TRANSITION_METADATA_KEY.<get-NAV_TRANSITION_METADATA_KEY>|<get-NAV_TRANSITION_METADATA_KEY>(){}[0]
+
+final val io.github.a1b2d56.opaline.nav.core/LocalNavTransitionScope // io.github.a1b2d56.opaline.nav.core/LocalNavTransitionScope|{}LocalNavTransitionScope[0]
+    final fun <get-LocalNavTransitionScope>(): androidx.compose.runtime/ProvidableCompositionLocal<io.github.a1b2d56.opaline.nav.transition/NavTransitionScope> // io.github.a1b2d56.opaline.nav.core/LocalNavTransitionScope.<get-LocalNavTransitionScope>|<get-LocalNavTransitionScope>(){}[0]
+final val io.github.a1b2d56.opaline.nav.core/NavBackStackJson // io.github.a1b2d56.opaline.nav.core/NavBackStackJson|{}NavBackStackJson[0]
+    final fun <get-NavBackStackJson>(): kotlinx.serialization.json/Json // io.github.a1b2d56.opaline.nav.core/NavBackStackJson.<get-NavBackStackJson>|<get-NavBackStackJson>(){}[0]
+final val io.github.a1b2d56.opaline.nav.core/io_github_a1b2d56_opaline_nav_core_NavController$stableprop // io.github.a1b2d56.opaline.nav.core/io_github_a1b2d56_opaline_nav_core_NavController$stableprop|#static{}io_github_a1b2d56_opaline_nav_core_NavController$stableprop[0]
+final val io.github.a1b2d56.opaline.nav.core/io_github_a1b2d56_opaline_nav_core_NavDisplayEffects$stableprop // io.github.a1b2d56.opaline.nav.core/io_github_a1b2d56_opaline_nav_core_NavDisplayEffects$stableprop|#static{}io_github_a1b2d56_opaline_nav_core_NavDisplayEffects$stableprop[0]
+final val io.github.a1b2d56.opaline.nav.core/io_github_a1b2d56_opaline_nav_core_NavEntryBuilder$stableprop // io.github.a1b2d56.opaline.nav.core/io_github_a1b2d56_opaline_nav_core_NavEntryBuilder$stableprop|#static{}io_github_a1b2d56_opaline_nav_core_NavEntryBuilder$stableprop[0]
+final val io.github.a1b2d56.opaline.nav.gesture/io_github_a1b2d56_opaline_nav_gesture_NavBackEvent$stableprop // io.github.a1b2d56.opaline.nav.gesture/io_github_a1b2d56_opaline_nav_gesture_NavBackEvent$stableprop|#static{}io_github_a1b2d56_opaline_nav_gesture_NavBackEvent$stableprop[0]
+final val io.github.a1b2d56.opaline.nav.runtime/NavProgrammaticEasing // io.github.a1b2d56.opaline.nav.runtime/NavProgrammaticEasing|{}NavProgrammaticEasing[0]
+    final fun <get-NavProgrammaticEasing>(): androidx.compose.animation.core/Easing // io.github.a1b2d56.opaline.nav.runtime/NavProgrammaticEasing.<get-NavProgrammaticEasing>|<get-NavProgrammaticEasing>(){}[0]
+final val io.github.a1b2d56.opaline.nav.runtime/io_github_a1b2d56_opaline_nav_runtime_NavChange_MultiPop$stableprop // io.github.a1b2d56.opaline.nav.runtime/io_github_a1b2d56_opaline_nav_runtime_NavChange_MultiPop$stableprop|#static{}io_github_a1b2d56_opaline_nav_runtime_NavChange_MultiPop$stableprop[0]
+final val io.github.a1b2d56.opaline.nav.runtime/io_github_a1b2d56_opaline_nav_runtime_NavChange_MultiPush$stableprop // io.github.a1b2d56.opaline.nav.runtime/io_github_a1b2d56_opaline_nav_runtime_NavChange_MultiPush$stableprop|#static{}io_github_a1b2d56_opaline_nav_runtime_NavChange_MultiPush$stableprop[0]
+final val io.github.a1b2d56.opaline.nav.runtime/io_github_a1b2d56_opaline_nav_runtime_NavChange_None$stableprop // io.github.a1b2d56.opaline.nav.runtime/io_github_a1b2d56_opaline_nav_runtime_NavChange_None$stableprop|#static{}io_github_a1b2d56_opaline_nav_runtime_NavChange_None$stableprop[0]
+final val io.github.a1b2d56.opaline.nav.runtime/io_github_a1b2d56_opaline_nav_runtime_NavChange_Pop$stableprop // io.github.a1b2d56.opaline.nav.runtime/io_github_a1b2d56_opaline_nav_runtime_NavChange_Pop$stableprop|#static{}io_github_a1b2d56_opaline_nav_runtime_NavChange_Pop$stableprop[0]
+final val io.github.a1b2d56.opaline.nav.runtime/io_github_a1b2d56_opaline_nav_runtime_NavChange_Push$stableprop // io.github.a1b2d56.opaline.nav.runtime/io_github_a1b2d56_opaline_nav_runtime_NavChange_Push$stableprop|#static{}io_github_a1b2d56_opaline_nav_runtime_NavChange_Push$stableprop[0]
+final val io.github.a1b2d56.opaline.nav.runtime/io_github_a1b2d56_opaline_nav_runtime_NavChange_Replace$stableprop // io.github.a1b2d56.opaline.nav.runtime/io_github_a1b2d56_opaline_nav_runtime_NavChange_Replace$stableprop|#static{}io_github_a1b2d56_opaline_nav_runtime_NavChange_Replace$stableprop[0]
+final val io.github.a1b2d56.opaline.nav.runtime/io_github_a1b2d56_opaline_nav_runtime_NavChange_ReplaceAll$stableprop // io.github.a1b2d56.opaline.nav.runtime/io_github_a1b2d56_opaline_nav_runtime_NavChange_ReplaceAll$stableprop|#static{}io_github_a1b2d56_opaline_nav_runtime_NavChange_ReplaceAll$stableprop[0]
+final val io.github.a1b2d56.opaline.nav.transition/io_github_a1b2d56_opaline_nav_transition_NavGesture$stableprop // io.github.a1b2d56.opaline.nav.transition/io_github_a1b2d56_opaline_nav_transition_NavGesture$stableprop|#static{}io_github_a1b2d56_opaline_nav_transition_NavGesture$stableprop[0]
+final val io.github.a1b2d56.opaline.nav.transition/io_github_a1b2d56_opaline_nav_transition_NavMotion$stableprop // io.github.a1b2d56.opaline.nav.transition/io_github_a1b2d56_opaline_nav_transition_NavMotion$stableprop|#static{}io_github_a1b2d56_opaline_nav_transition_NavMotion$stableprop[0]
+final val io.github.a1b2d56.opaline.nav.transition/io_github_a1b2d56_opaline_nav_transition_NavSettleSpec_Spring$stableprop // io.github.a1b2d56.opaline.nav.transition/io_github_a1b2d56_opaline_nav_transition_NavSettleSpec_Spring$stableprop|#static{}io_github_a1b2d56_opaline_nav_transition_NavSettleSpec_Spring$stableprop[0]
+final val io.github.a1b2d56.opaline.nav.transition/io_github_a1b2d56_opaline_nav_transition_NavSettleSpec_Tween$stableprop // io.github.a1b2d56.opaline.nav.transition/io_github_a1b2d56_opaline_nav_transition_NavSettleSpec_Tween$stableprop|#static{}io_github_a1b2d56_opaline_nav_transition_NavSettleSpec_Tween$stableprop[0]
+final val io.github.a1b2d56.opaline.nav.transition/io_github_a1b2d56_opaline_nav_transition_NavTransitions$stableprop // io.github.a1b2d56.opaline.nav.transition/io_github_a1b2d56_opaline_nav_transition_NavTransitions$stableprop|#static{}io_github_a1b2d56_opaline_nav_transition_NavTransitions$stableprop[0]
+
+final fun (androidx.compose.ui/Modifier).io.github.a1b2d56.opaline.nav.gesture/navSwipeDismiss(kotlin/Boolean, io.github.a1b2d56.opaline.nav.transition/NavSwipeDirection, androidx.compose.animation.core/Animatable<kotlin/Float, androidx.compose.animation.core/AnimationVector1D>, kotlin/Int, io.github.a1b2d56.opaline.nav.transition/NavMotion = ..., kotlin/Function0<kotlin/Unit>, kotlin/Function0<kotlin/Unit>, kotlin/Function1<io.github.a1b2d56.opaline.nav.transition/NavGesture?, kotlin/Unit> = ...): androidx.compose.ui/Modifier // io.github.a1b2d56.opaline.nav.gesture/navSwipeDismiss|navSwipeDismiss@androidx.compose.ui.Modifier(kotlin.Boolean;io.github.a1b2d56.opaline.nav.transition.NavSwipeDirection;androidx.compose.animation.core.Animatable<kotlin.Float,androidx.compose.animation.core.AnimationVector1D>;kotlin.Int;io.github.a1b2d56.opaline.nav.transition.NavMotion;kotlin.Function0<kotlin.Unit>;kotlin.Function0<kotlin.Unit>;kotlin.Function1<io.github.a1b2d56.opaline.nav.transition.NavGesture?,kotlin.Unit>){}[0]
+final fun <#A: io.github.a1b2d56.opaline.nav.core/NavKey> io.github.a1b2d56.opaline.nav.core/navBackStackSaver(kotlinx.serialization/KSerializer<kotlin.collections/List<#A>>): androidx.compose.runtime.saveable/Saver<androidx.compose.runtime.snapshots/SnapshotStateList<io.github.a1b2d56.opaline.nav.core/NavKey>, kotlin/String> // io.github.a1b2d56.opaline.nav.core/navBackStackSaver|navBackStackSaver(kotlinx.serialization.KSerializer<kotlin.collections.List<0:0>>){0§<io.github.a1b2d56.opaline.nav.core.NavKey>}[0]
+final fun io.github.a1b2d56.opaline.nav.core/NavDisplay(androidx.compose.runtime.snapshots/SnapshotStateList<io.github.a1b2d56.opaline.nav.core/NavKey>, androidx.compose.ui/Modifier?, kotlin/Function0<kotlin/Unit>?, io.github.a1b2d56.opaline.nav.transition/NavTransition?, io.github.a1b2d56.opaline.nav.core/NavDisplayEffects?, kotlin/Function1<io.github.a1b2d56.opaline.nav.core/NavEntryBuilder, kotlin/Unit>, androidx.compose.runtime/Composer?, kotlin/Int, kotlin/Int) // io.github.a1b2d56.opaline.nav.core/NavDisplay|NavDisplay(androidx.compose.runtime.snapshots.SnapshotStateList<io.github.a1b2d56.opaline.nav.core.NavKey>;androidx.compose.ui.Modifier?;kotlin.Function0<kotlin.Unit>?;io.github.a1b2d56.opaline.nav.transition.NavTransition?;io.github.a1b2d56.opaline.nav.core.NavDisplayEffects?;kotlin.Function1<io.github.a1b2d56.opaline.nav.core.NavEntryBuilder,kotlin.Unit>;androidx.compose.runtime.Composer?;kotlin.Int;kotlin.Int){}[0]
+final fun io.github.a1b2d56.opaline.nav.core/NavDisplay(io.github.a1b2d56.opaline.nav.core/NavController, androidx.compose.ui/Modifier?, kotlin/Function0<kotlin/Unit>?, io.github.a1b2d56.opaline.nav.transition/NavTransition?, io.github.a1b2d56.opaline.nav.core/NavDisplayEffects?, kotlin/Function1<io.github.a1b2d56.opaline.nav.core/NavEntryBuilder, kotlin/Unit>, androidx.compose.runtime/Composer?, kotlin/Int, kotlin/Int) // io.github.a1b2d56.opaline.nav.core/NavDisplay|NavDisplay(io.github.a1b2d56.opaline.nav.core.NavController;androidx.compose.ui.Modifier?;kotlin.Function0<kotlin.Unit>?;io.github.a1b2d56.opaline.nav.transition.NavTransition?;io.github.a1b2d56.opaline.nav.core.NavDisplayEffects?;kotlin.Function1<io.github.a1b2d56.opaline.nav.core.NavEntryBuilder,kotlin.Unit>;androidx.compose.runtime.Composer?;kotlin.Int;kotlin.Int){}[0]
+final fun io.github.a1b2d56.opaline.nav.core/io_github_a1b2d56_opaline_nav_core_NavController$stableprop_getter(): kotlin/Int // io.github.a1b2d56.opaline.nav.core/io_github_a1b2d56_opaline_nav_core_NavController$stableprop_getter|io_github_a1b2d56_opaline_nav_core_NavController$stableprop_getter(){}[0]
+final fun io.github.a1b2d56.opaline.nav.core/io_github_a1b2d56_opaline_nav_core_NavDisplayEffects$stableprop_getter(): kotlin/Int // io.github.a1b2d56.opaline.nav.core/io_github_a1b2d56_opaline_nav_core_NavDisplayEffects$stableprop_getter|io_github_a1b2d56_opaline_nav_core_NavDisplayEffects$stableprop_getter(){}[0]
+final fun io.github.a1b2d56.opaline.nav.core/io_github_a1b2d56_opaline_nav_core_NavEntryBuilder$stableprop_getter(): kotlin/Int // io.github.a1b2d56.opaline.nav.core/io_github_a1b2d56_opaline_nav_core_NavEntryBuilder$stableprop_getter|io_github_a1b2d56_opaline_nav_core_NavEntryBuilder$stableprop_getter(){}[0]
+final fun io.github.a1b2d56.opaline.nav.core/navBackStackOf(kotlin/Array<out io.github.a1b2d56.opaline.nav.core/NavKey>...): androidx.compose.runtime.snapshots/SnapshotStateList<io.github.a1b2d56.opaline.nav.core/NavKey> // io.github.a1b2d56.opaline.nav.core/navBackStackOf|navBackStackOf(kotlin.Array<out|io.github.a1b2d56.opaline.nav.core.NavKey>...){}[0]
+final fun io.github.a1b2d56.opaline.nav.core/rememberNavSystemCornerRadius(androidx.compose.runtime/Composer?, kotlin/Int): androidx.compose.ui.unit/Dp // io.github.a1b2d56.opaline.nav.core/rememberNavSystemCornerRadius|rememberNavSystemCornerRadius(androidx.compose.runtime.Composer?;kotlin.Int){}[0]
+final fun io.github.a1b2d56.opaline.nav.gesture/PredictiveBackHandler(kotlin/Boolean, kotlin.coroutines/SuspendFunction1<kotlinx.coroutines.flow/Flow<io.github.a1b2d56.opaline.nav.gesture/NavBackEvent>, kotlin/Unit>, kotlin/Function0<kotlin/Unit>, kotlin/Function0<kotlin/Unit>, androidx.compose.runtime/Composer?, kotlin/Int) // io.github.a1b2d56.opaline.nav.gesture/PredictiveBackHandler|PredictiveBackHandler(kotlin.Boolean;kotlin.coroutines.SuspendFunction1<kotlinx.coroutines.flow.Flow<io.github.a1b2d56.opaline.nav.gesture.NavBackEvent>,kotlin.Unit>;kotlin.Function0<kotlin.Unit>;kotlin.Function0<kotlin.Unit>;androidx.compose.runtime.Composer?;kotlin.Int){}[0]
+final fun io.github.a1b2d56.opaline.nav.gesture/WindowNavigationEventBridge(androidx.compose.runtime/Composer?, kotlin/Int) // io.github.a1b2d56.opaline.nav.gesture/WindowNavigationEventBridge|WindowNavigationEventBridge(androidx.compose.runtime.Composer?;kotlin.Int){}[0]
+final fun io.github.a1b2d56.opaline.nav.gesture/io_github_a1b2d56_opaline_nav_gesture_NavBackEvent$stableprop_getter(): kotlin/Int // io.github.a1b2d56.opaline.nav.gesture/io_github_a1b2d56_opaline_nav_gesture_NavBackEvent$stableprop_getter|io_github_a1b2d56_opaline_nav_gesture_NavBackEvent$stableprop_getter(){}[0]
+final fun io.github.a1b2d56.opaline.nav.runtime/io_github_a1b2d56_opaline_nav_runtime_NavChange_MultiPop$stableprop_getter(): kotlin/Int // io.github.a1b2d56.opaline.nav.runtime/io_github_a1b2d56_opaline_nav_runtime_NavChange_MultiPop$stableprop_getter|io_github_a1b2d56_opaline_nav_runtime_NavChange_MultiPop$stableprop_getter(){}[0]
+final fun io.github.a1b2d56.opaline.nav.runtime/io_github_a1b2d56_opaline_nav_runtime_NavChange_MultiPush$stableprop_getter(): kotlin/Int // io.github.a1b2d56.opaline.nav.runtime/io_github_a1b2d56_opaline_nav_runtime_NavChange_MultiPush$stableprop_getter|io_github_a1b2d56_opaline_nav_runtime_NavChange_MultiPush$stableprop_getter(){}[0]
+final fun io.github.a1b2d56.opaline.nav.runtime/io_github_a1b2d56_opaline_nav_runtime_NavChange_None$stableprop_getter(): kotlin/Int // io.github.a1b2d56.opaline.nav.runtime/io_github_a1b2d56_opaline_nav_runtime_NavChange_None$stableprop_getter|io_github_a1b2d56_opaline_nav_runtime_NavChange_None$stableprop_getter(){}[0]
+final fun io.github.a1b2d56.opaline.nav.runtime/io_github_a1b2d56_opaline_nav_runtime_NavChange_Pop$stableprop_getter(): kotlin/Int // io.github.a1b2d56.opaline.nav.runtime/io_github_a1b2d56_opaline_nav_runtime_NavChange_Pop$stableprop_getter|io_github_a1b2d56_opaline_nav_runtime_NavChange_Pop$stableprop_getter(){}[0]
+final fun io.github.a1b2d56.opaline.nav.runtime/io_github_a1b2d56_opaline_nav_runtime_NavChange_Push$stableprop_getter(): kotlin/Int // io.github.a1b2d56.opaline.nav.runtime/io_github_a1b2d56_opaline_nav_runtime_NavChange_Push$stableprop_getter|io_github_a1b2d56_opaline_nav_runtime_NavChange_Push$stableprop_getter(){}[0]
+final fun io.github.a1b2d56.opaline.nav.runtime/io_github_a1b2d56_opaline_nav_runtime_NavChange_Replace$stableprop_getter(): kotlin/Int // io.github.a1b2d56.opaline.nav.runtime/io_github_a1b2d56_opaline_nav_runtime_NavChange_Replace$stableprop_getter|io_github_a1b2d56_opaline_nav_runtime_NavChange_Replace$stableprop_getter(){}[0]
+final fun io.github.a1b2d56.opaline.nav.runtime/io_github_a1b2d56_opaline_nav_runtime_NavChange_ReplaceAll$stableprop_getter(): kotlin/Int // io.github.a1b2d56.opaline.nav.runtime/io_github_a1b2d56_opaline_nav_runtime_NavChange_ReplaceAll$stableprop_getter|io_github_a1b2d56_opaline_nav_runtime_NavChange_ReplaceAll$stableprop_getter(){}[0]
+final fun io.github.a1b2d56.opaline.nav.transition/io_github_a1b2d56_opaline_nav_transition_NavGesture$stableprop_getter(): kotlin/Int // io.github.a1b2d56.opaline.nav.transition/io_github_a1b2d56_opaline_nav_transition_NavGesture$stableprop_getter|io_github_a1b2d56_opaline_nav_transition_NavGesture$stableprop_getter(){}[0]
+final fun io.github.a1b2d56.opaline.nav.transition/io_github_a1b2d56_opaline_nav_transition_NavMotion$stableprop_getter(): kotlin/Int // io.github.a1b2d56.opaline.nav.transition/io_github_a1b2d56_opaline_nav_transition_NavMotion$stableprop_getter|io_github_a1b2d56_opaline_nav_transition_NavMotion$stableprop_getter(){}[0]
+final fun io.github.a1b2d56.opaline.nav.transition/io_github_a1b2d56_opaline_nav_transition_NavSettleSpec_Spring$stableprop_getter(): kotlin/Int // io.github.a1b2d56.opaline.nav.transition/io_github_a1b2d56_opaline_nav_transition_NavSettleSpec_Spring$stableprop_getter|io_github_a1b2d56_opaline_nav_transition_NavSettleSpec_Spring$stableprop_getter(){}[0]
+final fun io.github.a1b2d56.opaline.nav.transition/io_github_a1b2d56_opaline_nav_transition_NavSettleSpec_Tween$stableprop_getter(): kotlin/Int // io.github.a1b2d56.opaline.nav.transition/io_github_a1b2d56_opaline_nav_transition_NavSettleSpec_Tween$stableprop_getter|io_github_a1b2d56_opaline_nav_transition_NavSettleSpec_Tween$stableprop_getter(){}[0]
+final fun io.github.a1b2d56.opaline.nav.transition/io_github_a1b2d56_opaline_nav_transition_NavTransitions$stableprop_getter(): kotlin/Int // io.github.a1b2d56.opaline.nav.transition/io_github_a1b2d56_opaline_nav_transition_NavTransitions$stableprop_getter|io_github_a1b2d56_opaline_nav_transition_NavTransitions$stableprop_getter(){}[0]
+final fun io.github.a1b2d56.opaline.nav.transition/navDirectionalTransition(io.github.a1b2d56.opaline.nav.transition/NavTransition, io.github.a1b2d56.opaline.nav.transition/NavTransition = ..., io.github.a1b2d56.opaline.nav.transition/NavTransition = ...): io.github.a1b2d56.opaline.nav.transition/NavTransition // io.github.a1b2d56.opaline.nav.transition/navDirectionalTransition|navDirectionalTransition(io.github.a1b2d56.opaline.nav.transition.NavTransition;io.github.a1b2d56.opaline.nav.transition.NavTransition;io.github.a1b2d56.opaline.nav.transition.NavTransition){}[0]
+final fun io.github.a1b2d56.opaline.nav.transition/navGraphicsTransition(kotlin/Float = ..., io.github.a1b2d56.opaline.nav.transition/NavSwipeDirection = ..., io.github.a1b2d56.opaline.nav.transition/NavMotion = ..., kotlin/Function1<io.github.a1b2d56.opaline.nav.transition/NavTransitionScope, kotlin/Float>? = ..., kotlin/Function2<androidx.compose.ui.graphics/GraphicsLayerScope, io.github.a1b2d56.opaline.nav.transition/NavTransitionScope, kotlin/Unit>): io.github.a1b2d56.opaline.nav.transition/NavTransition // io.github.a1b2d56.opaline.nav.transition/navGraphicsTransition|navGraphicsTransition(kotlin.Float;io.github.a1b2d56.opaline.nav.transition.NavSwipeDirection;io.github.a1b2d56.opaline.nav.transition.NavMotion;kotlin.Function1<io.github.a1b2d56.opaline.nav.transition.NavTransitionScope,kotlin.Float>?;kotlin.Function2<androidx.compose.ui.graphics.GraphicsLayerScope,io.github.a1b2d56.opaline.nav.transition.NavTransitionScope,kotlin.Unit>){}[0]
+final inline fun <#A: reified io.github.a1b2d56.opaline.nav.core/NavKey> io.github.a1b2d56.opaline.nav.core/rememberNavBackStack(kotlin/Array<out #A>..., androidx.compose.runtime/Composer?, kotlin/Int): androidx.compose.runtime.snapshots/SnapshotStateList<io.github.a1b2d56.opaline.nav.core/NavKey> // io.github.a1b2d56.opaline.nav.core/rememberNavBackStack|rememberNavBackStack(kotlin.Array<out|0:0>...;androidx.compose.runtime.Composer?;kotlin.Int){0§<io.github.a1b2d56.opaline.nav.core.NavKey>}[0]
+final inline fun <#A: reified io.github.a1b2d56.opaline.nav.core/NavKey> io.github.a1b2d56.opaline.nav.core/rememberNavController(kotlin/Array<out #A>..., androidx.compose.runtime/Composer?, kotlin/Int): io.github.a1b2d56.opaline.nav.core/NavController // io.github.a1b2d56.opaline.nav.core/rememberNavController|rememberNavController(kotlin.Array<out|0:0>...;androidx.compose.runtime.Composer?;kotlin.Int){0§<io.github.a1b2d56.opaline.nav.core.NavKey>}[0]
