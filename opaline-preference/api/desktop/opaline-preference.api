@@ -1,0 +1,299 @@
+public final class io/github/a1b2d56/opaline/menu/OverlayDropdownMenuKt {
+	public static final fun OverlayDropdownMenu-XlYrSvo (Lio/github/a1b2d56/opaline/basic/DropdownEntry;Ljava/lang/String;Landroidx/compose/ui/Modifier;Lio/github/a1b2d56/opaline/basic/BasicComponentColors;Ljava/lang/String;Lio/github/a1b2d56/opaline/basic/BasicComponentColors;Lio/github/a1b2d56/opaline/basic/DropdownColors;Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function2;Landroidx/compose/foundation/layout/PaddingValues;Landroidx/compose/ui/unit/Dp;ZZZLkotlin/jvm/functions/Function1;Landroidx/compose/runtime/Composer;III)V
+	public static final fun OverlayDropdownMenu-XlYrSvo (Ljava/util/List;Ljava/lang/String;Landroidx/compose/ui/Modifier;Lio/github/a1b2d56/opaline/basic/BasicComponentColors;Ljava/lang/String;Lio/github/a1b2d56/opaline/basic/BasicComponentColors;Lio/github/a1b2d56/opaline/basic/DropdownColors;Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function2;Landroidx/compose/foundation/layout/PaddingValues;Landroidx/compose/ui/unit/Dp;ZZZLkotlin/jvm/functions/Function1;Landroidx/compose/runtime/Composer;III)V
+}
+
+public final class io/github/a1b2d56/opaline/menu/OverlayIconCascadingDropdownMenuKt {
+	public static final fun OverlayIconCascadingDropdownMenu-FG3_mPg (Lio/github/a1b2d56/opaline/basic/DropdownEntry;Lkotlin/jvm/functions/Function3;Landroidx/compose/ui/Modifier;ZLandroidx/compose/ui/unit/Dp;Lio/github/a1b2d56/opaline/basic/DropdownColors;ZZLkotlin/jvm/functions/Function1;JFFFLkotlin/jvm/functions/Function2;Landroidx/compose/runtime/Composer;III)V
+	public static final fun OverlayIconCascadingDropdownMenu-FG3_mPg (Ljava/util/List;Lkotlin/jvm/functions/Function3;Landroidx/compose/ui/Modifier;ZLandroidx/compose/ui/unit/Dp;Lio/github/a1b2d56/opaline/basic/DropdownColors;ZZLkotlin/jvm/functions/Function1;JFFFLkotlin/jvm/functions/Function2;Landroidx/compose/runtime/Composer;III)V
+	public static final fun OverlayIconCascadingDropdownMenu-OMZddmU (Lio/github/a1b2d56/opaline/basic/DropdownEntry;Landroidx/compose/ui/Modifier;ZLandroidx/compose/ui/unit/Dp;Lio/github/a1b2d56/opaline/basic/DropdownColors;ZZLkotlin/jvm/functions/Function1;JFFFLkotlin/jvm/functions/Function2;Landroidx/compose/runtime/Composer;III)V
+	public static final fun OverlayIconCascadingDropdownMenu-OMZddmU (Ljava/util/List;Landroidx/compose/ui/Modifier;ZLandroidx/compose/ui/unit/Dp;Lio/github/a1b2d56/opaline/basic/DropdownColors;ZZLkotlin/jvm/functions/Function1;JFFFLkotlin/jvm/functions/Function2;Landroidx/compose/runtime/Composer;III)V
+}
+
+public final class io/github/a1b2d56/opaline/menu/OverlayIconDropdownMenuKt {
+	public static final fun OverlayIconDropdownMenu-OMZddmU (Lio/github/a1b2d56/opaline/basic/DropdownEntry;Landroidx/compose/ui/Modifier;ZLandroidx/compose/ui/unit/Dp;Lio/github/a1b2d56/opaline/basic/DropdownColors;ZZLkotlin/jvm/functions/Function1;JFFFLkotlin/jvm/functions/Function2;Landroidx/compose/runtime/Composer;III)V
+	public static final fun OverlayIconDropdownMenu-OMZddmU (Ljava/util/List;Landroidx/compose/ui/Modifier;ZLandroidx/compose/ui/unit/Dp;Lio/github/a1b2d56/opaline/basic/DropdownColors;ZZLkotlin/jvm/functions/Function1;JFFFLkotlin/jvm/functions/Function2;Landroidx/compose/runtime/Composer;III)V
+}
+
+public final class io/github/a1b2d56/opaline/menu/WindowDropdownMenuKt {
+	public static final fun WindowDropdownMenu-b-mTtL4 (Lio/github/a1b2d56/opaline/basic/DropdownEntry;Ljava/lang/String;Landroidx/compose/ui/Modifier;Lio/github/a1b2d56/opaline/basic/BasicComponentColors;Ljava/lang/String;Lio/github/a1b2d56/opaline/basic/BasicComponentColors;Lio/github/a1b2d56/opaline/basic/DropdownColors;Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function2;Landroidx/compose/foundation/layout/PaddingValues;Landroidx/compose/ui/unit/Dp;ZZLkotlin/jvm/functions/Function1;Landroidx/compose/runtime/Composer;III)V
+	public static final fun WindowDropdownMenu-b-mTtL4 (Ljava/util/List;Ljava/lang/String;Landroidx/compose/ui/Modifier;Lio/github/a1b2d56/opaline/basic/BasicComponentColors;Ljava/lang/String;Lio/github/a1b2d56/opaline/basic/BasicComponentColors;Lio/github/a1b2d56/opaline/basic/DropdownColors;Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function2;Landroidx/compose/foundation/layout/PaddingValues;Landroidx/compose/ui/unit/Dp;ZZLkotlin/jvm/functions/Function1;Landroidx/compose/runtime/Composer;III)V
+}
+
+public final class io/github/a1b2d56/opaline/menu/WindowIconCascadingDropdownMenuKt {
+	public static final fun WindowIconCascadingDropdownMenu-9lj8I78 (Lio/github/a1b2d56/opaline/basic/DropdownEntry;Landroidx/compose/ui/Modifier;ZLandroidx/compose/ui/unit/Dp;Lio/github/a1b2d56/opaline/basic/DropdownColors;ZLkotlin/jvm/functions/Function1;JFFFLkotlin/jvm/functions/Function2;Landroidx/compose/runtime/Composer;III)V
+	public static final fun WindowIconCascadingDropdownMenu-9lj8I78 (Ljava/util/List;Landroidx/compose/ui/Modifier;ZLandroidx/compose/ui/unit/Dp;Lio/github/a1b2d56/opaline/basic/DropdownColors;ZLkotlin/jvm/functions/Function1;JFFFLkotlin/jvm/functions/Function2;Landroidx/compose/runtime/Composer;III)V
+	public static final fun WindowIconCascadingDropdownMenu-qcPQFhk (Lio/github/a1b2d56/opaline/basic/DropdownEntry;Lkotlin/jvm/functions/Function3;Landroidx/compose/ui/Modifier;ZLandroidx/compose/ui/unit/Dp;Lio/github/a1b2d56/opaline/basic/DropdownColors;ZLkotlin/jvm/functions/Function1;JFFFLkotlin/jvm/functions/Function2;Landroidx/compose/runtime/Composer;III)V
+	public static final fun WindowIconCascadingDropdownMenu-qcPQFhk (Ljava/util/List;Lkotlin/jvm/functions/Function3;Landroidx/compose/ui/Modifier;ZLandroidx/compose/ui/unit/Dp;Lio/github/a1b2d56/opaline/basic/DropdownColors;ZLkotlin/jvm/functions/Function1;JFFFLkotlin/jvm/functions/Function2;Landroidx/compose/runtime/Composer;III)V
+}
+
+public final class io/github/a1b2d56/opaline/menu/WindowIconDropdownMenuKt {
+	public static final fun WindowIconDropdownMenu-9lj8I78 (Lio/github/a1b2d56/opaline/basic/DropdownEntry;Landroidx/compose/ui/Modifier;ZLandroidx/compose/ui/unit/Dp;Lio/github/a1b2d56/opaline/basic/DropdownColors;ZLkotlin/jvm/functions/Function1;JFFFLkotlin/jvm/functions/Function2;Landroidx/compose/runtime/Composer;III)V
+	public static final fun WindowIconDropdownMenu-9lj8I78 (Ljava/util/List;Landroidx/compose/ui/Modifier;ZLandroidx/compose/ui/unit/Dp;Lio/github/a1b2d56/opaline/basic/DropdownColors;ZLkotlin/jvm/functions/Function1;JFFFLkotlin/jvm/functions/Function2;Landroidx/compose/runtime/Composer;III)V
+}
+
+public final class io/github/a1b2d56/opaline/popup/ComposableSingletons$DropdownEntriesContentKt {
+	public static final field INSTANCE Lio/github/a1b2d56/opaline/popup/ComposableSingletons$DropdownEntriesContentKt;
+	public fun <init> ()V
+	public final fun getLambda$1558078934$io_github_a1b2d56_opaline_opaline_preference ()Lkotlin/jvm/functions/Function3;
+}
+
+public final class io/github/a1b2d56/opaline/popup/OverlayDropdownPopupKt {
+	public static final fun OverlayDropdownDialog (Lio/github/a1b2d56/opaline/basic/DropdownEntry;Ljava/lang/String;Ljava/lang/String;ZLkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lio/github/a1b2d56/opaline/basic/DropdownColors;Landroidx/compose/ui/Modifier;ZZLandroidx/compose/runtime/Composer;II)V
+	public static final fun OverlayDropdownDialog (Ljava/util/List;Ljava/lang/String;Ljava/lang/String;ZLkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lio/github/a1b2d56/opaline/basic/DropdownColors;Landroidx/compose/ui/Modifier;ZZLandroidx/compose/runtime/Composer;II)V
+	public static final fun OverlayDropdownPopup-AWUJNSc (Lio/github/a1b2d56/opaline/basic/DropdownEntry;ZLkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Landroidx/compose/ui/unit/Dp;Lio/github/a1b2d56/opaline/basic/DropdownColors;ZZLio/github/a1b2d56/opaline/basic/PreciseClickState;Landroidx/compose/runtime/Composer;II)V
+	public static final fun OverlayDropdownPopup-AWUJNSc (Ljava/util/List;ZLkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Landroidx/compose/ui/unit/Dp;Lio/github/a1b2d56/opaline/basic/DropdownColors;ZZLio/github/a1b2d56/opaline/basic/PreciseClickState;Landroidx/compose/runtime/Composer;II)V
+}
+
+public final class io/github/a1b2d56/opaline/popup/WindowDropdownPopupKt {
+	public static final fun WindowDropdownDialog (Lio/github/a1b2d56/opaline/basic/DropdownEntry;Ljava/lang/String;Ljava/lang/String;ZLkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lio/github/a1b2d56/opaline/basic/DropdownColors;Landroidx/compose/ui/Modifier;ZLandroidx/compose/runtime/Composer;II)V
+	public static final fun WindowDropdownDialog (Ljava/util/List;Ljava/lang/String;Ljava/lang/String;ZLkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lio/github/a1b2d56/opaline/basic/DropdownColors;Landroidx/compose/ui/Modifier;ZLandroidx/compose/runtime/Composer;II)V
+	public static final fun WindowDropdownPopup-ROuykTE (Lio/github/a1b2d56/opaline/basic/DropdownEntry;ZLkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Landroidx/compose/ui/unit/Dp;Lio/github/a1b2d56/opaline/basic/DropdownColors;ZLio/github/a1b2d56/opaline/basic/PreciseClickState;Landroidx/compose/runtime/Composer;II)V
+	public static final fun WindowDropdownPopup-ROuykTE (Ljava/util/List;ZLkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Landroidx/compose/ui/unit/Dp;Lio/github/a1b2d56/opaline/basic/DropdownColors;ZLio/github/a1b2d56/opaline/basic/PreciseClickState;Landroidx/compose/runtime/Composer;II)V
+}
+
+public final class io/github/a1b2d56/opaline/preference/ArrowPreferenceDefaults {
+	public static final field $stable I
+	public static final field INSTANCE Lio/github/a1b2d56/opaline/preference/ArrowPreferenceDefaults;
+	public final fun endActionColors (Landroidx/compose/runtime/Composer;I)Lio/github/a1b2d56/opaline/preference/EndActionColors;
+}
+
+public final class io/github/a1b2d56/opaline/preference/ArrowPreferenceKt {
+	public static final fun ArrowPreference (Ljava/lang/String;Landroidx/compose/ui/Modifier;Lio/github/a1b2d56/opaline/basic/BasicComponentColors;Ljava/lang/String;Lio/github/a1b2d56/opaline/basic/BasicComponentColors;Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function3;Lkotlin/jvm/functions/Function2;Landroidx/compose/foundation/layout/PaddingValues;Lio/github/a1b2d56/opaline/basic/CardListPosition;Lkotlin/jvm/functions/Function0;ZZLandroidx/compose/runtime/Composer;III)V
+}
+
+public final class io/github/a1b2d56/opaline/preference/ButtonPreferenceDefaults {
+	public static final field $stable I
+	public static final field INSTANCE Lio/github/a1b2d56/opaline/preference/ButtonPreferenceDefaults;
+	public final fun buttonColors-ro_MJ88 (JJJJLandroidx/compose/runtime/Composer;II)Lio/github/a1b2d56/opaline/basic/ButtonColors;
+	public final fun getButtonCornerRadius-D9Ej5fM ()F
+	public final fun getButtonInsideMargin ()Landroidx/compose/foundation/layout/PaddingValues;
+	public final fun getButtonMinHeight-D9Ej5fM ()F
+	public final fun getButtonMinWidth-D9Ej5fM ()F
+}
+
+public final class io/github/a1b2d56/opaline/preference/ButtonPreferenceKt {
+	public static final fun ButtonPreference-KX_lfw8 (Ljava/lang/String;Ljava/lang/String;Lkotlin/jvm/functions/Function0;Landroidx/compose/ui/Modifier;Lio/github/a1b2d56/opaline/basic/BasicComponentColors;Ljava/lang/String;Lio/github/a1b2d56/opaline/basic/BasicComponentColors;Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function3;Lkotlin/jvm/functions/Function2;Lio/github/a1b2d56/opaline/basic/ButtonColors;FFFLandroidx/compose/foundation/layout/PaddingValues;Landroidx/compose/foundation/layout/PaddingValues;Lio/github/a1b2d56/opaline/basic/CardListPosition;Lkotlin/jvm/functions/Function0;ZZLandroidx/compose/runtime/Composer;III)V
+}
+
+public final class io/github/a1b2d56/opaline/preference/CheckboxLocation : java/lang/Enum {
+	public static final field End Lio/github/a1b2d56/opaline/preference/CheckboxLocation;
+	public static final field Start Lio/github/a1b2d56/opaline/preference/CheckboxLocation;
+	public static fun getEntries ()Lkotlin/enums/EnumEntries;
+	public static fun valueOf (Ljava/lang/String;)Lio/github/a1b2d56/opaline/preference/CheckboxLocation;
+	public static fun values ()[Lio/github/a1b2d56/opaline/preference/CheckboxLocation;
+}
+
+public final class io/github/a1b2d56/opaline/preference/CheckboxPreferenceKt {
+	public static final fun CheckboxPreference (Ljava/lang/String;ZLkotlin/jvm/functions/Function1;Landroidx/compose/ui/Modifier;Lio/github/a1b2d56/opaline/basic/BasicComponentColors;Ljava/lang/String;Lio/github/a1b2d56/opaline/basic/BasicComponentColors;Lio/github/a1b2d56/opaline/basic/CheckboxColors;Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function3;Lio/github/a1b2d56/opaline/preference/CheckboxLocation;Lkotlin/jvm/functions/Function2;Landroidx/compose/foundation/layout/PaddingValues;Lio/github/a1b2d56/opaline/basic/CardListPosition;ZZLandroidx/compose/runtime/Composer;III)V
+}
+
+public final class io/github/a1b2d56/opaline/preference/ComposableSingletons$ArrowPreferenceKt {
+	public static final field INSTANCE Lio/github/a1b2d56/opaline/preference/ComposableSingletons$ArrowPreferenceKt;
+	public fun <init> ()V
+	public final fun getLambda$2047603754$io_github_a1b2d56_opaline_opaline_preference ()Lkotlin/jvm/functions/Function3;
+}
+
+public final class io/github/a1b2d56/opaline/preference/ComposableSingletons$ButtonPreferenceKt {
+	public static final field INSTANCE Lio/github/a1b2d56/opaline/preference/ComposableSingletons$ButtonPreferenceKt;
+	public fun <init> ()V
+	public final fun getLambda$-569601748$io_github_a1b2d56_opaline_opaline_preference ()Lkotlin/jvm/functions/Function3;
+}
+
+public final class io/github/a1b2d56/opaline/preference/ComposableSingletons$SwitchLoadingPreferenceKt {
+	public static final field INSTANCE Lio/github/a1b2d56/opaline/preference/ComposableSingletons$SwitchLoadingPreferenceKt;
+	public fun <init> ()V
+	public final fun getLambda$-709735511$io_github_a1b2d56_opaline_opaline_preference ()Lkotlin/jvm/functions/Function3;
+}
+
+public final class io/github/a1b2d56/opaline/preference/ComposableSingletons$SwitchPreferenceKt {
+	public static final field INSTANCE Lio/github/a1b2d56/opaline/preference/ComposableSingletons$SwitchPreferenceKt;
+	public fun <init> ()V
+	public final fun getLambda$-2075126833$io_github_a1b2d56_opaline_opaline_preference ()Lkotlin/jvm/functions/Function3;
+}
+
+public final class io/github/a1b2d56/opaline/preference/EndActionColors {
+	public static final field $stable I
+	public synthetic fun <init> (JJLkotlin/jvm/internal/DefaultConstructorMarker;)V
+	public final fun copy--OWjLjI (JJ)Lio/github/a1b2d56/opaline/preference/EndActionColors;
+	public static synthetic fun copy--OWjLjI$default (Lio/github/a1b2d56/opaline/preference/EndActionColors;JJILjava/lang/Object;)Lio/github/a1b2d56/opaline/preference/EndActionColors;
+	public fun equals (Ljava/lang/Object;)Z
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class io/github/a1b2d56/opaline/preference/ListPreferenceColors {
+	public static final field $stable I
+	public synthetic fun <init> (JJJJJJLkotlin/jvm/internal/DefaultConstructorMarker;)V
+	public final fun component1-0d7_KjU ()J
+	public final fun component2-0d7_KjU ()J
+	public final fun component3-0d7_KjU ()J
+	public final fun component4-0d7_KjU ()J
+	public final fun component5-0d7_KjU ()J
+	public final fun component6-0d7_KjU ()J
+	public final fun copy-tNS2XkQ (JJJJJJ)Lio/github/a1b2d56/opaline/preference/ListPreferenceColors;
+	public static synthetic fun copy-tNS2XkQ$default (Lio/github/a1b2d56/opaline/preference/ListPreferenceColors;JJJJJJILjava/lang/Object;)Lio/github/a1b2d56/opaline/preference/ListPreferenceColors;
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun getDisabledItemSummaryColor-0d7_KjU ()J
+	public final fun getDisabledItemTextColor-0d7_KjU ()J
+	public final fun getDisabledSelectedIndicatorColor-0d7_KjU ()J
+	public final fun getItemSummaryColor-0d7_KjU ()J
+	public final fun getItemTextColor-0d7_KjU ()J
+	public final fun getSelectedIndicatorColor-0d7_KjU ()J
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class io/github/a1b2d56/opaline/preference/ListPreferenceDefaults {
+	public static final field $stable I
+	public static final field INSTANCE Lio/github/a1b2d56/opaline/preference/ListPreferenceDefaults;
+	public final fun getButtonBarBottomPadding-D9Ej5fM ()F
+	public final fun getButtonBarTopPadding-D9Ej5fM ()F
+	public final fun getCheckIconSize-D9Ej5fM ()F
+	public final fun getPanelItemIndicatorSpacing-D9Ej5fM ()F
+	public final fun getPanelItemMinHeight-D9Ej5fM ()F
+	public final fun getPanelItemSummarySpacing-D9Ej5fM ()F
+	public final fun getPanelItemVerticalPadding-D9Ej5fM ()F
+	public final fun listPreferenceColors-5tl4gsc (JJJJJJLandroidx/compose/runtime/Composer;II)Lio/github/a1b2d56/opaline/preference/ListPreferenceColors;
+}
+
+public final class io/github/a1b2d56/opaline/preference/ListPreferenceEntry {
+	public static final field $stable I
+	public fun <init> (Ljava/lang/String;Ljava/lang/String;Z)V
+	public synthetic fun <init> (Ljava/lang/String;Ljava/lang/String;ZILkotlin/jvm/internal/DefaultConstructorMarker;)V
+	public final fun component1 ()Ljava/lang/String;
+	public final fun component2 ()Ljava/lang/String;
+	public final fun component3 ()Z
+	public final fun copy (Ljava/lang/String;Ljava/lang/String;Z)Lio/github/a1b2d56/opaline/preference/ListPreferenceEntry;
+	public static synthetic fun copy$default (Lio/github/a1b2d56/opaline/preference/ListPreferenceEntry;Ljava/lang/String;Ljava/lang/String;ZILjava/lang/Object;)Lio/github/a1b2d56/opaline/preference/ListPreferenceEntry;
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun getEnabled ()Z
+	public final fun getSummary ()Ljava/lang/String;
+	public final fun getText ()Ljava/lang/String;
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class io/github/a1b2d56/opaline/preference/ListPreferenceKt {
+	public static final fun ListPreference (Ljava/util/List;ILkotlin/jvm/functions/Function1;Ljava/lang/String;Ljava/lang/String;Landroidx/compose/ui/Modifier;Lio/github/a1b2d56/opaline/basic/BasicComponentColors;Ljava/lang/String;Lio/github/a1b2d56/opaline/basic/BasicComponentColors;Ljava/lang/String;Lio/github/a1b2d56/opaline/preference/ListPreferenceColors;Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function2;Landroidx/compose/foundation/layout/PaddingValues;Lio/github/a1b2d56/opaline/basic/CardListPosition;ZZZLkotlin/jvm/functions/Function1;Landroidx/compose/runtime/Composer;III)V
+}
+
+public final class io/github/a1b2d56/opaline/preference/MarkLocation : java/lang/Enum {
+	public static final field End Lio/github/a1b2d56/opaline/preference/MarkLocation;
+	public static final field Start Lio/github/a1b2d56/opaline/preference/MarkLocation;
+	public static fun getEntries ()Lkotlin/enums/EnumEntries;
+	public static fun valueOf (Ljava/lang/String;)Lio/github/a1b2d56/opaline/preference/MarkLocation;
+	public static fun values ()[Lio/github/a1b2d56/opaline/preference/MarkLocation;
+}
+
+public final class io/github/a1b2d56/opaline/preference/MarkPreferenceKt {
+	public static final fun MarkPreference (Ljava/lang/String;ZLkotlin/jvm/functions/Function0;Landroidx/compose/ui/Modifier;Lio/github/a1b2d56/opaline/basic/BasicComponentColors;Ljava/lang/String;Lio/github/a1b2d56/opaline/basic/BasicComponentColors;Lio/github/a1b2d56/opaline/basic/RadioButtonColors;Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function3;Lio/github/a1b2d56/opaline/preference/MarkLocation;Lkotlin/jvm/functions/Function2;Landroidx/compose/foundation/layout/PaddingValues;Lio/github/a1b2d56/opaline/basic/CardListPosition;ZZLandroidx/compose/runtime/Composer;III)V
+}
+
+public final class io/github/a1b2d56/opaline/preference/MultiSelectListPreferenceKt {
+	public static final fun MultiSelectListPreference (Ljava/util/List;Ljava/util/Set;Lkotlin/jvm/functions/Function1;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Landroidx/compose/ui/Modifier;Lio/github/a1b2d56/opaline/basic/BasicComponentColors;Ljava/lang/String;Lio/github/a1b2d56/opaline/basic/BasicComponentColors;Ljava/lang/String;Lio/github/a1b2d56/opaline/preference/ListPreferenceColors;Lio/github/a1b2d56/opaline/basic/CheckboxColors;Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function2;Landroidx/compose/foundation/layout/PaddingValues;Lio/github/a1b2d56/opaline/basic/CardListPosition;ZZZLkotlin/jvm/functions/Function1;Landroidx/compose/runtime/Composer;IIII)V
+}
+
+public final class io/github/a1b2d56/opaline/preference/OverlayDropdownPreferenceKt {
+	public static final fun OverlayDropdownPreference-4Xcw_4U (Lio/github/a1b2d56/opaline/basic/DropdownEntry;Ljava/lang/String;Landroidx/compose/ui/Modifier;Lio/github/a1b2d56/opaline/basic/BasicComponentColors;Ljava/lang/String;Lio/github/a1b2d56/opaline/basic/BasicComponentColors;Lio/github/a1b2d56/opaline/basic/DropdownColors;Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function2;Landroidx/compose/foundation/layout/PaddingValues;Lio/github/a1b2d56/opaline/basic/CardListPosition;Landroidx/compose/ui/unit/Dp;ZZZZLkotlin/jvm/functions/Function1;Landroidx/compose/runtime/Composer;III)V
+	public static final fun OverlayDropdownPreference-4Xcw_4U (Ljava/util/List;Ljava/lang/String;Landroidx/compose/ui/Modifier;Lio/github/a1b2d56/opaline/basic/BasicComponentColors;Ljava/lang/String;Lio/github/a1b2d56/opaline/basic/BasicComponentColors;Lio/github/a1b2d56/opaline/basic/DropdownColors;Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function2;Landroidx/compose/foundation/layout/PaddingValues;Lio/github/a1b2d56/opaline/basic/CardListPosition;Landroidx/compose/ui/unit/Dp;ZZZZLkotlin/jvm/functions/Function1;Landroidx/compose/runtime/Composer;III)V
+	public static final fun OverlayDropdownPreference-vU0eyXE (Ljava/util/List;ILjava/lang/String;Landroidx/compose/ui/Modifier;Lio/github/a1b2d56/opaline/basic/BasicComponentColors;Ljava/lang/String;Lio/github/a1b2d56/opaline/basic/BasicComponentColors;Lio/github/a1b2d56/opaline/basic/DropdownColors;Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function2;Landroidx/compose/foundation/layout/PaddingValues;Lio/github/a1b2d56/opaline/basic/CardListPosition;Landroidx/compose/ui/unit/Dp;ZZZLkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function1;Landroidx/compose/runtime/Composer;III)V
+}
+
+public final class io/github/a1b2d56/opaline/preference/OverlaySpinnerPreferenceKt {
+	public static final fun OverlaySpinnerPreference (Lio/github/a1b2d56/opaline/basic/DropdownEntry;Ljava/lang/String;Ljava/lang/String;Landroidx/compose/ui/Modifier;Landroidx/compose/ui/Modifier;Lio/github/a1b2d56/opaline/basic/BasicComponentColors;Ljava/lang/String;Lio/github/a1b2d56/opaline/basic/BasicComponentColors;Lio/github/a1b2d56/opaline/basic/DropdownColors;Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function2;Landroidx/compose/foundation/layout/PaddingValues;Lio/github/a1b2d56/opaline/basic/CardListPosition;ZZZZLkotlin/jvm/functions/Function1;Landroidx/compose/runtime/Composer;III)V
+	public static final fun OverlaySpinnerPreference (Ljava/util/List;ILjava/lang/String;Ljava/lang/String;Landroidx/compose/ui/Modifier;Landroidx/compose/ui/Modifier;Lio/github/a1b2d56/opaline/basic/BasicComponentColors;Ljava/lang/String;Lio/github/a1b2d56/opaline/basic/BasicComponentColors;Lio/github/a1b2d56/opaline/basic/DropdownColors;Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function2;Landroidx/compose/foundation/layout/PaddingValues;Lio/github/a1b2d56/opaline/basic/CardListPosition;ZZZZLkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function1;Landroidx/compose/runtime/Composer;III)V
+	public static final fun OverlaySpinnerPreference (Ljava/util/List;Ljava/lang/String;Ljava/lang/String;Landroidx/compose/ui/Modifier;Landroidx/compose/ui/Modifier;Lio/github/a1b2d56/opaline/basic/BasicComponentColors;Ljava/lang/String;Lio/github/a1b2d56/opaline/basic/BasicComponentColors;Lio/github/a1b2d56/opaline/basic/DropdownColors;Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function2;Landroidx/compose/foundation/layout/PaddingValues;Lio/github/a1b2d56/opaline/basic/CardListPosition;ZZZZLkotlin/jvm/functions/Function1;Landroidx/compose/runtime/Composer;III)V
+	public static final fun OverlaySpinnerPreference-4Xcw_4U (Lio/github/a1b2d56/opaline/basic/DropdownEntry;Ljava/lang/String;Landroidx/compose/ui/Modifier;Lio/github/a1b2d56/opaline/basic/BasicComponentColors;Ljava/lang/String;Lio/github/a1b2d56/opaline/basic/BasicComponentColors;Lio/github/a1b2d56/opaline/basic/DropdownColors;Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function2;Landroidx/compose/foundation/layout/PaddingValues;Lio/github/a1b2d56/opaline/basic/CardListPosition;Landroidx/compose/ui/unit/Dp;ZZZZLkotlin/jvm/functions/Function1;Landroidx/compose/runtime/Composer;III)V
+	public static final fun OverlaySpinnerPreference-4Xcw_4U (Ljava/util/List;Ljava/lang/String;Landroidx/compose/ui/Modifier;Lio/github/a1b2d56/opaline/basic/BasicComponentColors;Ljava/lang/String;Lio/github/a1b2d56/opaline/basic/BasicComponentColors;Lio/github/a1b2d56/opaline/basic/DropdownColors;Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function2;Landroidx/compose/foundation/layout/PaddingValues;Lio/github/a1b2d56/opaline/basic/CardListPosition;Landroidx/compose/ui/unit/Dp;ZZZZLkotlin/jvm/functions/Function1;Landroidx/compose/runtime/Composer;III)V
+	public static final fun OverlaySpinnerPreference-vU0eyXE (Ljava/util/List;ILjava/lang/String;Landroidx/compose/ui/Modifier;Lio/github/a1b2d56/opaline/basic/BasicComponentColors;Ljava/lang/String;Lio/github/a1b2d56/opaline/basic/BasicComponentColors;Lio/github/a1b2d56/opaline/basic/DropdownColors;Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function2;Landroidx/compose/foundation/layout/PaddingValues;Lio/github/a1b2d56/opaline/basic/CardListPosition;Landroidx/compose/ui/unit/Dp;ZZZLkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function1;Landroidx/compose/runtime/Composer;III)V
+}
+
+public final class io/github/a1b2d56/opaline/preference/RadioButtonLocation : java/lang/Enum {
+	public static final field End Lio/github/a1b2d56/opaline/preference/RadioButtonLocation;
+	public static final field Start Lio/github/a1b2d56/opaline/preference/RadioButtonLocation;
+	public static fun getEntries ()Lkotlin/enums/EnumEntries;
+	public static fun valueOf (Ljava/lang/String;)Lio/github/a1b2d56/opaline/preference/RadioButtonLocation;
+	public static fun values ()[Lio/github/a1b2d56/opaline/preference/RadioButtonLocation;
+}
+
+public final class io/github/a1b2d56/opaline/preference/RadioButtonPreferenceKt {
+	public static final fun RadioButtonPreference (Ljava/lang/String;ZLkotlin/jvm/functions/Function0;Landroidx/compose/ui/Modifier;Lio/github/a1b2d56/opaline/basic/BasicComponentColors;Ljava/lang/String;Lio/github/a1b2d56/opaline/basic/BasicComponentColors;Lio/github/a1b2d56/opaline/basic/RadioButtonColors;Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function3;Lio/github/a1b2d56/opaline/preference/RadioButtonLocation;Lkotlin/jvm/functions/Function2;Landroidx/compose/foundation/layout/PaddingValues;Lio/github/a1b2d56/opaline/basic/CardListPosition;ZZLandroidx/compose/runtime/Composer;III)V
+}
+
+public final class io/github/a1b2d56/opaline/preference/RecommendedItem {
+	public static final field $stable I
+	public fun <init> (Ljava/lang/String;Lkotlin/jvm/functions/Function0;)V
+	public synthetic fun <init> (Ljava/lang/String;Lkotlin/jvm/functions/Function0;ILkotlin/jvm/internal/DefaultConstructorMarker;)V
+	public final fun component1 ()Ljava/lang/String;
+	public final fun component2 ()Lkotlin/jvm/functions/Function0;
+	public final fun copy (Ljava/lang/String;Lkotlin/jvm/functions/Function0;)Lio/github/a1b2d56/opaline/preference/RecommendedItem;
+	public static synthetic fun copy$default (Lio/github/a1b2d56/opaline/preference/RecommendedItem;Ljava/lang/String;Lkotlin/jvm/functions/Function0;ILjava/lang/Object;)Lio/github/a1b2d56/opaline/preference/RecommendedItem;
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun getOnClick ()Lkotlin/jvm/functions/Function0;
+	public final fun getText ()Ljava/lang/String;
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class io/github/a1b2d56/opaline/preference/RecommendedPreferenceColors {
+	public static final field $stable I
+	public synthetic fun <init> (JJJLkotlin/jvm/internal/DefaultConstructorMarker;)V
+	public final fun component1-0d7_KjU ()J
+	public final fun component2-0d7_KjU ()J
+	public final fun component3-0d7_KjU ()J
+	public final fun copy-ysEtTa8 (JJJ)Lio/github/a1b2d56/opaline/preference/RecommendedPreferenceColors;
+	public static synthetic fun copy-ysEtTa8$default (Lio/github/a1b2d56/opaline/preference/RecommendedPreferenceColors;JJJILjava/lang/Object;)Lio/github/a1b2d56/opaline/preference/RecommendedPreferenceColors;
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun getContainerColor-0d7_KjU ()J
+	public final fun getItemColor-0d7_KjU ()J
+	public final fun getTitleColor-0d7_KjU ()J
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class io/github/a1b2d56/opaline/preference/RecommendedPreferenceDefaults {
+	public static final field $stable I
+	public static final field INSTANCE Lio/github/a1b2d56/opaline/preference/RecommendedPreferenceDefaults;
+	public final fun getBottomPadding-D9Ej5fM ()F
+	public final fun getCornerRadius-D9Ej5fM ()F
+	public final fun getHeaderBottomSpacing-D9Ej5fM ()F
+	public final fun getHeaderMinHeight-D9Ej5fM ()F
+	public final fun getHeaderTopPadding-D9Ej5fM ()F
+	public final fun getInsideMargin ()Landroidx/compose/foundation/layout/PaddingValues;
+	public final fun getItemVerticalPadding-D9Ej5fM ()F
+	public final fun recommendedPreferenceColors-RGew2ao (JJJLandroidx/compose/runtime/Composer;II)Lio/github/a1b2d56/opaline/preference/RecommendedPreferenceColors;
+}
+
+public final class io/github/a1b2d56/opaline/preference/RecommendedPreferenceKt {
+	public static final fun RecommendedPreference-jIwJxvA (Ljava/lang/String;Ljava/util/List;Landroidx/compose/ui/Modifier;FLio/github/a1b2d56/opaline/preference/RecommendedPreferenceColors;Landroidx/compose/foundation/layout/PaddingValues;Landroidx/compose/runtime/Composer;II)V
+}
+
+public final class io/github/a1b2d56/opaline/preference/SliderPreferenceKt {
+	public static final fun RangeSliderPreference-CeGkkQM (Lkotlin/ranges/ClosedFloatingPointRange;Lkotlin/jvm/functions/Function1;Landroidx/compose/ui/Modifier;Ljava/lang/String;Lio/github/a1b2d56/opaline/basic/BasicComponentColors;Ljava/lang/String;Lio/github/a1b2d56/opaline/basic/BasicComponentColors;Lkotlin/jvm/functions/Function2;Ljava/lang/String;Lkotlin/jvm/functions/Function3;Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function0;ZZLkotlin/ranges/ClosedFloatingPointRange;ILkotlin/jvm/functions/Function0;FLio/github/a1b2d56/opaline/basic/SliderColors;Lio/github/a1b2d56/opaline/basic/SliderDefaults$SliderHapticEffect;ZLjava/util/List;FLandroidx/compose/foundation/layout/PaddingValues;Lio/github/a1b2d56/opaline/basic/CardListPosition;Landroidx/compose/runtime/Composer;IIII)V
+	public static final fun SliderPreference-pwd9a2E (FLkotlin/jvm/functions/Function1;Landroidx/compose/ui/Modifier;Ljava/lang/String;Lio/github/a1b2d56/opaline/basic/BasicComponentColors;Ljava/lang/String;Lio/github/a1b2d56/opaline/basic/BasicComponentColors;Lkotlin/jvm/functions/Function2;Ljava/lang/String;Lkotlin/jvm/functions/Function3;Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function0;ZZLkotlin/ranges/ClosedFloatingPointRange;ILkotlin/jvm/functions/Function0;ZFLio/github/a1b2d56/opaline/basic/SliderColors;Lio/github/a1b2d56/opaline/basic/SliderDefaults$SliderHapticEffect;ZLjava/util/List;FLandroidx/compose/foundation/layout/PaddingValues;Lio/github/a1b2d56/opaline/basic/CardListPosition;Landroidx/compose/runtime/Composer;IIII)V
+}
+
+public final class io/github/a1b2d56/opaline/preference/SwitchLoadingPreferenceKt {
+	public static final fun SwitchLoadingPreference (ZLkotlin/jvm/functions/Function1;Ljava/lang/String;Landroidx/compose/ui/Modifier;ZLio/github/a1b2d56/opaline/basic/BasicComponentColors;Ljava/lang/String;Lio/github/a1b2d56/opaline/basic/BasicComponentColors;Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function3;Lkotlin/jvm/functions/Function2;Lio/github/a1b2d56/opaline/basic/SwitchColors;Landroidx/compose/foundation/layout/PaddingValues;Lio/github/a1b2d56/opaline/basic/CardListPosition;ZZLandroidx/compose/runtime/Composer;III)V
+}
+
+public final class io/github/a1b2d56/opaline/preference/SwitchPreferenceKt {
+	public static final fun SwitchPreference (ZLkotlin/jvm/functions/Function1;Ljava/lang/String;Landroidx/compose/ui/Modifier;Lio/github/a1b2d56/opaline/basic/BasicComponentColors;Ljava/lang/String;Lio/github/a1b2d56/opaline/basic/BasicComponentColors;Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function3;Lkotlin/jvm/functions/Function2;Lio/github/a1b2d56/opaline/basic/SwitchColors;Landroidx/compose/foundation/layout/PaddingValues;Lio/github/a1b2d56/opaline/basic/CardListPosition;ZZLandroidx/compose/runtime/Composer;III)V
+}
+
+public final class io/github/a1b2d56/opaline/preference/WindowDropdownPreferenceKt {
+	public static final fun WindowDropdownPreference-1VmECCk (Ljava/util/List;ILjava/lang/String;Landroidx/compose/ui/Modifier;Lio/github/a1b2d56/opaline/basic/BasicComponentColors;Ljava/lang/String;Lio/github/a1b2d56/opaline/basic/BasicComponentColors;Lio/github/a1b2d56/opaline/basic/DropdownColors;Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function2;Landroidx/compose/foundation/layout/PaddingValues;Lio/github/a1b2d56/opaline/basic/CardListPosition;Landroidx/compose/ui/unit/Dp;ZZLkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function1;Landroidx/compose/runtime/Composer;III)V
+	public static final fun WindowDropdownPreference-HY1_dMo (Lio/github/a1b2d56/opaline/basic/DropdownEntry;Ljava/lang/String;Landroidx/compose/ui/Modifier;Lio/github/a1b2d56/opaline/basic/BasicComponentColors;Ljava/lang/String;Lio/github/a1b2d56/opaline/basic/BasicComponentColors;Lio/github/a1b2d56/opaline/basic/DropdownColors;Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function2;Landroidx/compose/foundation/layout/PaddingValues;Lio/github/a1b2d56/opaline/basic/CardListPosition;Landroidx/compose/ui/unit/Dp;ZZZLkotlin/jvm/functions/Function1;Landroidx/compose/runtime/Composer;III)V
+	public static final fun WindowDropdownPreference-HY1_dMo (Ljava/util/List;Ljava/lang/String;Landroidx/compose/ui/Modifier;Lio/github/a1b2d56/opaline/basic/BasicComponentColors;Ljava/lang/String;Lio/github/a1b2d56/opaline/basic/BasicComponentColors;Lio/github/a1b2d56/opaline/basic/DropdownColors;Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function2;Landroidx/compose/foundation/layout/PaddingValues;Lio/github/a1b2d56/opaline/basic/CardListPosition;Landroidx/compose/ui/unit/Dp;ZZZLkotlin/jvm/functions/Function1;Landroidx/compose/runtime/Composer;III)V
+}
+
+public final class io/github/a1b2d56/opaline/preference/WindowSpinnerPreferenceKt {
+	public static final fun WindowSpinnerPreference (Lio/github/a1b2d56/opaline/basic/DropdownEntry;Ljava/lang/String;Ljava/lang/String;Landroidx/compose/ui/Modifier;Landroidx/compose/ui/Modifier;Lio/github/a1b2d56/opaline/basic/BasicComponentColors;Ljava/lang/String;Lio/github/a1b2d56/opaline/basic/BasicComponentColors;Lio/github/a1b2d56/opaline/basic/DropdownColors;Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function2;Landroidx/compose/foundation/layout/PaddingValues;Lio/github/a1b2d56/opaline/basic/CardListPosition;ZZZLkotlin/jvm/functions/Function1;Landroidx/compose/runtime/Composer;III)V
+	public static final fun WindowSpinnerPreference (Ljava/util/List;ILjava/lang/String;Ljava/lang/String;Landroidx/compose/ui/Modifier;Landroidx/compose/ui/Modifier;Lio/github/a1b2d56/opaline/basic/BasicComponentColors;Ljava/lang/String;Lio/github/a1b2d56/opaline/basic/BasicComponentColors;Lio/github/a1b2d56/opaline/basic/DropdownColors;Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function2;Landroidx/compose/foundation/layout/PaddingValues;Lio/github/a1b2d56/opaline/basic/CardListPosition;ZZZLkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function1;Landroidx/compose/runtime/Composer;III)V
+	public static final fun WindowSpinnerPreference (Ljava/util/List;Ljava/lang/String;Ljava/lang/String;Landroidx/compose/ui/Modifier;Landroidx/compose/ui/Modifier;Lio/github/a1b2d56/opaline/basic/BasicComponentColors;Ljava/lang/String;Lio/github/a1b2d56/opaline/basic/BasicComponentColors;Lio/github/a1b2d56/opaline/basic/DropdownColors;Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function2;Landroidx/compose/foundation/layout/PaddingValues;Lio/github/a1b2d56/opaline/basic/CardListPosition;ZZZLkotlin/jvm/functions/Function1;Landroidx/compose/runtime/Composer;III)V
+	public static final fun WindowSpinnerPreference-1VmECCk (Ljava/util/List;ILjava/lang/String;Landroidx/compose/ui/Modifier;Lio/github/a1b2d56/opaline/basic/BasicComponentColors;Ljava/lang/String;Lio/github/a1b2d56/opaline/basic/BasicComponentColors;Lio/github/a1b2d56/opaline/basic/DropdownColors;Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function2;Landroidx/compose/foundation/layout/PaddingValues;Lio/github/a1b2d56/opaline/basic/CardListPosition;Landroidx/compose/ui/unit/Dp;ZZLkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function1;Landroidx/compose/runtime/Composer;III)V
+	public static final fun WindowSpinnerPreference-HY1_dMo (Lio/github/a1b2d56/opaline/basic/DropdownEntry;Ljava/lang/String;Landroidx/compose/ui/Modifier;Lio/github/a1b2d56/opaline/basic/BasicComponentColors;Ljava/lang/String;Lio/github/a1b2d56/opaline/basic/BasicComponentColors;Lio/github/a1b2d56/opaline/basic/DropdownColors;Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function2;Landroidx/compose/foundation/layout/PaddingValues;Lio/github/a1b2d56/opaline/basic/CardListPosition;Landroidx/compose/ui/unit/Dp;ZZZLkotlin/jvm/functions/Function1;Landroidx/compose/runtime/Composer;III)V
+	public static final fun WindowSpinnerPreference-HY1_dMo (Ljava/util/List;Ljava/lang/String;Landroidx/compose/ui/Modifier;Lio/github/a1b2d56/opaline/basic/BasicComponentColors;Ljava/lang/String;Lio/github/a1b2d56/opaline/basic/BasicComponentColors;Lio/github/a1b2d56/opaline/basic/DropdownColors;Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function2;Landroidx/compose/foundation/layout/PaddingValues;Lio/github/a1b2d56/opaline/basic/CardListPosition;Landroidx/compose/ui/unit/Dp;ZZZLkotlin/jvm/functions/Function1;Landroidx/compose/runtime/Composer;III)V
+}
+
