@@ -1,0 +1,1404 @@
+public final class io/github/a1b2d56/opaline/icon/extended/AddCircleKt {
+	public static final fun getAddCircle (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getAddCircle (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getAddCircle (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getAddCircle (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getAddCircle (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getAddCircle (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/AddFolderKt {
+	public static final fun getAddFolder (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getAddFolder (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getAddFolder (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getAddFolder (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getAddFolder (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getAddFolder (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/AddKt {
+	public static final fun getAdd (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getAdd (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getAdd (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getAdd (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getAdd (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getAdd (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/AlarmKt {
+	public static final fun getAlarm (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getAlarm (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getAlarm (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getAlarm (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getAlarm (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getAlarm (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/AlbumKt {
+	public static final fun getAlbum (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getAlbum (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getAlbum (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getAlbum (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getAlbum (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getAlbum (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/AllKt {
+	public static final fun getAll (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getAll (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getAll (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getAll (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getAll (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getAll (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/AnswerKt {
+	public static final fun getAnswer (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getAnswer (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getAnswer (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getAnswer (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getAnswer (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getAnswer (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/AppRecordingKt {
+	public static final fun getAppRecording (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getAppRecording (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getAppRecording (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getAppRecording (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getAppRecording (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getAppRecording (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/BackKt {
+	public static final fun getBack (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getBack (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getBack (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getBack (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getBack (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getBack (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/BackgroundKt {
+	public static final fun getBackground (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getBackground (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getBackground (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getBackground (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getBackground (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getBackground (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/BackupKt {
+	public static final fun getBackup (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getBackup (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getBackup (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getBackup (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getBackup (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getBackup (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/BankCardsKt {
+	public static final fun getBankCards (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getBankCards (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getBankCards (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getBankCards (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getBankCards (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getBankCards (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/BlocklistKt {
+	public static final fun getBlocklist (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getBlocklist (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getBlocklist (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getBlocklist (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getBlocklist (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getBlocklist (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/CallRecordingKt {
+	public static final fun getCallRecording (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getCallRecording (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getCallRecording (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getCallRecording (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getCallRecording (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getCallRecording (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/CarrierKt {
+	public static final fun getCarrier (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getCarrier (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getCarrier (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getCarrier (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getCarrier (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getCarrier (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/ChevronBackwardKt {
+	public static final fun getChevronBackward (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getChevronBackward (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getChevronBackward (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getChevronBackward (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getChevronBackward (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getChevronBackward (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/ChevronForwardKt {
+	public static final fun getChevronForward (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getChevronForward (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getChevronForward (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getChevronForward (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getChevronForward (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getChevronForward (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/ClearKt {
+	public static final fun getClear (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getClear (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getClear (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getClear (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getClear (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getClear (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/Close2Kt {
+	public static final fun getClose2 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getClose2 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getClose2 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getClose2 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getClose2 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getClose2 (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/CloseKt {
+	public static final fun getClose (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getClose (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getClose (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getClose (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getClose (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getClose (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/CloudFillKt {
+	public static final fun getCloudFill (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getCloudFill (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getCloudFill (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getCloudFill (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getCloudFill (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getCloudFill (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/CommunityKt {
+	public static final fun getCommunity (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getCommunity (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getCommunity (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getCommunity (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getCommunity (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getCommunity (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/ContactsBookKt {
+	public static final fun getContactsBook (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getContactsBook (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getContactsBook (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getContactsBook (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getContactsBook (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getContactsBook (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/ContactsCircleKt {
+	public static final fun getContactsCircle (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getContactsCircle (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getContactsCircle (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getContactsCircle (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getContactsCircle (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getContactsCircle (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/ContactsKt {
+	public static final fun getContacts (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getContacts (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getContacts (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getContacts (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getContacts (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getContacts (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/ConvertFileKt {
+	public static final fun getConvertFile (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getConvertFile (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getConvertFile (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getConvertFile (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getConvertFile (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getConvertFile (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/CopyKt {
+	public static final fun getCopy (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getCopy (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getCopy (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getCopy (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getCopy (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getCopy (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/CreateKt {
+	public static final fun getCreate (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getCreate (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getCreate (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getCreate (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getCreate (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getCreate (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/CutKt {
+	public static final fun getCut (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getCut (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getCut (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getCut (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getCut (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getCut (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/DeleteKt {
+	public static final fun getDelete (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getDelete (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getDelete (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getDelete (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getDelete (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getDelete (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/DownloadKt {
+	public static final fun getDownload (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getDownload (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getDownload (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getDownload (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getDownload (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getDownload (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/EditKt {
+	public static final fun getEdit (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getEdit (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getEdit (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getEdit (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getEdit (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getEdit (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/EmailKt {
+	public static final fun getEmail (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getEmail (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getEmail (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getEmail (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getEmail (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getEmail (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/ExpandLessKt {
+	public static final fun getExpandLess (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getExpandLess (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getExpandLess (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getExpandLess (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getExpandLess (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getExpandLess (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/ExpandMoreKt {
+	public static final fun getExpandMore (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getExpandMore (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getExpandMore (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getExpandMore (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getExpandMore (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getExpandMore (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/FavoritesFillKt {
+	public static final fun getFavoritesFill (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getFavoritesFill (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getFavoritesFill (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getFavoritesFill (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getFavoritesFill (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getFavoritesFill (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/FavoritesKt {
+	public static final fun getFavorites (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getFavorites (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getFavorites (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getFavorites (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getFavorites (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getFavorites (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/FileDownloadsKt {
+	public static final fun getFileDownloads (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getFileDownloads (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getFileDownloads (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getFileDownloads (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getFileDownloads (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getFileDownloads (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/FileKt {
+	public static final fun getFile (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getFile (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getFile (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getFile (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getFile (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getFile (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/FilterKt {
+	public static final fun getFilter (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getFilter (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getFilter (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getFilter (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getFilter (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getFilter (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/FolderFillKt {
+	public static final fun getFolderFill (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getFolderFill (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getFolderFill (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getFolderFill (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getFolderFill (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getFolderFill (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/FolderKt {
+	public static final fun getFolder (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getFolder (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getFolder (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getFolder (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getFolder (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getFolder (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/ForwardKt {
+	public static final fun getForward (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getForward (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getForward (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getForward (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getForward (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getForward (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/GridViewKt {
+	public static final fun getGridView (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getGridView (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getGridView (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getGridView (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getGridView (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getGridView (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/HelpKt {
+	public static final fun getHelp (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getHelp (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getHelp (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getHelp (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getHelp (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getHelp (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/HideKt {
+	public static final fun getHide (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getHide (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getHide (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getHide (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getHide (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getHide (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/HomeKt {
+	public static final fun getHome (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getHome (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getHome (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getHome (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getHome (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getHome (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/HorizontalSplitKt {
+	public static final fun getHorizontalSplit (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getHorizontalSplit (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getHorizontalSplit (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getHorizontalSplit (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getHorizontalSplit (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getHorizontalSplit (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/ImageKt {
+	public static final fun getImage (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getImage (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getImage (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getImage (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getImage (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getImage (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/ImportKt {
+	public static final fun getImport (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getImport (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getImport (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getImport (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getImport (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getImport (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/InfoKt {
+	public static final fun getInfo (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getInfo (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getInfo (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getInfo (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getInfo (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getInfo (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/LayersKt {
+	public static final fun getLayers (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getLayers (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getLayers (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getLayers (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getLayers (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getLayers (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/LinkKt {
+	public static final fun getLink (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getLink (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getLink (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getLink (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getLink (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getLink (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/ListViewKt {
+	public static final fun getListView (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getListView (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getListView (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getListView (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getListView (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getListView (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/LocationKt {
+	public static final fun getLocation (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getLocation (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getLocation (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getLocation (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getLocation (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getLocation (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/LockKt {
+	public static final fun getLock (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getLock (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getLock (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getLock (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getLock (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getLock (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/MapAlbumKt {
+	public static final fun getMapAlbum (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getMapAlbum (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getMapAlbum (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getMapAlbum (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getMapAlbum (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getMapAlbum (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/MergeKt {
+	public static final fun getMerge (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getMerge (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getMerge (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getMerge (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getMerge (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getMerge (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/MessagesKt {
+	public static final fun getMessages (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getMessages (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getMessages (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getMessages (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getMessages (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getMessages (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/MicKt {
+	public static final fun getMic (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getMic (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getMic (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getMic (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getMic (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getMic (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/MicSlashKt {
+	public static final fun getMicSlash (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getMicSlash (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getMicSlash (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getMicSlash (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getMicSlash (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getMicSlash (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/MindMapKt {
+	public static final fun getMindMap (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getMindMap (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getMindMap (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getMindMap (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getMindMap (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getMindMap (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/MonthsKt {
+	public static final fun getMonths (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getMonths (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getMonths (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getMonths (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getMonths (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getMonths (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/MoreCircleKt {
+	public static final fun getMoreCircle (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getMoreCircle (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getMoreCircle (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getMoreCircle (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getMoreCircle (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getMoreCircle (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/MoreKt {
+	public static final fun getMore (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getMore (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getMore (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getMore (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getMore (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getMore (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/MoveFileKt {
+	public static final fun getMoveFile (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getMoveFile (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getMoveFile (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getMoveFile (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getMoveFile (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getMoveFile (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/MusicKt {
+	public static final fun getMusic (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getMusic (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getMusic (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getMusic (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getMusic (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getMusic (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/NotesFillKt {
+	public static final fun getNotesFill (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getNotesFill (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getNotesFill (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getNotesFill (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getNotesFill (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getNotesFill (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/NotesKt {
+	public static final fun getNotes (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getNotes (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getNotes (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getNotes (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getNotes (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getNotes (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/OkKt {
+	public static final fun getOk (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getOk (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getOk (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getOk (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getOk (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getOk (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/PasteKt {
+	public static final fun getPaste (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getPaste (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getPaste (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getPaste (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getPaste (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getPaste (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/PauseKt {
+	public static final fun getPause (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getPause (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getPause (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getPause (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getPause (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getPause (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/PhoneKt {
+	public static final fun getPhone (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getPhone (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getPhone (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getPhone (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getPhone (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getPhone (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/PhotosKt {
+	public static final fun getPhotos (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getPhotos (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getPhotos (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getPhotos (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getPhotos (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getPhotos (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/PinKt {
+	public static final fun getPin (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getPin (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getPin (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getPin (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getPin (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getPin (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/PlayKt {
+	public static final fun getPlay (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getPlay (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getPlay (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getPlay (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getPlay (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getPlay (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/PlaylistKt {
+	public static final fun getPlaylist (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getPlaylist (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getPlaylist (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getPlaylist (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getPlaylist (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getPlaylist (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/PromotionsKt {
+	public static final fun getPromotions (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getPromotions (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getPromotions (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getPromotions (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getPromotions (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getPromotions (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/RecentKt {
+	public static final fun getRecent (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getRecent (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getRecent (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getRecent (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getRecent (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getRecent (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/RecordingKt {
+	public static final fun getRecording (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getRecording (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getRecording (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getRecording (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getRecording (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getRecording (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/RecordingTapeKt {
+	public static final fun getRecordingTape (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getRecordingTape (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getRecordingTape (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getRecordingTape (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getRecordingTape (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getRecordingTape (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/RedoKt {
+	public static final fun getRedo (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getRedo (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getRedo (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getRedo (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getRedo (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getRedo (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/RefreshKt {
+	public static final fun getRefresh (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getRefresh (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getRefresh (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getRefresh (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getRefresh (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getRefresh (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/RemoveContactKt {
+	public static final fun getRemoveContact (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getRemoveContact (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getRemoveContact (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getRemoveContact (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getRemoveContact (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getRemoveContact (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/RemoveKt {
+	public static final fun getRemove (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getRemove (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getRemove (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getRemove (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getRemove (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getRemove (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/RenameKt {
+	public static final fun getRename (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getRename (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getRename (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getRename (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getRename (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getRename (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/ReplaceKt {
+	public static final fun getReplace (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getReplace (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getReplace (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getReplace (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getReplace (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getReplace (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/ReplyAllKt {
+	public static final fun getReplyAll (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getReplyAll (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getReplyAll (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getReplyAll (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getReplyAll (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getReplyAll (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/ReplyKt {
+	public static final fun getReply (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getReply (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getReply (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getReply (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getReply (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getReply (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/ReportKt {
+	public static final fun getReport (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getReport (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getReport (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getReport (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getReport (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getReport (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/ResetKt {
+	public static final fun getReset (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getReset (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getReset (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getReset (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getReset (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getReset (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/RotateLeftKt {
+	public static final fun getRotateLeft (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getRotateLeft (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getRotateLeft (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getRotateLeft (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getRotateLeft (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getRotateLeft (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/ScanKt {
+	public static final fun getScan (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getScan (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getScan (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getScan (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getScan (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getScan (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/ScreenCaptureKt {
+	public static final fun getScreenCapture (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getScreenCapture (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getScreenCapture (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getScreenCapture (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getScreenCapture (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getScreenCapture (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/ScreenMirroringKt {
+	public static final fun getScreenMirroring (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getScreenMirroring (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getScreenMirroring (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getScreenMirroring (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getScreenMirroring (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getScreenMirroring (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/SearchDeviceKt {
+	public static final fun getSearchDevice (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getSearchDevice (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getSearchDevice (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getSearchDevice (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getSearchDevice (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getSearchDevice (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/SearchKt {
+	public static final fun getSearch (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getSearch (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getSearch (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getSearch (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getSearch (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getSearch (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/SelectAllKt {
+	public static final fun getSelectAll (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getSelectAll (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getSelectAll (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getSelectAll (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getSelectAll (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getSelectAll (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/SendKt {
+	public static final fun getSend (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getSend (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getSend (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getSend (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getSend (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getSend (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/SettingsKt {
+	public static final fun getSettings (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getSettings (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getSettings (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getSettings (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getSettings (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getSettings (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/ShareKt {
+	public static final fun getShare (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getShare (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getShare (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getShare (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getShare (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getShare (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/ShowKt {
+	public static final fun getShow (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getShow (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getShow (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getShow (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getShow (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getShow (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/SidebarKt {
+	public static final fun getSidebar (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getSidebar (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getSidebar (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getSidebar (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getSidebar (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getSidebar (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/SortKt {
+	public static final fun getSort (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getSort (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getSort (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getSort (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getSort (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getSort (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/StopwatchKt {
+	public static final fun getStopwatch (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getStopwatch (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getStopwatch (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getStopwatch (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getStopwatch (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getStopwatch (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/StoreKt {
+	public static final fun getStore (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getStore (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getStore (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getStore (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getStore (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getStore (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/TasksKt {
+	public static final fun getTasks (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTasks (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTasks (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTasks (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTasks (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTasks (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/Th10Kt {
+	public static final fun getTh10 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh10 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh10 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh10 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh10 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh10 (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/Th11Kt {
+	public static final fun getTh11 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh11 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh11 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh11 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh11 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh11 (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/Th12Kt {
+	public static final fun getTh12 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh12 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh12 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh12 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh12 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh12 (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/Th13Kt {
+	public static final fun getTh13 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh13 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh13 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh13 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh13 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh13 (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/Th14Kt {
+	public static final fun getTh14 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh14 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh14 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh14 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh14 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh14 (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/Th15Kt {
+	public static final fun getTh15 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh15 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh15 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh15 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh15 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh15 (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/Th16Kt {
+	public static final fun getTh16 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh16 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh16 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh16 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh16 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh16 (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/Th17Kt {
+	public static final fun getTh17 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh17 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh17 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh17 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh17 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh17 (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/Th18Kt {
+	public static final fun getTh18 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh18 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh18 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh18 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh18 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh18 (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/Th19Kt {
+	public static final fun getTh19 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh19 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh19 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh19 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh19 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh19 (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/Th1Kt {
+	public static final fun getTh1 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh1 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh1 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh1 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh1 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh1 (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/Th20Kt {
+	public static final fun getTh20 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh20 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh20 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh20 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh20 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh20 (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/Th21Kt {
+	public static final fun getTh21 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh21 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh21 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh21 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh21 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh21 (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/Th22Kt {
+	public static final fun getTh22 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh22 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh22 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh22 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh22 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh22 (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/Th23Kt {
+	public static final fun getTh23 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh23 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh23 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh23 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh23 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh23 (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/Th24Kt {
+	public static final fun getTh24 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh24 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh24 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh24 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh24 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh24 (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/Th25Kt {
+	public static final fun getTh25 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh25 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh25 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh25 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh25 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh25 (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/Th26Kt {
+	public static final fun getTh26 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh26 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh26 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh26 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh26 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh26 (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/Th27Kt {
+	public static final fun getTh27 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh27 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh27 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh27 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh27 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh27 (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/Th28Kt {
+	public static final fun getTh28 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh28 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh28 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh28 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh28 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh28 (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/Th29Kt {
+	public static final fun getTh29 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh29 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh29 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh29 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh29 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh29 (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/Th2Kt {
+	public static final fun getTh2 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh2 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh2 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh2 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh2 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh2 (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/Th30Kt {
+	public static final fun getTh30 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh30 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh30 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh30 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh30 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh30 (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/Th31Kt {
+	public static final fun getTh31 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh31 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh31 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh31 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh31 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh31 (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/Th3Kt {
+	public static final fun getTh3 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh3 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh3 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh3 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh3 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh3 (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/Th4Kt {
+	public static final fun getTh4 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh4 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh4 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh4 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh4 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh4 (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/Th5Kt {
+	public static final fun getTh5 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh5 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh5 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh5 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh5 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh5 (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/Th6Kt {
+	public static final fun getTh6 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh6 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh6 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh6 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh6 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh6 (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/Th7Kt {
+	public static final fun getTh7 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh7 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh7 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh7 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh7 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh7 (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/Th8Kt {
+	public static final fun getTh8 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh8 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh8 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh8 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh8 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh8 (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/Th9Kt {
+	public static final fun getTh9 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh9 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh9 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh9 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh9 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTh9 (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/ThemeKt {
+	public static final fun getTheme (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTheme (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTheme (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTheme (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTheme (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTheme (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/TimerKt {
+	public static final fun getTimer (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTimer (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTimer (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTimer (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTimer (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTimer (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/TopDownloadsKt {
+	public static final fun getTopDownloads (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTopDownloads (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTopDownloads (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTopDownloads (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTopDownloads (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTopDownloads (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/TranslateKt {
+	public static final fun getTranslate (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTranslate (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTranslate (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTranslate (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTranslate (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTranslate (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/TrimKt {
+	public static final fun getTrim (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTrim (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTrim (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTrim (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTrim (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTrim (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/TuneKt {
+	public static final fun getTune (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTune (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTune (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTune (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTune (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getTune (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/UndoKt {
+	public static final fun getUndo (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getUndo (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getUndo (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getUndo (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getUndo (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getUndo (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/UnlockKt {
+	public static final fun getUnlock (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getUnlock (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getUnlock (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getUnlock (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getUnlock (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getUnlock (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/UnpinKt {
+	public static final fun getUnpin (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getUnpin (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getUnpin (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getUnpin (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getUnpin (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getUnpin (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/UpdateKt {
+	public static final fun getUpdate (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getUpdate (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getUpdate (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getUpdate (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getUpdate (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getUpdate (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/UploadCloudKt {
+	public static final fun getUploadCloud (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getUploadCloud (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getUploadCloud (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getUploadCloud (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getUploadCloud (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getUploadCloud (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/VerticalSplitKt {
+	public static final fun getVerticalSplit (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getVerticalSplit (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getVerticalSplit (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getVerticalSplit (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getVerticalSplit (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getVerticalSplit (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/VolumeOffKt {
+	public static final fun getVolumeOff (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getVolumeOff (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getVolumeOff (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getVolumeOff (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getVolumeOff (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getVolumeOff (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/VolumeUpKt {
+	public static final fun getVolumeUp (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getVolumeUp (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getVolumeUp (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getVolumeUp (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getVolumeUp (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getVolumeUp (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/WeeksKt {
+	public static final fun getWeeks (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getWeeks (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getWeeks (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getWeeks (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getWeeks (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getWeeks (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/WorldClockKt {
+	public static final fun getWorldClock (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getWorldClock (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getWorldClock (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getWorldClock (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getWorldClock (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getWorldClock (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/YearsKt {
+	public static final fun getYears (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getYears (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getYears (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getYears (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getYears (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getYears (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/extended/ZoomOutKt {
+	public static final fun getZoomOut (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getZoomOut (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getZoomOut (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getZoomOut (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getZoomOut (Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;)Landroidx/compose/ui/graphics/vector/ImageVector;
+	public static final fun getZoomOut (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
