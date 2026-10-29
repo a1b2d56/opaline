@@ -1,0 +1,5 @@
+TEAM_ID=
+BUNDLE_ID=io.github.a1b2d56.opaline.demo
+APP_NAME=Opaline
+
+#include? "../iosApp/Generated.xcconfig"

@@ -1,0 +1,67 @@
+// Copyright 2026, COUI contributors
+// Modifications Copyright 2026, Opaline contributors
+// SPDX-License-Identifier: Apache-2.0
+package component
+
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.lazy.LazyListScope
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.unit.dp
+import io.github.a1b2d56.opaline.basic.Card
+import io.github.a1b2d56.opaline.basic.DatePicker
+import io.github.a1b2d56.opaline.basic.DateValue
+import io.github.a1b2d56.opaline.basic.SmallTitle
+import io.github.a1b2d56.opaline.basic.TimePicker
+import io.github.a1b2d56.opaline.basic.TimeValue
+
+fun LazyListScope.dateTimePickerSection() {
+    item(key = "datePicker") {
+        SmallTitle(text = "DatePicker")
+        Card(
+            modifier = Modifier
+                .padding(horizontal = 16.dp)
+                .padding(bottom = 16.dp),
+        ) {
+            var date by remember { mutableStateOf(DateValue(year = 2026, month = 7, day = 26)) }
+            DatePicker(
+                value = date,
+                onValueChange = { date = it },
+            )
+        }
+    }
+    item(key = "timePicker24h") {
+        SmallTitle(text = "TimePicker (24-hour)")
+        Card(
+            modifier = Modifier
+                .padding(horizontal = 16.dp)
+                .padding(bottom = 16.dp),
+        ) {
+            var time by remember { mutableStateOf(TimeValue(hour = 16, minute = 30)) }
+            TimePicker(
+                value = time,
+                onValueChange = { time = it },
+                hourUnit = "h",
+                minuteUnit = "min",
+            )
+        }
+    }
+    item(key = "timePicker12h") {
+        SmallTitle(text = "TimePicker (12-hour)")
+        Card(
+            modifier = Modifier
+                .padding(horizontal = 16.dp)
+                .padding(bottom = 16.dp),
+        ) {
+            var time by remember { mutableStateOf(TimeValue(hour = 16, minute = 30)) }
+            TimePicker(
+                value = time,
+                onValueChange = { time = it },
+                is24Hour = false,
+            )
+        }
+    }
+}
