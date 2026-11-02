@@ -1,0 +1,145 @@
+# FloatingToolbar
+
+`FloatingToolbar` is a floating toolbar component in Opaline that renders its content within a container with a rounded background, arranged either horizontally or vertically. The actual placement on the screen is handled by the parent component, typically `Scaffold`.
+
+This component is usually used in conjunction with `Scaffold`, placed in a specific position on the page to provide quick actions or display information.
+
+<div style="position: relative; height: 300px; border-radius: 10px; overflow: hidden; border: 1px solid #777;">
+    <iframe id="demoIframe" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;" src="../compose/index.html?id=floatingToolbar" title="Demo" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+</div>
+
+## Import
+
+```kotlin
+import io.github.a1b2d56.opaline.basic.FloatingToolbar
+import io.github.a1b2d56.opaline.basic.FloatingToolbarDefaults
+import io.github.a1b2d56.opaline.basic.ToolbarPosition // Used for Scaffold
+```
+
+## Basic Usage
+
+```kotlin
+Scaffold(
+    floatingToolbar = {
+        FloatingToolbar {
+            Row(
+                modifier = Modifier.padding(8.dp),
+                horizontalArrangement = Arrangement.spacedBy(8.dp)
+            ) { // or Column
+                IconButton(onClick = { /* Action 1 */ }) {
+                    Icon(OpalineIcons.Edit, contentDescription = "Edit")
+                }
+                IconButton(onClick = { /* Action 2 */ }) {
+                    Icon(OpalineIcons.Delete, contentDescription = "Delete")
+                }
+            }
+        }
+    },
+    floatingToolbarPosition = ToolbarPosition.BottomCenter // Set the position
+)
+```
+
+## Properties
+
+### FloatingToolbar Properties
+
+| Property Name              | Type                   | Description                            | Default Value                          | Required |
+| -------------------------- | ---------------------- | -------------------------------------- | -------------------------------------- | -------- |
+| modifier                   | Modifier               | Modifier applied to the toolbar        | Modifier                               | No       |
+| color                      | Color                  | Background color of the toolbar        | FloatingToolbarDefaults.defaultColor() | No       |
+| cornerRadius               | Dp                     | Corner radius of the toolbar           | FloatingToolbarDefaults.CornerRadius   | No       |
+| outSidePadding             | PaddingValues          | Padding outside the toolbar            | FloatingToolbarDefaults.OutSidePadding | No       |
+| shadowElevation            | Dp                     | The shadow elevation of the toolbar    | 4.dp                                   | No       |
+| showDivider                | Boolean                | Show divider line around the toolbar   | false                                  | No       |
+| content                    | @Composable () -> Unit | Composable content area of the toolbar | -                                      | Yes      |
+
+### FloatingToolbarDefaults Object
+
+| Property Name  | Type                    | Description              | Value                                   |
+| -------------- | ----------------------- | ------------------------ | --------------------------------------- |
+| CornerRadius   | Dp                      | Default corner radius    | 24.dp                                   |
+| defaultColor() | @Composable () -> Color | Default background color | OpalineTheme.colorScheme.surfaceContainer |
+| OutSidePadding | PaddingValues           | Default outside padding  | PaddingValues(12.dp, 8.dp)              |
+
+### ToolbarPosition (for Scaffold)
+
+Please refer to the `ToolbarPosition` options in the [Scaffold](../components/scaffold#toolbarposition-options) documentation.
+
+## Advanced Usage
+
+### Custom Styles
+
+```kotlin
+FloatingToolbar(
+    color = OpalineTheme.colorScheme.primaryContainer,
+    cornerRadius = 16.dp,
+    outSidePadding = PaddingValues(24.dp),
+    showDivider = false
+) {
+    Row(
+        modifier = Modifier.padding(8.dp),
+        horizontalArrangement = Arrangement.spacedBy(8.dp)
+    ) { // or Column
+        IconButton(onClick = { /* Action 1 */ }) {
+            Icon(OpalineIcons.Edit, contentDescription = "Edit", tint = OpalineTheme.colorScheme.onPrimaryContainer)
+        }
+        IconButton(onClick = { /* Action 2 */ }) {
+            Icon(OpalineIcons.Delete, contentDescription = "Delete", tint = OpalineTheme.colorScheme.onPrimaryContainer)
+        }
+    }
+}
+```
+
+### Toolbar with Divider
+
+Set `showDivider = true` to draw a hairline divider ring around the toolbar; set `shadowElevation = 0.dp` to disable the drop shadow:
+
+```kotlin
+FloatingToolbar(
+    showDivider = true,
+    shadowElevation = 0.dp
+) {
+    Row(
+        modifier = Modifier.padding(8.dp),
+        horizontalArrangement = Arrangement.spacedBy(8.dp)
+    ) {
+        IconButton(onClick = { /* Action 1 */ }) {
+            Icon(OpalineIcons.Edit, contentDescription = "Edit")
+        }
+        IconButton(onClick = { /* Action 2 */ }) {
+            Icon(OpalineIcons.Delete, contentDescription = "Delete")
+        }
+    }
+}
+```
+
+### Vertically Arranged Content
+
+```kotlin
+FloatingToolbar {
+    Column(
+        modifier = Modifier.padding(vertical = 8.dp),
+        verticalArrangement = Arrangement.spacedBy(8.dp)
+    ) {
+        IconButton(onClick = { /* Action 1 */ }) {
+            Icon(OpalineIcons.Edit, contentDescription = "Edit")
+        }
+        IconButton(onClick = { /* Action 2 */ }) {
+            Icon(OpalineIcons.Delete, contentDescription = "Delete")
+        }
+    }
+}
+```
+
+### Changing Position with Scaffold
+
+```kotlin
+Scaffold(
+    floatingToolbar = {
+        FloatingToolbar {
+            // toolbar content
+        }
+    },
+    floatingToolbarPosition = ToolbarPosition.CenterEnd // Place centered on the right edge
+)
+```

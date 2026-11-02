@@ -1,0 +1,39 @@
+// Copyright 2025, compose-miuix-ui contributors
+// Modifications Copyright 2026, COUI contributors and Opaline contributors
+// SPDX-License-Identifier: Apache-2.0
+import org.jetbrains.kotlin.gradle.targets.js.yarn.YarnPlugin
+import org.jetbrains.kotlin.gradle.targets.js.yarn.YarnRootExtension
+
+plugins {
+    alias(libs.plugins.composeCompiler)
+    alias(libs.plugins.composeMultiplatform)
+    alias(libs.plugins.kotlinMultiplatform)
+    id("module.kotlin-jvm-toolchain")
+    id("module.spotless")
+}
+
+kotlin {
+    js(IR) {
+        outputModuleName = "demo"
+        browser {
+            commonWebpackConfig {
+                outputFileName = "demo.js"
+            }
+        }
+        binaries.executable()
+    }
+
+    sourceSets {
+        commonMain.dependencies {
+            api(projects.opalineUi)
+            api(projects.opalinePreference)
+            implementation(projects.opalineIcons)
+            implementation(projects.opalineNavigation3Ui)
+            implementation(libs.androidx.navigation3.runtime)
+        }
+    }
+}
+
+rootProject.plugins.withType<YarnPlugin> {
+    rootProject.the<YarnRootExtension>().lockFileDirectory = rootProject.file("docs/demo").resolve("kotlin-js-store")
+}

@@ -1,0 +1,17 @@
+:root {
+
+    /* Hide the top bar of the mobile menu */
+    .VPNavBar.screen-open {
+        border-bottom: none;
+    }
+
+    /* Hide the mobile menu dividers */
+    .VPNavScreenMenuLink {
+        border-bottom: none;
+    }
+
+    /* Hide the mobile menu groups */
+    .VPNavScreenMenuGroup {
+        border-bottom: none;
+    }
+}

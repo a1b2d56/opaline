@@ -1,0 +1,68 @@
+// Copyright 2025, compose-miuix-ui contributors
+// Modifications Copyright 2026, COUI contributors and Opaline contributors
+// SPDX-License-Identifier: Apache-2.0
+import androidx.compose.foundation.background
+import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.widthIn
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.unit.dp
+import io.github.a1b2d56.opaline.basic.TextField
+
+@Composable
+fun TextFieldDemo() {
+    Box(
+        modifier = Modifier
+            .fillMaxSize()
+            .background(demoBackground()),
+        contentAlignment = Alignment.Center,
+    ) {
+        Column(
+            Modifier
+                .padding(16.dp)
+                .widthIn(max = 600.dp)
+                .fillMaxWidth(),
+            verticalArrangement = Arrangement.spacedBy(16.dp),
+            horizontalAlignment = Alignment.CenterHorizontally,
+        ) {
+            var text1 by remember { mutableStateOf("") }
+            var text2 by remember { mutableStateOf("") }
+            var text3 by remember { mutableStateOf("This is read-only content") }
+
+            TextField(
+                value = text1,
+                onValueChange = { text1 = it },
+                label = "Username",
+            )
+
+            TextField(
+                value = text2,
+                onValueChange = { text2 = it },
+                label = "Floating label",
+                useLabelAsPlaceholder = false,
+            )
+            TextField(
+                value = "",
+                onValueChange = { },
+                label = "Disabled Input Field",
+                enabled = false,
+            )
+            TextField(
+                value = text3,
+                onValueChange = { text3 = it },
+                label = "Read-Only Input Field",
+                readOnly = true,
+            )
+        }
+    }
+}
