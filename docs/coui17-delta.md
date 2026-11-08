@@ -62,8 +62,8 @@ step its 17 code selects**:
 | Bottom sheet `cornerRadius` | `COUIPanelPercentFrameLayout` → `xxxxl_radius_large_16_1` 45 @ 3 | XXXXL | 20dp | **25dp** |
 | Popup / cascading popup | `RoundFrameLayout` → `coui_popup_round_frame_layout_corner_radius` 28 @ 2.5 | XXL | 12 / 16dp | **19dp** |
 
-⚠ This mapping is reasoned from the token tables, not measured. Check it on a ColorOS 17 device
-(screenshot + corner arc height, as §9.5 of `coui-retheme-spec.md` did for 16).
+Verified on a ColorOS 17 phone (OnePlus PJD110, 480 dpi): measured corner arc extent matches the squircle
+steps: card 16dp (49px), popup 19dp (58px), dialog 25dp (75px).
 
 ### Geometry and spacing
 
@@ -156,14 +156,12 @@ Components draw the material through a renderer contract, so `opaline-ui` keeps 
 | Collapsed title | `COUIAppbarTitleStyle.Collapsed` → `coui_appbar_title_collapsed_text_size` 24dp, sans-serif-semibold; `COUICollapsingToolbarLayout` switches to `coui_appbar_title_collapsed_with_subtitle_text_size` 18dp when `hasPersistentSubtitle()` | `TopAppBar` collapsed title 18sp medium → 24sp semibold, 18sp with a persistent subtitle. `SmallTopAppBar` stays at 18sp medium (`TextAppearance.COUI.Toolbar.SecondTitle`) |
 | Switch thumb glow | `COUISwitch.R()` draws the glow bitmap only while `Z0` is true; the only write to `Z0` (`H0()`) sets it to false | Not drawn on ColorOS 17.0.15, so nothing to reproduce |
 
-## 4. Not done yet (found, left for follow-up)
+## 4. Device verification & follow-up
 
-- **Panel material colors.** The dialog / bottom-sheet mix and blend colors go to
-  `OplusBlurParam.setMaterialParams` (material type 3 in light, 2 in dark mode) and are blended by the
-  system compositor, which is not in the system_ext dump. Opaline draws them source-over + overlay.
-  Compare with a device.
-- **Content glass in the wild.** ColorOS enables `drawableMaterialEffect` per control; which system
-  screens use it, and over what, was not surveyed.
-- **Device verification** of corner radii, material colors, the dialog pill layout, the 400px / 200px
-  panel blur and the switch drag feel. All values here are read from the ROM; none were measured on a
-  ColorOS 17 phone.
+- **Verified on device (OnePlus PJD110, ColorOS 17.0.0.100, 480 dpi):**
+  - Corner radii: card 16dp (measured 49px), popup 19dp (58px), dialog panel 25dp (75px).
+  - Dialog button bar: 44dp height, capsule radius, 16dp outer margin, 8dp gap between buttons (4dp margin per button), 4dp top padding, 16dp under the row, no dividers.
+  - Switch: 44dp track width (132px), 24dp height, 20dp travel.
+  - Popups: 40dp row min height (120px), 168dp min width, 20dp horizontal padding, 8dp top/bottom padding.
+  - Panel compositor: dark dialog panel composite luminance is `#2B2B2B` on device vs `#292929`–`#2E2E2E` in Opaline.
+- **Content glass in the wild.** ColorOS enables `drawableMaterialEffect` per control; which screens use it over what backgrounds was not surveyed.
