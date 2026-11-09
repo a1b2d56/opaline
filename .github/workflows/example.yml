@@ -28,9 +28,9 @@ jobs:
             platform: linux x64
             platformEx: android universal
             build-command: ./gradlew createReleaseDistributable
-            build-commandEx: ./gradlew assembleDebug && ./gradlew assembleRelease
+            build-commandEx: ./gradlew assembleDebug
             artifact-path: example/desktop/build/compose/binaries/main-release/app/Opaline
-            artifact-pathEx: example/android/build/outputs/apk/release/*.apk
+            artifact-pathEx: example/android/build/outputs/apk/debug/*.apk
             artifact-name: Opaline-linux-x64-bin
             artifact-nameEx: Opaline-android-universal-apk.apk
             archive: true

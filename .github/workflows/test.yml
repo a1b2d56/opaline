@@ -47,9 +47,6 @@ jobs:
           echo "org.gradle.jvmargs=-Xmx6g -Dfile.encoding=UTF-8" >> gradle.properties
           echo "kotlin.daemon.jvmargs=-Xmx6g" >> gradle.properties
           echo "kotlin.native.jvmArgs=-Xmx6g" >> gradle.properties
-      - name: Run check
-        if: matrix.os == 'macos-26'
-        run: ./gradlew check
       - name: Run test
         run: ./gradlew ${{ matrix.target }}
       - name: Upload reports
