@@ -1,6 +1,6 @@
 # Icon System
 
-Opaline provides a rich built-in icon system that meets the primary design needs of most applications. These icons are available in five weights: Light, Normal, Regular, Medium, and Demibold.
+Opaline provides a rich built-in icon system that meets the primary design needs of most applications. The extended icons are available in five weights: Light, Normal, Regular, Medium, and Demibold. The system icons are the single-weight icons ColorOS 17 draws for its own panels.
 
 ## Installation
 
@@ -55,9 +55,32 @@ Icon(
 )
 ```
 
+## System Icons
+
+`OpalineIcons.System` holds icons taken from the ColorOS 17 system UI: the volume panel, connected devices and common controls. They have one weight and live in their own package:
+
+```kotlin
+import io.github.a1b2d56.opaline.icon.system.DevicePhone
+import io.github.a1b2d56.opaline.icon.system.VolumeMedia
+
+Icon(
+    imageVector = OpalineIcons.System.VolumeMedia,
+    contentDescription = "Media volume",
+)
+
+// Device icons are two-tone: the screen area is drawn at a lower opacity of the tint.
+Icon(
+    imageVector = OpalineIcons.System.DevicePhone,
+    contentDescription = "Phone",
+    tint = OpalineTheme.colorScheme.primary,
+)
+```
+
+Most are drawn on a 24dp grid; a few keep the size the system uses (`PasswordShow` and `PasswordHide` are 34dp, `Search` and `DoNotDisturb` 20dp).
+
 ## Icon Weights
 
-Opaline icons support five weights, matching the named instances of the source font `misymbol_vf.ttf`:
+The extended icons support five weights:
 
 - `OpalineIcons.Light`: Light weight icons (wght=250)
 - `OpalineIcons.Normal`: Lighter-than-regular icons (wght=305)
@@ -243,4 +266,78 @@ Extended icons include a wide variety of icons for different use cases. Below is
 | `WorldClock` | <img src="/icons/extended/WorldClock.Light.svg" width="24" height="24" /> | <img src="/icons/extended/WorldClock.Normal.svg" width="24" height="24" /> | <img src="/icons/extended/WorldClock.Regular.svg" width="24" height="24" /> | <img src="/icons/extended/WorldClock.Medium.svg" width="24" height="24" /> | <img src="/icons/extended/WorldClock.Demibold.svg" width="24" height="24" /> |
 | `Years` | <img src="/icons/extended/Years.Light.svg" width="24" height="24" /> | <img src="/icons/extended/Years.Normal.svg" width="24" height="24" /> | <img src="/icons/extended/Years.Regular.svg" width="24" height="24" /> | <img src="/icons/extended/Years.Medium.svg" width="24" height="24" /> | <img src="/icons/extended/Years.Demibold.svg" width="24" height="24" /> |
 | `ZoomOut` | <img src="/icons/extended/ZoomOut.Light.svg" width="24" height="24" /> | <img src="/icons/extended/ZoomOut.Normal.svg" width="24" height="24" /> | <img src="/icons/extended/ZoomOut.Regular.svg" width="24" height="24" /> | <img src="/icons/extended/ZoomOut.Medium.svg" width="24" height="24" /> | <img src="/icons/extended/ZoomOut.Demibold.svg" width="24" height="24" /> |
+
+### System Icons
+
+System icons are the single-weight icons ColorOS draws for its own panels: the volume panel, connected devices and common controls. Some are two-tone; the lighter layer keeps its relative opacity when tinted. Below is the complete list:
+
+| Icon Name | Icon |
+|---|---|
+| `Back` | <img src="/icons/system/Back.svg" width="24" height="24" /> |
+| `Backspace` | <img src="/icons/system/Backspace.svg" width="24" height="24" /> |
+| `Cancel` | <img src="/icons/system/Cancel.svg" width="24" height="24" /> |
+| `Captions` | <img src="/icons/system/Captions.svg" width="24" height="24" /> |
+| `CaptionsOff` | <img src="/icons/system/CaptionsOff.svg" width="24" height="24" /> |
+| `DeviceAirConditioner` | <img src="/icons/system/DeviceAirConditioner.svg" width="24" height="24" /> |
+| `DeviceBand` | <img src="/icons/system/DeviceBand.svg" width="24" height="24" /> |
+| `DeviceCamera` | <img src="/icons/system/DeviceCamera.svg" width="24" height="24" /> |
+| `DeviceCar` | <img src="/icons/system/DeviceCar.svg" width="24" height="24" /> |
+| `DeviceDesktop` | <img src="/icons/system/DeviceDesktop.svg" width="24" height="24" /> |
+| `DeviceEarbudLeft` | <img src="/icons/system/DeviceEarbudLeft.svg" width="24" height="24" /> |
+| `DeviceEarbudRight` | <img src="/icons/system/DeviceEarbudRight.svg" width="24" height="24" /> |
+| `DeviceEarbuds` | <img src="/icons/system/DeviceEarbuds.svg" width="24" height="24" /> |
+| `DeviceEarbudsCase` | <img src="/icons/system/DeviceEarbudsCase.svg" width="24" height="24" /> |
+| `DeviceFan` | <img src="/icons/system/DeviceFan.svg" width="24" height="24" /> |
+| `DeviceKeyboard` | <img src="/icons/system/DeviceKeyboard.svg" width="24" height="24" /> |
+| `DeviceLamp` | <img src="/icons/system/DeviceLamp.svg" width="24" height="24" /> |
+| `DeviceLaptop` | <img src="/icons/system/DeviceLaptop.svg" width="24" height="24" /> |
+| `DeviceNeckband` | <img src="/icons/system/DeviceNeckband.svg" width="24" height="24" /> |
+| `DevicePhone` | <img src="/icons/system/DevicePhone.svg" width="24" height="24" /> |
+| `DeviceScooter` | <img src="/icons/system/DeviceScooter.svg" width="24" height="24" /> |
+| `DeviceSpeaker` | <img src="/icons/system/DeviceSpeaker.svg" width="24" height="24" /> |
+| `DeviceStylus` | <img src="/icons/system/DeviceStylus.svg" width="24" height="24" /> |
+| `DeviceTablet` | <img src="/icons/system/DeviceTablet.svg" width="24" height="24" /> |
+| `DeviceTv` | <img src="/icons/system/DeviceTv.svg" width="24" height="24" /> |
+| `DeviceWasher` | <img src="/icons/system/DeviceWasher.svg" width="24" height="24" /> |
+| `DeviceWatch` | <img src="/icons/system/DeviceWatch.svg" width="24" height="24" /> |
+| `DeviceWaterHeater` | <img src="/icons/system/DeviceWaterHeater.svg" width="24" height="24" /> |
+| `DoNotDisturb` | <img src="/icons/system/DoNotDisturb.svg" width="24" height="24" /> |
+| `Done` | <img src="/icons/system/Done.svg" width="24" height="24" /> |
+| `Expand` | <img src="/icons/system/Expand.svg" width="24" height="24" /> |
+| `KeyMeta` | <img src="/icons/system/KeyMeta.svg" width="24" height="24" /> |
+| `MoreVertical` | <img src="/icons/system/MoreVertical.svg" width="24" height="24" /> |
+| `Next` | <img src="/icons/system/Next.svg" width="24" height="24" /> |
+| `PasswordHide` | <img src="/icons/system/PasswordHide.svg" width="24" height="24" /> |
+| `PasswordShow` | <img src="/icons/system/PasswordShow.svg" width="24" height="24" /> |
+| `Power` | <img src="/icons/system/Power.svg" width="24" height="24" /> |
+| `RingerRing` | <img src="/icons/system/RingerRing.svg" width="24" height="24" /> |
+| `RingerSilent` | <img src="/icons/system/RingerSilent.svg" width="24" height="24" /> |
+| `RingerVibrate` | <img src="/icons/system/RingerVibrate.svg" width="24" height="24" /> |
+| `Search` | <img src="/icons/system/Search.svg" width="24" height="24" /> |
+| `Sim1` | <img src="/icons/system/Sim1.svg" width="24" height="24" /> |
+| `Sim2` | <img src="/icons/system/Sim2.svg" width="24" height="24" /> |
+| `SplitHorizontal` | <img src="/icons/system/SplitHorizontal.svg" width="24" height="24" /> |
+| `SplitVertical` | <img src="/icons/system/SplitVertical.svg" width="24" height="24" /> |
+| `VolumeAccessibility` | <img src="/icons/system/VolumeAccessibility.svg" width="24" height="24" /> |
+| `VolumeAlarm` | <img src="/icons/system/VolumeAlarm.svg" width="24" height="24" /> |
+| `VolumeAlarmMute` | <img src="/icons/system/VolumeAlarmMute.svg" width="24" height="24" /> |
+| `VolumeAssistant` | <img src="/icons/system/VolumeAssistant.svg" width="24" height="24" /> |
+| `VolumeBluetooth` | <img src="/icons/system/VolumeBluetooth.svg" width="24" height="24" /> |
+| `VolumeBluetoothMute` | <img src="/icons/system/VolumeBluetoothMute.svg" width="24" height="24" /> |
+| `VolumeCall` | <img src="/icons/system/VolumeCall.svg" width="24" height="24" /> |
+| `VolumeHeadphones` | <img src="/icons/system/VolumeHeadphones.svg" width="24" height="24" /> |
+| `VolumeHeadphonesMute` | <img src="/icons/system/VolumeHeadphonesMute.svg" width="24" height="24" /> |
+| `VolumeHigh` | <img src="/icons/system/VolumeHigh.svg" width="24" height="24" /> |
+| `VolumeLow` | <img src="/icons/system/VolumeLow.svg" width="24" height="24" /> |
+| `VolumeMedia` | <img src="/icons/system/VolumeMedia.svg" width="24" height="24" /> |
+| `VolumeMediaMute` | <img src="/icons/system/VolumeMediaMute.svg" width="24" height="24" /> |
+| `VolumeNotification` | <img src="/icons/system/VolumeNotification.svg" width="24" height="24" /> |
+| `VolumeNotificationMute` | <img src="/icons/system/VolumeNotificationMute.svg" width="24" height="24" /> |
+| `VolumeRinger` | <img src="/icons/system/VolumeRinger.svg" width="24" height="24" /> |
+| `VolumeRingerMute` | <img src="/icons/system/VolumeRingerMute.svg" width="24" height="24" /> |
+| `VolumeVibrate` | <img src="/icons/system/VolumeVibrate.svg" width="24" height="24" /> |
+| `VolumeVoice` | <img src="/icons/system/VolumeVoice.svg" width="24" height="24" /> |
+| `Vpn` | <img src="/icons/system/Vpn.svg" width="24" height="24" /> |
+| `Warning` | <img src="/icons/system/Warning.svg" width="24" height="24" /> |
+| `WindowInfo` | <img src="/icons/system/WindowInfo.svg" width="24" height="24" /> |
 

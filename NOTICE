@@ -35,6 +35,7 @@ Changes made in Opaline
   - Recalibrated colors, metrics, corner radii, typography and the dialog button
     bar against ColorOS 17 (see docs/coui17-delta.md).
   - Added the ColorOS 17 material presets (OpalineMaterial in opaline-blur).
+  - Added the ColorOS 17 system icons (OpalineIcons.System in opaline-icons).
   - Restored upstream copyright notices and added this NOTICE file.
 
 -------------------------------------------------------------------------------
@@ -53,3 +54,6 @@ Trademarks
   Opaline is an independent project, not affiliated with or endorsed by them.
   Design values (colors, dimensions, timing) were read from publicly distributed
   ColorOS system software; Opaline does not include its source code.
+  The icons under OpalineIcons.System (opaline-icons, icon/system) reproduce
+  the shapes of ColorOS 17 system icons, which remain the property of their
+  owner.

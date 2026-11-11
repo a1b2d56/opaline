@@ -5,14 +5,8 @@
 package io.github.a1b2d56.opaline.icon
 
 object OpalineIcons {
-    /** Glass icon family, independent of the original extended icons. */
-    object Glass {
-        object Light
-        object Normal
-        object Regular
-        object Medium
-        object Demibold
-    }
+    /** Single-weight icons drawn by the system itself (volume panel, connected devices, controls). */
+    object System
 
     object Basic
     object Light

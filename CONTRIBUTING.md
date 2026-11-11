@@ -116,8 +116,11 @@ Visual values come from ColorOS 17, not from guesses.
 - ColorOS code branches on `OplusBuild.VERSION.SDK_VERSION`, which is 40 on ColorOS 17, so `> 37`
   branches and `-v37` resources apply.
 - The tools in `reverse/` read a local ColorOS 17 `system_ext` dump. Dumps and decompiled code are
-  git-ignored. Never commit ColorOS code, APKs or extracted graphics, and don't use ColorOS, COUI,
+  git-ignored. Never commit ColorOS code, APKs or raw extracted files, and don't use ColorOS, COUI,
   OPPO or OnePlus in names, packages or symbols.
+- `OpalineIcons.System` is generated: add a line to `reverse/tools/system_icons.txt` and run
+  `reverse/tools/vd2kt.py`. Only single-colour vector icons belong there, not illustrations or
+  bitmaps.
 
 ## Adding a component
 

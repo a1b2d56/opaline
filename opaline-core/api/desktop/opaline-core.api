@@ -13,36 +13,6 @@ public final class io/github/a1b2d56/opaline/icon/OpalineIcons$Demibold {
 	public static final field INSTANCE Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;
 }
 
-public final class io/github/a1b2d56/opaline/icon/OpalineIcons$Glass {
-	public static final field $stable I
-	public static final field INSTANCE Lio/github/a1b2d56/opaline/icon/OpalineIcons$Glass;
-}
-
-public final class io/github/a1b2d56/opaline/icon/OpalineIcons$Glass$Demibold {
-	public static final field $stable I
-	public static final field INSTANCE Lio/github/a1b2d56/opaline/icon/OpalineIcons$Glass$Demibold;
-}
-
-public final class io/github/a1b2d56/opaline/icon/OpalineIcons$Glass$Light {
-	public static final field $stable I
-	public static final field INSTANCE Lio/github/a1b2d56/opaline/icon/OpalineIcons$Glass$Light;
-}
-
-public final class io/github/a1b2d56/opaline/icon/OpalineIcons$Glass$Medium {
-	public static final field $stable I
-	public static final field INSTANCE Lio/github/a1b2d56/opaline/icon/OpalineIcons$Glass$Medium;
-}
-
-public final class io/github/a1b2d56/opaline/icon/OpalineIcons$Glass$Normal {
-	public static final field $stable I
-	public static final field INSTANCE Lio/github/a1b2d56/opaline/icon/OpalineIcons$Glass$Normal;
-}
-
-public final class io/github/a1b2d56/opaline/icon/OpalineIcons$Glass$Regular {
-	public static final field $stable I
-	public static final field INSTANCE Lio/github/a1b2d56/opaline/icon/OpalineIcons$Glass$Regular;
-}
-
 public final class io/github/a1b2d56/opaline/icon/OpalineIcons$Light {
 	public static final field $stable I
 	public static final field INSTANCE Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;
@@ -61,6 +31,11 @@ public final class io/github/a1b2d56/opaline/icon/OpalineIcons$Normal {
 public final class io/github/a1b2d56/opaline/icon/OpalineIcons$Regular {
 	public static final field $stable I
 	public static final field INSTANCE Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;
+}
+
+public final class io/github/a1b2d56/opaline/icon/OpalineIcons$System {
+	public static final field $stable I
+	public static final field INSTANCE Lio/github/a1b2d56/opaline/icon/OpalineIcons$System;
 }
 
 public final class io/github/a1b2d56/opaline/material/MaterialKt {

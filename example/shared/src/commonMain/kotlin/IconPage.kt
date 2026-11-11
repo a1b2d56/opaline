@@ -48,6 +48,7 @@ import io.github.a1b2d56.opaline.basic.Card
 import io.github.a1b2d56.opaline.basic.Icon
 import io.github.a1b2d56.opaline.basic.OpalineScrollBehavior
 import io.github.a1b2d56.opaline.basic.Scaffold
+import io.github.a1b2d56.opaline.basic.SmallTitle
 import io.github.a1b2d56.opaline.basic.Text
 import io.github.a1b2d56.opaline.basic.VerticalScrollBar
 import io.github.a1b2d56.opaline.basic.rememberScrollBarAdapter
@@ -97,6 +98,7 @@ fun IconsPage(
             name to (allIcons[name] ?: emptyList())
         }
     }
+    val systemIcons = remember(allIcons) { allIcons["System"] ?: emptyList() }
     val iconNames = remember(regularIcons) { regularIcons.map { it.name.substringBefore(".") } }
 
     // Accordion state — only one row may be expanded at a time. -1 = none.
@@ -325,6 +327,40 @@ fun IconsPage(
                                 }
                             }
                         }
+                    }
+                }
+                item(key = "system_title") { SmallTitle(text = "System") }
+                items(
+                    count = systemIcons.size,
+                    key = { "system_$it" },
+                ) { index ->
+                    val icon = systemIcons[index]
+                    val shape = when (index) {
+                        0 -> IconListTopShape
+                        systemIcons.lastIndex -> IconListBottomShape
+                        else -> RectangleShape
+                    }
+                    Row(
+                        modifier = Modifier
+                            .fillMaxWidth()
+                            .padding(horizontal = 16.dp)
+                            .clip(shape)
+                            .background(colorScheme.surfaceContainer)
+                            .padding(horizontal = 16.dp, vertical = 8.dp),
+                        verticalAlignment = Alignment.CenterVertically,
+                    ) {
+                        Text(
+                            text = icon.name,
+                            modifier = Modifier.weight(1f),
+                            style = OpalineTheme.textStyles.body2,
+                            color = colorScheme.onSurface,
+                        )
+                        Icon(
+                            imageVector = icon,
+                            contentDescription = icon.name,
+                            tint = colorScheme.onBackground,
+                            modifier = Modifier.size(24.dp),
+                        )
                     }
                 }
                 item { Spacer(modifier = Modifier.height(32.dp)) }

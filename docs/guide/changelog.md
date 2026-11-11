@@ -23,6 +23,8 @@ record, including what is still unverified, is
   new `controls` color.
 - **TopTips.** Capsule on one line, 16dp corners once the text wraps, animated between the two.
 - **NavigationBar.** Item colors follow the ColorOS 17 tab state model.
+- **System icons.** `OpalineIcons.System` in `opaline-icons`: 67 single-weight icons from the
+  ColorOS 17 volume panel, connected devices and controls.
 - Recalibrated colors, radii and metrics across components.
 
 ### Library

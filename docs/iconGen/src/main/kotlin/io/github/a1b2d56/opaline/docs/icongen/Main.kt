@@ -13,6 +13,8 @@ data class SvgPath(
     val stroke: String? = null,
     val strokeAlpha: Float = 1.0f,
     val strokeWidth: Float = 0.0f,
+    val strokeCap: String = "butt",
+    val strokeJoin: String = "miter",
     val transform: String = "",
 )
 
@@ -61,13 +63,14 @@ fun main(args: Array<String>) {
     // Map of BaseName -> Map<Style, RelativePath>
     val basicIconsMap = mutableMapOf<String, MutableMap<String, String>>()
     val extendedIconsMap = mutableMapOf<String, MutableMap<String, String>>()
+    val systemIconsMap = mutableMapOf<String, String>()
 
     srcDirs.forEach { srcDir ->
         val src = File(srcDir)
         if (!src.isDirectory) error("Source directory not found: $src")
 
         val ktFiles =
-            src.walkTopDown().filter { it.isFile && it.extension == "kt" && it.name != "COUIIcon.kt" && it.name != "AllIcons.kt" }
+            src.walkTopDown().filter { it.isFile && it.extension == "kt" && it.name != "OpalineIcons.kt" && it.name != "AllIcons.kt" }
 
         ktFiles.forEach { file ->
             val content = file.readText()
@@ -159,6 +162,11 @@ fun main(args: Array<String>) {
                     return regex.find(text)?.groupValues?.get(1)?.toFloatOrNull() ?: 0.0f
                 }
 
+                fun parseEnum(text: String, key: String, type: String, default: String): String {
+                    val regex = Regex("$key\\s*=\\s*$type\\.([a-zA-Z]+)")
+                    return regex.find(text)?.groupValues?.getOrNull(1)?.lowercase() ?: default
+                }
+
                 fun parseFillRule(text: String): String {
                     val regex = Regex("pathFillType\\s*=\\s*PathFillType\\.([a-zA-Z]+)")
                     return if (regex.find(text)?.groupValues?.getOrNull(1) == "EvenOdd") "evenodd" else "nonzero"
@@ -196,6 +204,8 @@ fun main(args: Array<String>) {
                                 stroke = parseStroke(params),
                                 strokeAlpha = parseAlpha(params, "strokeAlpha"),
                                 strokeWidth = parseFloat(params, "strokeLineWidth"),
+                                strokeCap = parseEnum(params, "strokeLineCap", "StrokeCap", "butt"),
+                                strokeJoin = parseEnum(params, "strokeLineJoin", "StrokeJoin", "miter"),
                                 transform = groupTransform,
                             ),
                         )
@@ -247,6 +257,8 @@ fun main(args: Array<String>) {
                                         stroke = parseStroke(argsContent),
                                         strokeAlpha = parseAlpha(argsContent, "strokeAlpha"),
                                         strokeWidth = parseFloat(argsContent, "strokeLineWidth"),
+                                        strokeCap = parseEnum(argsContent, "strokeLineCap", "StrokeCap", "butt"),
+                                        strokeJoin = parseEnum(argsContent, "strokeLineJoin", "StrokeJoin", "miter"),
                                         transform = groupTransform,
                                     ),
                                 )
@@ -269,6 +281,11 @@ fun main(args: Array<String>) {
 
                     val isBasic =
                         file.path.contains("basic${File.separator}") || file.path.contains("basic/") || file.path.contains("basic\\")
+                    val isSystem = relativePath.startsWith("system/")
+                    if (isSystem) {
+                        systemIconsMap[iconName] = relativePath
+                        return@forEach
+                    }
                     val targetMap = if (isBasic) basicIconsMap else extendedIconsMap
 
                     val matchedWeight = WEIGHT_NAMES.firstOrNull { iconName.endsWith(".$it") }
@@ -314,6 +331,15 @@ fun main(args: Array<String>) {
             content.append("### Extended Icons\n\n")
             content.append("Extended icons include a wide variety of icons for different use cases. Below is the complete list:\n\n")
             content.append(extendedTable).append("\n")
+            if (systemIconsMap.isNotEmpty()) {
+                content.append("### System Icons\n\n")
+                content.append("System icons are the single-weight icons ColorOS draws for its own panels: the volume panel, connected devices and common controls. Some are two-tone; the lighter layer keeps its relative opacity when tinted. Below is the complete list:\n\n")
+                content.append("| Icon Name | Icon |\n|---|---|\n")
+                systemIconsMap.keys.sorted().forEach { name ->
+                    content.append("| `$name` | <img src=\"/icons/${systemIconsMap[name]}\" width=\"24\" height=\"24\" /> |\n")
+                }
+                content.append("\n")
+            }
 
             if (docFilePath != null) {
                 updateDocFile(File(docFilePath), content.toString(), "### Basic Icons")
@@ -431,7 +457,9 @@ fun buildSvg(paths: List<SvgPath>, w: Float, h: Float, light: String, dark: Stri
 
         paths.forEach { p ->
             val fillValue = if (preserve) {
-                p.fill ?: "currentColor"
+                p.fill ?: if (p.stroke != null) "none" else "currentColor"
+            } else if (p.fill == null && p.stroke != null) {
+                "none"
             } else {
                 if (p.fill == "#000000" || p.fill == "#FFFFFF") "currentColor" else (p.fill ?: "currentColor")
             }
@@ -446,7 +474,11 @@ fun buildSvg(paths: List<SvgPath>, w: Float, h: Float, light: String, dark: Stri
             }
 
             val strokeAlphaAttr = if (p.strokeAlpha < 1.0f) " stroke-opacity=\"${p.strokeAlpha}\"" else ""
-            val strokeWidthAttr = if (p.strokeWidth > 0f) " stroke-width=\"${p.strokeWidth}\"" else ""
+            val strokeWidthAttr = if (p.strokeWidth > 0f) {
+                " stroke-width=\"${p.strokeWidth}\" stroke-linecap=\"${p.strokeCap}\" stroke-linejoin=\"${p.strokeJoin}\""
+            } else {
+                ""
+            }
 
             appendLine("  <path d=\"${p.d}\" fill=\"$fillValue\"$opacityAttr$strokeAttr$strokeAlphaAttr$strokeWidthAttr${p.transform} fill-rule=\"${p.fillRule}\" clip-rule=\"${p.fillRule}\" />")
         }
