@@ -333,7 +333,7 @@ fun main(args: Array<String>) {
             content.append(extendedTable).append("\n")
             if (systemIconsMap.isNotEmpty()) {
                 content.append("### System Icons\n\n")
-                content.append("System icons are the single-weight icons ColorOS draws for its own panels: the volume panel, connected devices and common controls. Some are two-tone; the lighter layer keeps its relative opacity when tinted. Below is the complete list:\n\n")
+                content.append("System icons are the single-weight icons ColorOS draws for its own panels: the volume panel, connected devices, common controls and Settings. Some are two-tone; the lighter layer keeps its relative opacity when tinted. Below is the complete list:\n\n")
                 content.append("| Icon Name | Icon |\n|---|---|\n")
                 systemIconsMap.keys.sorted().forEach { name ->
                     content.append("| `$name` | <img src=\"/icons/${systemIconsMap[name]}\" width=\"24\" height=\"24\" /> |\n")

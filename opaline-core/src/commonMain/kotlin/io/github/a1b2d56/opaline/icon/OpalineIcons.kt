@@ -5,7 +5,7 @@
 package io.github.a1b2d56.opaline.icon
 
 object OpalineIcons {
-    /** Single-weight icons drawn by the system itself (volume panel, connected devices, controls). */
+    /** Single-weight icons drawn by the system itself (volume panel, connected devices, controls, Settings). */
     object System
 
     object Basic

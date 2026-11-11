@@ -1402,12 +1402,24 @@ public final class io/github/a1b2d56/opaline/icon/extended/ZoomOutKt {
 	public static final fun getZoomOut (Lio/github/a1b2d56/opaline/icon/OpalineIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
+public final class io/github/a1b2d56/opaline/icon/system/AddKt {
+	public static final fun getAdd (Lio/github/a1b2d56/opaline/icon/OpalineIcons$System;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
 public final class io/github/a1b2d56/opaline/icon/system/BackKt {
 	public static final fun getBack (Lio/github/a1b2d56/opaline/icon/OpalineIcons$System;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class io/github/a1b2d56/opaline/icon/system/BackspaceKt {
 	public static final fun getBackspace (Lio/github/a1b2d56/opaline/icon/OpalineIcons$System;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/system/BrightnessHighKt {
+	public static final fun getBrightnessHigh (Lio/github/a1b2d56/opaline/icon/OpalineIcons$System;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/system/BrightnessLowKt {
+	public static final fun getBrightnessLow (Lio/github/a1b2d56/opaline/icon/OpalineIcons$System;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class io/github/a1b2d56/opaline/icon/system/CancelKt {
@@ -1420,6 +1432,18 @@ public final class io/github/a1b2d56/opaline/icon/system/CaptionsKt {
 
 public final class io/github/a1b2d56/opaline/icon/system/CaptionsOffKt {
 	public static final fun getCaptionsOff (Lio/github/a1b2d56/opaline/icon/OpalineIcons$System;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/system/CopyKt {
+	public static final fun getCopy (Lio/github/a1b2d56/opaline/icon/OpalineIcons$System;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/system/CutKt {
+	public static final fun getCut (Lio/github/a1b2d56/opaline/icon/OpalineIcons$System;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/system/DeleteKt {
+	public static final fun getDelete (Lio/github/a1b2d56/opaline/icon/OpalineIcons$System;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class io/github/a1b2d56/opaline/icon/system/DeviceAirConditionerKt {
@@ -1514,6 +1538,10 @@ public final class io/github/a1b2d56/opaline/icon/system/DeviceWaterHeaterKt {
 	public static final fun getDeviceWaterHeater (Lio/github/a1b2d56/opaline/icon/OpalineIcons$System;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
+public final class io/github/a1b2d56/opaline/icon/system/DisableKt {
+	public static final fun getDisable (Lio/github/a1b2d56/opaline/icon/OpalineIcons$System;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
 public final class io/github/a1b2d56/opaline/icon/system/DoNotDisturbKt {
 	public static final fun getDoNotDisturb (Lio/github/a1b2d56/opaline/icon/OpalineIcons$System;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
@@ -1526,8 +1554,24 @@ public final class io/github/a1b2d56/opaline/icon/system/ExpandKt {
 	public static final fun getExpand (Lio/github/a1b2d56/opaline/icon/OpalineIcons$System;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
+public final class io/github/a1b2d56/opaline/icon/system/ForceStopKt {
+	public static final fun getForceStop (Lio/github/a1b2d56/opaline/icon/OpalineIcons$System;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/system/InstallKt {
+	public static final fun getInstall (Lio/github/a1b2d56/opaline/icon/OpalineIcons$System;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
 public final class io/github/a1b2d56/opaline/icon/system/KeyMetaKt {
 	public static final fun getKeyMeta (Lio/github/a1b2d56/opaline/icon/OpalineIcons$System;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/system/KeyboardKt {
+	public static final fun getKeyboard (Lio/github/a1b2d56/opaline/icon/OpalineIcons$System;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/system/MoreHorizontalKt {
+	public static final fun getMoreHorizontal (Lio/github/a1b2d56/opaline/icon/OpalineIcons$System;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class io/github/a1b2d56/opaline/icon/system/MoreVerticalKt {
@@ -1536,6 +1580,10 @@ public final class io/github/a1b2d56/opaline/icon/system/MoreVerticalKt {
 
 public final class io/github/a1b2d56/opaline/icon/system/NextKt {
 	public static final fun getNext (Lio/github/a1b2d56/opaline/icon/OpalineIcons$System;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/system/OpenKt {
+	public static final fun getOpen (Lio/github/a1b2d56/opaline/icon/OpalineIcons$System;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class io/github/a1b2d56/opaline/icon/system/PasswordHideKt {
@@ -1566,6 +1614,106 @@ public final class io/github/a1b2d56/opaline/icon/system/SearchKt {
 	public static final fun getSearch (Lio/github/a1b2d56/opaline/icon/OpalineIcons$System;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
+public final class io/github/a1b2d56/opaline/icon/system/SensorsOffKt {
+	public static final fun getSensorsOff (Lio/github/a1b2d56/opaline/icon/OpalineIcons$System;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/system/SettingsAboutDeviceKt {
+	public static final fun getSettingsAboutDevice (Lio/github/a1b2d56/opaline/icon/OpalineIcons$System;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/system/SettingsAccessibilityKt {
+	public static final fun getSettingsAccessibility (Lio/github/a1b2d56/opaline/icon/OpalineIcons$System;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/system/SettingsAccountsKt {
+	public static final fun getSettingsAccounts (Lio/github/a1b2d56/opaline/icon/OpalineIcons$System;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/system/SettingsAppsKt {
+	public static final fun getSettingsApps (Lio/github/a1b2d56/opaline/icon/OpalineIcons$System;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/system/SettingsBatteryKt {
+	public static final fun getSettingsBattery (Lio/github/a1b2d56/opaline/icon/OpalineIcons$System;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/system/SettingsBluetoothKt {
+	public static final fun getSettingsBluetooth (Lio/github/a1b2d56/opaline/icon/OpalineIcons$System;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/system/SettingsCloudKt {
+	public static final fun getSettingsCloud (Lio/github/a1b2d56/opaline/icon/OpalineIcons$System;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/system/SettingsConnectionsKt {
+	public static final fun getSettingsConnections (Lio/github/a1b2d56/opaline/icon/OpalineIcons$System;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/system/SettingsDisplayKt {
+	public static final fun getSettingsDisplay (Lio/github/a1b2d56/opaline/icon/OpalineIcons$System;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/system/SettingsEmergencyKt {
+	public static final fun getSettingsEmergency (Lio/github/a1b2d56/opaline/icon/OpalineIcons$System;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/system/SettingsFoldableKt {
+	public static final fun getSettingsFoldable (Lio/github/a1b2d56/opaline/icon/OpalineIcons$System;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/system/SettingsKt {
+	public static final fun getSettings (Lio/github/a1b2d56/opaline/icon/OpalineIcons$System;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/system/SettingsLocationKt {
+	public static final fun getSettingsLocation (Lio/github/a1b2d56/opaline/icon/OpalineIcons$System;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/system/SettingsMobileNetworkKt {
+	public static final fun getSettingsMobileNetwork (Lio/github/a1b2d56/opaline/icon/OpalineIcons$System;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/system/SettingsNotificationsKt {
+	public static final fun getSettingsNotifications (Lio/github/a1b2d56/opaline/icon/OpalineIcons$System;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/system/SettingsPersonalizationKt {
+	public static final fun getSettingsPersonalization (Lio/github/a1b2d56/opaline/icon/OpalineIcons$System;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/system/SettingsPrivacyKt {
+	public static final fun getSettingsPrivacy (Lio/github/a1b2d56/opaline/icon/OpalineIcons$System;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/system/SettingsSecurityKt {
+	public static final fun getSettingsSecurity (Lio/github/a1b2d56/opaline/icon/OpalineIcons$System;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/system/SettingsSoundKt {
+	public static final fun getSettingsSound (Lio/github/a1b2d56/opaline/icon/OpalineIcons$System;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/system/SettingsSystemKt {
+	public static final fun getSettingsSystem (Lio/github/a1b2d56/opaline/icon/OpalineIcons$System;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/system/SettingsWallpaperKt {
+	public static final fun getSettingsWallpaper (Lio/github/a1b2d56/opaline/icon/OpalineIcons$System;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/system/SettingsWellbeingKt {
+	public static final fun getSettingsWellbeing (Lio/github/a1b2d56/opaline/icon/OpalineIcons$System;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/system/SettingsWifiKt {
+	public static final fun getSettingsWifi (Lio/github/a1b2d56/opaline/icon/OpalineIcons$System;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/system/ShareKt {
+	public static final fun getShare (Lio/github/a1b2d56/opaline/icon/OpalineIcons$System;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
 public final class io/github/a1b2d56/opaline/icon/system/Sim1Kt {
 	public static final fun getSim1 (Lio/github/a1b2d56/opaline/icon/OpalineIcons$System;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
@@ -1580,6 +1728,18 @@ public final class io/github/a1b2d56/opaline/icon/system/SplitHorizontalKt {
 
 public final class io/github/a1b2d56/opaline/icon/system/SplitVerticalKt {
 	public static final fun getSplitVertical (Lio/github/a1b2d56/opaline/icon/OpalineIcons$System;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/system/SyncKt {
+	public static final fun getSync (Lio/github/a1b2d56/opaline/icon/OpalineIcons$System;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/system/TouchKt {
+	public static final fun getTouch (Lio/github/a1b2d56/opaline/icon/OpalineIcons$System;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class io/github/a1b2d56/opaline/icon/system/UninstallKt {
+	public static final fun getUninstall (Lio/github/a1b2d56/opaline/icon/OpalineIcons$System;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class io/github/a1b2d56/opaline/icon/system/VolumeAccessibilityKt {

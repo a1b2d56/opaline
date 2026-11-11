@@ -4,7 +4,9 @@ Reads a manifest of `<drawable name> <IconName>` lines and writes one Kotlin fil
 per icon. Colors are dropped (icons are tinted where they are used); per-path
 alpha is kept relative to the most opaque path so two-tone icons survive.
 
-Usage: python -I vd2kt.py <res/drawable dir> <manifest> <out dir> [--preview file.html]
+Usage: python -I vd2kt.py <manifest> <out dir> <res/drawable dir>... [--preview file.html]
+
+A drawable is taken from the first directory that has it.
 """
 
 import math
@@ -272,8 +274,12 @@ def svg(icon):
 
 
 def main(argv):
-    src, manifest, out = argv[1:4]
-    preview = argv[argv.index("--preview") + 1] if "--preview" in argv else None
+    preview = None
+    if "--preview" in argv:
+        i = argv.index("--preview")
+        preview = argv[i + 1]
+        argv = argv[:i] + argv[i + 2:]
+    manifest, out, dirs = argv[1], argv[2], argv[3:]
     os.makedirs(out, exist_ok=True)
     cells, seen = [], set()
     for line in open(manifest, encoding="utf-8"):
@@ -284,9 +290,12 @@ def main(argv):
         if name in seen:
             sys.exit("duplicate icon name: " + name)
         seen.add(name)
+        found = [d for d in dirs if os.path.exists(os.path.join(d, source + ".xml"))]
+        if not found:
+            sys.exit(source + ": not found")
         try:
-            icon = read_icon(os.path.join(src, source + ".xml"))
-        except (OSError, ValueError) as e:
+            icon = read_icon(os.path.join(found[0], source + ".xml"))
+        except ValueError as e:
             sys.exit("%s: %s" % (source, e))
         with open(os.path.join(out, name + ".kt"), "w", encoding="utf-8", newline="\n") as fh:
             fh.write(kotlin(name, source, icon))

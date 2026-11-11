@@ -160,11 +160,17 @@ import io.github.a1b2d56.opaline.icon.extended.Weeks
 import io.github.a1b2d56.opaline.icon.extended.WorldClock
 import io.github.a1b2d56.opaline.icon.extended.Years
 import io.github.a1b2d56.opaline.icon.extended.ZoomOut
+import io.github.a1b2d56.opaline.icon.system.Add
 import io.github.a1b2d56.opaline.icon.system.Back
 import io.github.a1b2d56.opaline.icon.system.Backspace
+import io.github.a1b2d56.opaline.icon.system.BrightnessHigh
+import io.github.a1b2d56.opaline.icon.system.BrightnessLow
 import io.github.a1b2d56.opaline.icon.system.Cancel
 import io.github.a1b2d56.opaline.icon.system.Captions
 import io.github.a1b2d56.opaline.icon.system.CaptionsOff
+import io.github.a1b2d56.opaline.icon.system.Copy
+import io.github.a1b2d56.opaline.icon.system.Cut
+import io.github.a1b2d56.opaline.icon.system.Delete
 import io.github.a1b2d56.opaline.icon.system.DeviceAirConditioner
 import io.github.a1b2d56.opaline.icon.system.DeviceBand
 import io.github.a1b2d56.opaline.icon.system.DeviceCamera
@@ -188,12 +194,18 @@ import io.github.a1b2d56.opaline.icon.system.DeviceTv
 import io.github.a1b2d56.opaline.icon.system.DeviceWasher
 import io.github.a1b2d56.opaline.icon.system.DeviceWatch
 import io.github.a1b2d56.opaline.icon.system.DeviceWaterHeater
+import io.github.a1b2d56.opaline.icon.system.Disable
 import io.github.a1b2d56.opaline.icon.system.DoNotDisturb
 import io.github.a1b2d56.opaline.icon.system.Done
 import io.github.a1b2d56.opaline.icon.system.Expand
+import io.github.a1b2d56.opaline.icon.system.ForceStop
+import io.github.a1b2d56.opaline.icon.system.Install
 import io.github.a1b2d56.opaline.icon.system.KeyMeta
+import io.github.a1b2d56.opaline.icon.system.Keyboard
+import io.github.a1b2d56.opaline.icon.system.MoreHorizontal
 import io.github.a1b2d56.opaline.icon.system.MoreVertical
 import io.github.a1b2d56.opaline.icon.system.Next
+import io.github.a1b2d56.opaline.icon.system.Open
 import io.github.a1b2d56.opaline.icon.system.PasswordHide
 import io.github.a1b2d56.opaline.icon.system.PasswordShow
 import io.github.a1b2d56.opaline.icon.system.Power
@@ -201,10 +213,38 @@ import io.github.a1b2d56.opaline.icon.system.RingerRing
 import io.github.a1b2d56.opaline.icon.system.RingerSilent
 import io.github.a1b2d56.opaline.icon.system.RingerVibrate
 import io.github.a1b2d56.opaline.icon.system.Search
+import io.github.a1b2d56.opaline.icon.system.SensorsOff
+import io.github.a1b2d56.opaline.icon.system.Settings
+import io.github.a1b2d56.opaline.icon.system.SettingsAboutDevice
+import io.github.a1b2d56.opaline.icon.system.SettingsAccessibility
+import io.github.a1b2d56.opaline.icon.system.SettingsAccounts
+import io.github.a1b2d56.opaline.icon.system.SettingsApps
+import io.github.a1b2d56.opaline.icon.system.SettingsBattery
+import io.github.a1b2d56.opaline.icon.system.SettingsBluetooth
+import io.github.a1b2d56.opaline.icon.system.SettingsCloud
+import io.github.a1b2d56.opaline.icon.system.SettingsConnections
+import io.github.a1b2d56.opaline.icon.system.SettingsDisplay
+import io.github.a1b2d56.opaline.icon.system.SettingsEmergency
+import io.github.a1b2d56.opaline.icon.system.SettingsFoldable
+import io.github.a1b2d56.opaline.icon.system.SettingsLocation
+import io.github.a1b2d56.opaline.icon.system.SettingsMobileNetwork
+import io.github.a1b2d56.opaline.icon.system.SettingsNotifications
+import io.github.a1b2d56.opaline.icon.system.SettingsPersonalization
+import io.github.a1b2d56.opaline.icon.system.SettingsPrivacy
+import io.github.a1b2d56.opaline.icon.system.SettingsSecurity
+import io.github.a1b2d56.opaline.icon.system.SettingsSound
+import io.github.a1b2d56.opaline.icon.system.SettingsSystem
+import io.github.a1b2d56.opaline.icon.system.SettingsWallpaper
+import io.github.a1b2d56.opaline.icon.system.SettingsWellbeing
+import io.github.a1b2d56.opaline.icon.system.SettingsWifi
+import io.github.a1b2d56.opaline.icon.system.Share
 import io.github.a1b2d56.opaline.icon.system.Sim1
 import io.github.a1b2d56.opaline.icon.system.Sim2
 import io.github.a1b2d56.opaline.icon.system.SplitHorizontal
 import io.github.a1b2d56.opaline.icon.system.SplitVertical
+import io.github.a1b2d56.opaline.icon.system.Sync
+import io.github.a1b2d56.opaline.icon.system.Touch
+import io.github.a1b2d56.opaline.icon.system.Uninstall
 import io.github.a1b2d56.opaline.icon.system.VolumeAccessibility
 import io.github.a1b2d56.opaline.icon.system.VolumeAlarm
 import io.github.a1b2d56.opaline.icon.system.VolumeAlarmMute
@@ -1016,11 +1056,17 @@ val OpalineIcons.All: Map<String, List<ImageVector>>
             OpalineIcons.Demibold.ZoomOut,
         ),
         "System" to listOf(
+            OpalineIcons.System.Add,
             OpalineIcons.System.Back,
             OpalineIcons.System.Backspace,
+            OpalineIcons.System.BrightnessHigh,
+            OpalineIcons.System.BrightnessLow,
             OpalineIcons.System.Cancel,
             OpalineIcons.System.Captions,
             OpalineIcons.System.CaptionsOff,
+            OpalineIcons.System.Copy,
+            OpalineIcons.System.Cut,
+            OpalineIcons.System.Delete,
             OpalineIcons.System.DeviceAirConditioner,
             OpalineIcons.System.DeviceBand,
             OpalineIcons.System.DeviceCamera,
@@ -1044,12 +1090,18 @@ val OpalineIcons.All: Map<String, List<ImageVector>>
             OpalineIcons.System.DeviceWasher,
             OpalineIcons.System.DeviceWatch,
             OpalineIcons.System.DeviceWaterHeater,
+            OpalineIcons.System.Disable,
             OpalineIcons.System.DoNotDisturb,
             OpalineIcons.System.Done,
             OpalineIcons.System.Expand,
+            OpalineIcons.System.ForceStop,
+            OpalineIcons.System.Install,
             OpalineIcons.System.KeyMeta,
+            OpalineIcons.System.Keyboard,
+            OpalineIcons.System.MoreHorizontal,
             OpalineIcons.System.MoreVertical,
             OpalineIcons.System.Next,
+            OpalineIcons.System.Open,
             OpalineIcons.System.PasswordHide,
             OpalineIcons.System.PasswordShow,
             OpalineIcons.System.Power,
@@ -1057,10 +1109,38 @@ val OpalineIcons.All: Map<String, List<ImageVector>>
             OpalineIcons.System.RingerSilent,
             OpalineIcons.System.RingerVibrate,
             OpalineIcons.System.Search,
+            OpalineIcons.System.SensorsOff,
+            OpalineIcons.System.Settings,
+            OpalineIcons.System.SettingsAboutDevice,
+            OpalineIcons.System.SettingsAccessibility,
+            OpalineIcons.System.SettingsAccounts,
+            OpalineIcons.System.SettingsApps,
+            OpalineIcons.System.SettingsBattery,
+            OpalineIcons.System.SettingsBluetooth,
+            OpalineIcons.System.SettingsCloud,
+            OpalineIcons.System.SettingsConnections,
+            OpalineIcons.System.SettingsDisplay,
+            OpalineIcons.System.SettingsEmergency,
+            OpalineIcons.System.SettingsFoldable,
+            OpalineIcons.System.SettingsLocation,
+            OpalineIcons.System.SettingsMobileNetwork,
+            OpalineIcons.System.SettingsNotifications,
+            OpalineIcons.System.SettingsPersonalization,
+            OpalineIcons.System.SettingsPrivacy,
+            OpalineIcons.System.SettingsSecurity,
+            OpalineIcons.System.SettingsSound,
+            OpalineIcons.System.SettingsSystem,
+            OpalineIcons.System.SettingsWallpaper,
+            OpalineIcons.System.SettingsWellbeing,
+            OpalineIcons.System.SettingsWifi,
+            OpalineIcons.System.Share,
             OpalineIcons.System.Sim1,
             OpalineIcons.System.Sim2,
             OpalineIcons.System.SplitHorizontal,
             OpalineIcons.System.SplitVertical,
+            OpalineIcons.System.Sync,
+            OpalineIcons.System.Touch,
+            OpalineIcons.System.Uninstall,
             OpalineIcons.System.VolumeAccessibility,
             OpalineIcons.System.VolumeAlarm,
             OpalineIcons.System.VolumeAlarmMute,

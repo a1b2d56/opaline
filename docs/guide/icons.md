@@ -57,7 +57,7 @@ Icon(
 
 ## System Icons
 
-`OpalineIcons.System` holds icons taken from the ColorOS 17 system UI: the volume panel, connected devices and common controls. They have one weight and live in their own package:
+`OpalineIcons.System` holds icons taken from ColorOS 17: the volume panel, connected devices, common controls, and the Settings categories and actions. They have one weight and live in their own package:
 
 ```kotlin
 import io.github.a1b2d56.opaline.icon.system.DevicePhone
@@ -269,15 +269,21 @@ Extended icons include a wide variety of icons for different use cases. Below is
 
 ### System Icons
 
-System icons are the single-weight icons ColorOS draws for its own panels: the volume panel, connected devices and common controls. Some are two-tone; the lighter layer keeps its relative opacity when tinted. Below is the complete list:
+System icons are the single-weight icons ColorOS draws for its own panels: the volume panel, connected devices, common controls and Settings. Some are two-tone; the lighter layer keeps its relative opacity when tinted. Below is the complete list:
 
 | Icon Name | Icon |
 |---|---|
+| `Add` | <img src="/icons/system/Add.svg" width="24" height="24" /> |
 | `Back` | <img src="/icons/system/Back.svg" width="24" height="24" /> |
 | `Backspace` | <img src="/icons/system/Backspace.svg" width="24" height="24" /> |
+| `BrightnessHigh` | <img src="/icons/system/BrightnessHigh.svg" width="24" height="24" /> |
+| `BrightnessLow` | <img src="/icons/system/BrightnessLow.svg" width="24" height="24" /> |
 | `Cancel` | <img src="/icons/system/Cancel.svg" width="24" height="24" /> |
 | `Captions` | <img src="/icons/system/Captions.svg" width="24" height="24" /> |
 | `CaptionsOff` | <img src="/icons/system/CaptionsOff.svg" width="24" height="24" /> |
+| `Copy` | <img src="/icons/system/Copy.svg" width="24" height="24" /> |
+| `Cut` | <img src="/icons/system/Cut.svg" width="24" height="24" /> |
+| `Delete` | <img src="/icons/system/Delete.svg" width="24" height="24" /> |
 | `DeviceAirConditioner` | <img src="/icons/system/DeviceAirConditioner.svg" width="24" height="24" /> |
 | `DeviceBand` | <img src="/icons/system/DeviceBand.svg" width="24" height="24" /> |
 | `DeviceCamera` | <img src="/icons/system/DeviceCamera.svg" width="24" height="24" /> |
@@ -301,12 +307,18 @@ System icons are the single-weight icons ColorOS draws for its own panels: the v
 | `DeviceWasher` | <img src="/icons/system/DeviceWasher.svg" width="24" height="24" /> |
 | `DeviceWatch` | <img src="/icons/system/DeviceWatch.svg" width="24" height="24" /> |
 | `DeviceWaterHeater` | <img src="/icons/system/DeviceWaterHeater.svg" width="24" height="24" /> |
+| `Disable` | <img src="/icons/system/Disable.svg" width="24" height="24" /> |
 | `DoNotDisturb` | <img src="/icons/system/DoNotDisturb.svg" width="24" height="24" /> |
 | `Done` | <img src="/icons/system/Done.svg" width="24" height="24" /> |
 | `Expand` | <img src="/icons/system/Expand.svg" width="24" height="24" /> |
+| `ForceStop` | <img src="/icons/system/ForceStop.svg" width="24" height="24" /> |
+| `Install` | <img src="/icons/system/Install.svg" width="24" height="24" /> |
 | `KeyMeta` | <img src="/icons/system/KeyMeta.svg" width="24" height="24" /> |
+| `Keyboard` | <img src="/icons/system/Keyboard.svg" width="24" height="24" /> |
+| `MoreHorizontal` | <img src="/icons/system/MoreHorizontal.svg" width="24" height="24" /> |
 | `MoreVertical` | <img src="/icons/system/MoreVertical.svg" width="24" height="24" /> |
 | `Next` | <img src="/icons/system/Next.svg" width="24" height="24" /> |
+| `Open` | <img src="/icons/system/Open.svg" width="24" height="24" /> |
 | `PasswordHide` | <img src="/icons/system/PasswordHide.svg" width="24" height="24" /> |
 | `PasswordShow` | <img src="/icons/system/PasswordShow.svg" width="24" height="24" /> |
 | `Power` | <img src="/icons/system/Power.svg" width="24" height="24" /> |
@@ -314,10 +326,38 @@ System icons are the single-weight icons ColorOS draws for its own panels: the v
 | `RingerSilent` | <img src="/icons/system/RingerSilent.svg" width="24" height="24" /> |
 | `RingerVibrate` | <img src="/icons/system/RingerVibrate.svg" width="24" height="24" /> |
 | `Search` | <img src="/icons/system/Search.svg" width="24" height="24" /> |
+| `SensorsOff` | <img src="/icons/system/SensorsOff.svg" width="24" height="24" /> |
+| `Settings` | <img src="/icons/system/Settings.svg" width="24" height="24" /> |
+| `SettingsAboutDevice` | <img src="/icons/system/SettingsAboutDevice.svg" width="24" height="24" /> |
+| `SettingsAccessibility` | <img src="/icons/system/SettingsAccessibility.svg" width="24" height="24" /> |
+| `SettingsAccounts` | <img src="/icons/system/SettingsAccounts.svg" width="24" height="24" /> |
+| `SettingsApps` | <img src="/icons/system/SettingsApps.svg" width="24" height="24" /> |
+| `SettingsBattery` | <img src="/icons/system/SettingsBattery.svg" width="24" height="24" /> |
+| `SettingsBluetooth` | <img src="/icons/system/SettingsBluetooth.svg" width="24" height="24" /> |
+| `SettingsCloud` | <img src="/icons/system/SettingsCloud.svg" width="24" height="24" /> |
+| `SettingsConnections` | <img src="/icons/system/SettingsConnections.svg" width="24" height="24" /> |
+| `SettingsDisplay` | <img src="/icons/system/SettingsDisplay.svg" width="24" height="24" /> |
+| `SettingsEmergency` | <img src="/icons/system/SettingsEmergency.svg" width="24" height="24" /> |
+| `SettingsFoldable` | <img src="/icons/system/SettingsFoldable.svg" width="24" height="24" /> |
+| `SettingsLocation` | <img src="/icons/system/SettingsLocation.svg" width="24" height="24" /> |
+| `SettingsMobileNetwork` | <img src="/icons/system/SettingsMobileNetwork.svg" width="24" height="24" /> |
+| `SettingsNotifications` | <img src="/icons/system/SettingsNotifications.svg" width="24" height="24" /> |
+| `SettingsPersonalization` | <img src="/icons/system/SettingsPersonalization.svg" width="24" height="24" /> |
+| `SettingsPrivacy` | <img src="/icons/system/SettingsPrivacy.svg" width="24" height="24" /> |
+| `SettingsSecurity` | <img src="/icons/system/SettingsSecurity.svg" width="24" height="24" /> |
+| `SettingsSound` | <img src="/icons/system/SettingsSound.svg" width="24" height="24" /> |
+| `SettingsSystem` | <img src="/icons/system/SettingsSystem.svg" width="24" height="24" /> |
+| `SettingsWallpaper` | <img src="/icons/system/SettingsWallpaper.svg" width="24" height="24" /> |
+| `SettingsWellbeing` | <img src="/icons/system/SettingsWellbeing.svg" width="24" height="24" /> |
+| `SettingsWifi` | <img src="/icons/system/SettingsWifi.svg" width="24" height="24" /> |
+| `Share` | <img src="/icons/system/Share.svg" width="24" height="24" /> |
 | `Sim1` | <img src="/icons/system/Sim1.svg" width="24" height="24" /> |
 | `Sim2` | <img src="/icons/system/Sim2.svg" width="24" height="24" /> |
 | `SplitHorizontal` | <img src="/icons/system/SplitHorizontal.svg" width="24" height="24" /> |
 | `SplitVertical` | <img src="/icons/system/SplitVertical.svg" width="24" height="24" /> |
+| `Sync` | <img src="/icons/system/Sync.svg" width="24" height="24" /> |
+| `Touch` | <img src="/icons/system/Touch.svg" width="24" height="24" /> |
+| `Uninstall` | <img src="/icons/system/Uninstall.svg" width="24" height="24" /> |
 | `VolumeAccessibility` | <img src="/icons/system/VolumeAccessibility.svg" width="24" height="24" /> |
 | `VolumeAlarm` | <img src="/icons/system/VolumeAlarm.svg" width="24" height="24" /> |
 | `VolumeAlarmMute` | <img src="/icons/system/VolumeAlarmMute.svg" width="24" height="24" /> |
