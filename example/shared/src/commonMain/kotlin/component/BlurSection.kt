@@ -101,7 +101,7 @@ private fun BlurDemo() {
             "Colored Thick" to if (isInDark) ColorBlendToken.Colored_Thick_Dark else ColorBlendToken.Colored_Thick_Light,
             "Pured Regular" to if (isInDark) ColorBlendToken.Pured_Regular_Dark else ColorBlendToken.Pured_Regular_Light,
             "Pured Thick" to if (isInDark) ColorBlendToken.Pured_Thick_Dark else ColorBlendToken.Pured_Thick_Light,
-            "Overlay Thin" to if (isInDark) ColorBlendToken.Overlay_Thin_Light else ColorBlendToken.Overlay_Thin_Light,
+            "Overlay Thin" to ColorBlendToken.Overlay_Thin_Light,
             "Overlay Thick" to if (isInDark) ColorBlendToken.Overlay_Thick_Dark else ColorBlendToken.Overlay_Thick_Light,
         )
     }
@@ -268,14 +268,13 @@ private fun ForegroundBlurDemo() {
             "Colored Regular" to if (isInDark) ColorBlendToken.Colored_Regular_Dark else ColorBlendToken.Colored_Regular_Light,
             "Colored Thick" to if (isInDark) ColorBlendToken.Colored_Thick_Dark else ColorBlendToken.Colored_Thick_Light,
             "Pured Regular" to if (isInDark) ColorBlendToken.Pured_Regular_Dark else ColorBlendToken.Pured_Regular_Light,
-            "Overlay Thin" to if (isInDark) ColorBlendToken.Overlay_Thin_Light else ColorBlendToken.Overlay_Thin_Light,
+            "Overlay Thin" to ColorBlendToken.Overlay_Thin_Light,
             "Info Colored" to ColorBlendToken.Info_Colored_Regular,
         )
     }
     var blendModeIndex by remember { mutableIntStateOf(1) }
     val currentBlend = blendConfigs[blendModeIndex]
     val blendModeItems = remember(blendConfigs) { blendConfigs.map { it.first } }
-    var isOs3Effect by remember { mutableStateOf(true) }
 
     Column(
         modifier = Modifier.padding(horizontal = 16.dp),
@@ -286,7 +285,6 @@ private fun ForegroundBlurDemo() {
             BgEffectBackground(
                 dynamicBackground = dynamicBackground.value,
                 isFullSize = true,
-                isOs3Effect = isOs3Effect,
                 modifier = Modifier
                     .fillMaxWidth()
                     .height(280.dp),
@@ -317,16 +315,6 @@ private fun ForegroundBlurDemo() {
                         ),
                 )
             }
-
-            val effectVariantOptions = listOf("OS2", "OS3")
-            OverlayDropdownPreference(
-                title = "Effect Variant",
-                items = effectVariantOptions,
-                selectedIndex = if (isOs3Effect) 1 else 0,
-                onSelectedIndexChange = { isOs3Effect = (it == 1) },
-            )
-
-            HorizontalDivider(Modifier.padding(horizontal = 16.dp))
 
             OverlayDropdownPreference(
                 title = "Blend Mode",

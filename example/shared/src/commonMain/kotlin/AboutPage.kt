@@ -67,7 +67,6 @@ import io.github.a1b2d56.opaline.blur.textureBlur
 import io.github.a1b2d56.opaline.interfaces.ExperimentalScrollBarApi
 import io.github.a1b2d56.opaline.overlay.OverlayBottomSheet
 import io.github.a1b2d56.opaline.preference.ArrowPreference
-import io.github.a1b2d56.opaline.preference.OverlayDropdownPreference
 import io.github.a1b2d56.opaline.preference.SwitchPreference
 import io.github.a1b2d56.opaline.shared.generated.resources.Res
 import io.github.a1b2d56.opaline.shared.generated.resources.ic_launcher
@@ -162,7 +161,6 @@ private fun AboutContent(
     val navigator = LocalNavigator.current
 
     val backdrop = rememberBlurBackdrop()
-    var isOs3Effect by remember { mutableStateOf(true) }
     var showTextureSet by remember { mutableStateOf(false) }
     var blurRadius by remember { mutableFloatStateOf(60f) }
     var noiseCoefficient by remember { mutableFloatStateOf(BlurDefaults.NoiseCoefficient) }
@@ -215,7 +213,6 @@ private fun AboutContent(
 
     BgEffectBackground(
         dynamicBackground = dynamicBackground.value,
-        isOs3Effect = isOs3Effect,
         isFullSize = isFullScreenBackground.value,
         modifier = Modifier.fillMaxSize(),
         bgModifier = if (backdrop != null) Modifier.layerBackdrop(backdrop) else Modifier,
@@ -452,14 +449,6 @@ private fun AboutContent(
     ) {
         LazyColumn {
             item {
-                val effectVariantOptions = listOf("OS2", "OS3")
-                OverlayDropdownPreference(
-                    title = "Effect Variant",
-                    items = effectVariantOptions,
-                    selectedIndex = if (isOs3Effect) 1 else 0,
-                    onSelectedIndexChange = { isOs3Effect = (it == 1) },
-                )
-
                 SwitchPreference(
                     title = "Dynamic Background",
                     checked = dynamicBackground.value,

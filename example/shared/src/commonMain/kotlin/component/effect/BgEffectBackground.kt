@@ -28,7 +28,6 @@ fun BgEffectBackground(
     bgModifier: Modifier = Modifier,
     isFullSize: Boolean = false,
     effectBackground: Boolean = true,
-    isOs3Effect: Boolean = true,
     alpha: () -> Float = { 1f },
     content: @Composable (BoxScope.() -> Unit),
 ) {
@@ -43,10 +42,10 @@ fun BgEffectBackground(
         val surface = OpalineTheme.colorScheme.surface
         val deviceType = if (shouldShowSplitPane()) DeviceType.PAD else DeviceType.PHONE
         val isDarkTheme = isInDarkTheme()
-        val painter = remember(isOs3Effect) { BgEffectPainter(isOs3Effect) }
+        val painter = remember { BgEffectPainter() }
 
-        val preset = remember(deviceType, isDarkTheme, isOs3Effect) {
-            BgEffectConfig.get(deviceType, isDarkTheme, isOs3Effect)
+        val preset = remember(deviceType, isDarkTheme) {
+            BgEffectConfig.get(deviceType, isDarkTheme)
         }
 
         val colorStage = remember { Animatable(0f) }

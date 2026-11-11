@@ -9,13 +9,10 @@ import io.github.a1b2d56.opaline.blur.asBrush
 import kotlin.math.cos
 import kotlin.math.sin
 
-internal class BgEffectPainter(
-    private val isOs3: Boolean = true,
-) {
+internal class BgEffectPainter {
 
     val runtimeShader by lazy {
-        val shaderCode = if (isOs3) OS3_BG_FRAG else OS2_BG_FRAG
-        RuntimeShader(shaderCode).also {
+        RuntimeShader(BG_EFFECT_FRAG).also {
             initStaticUniforms(it)
         }
     }
@@ -144,7 +141,7 @@ internal class BgEffectPainter(
     }
 
     private fun applyPreset(deviceType: DeviceType, isDark: Boolean) {
-        val preset = BgEffectConfig.get(deviceType, isDark, isOs3)
+        val preset = BgEffectConfig.get(deviceType, isDark)
 
         runtimeShader.setFloatUniform("uPoints", preset.points)
         runtimeShader.setFloatUniform("uLightOffset", preset.lightOffset)

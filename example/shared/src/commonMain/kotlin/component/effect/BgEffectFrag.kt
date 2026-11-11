@@ -3,7 +3,7 @@
 // SPDX-License-Identifier: Apache-2.0
 package component.effect
 
-const val OS3_BG_FRAG = """
+const val BG_EFFECT_FRAG = """
     uniform vec2 uResolution;
     uniform float uAnimTime;
     uniform vec4 uBound;
