@@ -43,7 +43,7 @@ fun BasicComponentDemo() {
                 )
                 BasicComponent(
                     title = "Wi-Fi",
-                    summary = "Connected to MIUI-WiFi",
+                    summary = "Connected to Home-WiFi",
                     onClick = { /* Handle click event */ },
                 )
                 BasicComponent(

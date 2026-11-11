@@ -199,7 +199,7 @@ object NavDisplay {
 }
 
 /**
- * Configuration for MIUI-specific transition effects applied during scene transitions.
+ * Configuration for the transition effects applied during scene transitions.
  *
  * @param enableCornerClip whether to clip the top scene with rounded corners during transitions.
  * @param dimAmount the maximum dim alpha applied to the scene behind during transitions. Set to
@@ -269,7 +269,7 @@ data class NavDisplayTransitionEffects(
  * @param popTransitionSpec Default [ContentTransform] when popping [NavEntry]s.
  * @param predictivePopTransitionSpec Default [ContentTransform] when popping with predictive back
  *   [NavEntry]s.
- * @param transitionEffects configuration for MIUI-specific transition effects (corner clipping,
+ * @param transitionEffects configuration for the transition effects (corner clipping,
  *   dimming, input blocking).
  * @param entryProvider lambda used to construct each possible [NavEntry]
  */
@@ -367,7 +367,7 @@ fun <T : Any> NavDisplay(
  * @param popTransitionSpec Default [ContentTransform] when popping [NavEntry]s.
  * @param predictivePopTransitionSpec Default [ContentTransform] when popping [NavEntry]s with
  *   predictive back.
- * @param transitionEffects configuration for MIUI-specific transition effects (corner clipping,
+ * @param transitionEffects configuration for the transition effects (corner clipping,
  *   dimming, input blocking).
  * @param onBack a callback for handling system back press.
  * @see [rememberDecoratedNavEntries]
@@ -440,7 +440,7 @@ fun <T : Any> NavDisplay(
  * @param popTransitionSpec Default [ContentTransform] when popping [NavEntry]s.
  * @param predictivePopTransitionSpec Default [ContentTransform] when popping [NavEntry]s with
  *   predictive back.
- * @param transitionEffects configuration for MIUI-specific transition effects (corner clipping,
+ * @param transitionEffects configuration for the transition effects (corner clipping,
  *   dimming, input blocking).
  * @see [rememberSceneState]
  */

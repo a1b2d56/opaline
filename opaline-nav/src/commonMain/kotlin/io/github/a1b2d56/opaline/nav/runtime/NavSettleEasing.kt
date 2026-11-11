@@ -15,7 +15,7 @@ import kotlin.math.sqrt
  * The step response of an underdamped spring baked into an [Easing], played over a fixed tween
  * duration.
  *
- * This reproduces, point for point, the established enter/exit curve of miuix navigation, so
+ * This reproduces, point for point, the established enter/exit curve of the upstream navigation, so
  * programmatic push/pop keeps the exact same pacing: a brisk middle (≈48% at a fifth of the
  * duration) and a long, gentle tail. The curve is monotone within `0..1` for the shipped
  * parameters (its first crossing of
@@ -59,7 +59,7 @@ internal class NavSettleEasing(
 
 /**
  * The single programmatic settle curve (`response = 0.8`, `damping = 0.95`), identical to the
- * `NavAnimationEasing` constant the nav3-based miuix navigation ships. The default
+ * `NavAnimationEasing` constant the nav3-based upstream navigation ships. The default
  * `NavMotion.programmatic` curve; public so transition presets can reuse the established curve
  * in custom [io.github.a1b2d56.opaline.nav.transition.NavSettleSpec.Tween]s.
  */

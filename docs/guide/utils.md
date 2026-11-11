@@ -89,7 +89,7 @@ You can customize the overscroll effect parameters as needed:
 LazyColumn(
     modifier = Modifier.overScrollVertical(
         nestedScrollToParent = true, // Dispatch nested scroll events to parent, default true
-        scrollEasing = { distance, range -> // Custom easing, default effect is similar to HyperOS feel
+        scrollEasing = { distance, range -> // Custom easing, the default follows the system overscroll feel
             // Example: DefaultParabolaScrollEasing(distance, range)
         },
         springStiff = 280f, // Spring stiffness, default 280f
@@ -105,7 +105,7 @@ LazyColumn(
 **Parameter Explanations:**
 
 * `nestedScrollToParent`: Boolean, whether to dispatch nested scroll events to parent. Default: `true`.
-* `scrollEasing`: Function `(distance: Float, range: Int) -> Float`, custom easing， default effect is similar to HyperOS feel.
+* `scrollEasing`: Function `(distance: Float, range: Int) -> Float`, custom easing; the default follows the system overscroll feel.
 * `springStiff`: Float, spring stiffness for rebound. Default: `280f`.
 * `springDamp`: Float, spring damping for rebound. Default: `1f`.
 * `isEnabled`: Lambda, whether to enable overscroll. Default: only Android/iOS.

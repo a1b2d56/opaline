@@ -61,7 +61,7 @@ fun OverlayCascadingListPopup(
 
 /**
  * A cascading list popup rendered inside the host `Scaffold`, with a caller-provided panel
- * surface. Pass `glassSurface(...)` from `miuix-glass` to give it the glass material.
+ * surface. Pass a modifier factory to draw it with a material.
  * Cascading depth is limited to 2.
  *
  * @param show Whether the popup is shown.

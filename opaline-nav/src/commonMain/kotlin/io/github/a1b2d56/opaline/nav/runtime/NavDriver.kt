@@ -74,7 +74,7 @@ internal object NavDriverSpec {
     /**
      * Low stiffness on the depth scale (units = entries). With [DAMPING_RATIO] and the tight
      * [VISIBILITY_THRESHOLD], a full one-step push/pop settles in roughly half a second
-     * (`t ≈ -ln(threshold) / (damping·√stiffness)`), matching the established miuix navigation
+     * (`t ≈ -ln(threshold) / (damping·√stiffness)`), matching the established upstream navigation
      * feel (a ~500ms transition) rather than a snappier default. The value keeps the decay
      * envelope of the original tuning (`1·√146 ≈ 0.9·√180`), so moving to critical damping
      * did not change the perceived duration.

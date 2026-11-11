@@ -28,7 +28,7 @@ import androidx.compose.ui.util.fastRoundToInt
 object NavTransitions {
 
     /**
-     * Default preset. Reproduces the established miuix navigation feel: the entering page slides
+     * Default preset. Reproduces the established upstream navigation feel: the entering page slides
      * in full-width from the trailing edge (d: -1 -> 0, translationX: +width -> 0), and the
      * covered page parallaxes a quarter width toward the leading edge with a light alpha falloff
      * (d: 0 -> 1). Geometry is linear in `d` for 1:1 finger tracking (entering offset pixel-snapped,
