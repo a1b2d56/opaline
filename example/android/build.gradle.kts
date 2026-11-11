@@ -53,19 +53,13 @@ android {
                 enableV4Signing = true
             }
         }
-    } else {
-        signingConfigs {
-            register("release") {
-                enableV3Signing = true
-                enableV4Signing = true
-            }
-        }
     }
     buildTypes {
         release {
             optimization.enable = true
             vcsInfo.include = false
-            signingConfig = signingConfigs.getByName(if (keystorePath != null) "github" else "release")
+            // Without a keystore the release build is signed with the debug key so it can still be installed.
+            signingConfig = signingConfigs.getByName(if (keystorePath != null) "github" else "debug")
         }
         debug {
             if (keystorePath != null) signingConfig = signingConfigs.getByName("github")
