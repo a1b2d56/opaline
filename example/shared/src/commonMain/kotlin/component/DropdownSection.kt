@@ -21,8 +21,8 @@ import io.github.a1b2d56.opaline.basic.HorizontalDivider
 import io.github.a1b2d56.opaline.basic.Icon
 import io.github.a1b2d56.opaline.basic.SmallTitle
 import io.github.a1b2d56.opaline.icon.OpalineIcons
-import io.github.a1b2d56.opaline.icon.extended.Edit
-import io.github.a1b2d56.opaline.icon.extended.Sort
+import io.github.a1b2d56.opaline.icon.system.Edit
+import io.github.a1b2d56.opaline.icon.system.Sort
 import io.github.a1b2d56.opaline.menu.OverlayDropdownMenu
 import io.github.a1b2d56.opaline.menu.WindowDropdownMenu
 import io.github.a1b2d56.opaline.preference.OverlayDropdownPreference
@@ -225,7 +225,7 @@ private fun DropdownItemVariants() {
                         icon = { modifier ->
                             Icon(
                                 modifier = modifier,
-                                imageVector = OpalineIcons.Edit,
+                                imageVector = OpalineIcons.System.Edit,
                                 tint = iconTint,
                                 contentDescription = null,
                             )
@@ -257,7 +257,7 @@ private fun DropdownItemVariants() {
                         icon = { modifier ->
                             Icon(
                                 modifier = modifier,
-                                imageVector = OpalineIcons.Sort,
+                                imageVector = OpalineIcons.System.Sort,
                                 tint = iconTint,
                                 contentDescription = null,
                             )

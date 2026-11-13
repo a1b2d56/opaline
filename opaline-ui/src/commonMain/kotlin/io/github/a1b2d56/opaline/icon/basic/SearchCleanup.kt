@@ -8,64 +8,52 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.PathFillType
 import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.vector.ImageVector
-import androidx.compose.ui.graphics.vector.path
+import androidx.compose.ui.graphics.vector.PathNode
 import androidx.compose.ui.unit.dp
 import io.github.a1b2d56.opaline.icon.OpalineIcons
 
+/** `ic_edit_text_delete` */
 val OpalineIcons.Basic.SearchCleanup: ImageVector
     get() {
         if (_searchCleanup != null) return _searchCleanup!!
-        _searchCleanup = ImageVector.Builder("SearchCleanup", 18.199984f.dp, 18.199984f.dp, 68f, 68f).apply {
-            path(
-                fill = SolidColor(Color.White),
-                fillAlpha = 0.06f,
+        _searchCleanup = ImageVector.Builder(
+            name = "SearchCleanup",
+            defaultWidth = 22.0f.dp,
+            defaultHeight = 22.0f.dp,
+            viewportWidth = 22.0f,
+            viewportHeight = 22.0f,
+        ).apply {
+            addPath(
+                pathData = listOf(
+                    PathNode.MoveTo(11.0f, 20.0f),
+                    PathNode.CurveTo(15.971f, 20.0f, 20.0f, 15.971f, 20.0f, 11.0f),
+                    PathNode.CurveTo(20.0f, 6.029f, 15.971f, 2.0f, 11.0f, 2.0f),
+                    PathNode.CurveTo(6.029f, 2.0f, 2.0f, 6.029f, 2.0f, 11.0f),
+                    PathNode.CurveTo(2.0f, 15.971f, 6.029f, 20.0f, 11.0f, 20.0f),
+                    PathNode.Close,
+                    PathNode.MoveTo(8.596f, 7.464f),
+                    PathNode.LineTo(11.0f, 9.868f),
+                    PathNode.LineTo(13.404f, 7.465f),
+                    PathNode.CurveTo(13.716f, 7.152f, 14.223f, 7.152f, 14.535f, 7.465f),
+                    PathNode.CurveTo(14.848f, 7.777f, 14.848f, 8.283f, 14.535f, 8.596f),
+                    PathNode.LineTo(12.132f, 11.0f),
+                    PathNode.LineTo(14.536f, 13.404f),
+                    PathNode.CurveTo(14.848f, 13.716f, 14.848f, 14.223f, 14.536f, 14.535f),
+                    PathNode.CurveTo(14.224f, 14.848f, 13.717f, 14.848f, 13.405f, 14.535f),
+                    PathNode.LineTo(11.0f, 12.131f),
+                    PathNode.LineTo(8.595f, 14.536f),
+                    PathNode.CurveTo(8.283f, 14.848f, 7.777f, 14.848f, 7.464f, 14.536f),
+                    PathNode.CurveTo(7.152f, 14.223f, 7.152f, 13.717f, 7.464f, 13.404f),
+                    PathNode.LineTo(9.869f, 11.0f),
+                    PathNode.LineTo(7.465f, 8.595f),
+                    PathNode.CurveTo(7.152f, 8.283f, 7.152f, 7.777f, 7.465f, 7.464f),
+                    PathNode.CurveTo(7.777f, 7.152f, 8.284f, 7.152f, 8.596f, 7.464f),
+                    PathNode.Close,
+                ),
+                fill = SolidColor(Color.Black),
+                fillAlpha = 1.0f,
                 pathFillType = PathFillType.NonZero,
-            ) {
-                moveTo(34f, 66f)
-                curveTo(51.6731f, 66f, 66f, 51.6731f, 66f, 34f)
-                curveTo(66f, 16.3269f, 51.6731f, 2f, 34f, 2f)
-                curveTo(16.3269f, 2f, 2f, 16.3269f, 2f, 34f)
-                curveTo(2f, 51.6731f, 16.3269f, 66f, 34f, 66f)
-                close()
-            }
-            path(
-                fill = SolidColor(Color.Transparent),
-                stroke = SolidColor(Color.Black),
-                strokeAlpha = 0.1f,
-                strokeLineWidth = 0.0f,
-                pathFillType = PathFillType.NonZero,
-            ) {
-                moveTo(34f, 67f)
-                curveTo(52.2254f, 67f, 67f, 52.2254f, 67f, 34f)
-                curveTo(67f, 15.7746f, 52.2254f, 1f, 34f, 1f)
-                curveTo(15.7746f, 1f, 1f, 15.7746f, 1f, 34f)
-                curveTo(1f, 52.2254f, 15.7746f, 67f, 34f, 67f)
-                close()
-            }
-            path(
-                fill = SolidColor(Color.White),
-                fillAlpha = 0.3f,
-                pathFillType = PathFillType.EvenOdd,
-            ) {
-                moveTo(44.6066f, 27.8492f)
-                curveTo(45.7782f, 26.6777f, 45.7782f, 24.7782f, 44.6066f, 23.6066f)
-                curveTo(43.435f, 22.435f, 41.5355f, 22.435f, 40.364f, 23.6066f)
-                lineTo(34f, 29.9706f)
-                lineTo(27.636f, 23.6066f)
-                curveTo(26.4645f, 22.435f, 24.565f, 22.435f, 23.3934f, 23.6066f)
-                curveTo(22.2218f, 24.7782f, 22.2218f, 26.6777f, 23.3934f, 27.8492f)
-                lineTo(29.7574f, 34.2132f)
-                lineTo(23.3934f, 40.5772f)
-                curveTo(22.2218f, 41.7487f, 22.2218f, 43.6482f, 23.3934f, 44.8198f)
-                curveTo(24.565f, 45.9914f, 26.4645f, 45.9914f, 27.636f, 44.8198f)
-                lineTo(34f, 38.4558f)
-                lineTo(40.364f, 44.8198f)
-                curveTo(41.5355f, 45.9914f, 43.435f, 45.9914f, 44.6066f, 44.8198f)
-                curveTo(45.7782f, 43.6482f, 45.7782f, 41.7487f, 44.6066f, 40.5772f)
-                lineTo(38.2426f, 34.2132f)
-                lineTo(44.6066f, 27.8492f)
-                close()
-            }
+            )
         }.build()
         return _searchCleanup!!
     }

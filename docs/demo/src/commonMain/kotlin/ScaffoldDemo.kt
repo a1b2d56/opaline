@@ -28,9 +28,9 @@ import io.github.a1b2d56.opaline.basic.Scaffold
 import io.github.a1b2d56.opaline.basic.SmallTopAppBar
 import io.github.a1b2d56.opaline.basic.Text
 import io.github.a1b2d56.opaline.icon.OpalineIcons
-import io.github.a1b2d56.opaline.icon.extended.Contacts
-import io.github.a1b2d56.opaline.icon.extended.Settings
-import io.github.a1b2d56.opaline.icon.extended.VerticalSplit
+import io.github.a1b2d56.opaline.icon.system.Contacts
+import io.github.a1b2d56.opaline.icon.system.Settings
+import io.github.a1b2d56.opaline.icon.system.SplitVertical
 import io.github.a1b2d56.opaline.theme.OpalineTheme
 
 @Composable
@@ -51,9 +51,9 @@ fun ScaffoldDemo() {
         ) {
             val pages = listOf("Home", "Profile", "Settings")
             val items = listOf(
-                NavigationItem("Home", OpalineIcons.VerticalSplit),
-                NavigationItem("Profile", OpalineIcons.Contacts),
-                NavigationItem("Settings", OpalineIcons.Settings),
+                NavigationItem("Home", OpalineIcons.System.SplitVertical),
+                NavigationItem("Profile", OpalineIcons.System.Contacts),
+                NavigationItem("Settings", OpalineIcons.System.Settings),
             )
             var selectedIndex by remember { mutableIntStateOf(0) }
             Card {
@@ -82,7 +82,7 @@ fun ScaffoldDemo() {
                             },
                         ) {
                             Icon(
-                                imageVector = OpalineIcons.Contacts,
+                                imageVector = OpalineIcons.System.Contacts,
                                 contentDescription = "Personal",
                                 tint = Color.White,
                             )

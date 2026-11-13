@@ -8,31 +8,6 @@ public final class io/github/a1b2d56/opaline/icon/OpalineIcons$Basic {
 	public static final field INSTANCE Lio/github/a1b2d56/opaline/icon/OpalineIcons$Basic;
 }
 
-public final class io/github/a1b2d56/opaline/icon/OpalineIcons$Demibold {
-	public static final field $stable I
-	public static final field INSTANCE Lio/github/a1b2d56/opaline/icon/OpalineIcons$Demibold;
-}
-
-public final class io/github/a1b2d56/opaline/icon/OpalineIcons$Light {
-	public static final field $stable I
-	public static final field INSTANCE Lio/github/a1b2d56/opaline/icon/OpalineIcons$Light;
-}
-
-public final class io/github/a1b2d56/opaline/icon/OpalineIcons$Medium {
-	public static final field $stable I
-	public static final field INSTANCE Lio/github/a1b2d56/opaline/icon/OpalineIcons$Medium;
-}
-
-public final class io/github/a1b2d56/opaline/icon/OpalineIcons$Normal {
-	public static final field $stable I
-	public static final field INSTANCE Lio/github/a1b2d56/opaline/icon/OpalineIcons$Normal;
-}
-
-public final class io/github/a1b2d56/opaline/icon/OpalineIcons$Regular {
-	public static final field $stable I
-	public static final field INSTANCE Lio/github/a1b2d56/opaline/icon/OpalineIcons$Regular;
-}
-
 public final class io/github/a1b2d56/opaline/icon/OpalineIcons$System {
 	public static final field $stable I
 	public static final field INSTANCE Lio/github/a1b2d56/opaline/icon/OpalineIcons$System;

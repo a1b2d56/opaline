@@ -23,7 +23,7 @@ FloatingActionButton(
     onClick = { /* Handle click event */ }
 ) {
     Icon(
-        imageVector = OpalineIcons.Add,
+        imageVector = OpalineIcons.System.Add,
         contentDescription = "Add"
     )
 }
@@ -72,7 +72,7 @@ FloatingActionButton(
     containerColor = Color.Red
 ) {
     Icon(
-        imageVector = OpalineIcons.Favorites,
+        imageVector = OpalineIcons.System.Favorites,
         contentDescription = "Favorites",
         tint = Color.White
     )
@@ -93,7 +93,7 @@ FloatingActionButton(
         modifier = Modifier.padding(horizontal = 16.dp)
     ) {
         Icon(
-            imageVector = OpalineIcons.Add,
+            imageVector = OpalineIcons.System.Add,
             contentDescription = "Add",
             tint = Color.White
         )
@@ -112,7 +112,7 @@ Scaffold(
             onClick = { /* Handle click event */ }
         ) {
             Icon(
-                imageVector = OpalineIcons.Add,
+                imageVector = OpalineIcons.System.Add,
                 contentDescription = "Add"
             )
         }
@@ -145,7 +145,7 @@ FloatingActionButton(
     minHeight = animatedSize
 ) {
     Icon(
-        imageVector = if (expanded) OpalineIcons.Remove else OpalineIcons.Add,
+        imageVector = if (expanded) OpalineIcons.System.Cancel else OpalineIcons.System.Add,
         contentDescription = if (expanded) "Remove" else "Add",
         tint = Color.White
     )

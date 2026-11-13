@@ -338,7 +338,7 @@ TextField(
     label = "Search",
     leadingIcon = {
         Icon(
-            imageVector = OpalineIcons.Search,
+            imageVector = OpalineIcons.System.Search,
             contentDescription = "Search Icon",
             modifier = Modifier.padding(horizontal = 12.dp)
         )
@@ -364,7 +364,7 @@ TextField(
             modifier = Modifier.padding(end = 12.dp)
         ) {
             Icon(
-                imageVector = OpalineIcons.Rename,
+                imageVector = OpalineIcons.System.Rename,
                 tint = if (passwordVisible) OpalineTheme.colorScheme.primary else OpalineTheme.colorScheme.onSurfaceSecondary,
                 contentDescription = if (passwordVisible) "Hide Password" else "Show Password"
             )

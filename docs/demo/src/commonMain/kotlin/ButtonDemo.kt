@@ -27,8 +27,8 @@ import io.github.a1b2d56.opaline.basic.Icon
 import io.github.a1b2d56.opaline.basic.Text
 import io.github.a1b2d56.opaline.basic.TextButton
 import io.github.a1b2d56.opaline.icon.OpalineIcons
-import io.github.a1b2d56.opaline.icon.extended.Contacts
-import io.github.a1b2d56.opaline.icon.extended.Favorites
+import io.github.a1b2d56.opaline.icon.system.Contacts
+import io.github.a1b2d56.opaline.icon.system.Favorites
 import io.github.a1b2d56.opaline.theme.OpalineTheme
 
 @Composable
@@ -62,7 +62,7 @@ fun ButtonDemo() {
                     },
                 ) {
                     Icon(
-                        imageVector = OpalineIcons.Favorites,
+                        imageVector = OpalineIcons.System.Favorites,
                         contentDescription = "Favorites",
                         tint = Color.Unspecified,
                         modifier = Modifier.size(24.dp),
@@ -92,7 +92,7 @@ fun ButtonDemo() {
                     colors = ButtonDefaults.buttonColorsPrimary(),
                 ) {
                     Icon(
-                        imageVector = OpalineIcons.Contacts,
+                        imageVector = OpalineIcons.System.Contacts,
                         contentDescription = null,
                         tint = OpalineTheme.colorScheme.disabledOnSecondaryVariant,
                         modifier = Modifier.size(24.dp),

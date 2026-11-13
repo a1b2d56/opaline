@@ -117,7 +117,7 @@ ArrowPreference(
     summary = "View and edit your profile",
     startAction = {
         Icon(
-            imageVector = OpalineIcons.Contacts,
+            imageVector = OpalineIcons.System.Contacts,
             contentDescription = "Personal Icon",
             tint = OpalineTheme.colorScheme.onBackground,
             modifier = Modifier.padding(end = 16.dp)

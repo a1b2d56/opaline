@@ -46,7 +46,7 @@ Scaffold(
             title = "Inbox",
             actions = {
                 OverlayIconDropdownMenu(entry = entry) {
-                    Icon(imageVector = OpalineIcons.Edit, contentDescription = "Action menu")
+                    Icon(imageVector = OpalineIcons.System.Edit, contentDescription = "Action menu")
                 }
             }
         )
@@ -72,7 +72,7 @@ val entry = DropdownEntry(
 
 Scaffold {
     OverlayIconDropdownMenu(entry = entry) {
-        Icon(imageVector = OpalineIcons.Sort, contentDescription = "Sort")
+        Icon(imageVector = OpalineIcons.System.Sort, contentDescription = "Sort")
     }
 }
 ```
@@ -97,7 +97,7 @@ val entry = DropdownEntry(
 
 Scaffold {
     OverlayIconDropdownMenu(entry = entry, collapseOnSelection = false) {
-        Icon(imageVector = OpalineIcons.SelectAll, contentDescription = "Multiple selection")
+        Icon(imageVector = OpalineIcons.System.SelectAll, contentDescription = "Multiple selection")
     }
 }
 ```
@@ -114,7 +114,7 @@ val entries = listOf(
 
 Scaffold {
     OverlayIconDropdownMenu(entries = entries) {
-        Icon(imageVector = OpalineIcons.MoreCircle, contentDescription = "More")
+        Icon(imageVector = OpalineIcons.System.MoreVertical, contentDescription = "More")
     }
 }
 ```
@@ -132,7 +132,7 @@ val entry = DropdownEntry(
             icon = { modifier ->
                 Icon(
                     modifier = modifier,
-                    imageVector = OpalineIcons.Rename,
+                    imageVector = OpalineIcons.System.Rename,
                     contentDescription = null,
                 )
             },
@@ -144,7 +144,7 @@ val entry = DropdownEntry(
 
 Scaffold {
     OverlayIconDropdownMenu(entry = entry) {
-        Icon(imageVector = OpalineIcons.More, contentDescription = "More")
+        Icon(imageVector = OpalineIcons.System.MoreHorizontal, contentDescription = "More")
     }
 }
 ```
@@ -167,7 +167,7 @@ val entry = DropdownEntry(
 
 Scaffold {
     OverlayIconDropdownMenu(entry = entry) {
-        Icon(imageVector = OpalineIcons.More, contentDescription = "More")
+        Icon(imageVector = OpalineIcons.System.MoreHorizontal, contentDescription = "More")
     }
 }
 ```
@@ -192,7 +192,7 @@ val entries = listOf(
 
 Scaffold {
     OverlayIconDropdownMenu(entries = entries) {
-        Icon(imageVector = OpalineIcons.Sort, contentDescription = "Sort")
+        Icon(imageVector = OpalineIcons.System.Sort, contentDescription = "Sort")
     }
 }
 ```
@@ -212,7 +212,7 @@ val entry = DropdownEntry(
 
 Scaffold {
     OverlayIconDropdownMenu(entry = entry) {
-        Icon(imageVector = OpalineIcons.More, contentDescription = "More")
+        Icon(imageVector = OpalineIcons.System.MoreHorizontal, contentDescription = "More")
     }
 }
 ```
@@ -226,7 +226,7 @@ OverlayIconDropdownMenu(
     entry = DropdownEntry(items = listOf(DropdownItem(text = "Option 1"))),
     enabled = false
 ) {
-    Icon(imageVector = OpalineIcons.MoreCircle, contentDescription = "More")
+    Icon(imageVector = OpalineIcons.System.MoreVertical, contentDescription = "More")
 }
 ```
 
@@ -246,7 +246,7 @@ val entry = DropdownEntry(
 
 Scaffold {
     OverlayIconDropdownMenu(entry = entry) {
-        Icon(imageVector = OpalineIcons.MoreCircle, contentDescription = "More")
+        Icon(imageVector = OpalineIcons.System.MoreVertical, contentDescription = "More")
     }
 }
 ```

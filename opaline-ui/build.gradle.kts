@@ -95,7 +95,7 @@ val convertBaselineProfile =
         targetPackage.set("io/github/a1b2d56/opaline/")
         excludePackages.set(
             listOf(
-                "io/github/a1b2d56/opaline/icon/extended/",
+                "io/github/a1b2d56/opaline/icon/system/",
                 "io/github/a1b2d56/opaline/shared/",
             ),
         )

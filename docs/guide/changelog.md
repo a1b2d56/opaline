@@ -23,8 +23,13 @@ record, including what is still unverified, is
   new `controls` color.
 - **TopTips.** Capsule on one line, 16dp corners once the text wraps, animated between the two.
 - **NavigationBar.** Item colors follow the ColorOS 17 tab state model.
-- **System icons.** `OpalineIcons.System` in `opaline-icons`: 107 single-weight icons from
-  ColorOS 17: the volume panel, connected devices, controls and the Settings categories and actions.
+- **Icons.** `opaline-icons` is now `OpalineIcons.System`: 217 icons from ColorOS 17 (the volume
+  panel, connected devices, Settings, and the toolbars of the system apps). The weighted icon set
+  inherited from upstream (`OpalineIcons.Light` … `Demibold`, package `icon.extended`) is removed,
+  and the search, clear, close and sidebar icons in `opaline-ui` use the COUI shapes.
+- **Animation.** `folmeSpring` is renamed `responseSpring`.
+- **Blur.** The `GlassStroke*` highlight presets inherited from upstream are removed;
+  `Highlight.Default` remains and the ColorOS 17 materials supply their own rim.
 - Recalibrated colors, radii and metrics across components.
 
 ### Library
@@ -32,4 +37,3 @@ record, including what is still unverified, is
 - New name, packages (`io.github.a1b2d56.opaline`) and Maven group.
 - Upstream Miuix fixes synced to `b7a5f08f`.
 - Public API tracked with Kotlin ABI validation.
-- Some icons redrawn from scratch.

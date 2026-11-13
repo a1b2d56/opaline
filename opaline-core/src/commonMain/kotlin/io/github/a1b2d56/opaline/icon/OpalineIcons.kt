@@ -5,13 +5,9 @@
 package io.github.a1b2d56.opaline.icon
 
 object OpalineIcons {
-    /** Single-weight icons drawn by the system itself (volume panel, connected devices, controls, Settings). */
-    object System
-
+    /** Icons the library's own components draw (chevrons, check mark, search, close). */
     object Basic
-    object Light
-    object Normal
-    object Regular
-    object Medium
-    object Demibold
+
+    /** ColorOS 17 icons from `opaline-icons`: the shapes the system and its apps draw. */
+    object System
 }

@@ -17,7 +17,7 @@ import io.github.a1b2d56.opaline.basic.BasicComponent
 import io.github.a1b2d56.opaline.basic.Card
 import io.github.a1b2d56.opaline.basic.Icon
 import io.github.a1b2d56.opaline.icon.OpalineIcons
-import io.github.a1b2d56.opaline.icon.extended.Contacts
+import io.github.a1b2d56.opaline.icon.system.Contacts
 import io.github.a1b2d56.opaline.theme.OpalineTheme
 
 @Composable
@@ -52,7 +52,7 @@ fun BasicComponentDemo() {
                     startAction = {
                         Icon(
                             modifier = Modifier.padding(end = 16.dp),
-                            imageVector = OpalineIcons.Contacts,
+                            imageVector = OpalineIcons.System.Contacts,
                             contentDescription = "Avatar Icon",
                             tint = OpalineTheme.colorScheme.onBackground,
                         )

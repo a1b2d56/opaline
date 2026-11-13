@@ -33,7 +33,7 @@ the public API, run `./gradlew updateKotlinAbi` and commit the updated files und
 | `opaline-blur/`           | Blur effects and the ColorOS 17 material presets (Android minSdk 33) |
 | `opaline-shader/`         | Runtime shader abstraction                                           |
 | `opaline-squircle/`       | Smooth (squircle) corners                                            |
-| `opaline-icons/`          | Extended icon resources                                              |
+| `opaline-icons/`          | ColorOS 17 icon set (`OpalineIcons.System`)                          |
 | `opaline-nav/`            | Self-contained navigation runtime                                    |
 | `opaline-navigation3-ui/` | Navigation 3 UI                                                      |
 | `example/`                | Demo app                                                             |

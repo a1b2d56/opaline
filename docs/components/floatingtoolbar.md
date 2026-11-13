@@ -27,10 +27,10 @@ Scaffold(
                 horizontalArrangement = Arrangement.spacedBy(8.dp)
             ) { // or Column
                 IconButton(onClick = { /* Action 1 */ }) {
-                    Icon(OpalineIcons.Edit, contentDescription = "Edit")
+                    Icon(OpalineIcons.System.Edit, contentDescription = "Edit")
                 }
                 IconButton(onClick = { /* Action 2 */ }) {
-                    Icon(OpalineIcons.Delete, contentDescription = "Delete")
+                    Icon(OpalineIcons.System.Delete, contentDescription = "Delete")
                 }
             }
         }
@@ -81,10 +81,10 @@ FloatingToolbar(
         horizontalArrangement = Arrangement.spacedBy(8.dp)
     ) { // or Column
         IconButton(onClick = { /* Action 1 */ }) {
-            Icon(OpalineIcons.Edit, contentDescription = "Edit", tint = OpalineTheme.colorScheme.onPrimaryContainer)
+            Icon(OpalineIcons.System.Edit, contentDescription = "Edit", tint = OpalineTheme.colorScheme.onPrimaryContainer)
         }
         IconButton(onClick = { /* Action 2 */ }) {
-            Icon(OpalineIcons.Delete, contentDescription = "Delete", tint = OpalineTheme.colorScheme.onPrimaryContainer)
+            Icon(OpalineIcons.System.Delete, contentDescription = "Delete", tint = OpalineTheme.colorScheme.onPrimaryContainer)
         }
     }
 }
@@ -104,10 +104,10 @@ FloatingToolbar(
         horizontalArrangement = Arrangement.spacedBy(8.dp)
     ) {
         IconButton(onClick = { /* Action 1 */ }) {
-            Icon(OpalineIcons.Edit, contentDescription = "Edit")
+            Icon(OpalineIcons.System.Edit, contentDescription = "Edit")
         }
         IconButton(onClick = { /* Action 2 */ }) {
-            Icon(OpalineIcons.Delete, contentDescription = "Delete")
+            Icon(OpalineIcons.System.Delete, contentDescription = "Delete")
         }
     }
 }
@@ -122,10 +122,10 @@ FloatingToolbar {
         verticalArrangement = Arrangement.spacedBy(8.dp)
     ) {
         IconButton(onClick = { /* Action 1 */ }) {
-            Icon(OpalineIcons.Edit, contentDescription = "Edit")
+            Icon(OpalineIcons.System.Edit, contentDescription = "Edit")
         }
         IconButton(onClick = { /* Action 2 */ }) {
-            Icon(OpalineIcons.Delete, contentDescription = "Delete")
+            Icon(OpalineIcons.System.Delete, contentDescription = "Delete")
         }
     }
 }

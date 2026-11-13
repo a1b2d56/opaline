@@ -66,7 +66,7 @@ BadgeBox(
     overhang = BadgeDefaults.CountOverhang,
 ) {
     Icon(
-        imageVector = OpalineIcons.Settings,
+        imageVector = OpalineIcons.System.Settings,
         contentDescription = "Settings",
     )
 }

@@ -72,9 +72,9 @@ import io.github.a1b2d56.opaline.basic.VerticalScrollBar
 import io.github.a1b2d56.opaline.basic.rememberScrollBarAdapter
 import io.github.a1b2d56.opaline.blur.layerBackdrop
 import io.github.a1b2d56.opaline.icon.OpalineIcons
-import io.github.a1b2d56.opaline.icon.extended.SelectAll
-import io.github.a1b2d56.opaline.icon.extended.Sort
-import io.github.a1b2d56.opaline.icon.extended.Tune
+import io.github.a1b2d56.opaline.icon.system.SelectAll
+import io.github.a1b2d56.opaline.icon.system.Sort
+import io.github.a1b2d56.opaline.icon.system.Tune
 import io.github.a1b2d56.opaline.interfaces.ExperimentalScrollBarApi
 import io.github.a1b2d56.opaline.menu.OverlayIconCascadingDropdownMenu
 import io.github.a1b2d56.opaline.menu.OverlayIconDropdownMenu
@@ -266,7 +266,7 @@ fun MainPage(
                             collapseOnSelection = true,
                         ) {
                             Icon(
-                                imageVector = OpalineIcons.Tune,
+                                imageVector = OpalineIcons.System.Tune,
                                 contentDescription = "Tune",
                             )
                         }
@@ -275,7 +275,7 @@ fun MainPage(
                             collapseOnSelection = false,
                         ) {
                             Icon(
-                                imageVector = OpalineIcons.Sort,
+                                imageVector = OpalineIcons.System.Sort,
                                 contentDescription = "Sort",
                             )
                         }
@@ -284,7 +284,7 @@ fun MainPage(
                             collapseOnSelection = false,
                         ) {
                             Icon(
-                                imageVector = OpalineIcons.SelectAll,
+                                imageVector = OpalineIcons.System.SelectAll,
                                 contentDescription = "SelectAll",
                             )
                         }

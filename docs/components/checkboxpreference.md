@@ -147,7 +147,7 @@ CheckboxPreference(
     onCheckedChange = { syncEnabled = it },
     startAction = {
         Icon(
-            imageVector = OpalineIcons.Contacts,
+            imageVector = OpalineIcons.System.Contacts,
             contentDescription = null,
             tint = OpalineTheme.colorScheme.onBackground
         )

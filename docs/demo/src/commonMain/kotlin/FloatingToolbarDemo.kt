@@ -23,8 +23,8 @@ import io.github.a1b2d56.opaline.basic.IconButton
 import io.github.a1b2d56.opaline.basic.Scaffold
 import io.github.a1b2d56.opaline.basic.ToolbarPosition
 import io.github.a1b2d56.opaline.icon.OpalineIcons
-import io.github.a1b2d56.opaline.icon.extended.Delete
-import io.github.a1b2d56.opaline.icon.extended.Edit
+import io.github.a1b2d56.opaline.icon.system.Delete
+import io.github.a1b2d56.opaline.icon.system.Edit
 import io.github.a1b2d56.opaline.preference.ArrowPreference
 import io.github.a1b2d56.opaline.theme.OpalineTheme
 
@@ -60,14 +60,14 @@ fun FloatingToolbarDemo() {
                                     // or Column
                                     IconButton(onClick = { /* Action 1 */ }) {
                                         Icon(
-                                            imageVector = OpalineIcons.Edit,
+                                            imageVector = OpalineIcons.System.Edit,
                                             contentDescription = "Edit",
                                             tint = OpalineTheme.colorScheme.onBackground,
                                         )
                                     }
                                     IconButton(onClick = { /* Action 2 */ }) {
                                         Icon(
-                                            imageVector = OpalineIcons.Delete,
+                                            imageVector = OpalineIcons.System.Delete,
                                             contentDescription = "Delete",
                                             tint = OpalineTheme.colorScheme.onBackground,
                                         )
@@ -100,14 +100,14 @@ fun FloatingToolbarDemo() {
                                     // or Column
                                     IconButton(onClick = { /* Action 1 */ }) {
                                         Icon(
-                                            imageVector = OpalineIcons.Edit,
+                                            imageVector = OpalineIcons.System.Edit,
                                             contentDescription = "Edit",
                                             tint = OpalineTheme.colorScheme.onBackground,
                                         )
                                     }
                                     IconButton(onClick = { /* Action 2 */ }) {
                                         Icon(
-                                            imageVector = OpalineIcons.Delete,
+                                            imageVector = OpalineIcons.System.Delete,
                                             contentDescription = "Delete",
                                             tint = OpalineTheme.colorScheme.onBackground,
                                         )

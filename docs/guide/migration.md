@@ -94,7 +94,7 @@ All `Miuix*`-prefixed symbols are renamed to `Opaline*`. The mapping is exactly 
 | `NavTransitions.MiuixDefault` | `NavTransitions.OpalineDefault` |
 | `BadgedBox` | `BadgeBox` (signature also changed, see below) |
 
-A second find-and-replace of `MiuixTheme` → `OpalineTheme`, `MiuixIcons` → `OpalineIcons`, etc. covers these. The `folmeSpring` easing helper (formerly in `MiuixEasing.kt`, now `OpalineEasing.kt`) keeps its name — no code change needed there.
+A second find-and-replace of `MiuixTheme` → `OpalineTheme`, `MiuixIcons` → `OpalineIcons`, etc. covers these. The `folmeSpring` easing helper is now `responseSpring` (in `OpalineEasing.kt`), with the same parameters.
 
 ## 4. Changed APIs
 
@@ -186,7 +186,8 @@ The `Colors` constructor keeps Miuix's parameter order, so a fully custom scheme
 
 The API stays familiar, but every component is rethemed to ColorOS 17:
 
-- **Colors**: the color scheme values follow ColorOS (accent, container and surface colors differ from HyperOS); keep using `OpalineTheme.colorScheme.*` and your code picks the new values up automatically.
+- **Icons**: the weighted icon set (`MiuixIcons.Light` … `Demibold`, package `icon.extended`) is not carried over. `opaline-icons` holds ColorOS 17 icons under `OpalineIcons.System` (package `icon.system`), in one weight; pick the closest one from the [icon list](./icons.md).
+- **Colors**: the color scheme values follow ColorOS (accent, container and surface colors differ from upstream); keep using `OpalineTheme.colorScheme.*` and your code picks the new values up automatically.
 - **Shape and metrics**: corner radii, paddings and component sizes follow the ColorOS specification.
 - **Motion**: animation curves and press feedback (scale/tint) follow COUI's motion design.
 - **Dynamic color**: Monet / dynamic color is still supported through `ThemeController` (`ColorSchemeMode.MonetSystem`, `MonetLight`, `MonetDark`), exactly as before — see [Theme System](../guide/theme.md).

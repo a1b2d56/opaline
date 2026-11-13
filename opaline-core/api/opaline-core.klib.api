@@ -53,26 +53,11 @@ abstract interface io.github.a1b2d56.opaline.material/MaterialRenderer { // io.g
 final object io.github.a1b2d56.opaline.icon/OpalineIcons { // io.github.a1b2d56.opaline.icon/OpalineIcons|null[0]
     final object Basic // io.github.a1b2d56.opaline.icon/OpalineIcons.Basic|null[0]
 
-    final object Demibold // io.github.a1b2d56.opaline.icon/OpalineIcons.Demibold|null[0]
-
-    final object Light // io.github.a1b2d56.opaline.icon/OpalineIcons.Light|null[0]
-
-    final object Medium // io.github.a1b2d56.opaline.icon/OpalineIcons.Medium|null[0]
-
-    final object Normal // io.github.a1b2d56.opaline.icon/OpalineIcons.Normal|null[0]
-
-    final object Regular // io.github.a1b2d56.opaline.icon/OpalineIcons.Regular|null[0]
-
     final object System // io.github.a1b2d56.opaline.icon/OpalineIcons.System|null[0]
 }
 
 final val io.github.a1b2d56.opaline.icon/io_github_a1b2d56_opaline_icon_OpalineIcons$stableprop // io.github.a1b2d56.opaline.icon/io_github_a1b2d56_opaline_icon_OpalineIcons$stableprop|#static{}io_github_a1b2d56_opaline_icon_OpalineIcons$stableprop[0]
 final val io.github.a1b2d56.opaline.icon/io_github_a1b2d56_opaline_icon_OpalineIcons_Basic$stableprop // io.github.a1b2d56.opaline.icon/io_github_a1b2d56_opaline_icon_OpalineIcons_Basic$stableprop|#static{}io_github_a1b2d56_opaline_icon_OpalineIcons_Basic$stableprop[0]
-final val io.github.a1b2d56.opaline.icon/io_github_a1b2d56_opaline_icon_OpalineIcons_Demibold$stableprop // io.github.a1b2d56.opaline.icon/io_github_a1b2d56_opaline_icon_OpalineIcons_Demibold$stableprop|#static{}io_github_a1b2d56_opaline_icon_OpalineIcons_Demibold$stableprop[0]
-final val io.github.a1b2d56.opaline.icon/io_github_a1b2d56_opaline_icon_OpalineIcons_Light$stableprop // io.github.a1b2d56.opaline.icon/io_github_a1b2d56_opaline_icon_OpalineIcons_Light$stableprop|#static{}io_github_a1b2d56_opaline_icon_OpalineIcons_Light$stableprop[0]
-final val io.github.a1b2d56.opaline.icon/io_github_a1b2d56_opaline_icon_OpalineIcons_Medium$stableprop // io.github.a1b2d56.opaline.icon/io_github_a1b2d56_opaline_icon_OpalineIcons_Medium$stableprop|#static{}io_github_a1b2d56_opaline_icon_OpalineIcons_Medium$stableprop[0]
-final val io.github.a1b2d56.opaline.icon/io_github_a1b2d56_opaline_icon_OpalineIcons_Normal$stableprop // io.github.a1b2d56.opaline.icon/io_github_a1b2d56_opaline_icon_OpalineIcons_Normal$stableprop|#static{}io_github_a1b2d56_opaline_icon_OpalineIcons_Normal$stableprop[0]
-final val io.github.a1b2d56.opaline.icon/io_github_a1b2d56_opaline_icon_OpalineIcons_Regular$stableprop // io.github.a1b2d56.opaline.icon/io_github_a1b2d56_opaline_icon_OpalineIcons_Regular$stableprop|#static{}io_github_a1b2d56_opaline_icon_OpalineIcons_Regular$stableprop[0]
 final val io.github.a1b2d56.opaline.icon/io_github_a1b2d56_opaline_icon_OpalineIcons_System$stableprop // io.github.a1b2d56.opaline.icon/io_github_a1b2d56_opaline_icon_OpalineIcons_System$stableprop|#static{}io_github_a1b2d56_opaline_icon_OpalineIcons_System$stableprop[0]
 final val io.github.a1b2d56.opaline.material/LocalContentMaterialRenderer // io.github.a1b2d56.opaline.material/LocalContentMaterialRenderer|{}LocalContentMaterialRenderer[0]
     final fun <get-LocalContentMaterialRenderer>(): androidx.compose.runtime/ProvidableCompositionLocal<io.github.a1b2d56.opaline.material/MaterialRenderer?> // io.github.a1b2d56.opaline.material/LocalContentMaterialRenderer.<get-LocalContentMaterialRenderer>|<get-LocalContentMaterialRenderer>(){}[0]
@@ -84,11 +69,6 @@ final val io.github.a1b2d56.opaline.utils/hasFocusReassignBug // io.github.a1b2d
 final fun (androidx.compose.ui/Modifier).io.github.a1b2d56.opaline.material/material(io.github.a1b2d56.opaline.material/MaterialType, androidx.compose.ui.graphics/Shape, kotlin/Boolean, androidx.compose.ui.graphics/Color, kotlin/Boolean, androidx.compose.runtime/Composer?, kotlin/Int, kotlin/Int): androidx.compose.ui/Modifier // io.github.a1b2d56.opaline.material/material|material@androidx.compose.ui.Modifier(io.github.a1b2d56.opaline.material.MaterialType;androidx.compose.ui.graphics.Shape;kotlin.Boolean;androidx.compose.ui.graphics.Color;kotlin.Boolean;androidx.compose.runtime.Composer?;kotlin.Int;kotlin.Int){}[0]
 final fun io.github.a1b2d56.opaline.icon/io_github_a1b2d56_opaline_icon_OpalineIcons$stableprop_getter(): kotlin/Int // io.github.a1b2d56.opaline.icon/io_github_a1b2d56_opaline_icon_OpalineIcons$stableprop_getter|io_github_a1b2d56_opaline_icon_OpalineIcons$stableprop_getter(){}[0]
 final fun io.github.a1b2d56.opaline.icon/io_github_a1b2d56_opaline_icon_OpalineIcons_Basic$stableprop_getter(): kotlin/Int // io.github.a1b2d56.opaline.icon/io_github_a1b2d56_opaline_icon_OpalineIcons_Basic$stableprop_getter|io_github_a1b2d56_opaline_icon_OpalineIcons_Basic$stableprop_getter(){}[0]
-final fun io.github.a1b2d56.opaline.icon/io_github_a1b2d56_opaline_icon_OpalineIcons_Demibold$stableprop_getter(): kotlin/Int // io.github.a1b2d56.opaline.icon/io_github_a1b2d56_opaline_icon_OpalineIcons_Demibold$stableprop_getter|io_github_a1b2d56_opaline_icon_OpalineIcons_Demibold$stableprop_getter(){}[0]
-final fun io.github.a1b2d56.opaline.icon/io_github_a1b2d56_opaline_icon_OpalineIcons_Light$stableprop_getter(): kotlin/Int // io.github.a1b2d56.opaline.icon/io_github_a1b2d56_opaline_icon_OpalineIcons_Light$stableprop_getter|io_github_a1b2d56_opaline_icon_OpalineIcons_Light$stableprop_getter(){}[0]
-final fun io.github.a1b2d56.opaline.icon/io_github_a1b2d56_opaline_icon_OpalineIcons_Medium$stableprop_getter(): kotlin/Int // io.github.a1b2d56.opaline.icon/io_github_a1b2d56_opaline_icon_OpalineIcons_Medium$stableprop_getter|io_github_a1b2d56_opaline_icon_OpalineIcons_Medium$stableprop_getter(){}[0]
-final fun io.github.a1b2d56.opaline.icon/io_github_a1b2d56_opaline_icon_OpalineIcons_Normal$stableprop_getter(): kotlin/Int // io.github.a1b2d56.opaline.icon/io_github_a1b2d56_opaline_icon_OpalineIcons_Normal$stableprop_getter|io_github_a1b2d56_opaline_icon_OpalineIcons_Normal$stableprop_getter(){}[0]
-final fun io.github.a1b2d56.opaline.icon/io_github_a1b2d56_opaline_icon_OpalineIcons_Regular$stableprop_getter(): kotlin/Int // io.github.a1b2d56.opaline.icon/io_github_a1b2d56_opaline_icon_OpalineIcons_Regular$stableprop_getter|io_github_a1b2d56_opaline_icon_OpalineIcons_Regular$stableprop_getter(){}[0]
 final fun io.github.a1b2d56.opaline.icon/io_github_a1b2d56_opaline_icon_OpalineIcons_System$stableprop_getter(): kotlin/Int // io.github.a1b2d56.opaline.icon/io_github_a1b2d56_opaline_icon_OpalineIcons_System$stableprop_getter|io_github_a1b2d56_opaline_icon_OpalineIcons_System$stableprop_getter(){}[0]
 final fun io.github.a1b2d56.opaline.material/isMaterialActive(io.github.a1b2d56.opaline.material/MaterialType, androidx.compose.runtime/Composer?, kotlin/Int): kotlin/Boolean // io.github.a1b2d56.opaline.material/isMaterialActive|isMaterialActive(io.github.a1b2d56.opaline.material.MaterialType;androidx.compose.runtime.Composer?;kotlin.Int){}[0]
 final fun io.github.a1b2d56.opaline.material/materialFallbackColor(io.github.a1b2d56.opaline.material/MaterialType, kotlin/Boolean): androidx.compose.ui.graphics/Color? // io.github.a1b2d56.opaline.material/materialFallbackColor|materialFallbackColor(io.github.a1b2d56.opaline.material.MaterialType;kotlin.Boolean){}[0]

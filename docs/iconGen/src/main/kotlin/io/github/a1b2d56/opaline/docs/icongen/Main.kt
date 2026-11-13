@@ -18,8 +18,6 @@ data class SvgPath(
     val transform: String = "",
 )
 
-private val WEIGHT_NAMES = listOf("Light", "Normal", "Regular", "Medium", "Demibold")
-
 /** Simple CLI entry that converts Compose vector icon definitions to SVG files. */
 fun main(args: Array<String>) {
     val map = mutableMapOf<String, String>()
@@ -61,8 +59,7 @@ fun main(args: Array<String>) {
 
     var count = 0
     // Map of BaseName -> Map<Style, RelativePath>
-    val basicIconsMap = mutableMapOf<String, MutableMap<String, String>>()
-    val extendedIconsMap = mutableMapOf<String, MutableMap<String, String>>()
+    val basicIconsMap = mutableMapOf<String, String>()
     val systemIconsMap = mutableMapOf<String, String>()
 
     srcDirs.forEach { srcDir ->
@@ -279,21 +276,10 @@ fun main(args: Array<String>) {
 
                     val relativePath = File(relativeDir, "$iconName.svg").path.replace("\\", "/")
 
-                    val isBasic =
-                        file.path.contains("basic${File.separator}") || file.path.contains("basic/") || file.path.contains("basic\\")
-                    val isSystem = relativePath.startsWith("system/")
-                    if (isSystem) {
+                    if (relativePath.startsWith("system/")) {
                         systemIconsMap[iconName] = relativePath
-                        return@forEach
-                    }
-                    val targetMap = if (isBasic) basicIconsMap else extendedIconsMap
-
-                    val matchedWeight = WEIGHT_NAMES.firstOrNull { iconName.endsWith(".$it") }
-                    if (matchedWeight != null) {
-                        val simpleName = iconName.removeSuffix(".$matchedWeight")
-                        targetMap.getOrPut(simpleName) { mutableMapOf() }[matchedWeight] = relativePath
-                    } else if (!iconName.contains(".")) {
-                        targetMap.getOrPut(iconName) { mutableMapOf() }["Regular"] = relativePath
+                    } else {
+                        basicIconsMap[iconName] = relativePath
                     }
                 }
             }
@@ -301,45 +287,24 @@ fun main(args: Array<String>) {
     }
 
     println("[iconGen] Generated $count SVG(s) into $dest")
-    if (genDoc && (basicIconsMap.isNotEmpty() || extendedIconsMap.isNotEmpty())) {
-        val separator = "|" + "---|".repeat(WEIGHT_NAMES.size + 1)
-        fun generateTable(map: Map<String, Map<String, String>>, nameHeader: String): String {
-            val sb = StringBuilder()
-            sb.append("| $nameHeader | ").append(WEIGHT_NAMES.joinToString(" | ")).append(" |\n")
-            sb.append(separator).append("\n")
+    if (genDoc && (basicIconsMap.isNotEmpty() || systemIconsMap.isNotEmpty())) {
+        fun generateTable(map: Map<String, String>): String {
+            val sb = StringBuilder("| Icon Name | Icon |\n|---|---|\n")
             map.keys.sorted().forEach { name ->
-                val variants = map[name]!!
-                sb.append("| `$name` |")
-                WEIGHT_NAMES.forEach { weight ->
-                    val cell = variants[weight]?.let { "<img src=\"/icons/$it\" width=\"24\" height=\"24\" />" } ?: "-"
-                    sb.append(" ").append(cell).append(" |")
-                }
-                sb.append("\n")
+                sb.append("| `$name` | <img src=\"/icons/${map[name]}\" width=\"24\" height=\"24\" /> |\n")
             }
             return sb.toString()
         }
 
         // Generate the doc list
         run {
-            val basicTable = generateTable(basicIconsMap, "Icon Name")
-            val extendedTable = generateTable(extendedIconsMap, "Icon Name")
-
             val content = StringBuilder()
             content.append("### Basic Icons\n\n")
-            content.append("Basic icons include commonly used basic UI elements such as arrows and checkmarks. These icons are also used by Opaline's own components. Below is the complete list:\n\n")
-            content.append(basicTable).append("\n")
-            content.append("### Extended Icons\n\n")
-            content.append("Extended icons include a wide variety of icons for different use cases. Below is the complete list:\n\n")
-            content.append(extendedTable).append("\n")
-            if (systemIconsMap.isNotEmpty()) {
-                content.append("### System Icons\n\n")
-                content.append("System icons are the single-weight icons ColorOS draws for its own panels: the volume panel, connected devices, common controls and Settings. Some are two-tone; the lighter layer keeps its relative opacity when tinted. Below is the complete list:\n\n")
-                content.append("| Icon Name | Icon |\n|---|---|\n")
-                systemIconsMap.keys.sorted().forEach { name ->
-                    content.append("| `$name` | <img src=\"/icons/${systemIconsMap[name]}\" width=\"24\" height=\"24\" /> |\n")
-                }
-                content.append("\n")
-            }
+            content.append("Basic icons ship with `opaline-ui` and are the ones Opaline's own components draw: chevrons, the check mark, search and close. Below is the complete list:\n\n")
+            content.append(generateTable(basicIconsMap)).append("\n")
+            content.append("### System Icons\n\n")
+            content.append("System icons ship with `opaline-icons` and are the icons ColorOS 17 and its apps draw: the volume panel, connected devices, Settings, and the toolbars of Files, Contacts, Messages, Notes, Photos, Recorder and Clock. Some are two-tone; the lighter layer keeps its relative opacity when tinted. Below is the complete list:\n\n")
+            content.append(generateTable(systemIconsMap)).append("\n")
 
             if (docFilePath != null) {
                 updateDocFile(File(docFilePath), content.toString(), "### Basic Icons")

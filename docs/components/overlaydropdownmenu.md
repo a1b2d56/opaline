@@ -135,7 +135,7 @@ val entry = DropdownEntry(
             icon = { modifier ->
                 Icon(
                     modifier = modifier,
-                    imageVector = OpalineIcons.Rename,
+                    imageVector = OpalineIcons.System.Rename,
                     contentDescription = null,
                 )
             },

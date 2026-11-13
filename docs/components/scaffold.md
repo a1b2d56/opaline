@@ -100,7 +100,7 @@ Scaffold(
             title = "Title",
             navigationIcon = {
                 IconButton(onClick = { /* Handle navigation click */ }) {
-                    Icon(OpalineIcons.Back, contentDescription = "Back")
+                    Icon(OpalineIcons.System.Back, contentDescription = "Back")
                 }
             },
             scrollBehavior = topAppBarScrollBehavior
@@ -108,8 +108,8 @@ Scaffold(
     },
     bottomBar = {
         val items = listOf(
-            NavigationItem("Home", OpalineIcons.VerticalSplit),
-            NavigationItem("Settings", OpalineIcons.Settings)
+            NavigationItem("Home", OpalineIcons.System.SplitVertical),
+            NavigationItem("Settings", OpalineIcons.System.Settings)
         )
         var selectedItem by remember { mutableStateOf(0) }
         NavigationBar(
@@ -152,7 +152,7 @@ Scaffold(
         FloatingActionButton(
             onClick = { /* Handle click event */ }
         ) {
-            Icon(OpalineIcons.Add, contentDescription = "Add")
+            Icon(OpalineIcons.System.Add, contentDescription = "Add")
         }
     },
     floatingActionButtonPosition = FabPosition.End,
@@ -188,7 +188,7 @@ Scaffold(
                 }
             }
         ) {
-            Icon(OpalineIcons.Info, contentDescription = "Show message")
+            Icon(OpalineIcons.System.Info, contentDescription = "Show message")
         }
     },
     content = { paddingValues ->

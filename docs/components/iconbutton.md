@@ -21,7 +21,7 @@ IconButton(
     onClick = { /* Handle click event */ }
 ) {
     Icon(
-        imageVector = OpalineIcons.Favorites,
+        imageVector = OpalineIcons.System.Favorites,
         contentDescription = "Favorites"
     )
 }
@@ -37,7 +37,7 @@ IconButton(
     enabled = false
 ) {
     Icon(
-        imageVector = OpalineIcons.Favorites,
+        imageVector = OpalineIcons.System.Favorites,
         contentDescription = "Favorites"
     )
 }
@@ -56,7 +56,7 @@ Scaffold {
         holdDownState = showDialog
     ) {
         Icon(
-            imageVector = OpalineIcons.Favorites,
+            imageVector = OpalineIcons.System.Favorites,
             contentDescription = "Favorites"
         )
     }
@@ -109,7 +109,7 @@ IconButton(
     backgroundColor = Color.LightGray.copy(alpha = 0.3f)
 ) {
     Icon(
-        imageVector = OpalineIcons.Favorites,
+        imageVector = OpalineIcons.System.Favorites,
         contentDescription = "Favorites"
     )
 }
@@ -125,7 +125,7 @@ IconButton(
     cornerRadius = 12.dp
 ) {
     Icon(
-        imageVector = OpalineIcons.Favorites,
+        imageVector = OpalineIcons.System.Favorites,
         contentDescription = "Favorites"
     )
 }
@@ -142,7 +142,7 @@ Surface {
             onClick = { /* Handle click event */ }
         ) {
             Icon(
-                imageVector = OpalineIcons.Add,
+                imageVector = OpalineIcons.System.Add,
                 tint = OpalineTheme.colorScheme.onBackground,
                 contentDescription = "Add"
             )
@@ -161,7 +161,7 @@ IconButton(
     onClick = { isLiked = !isLiked }
 ) {
     Icon(
-        imageVector = if (isLiked) OpalineIcons.FavoritesFill else OpalineIcons.Favorites,
+        imageVector = if (isLiked) OpalineIcons.System.FavoritesFill else OpalineIcons.System.Favorites,
         contentDescription = if (isLiked) "Like" else "Unlike",
         tint = if (isLiked) Color.Red else OpalineTheme.colorScheme.onBackground
     )

@@ -21,8 +21,8 @@ import io.github.a1b2d56.opaline.basic.RichTooltipBox
 import io.github.a1b2d56.opaline.basic.TooltipBox
 import io.github.a1b2d56.opaline.basic.rememberTooltipState
 import io.github.a1b2d56.opaline.icon.OpalineIcons
-import io.github.a1b2d56.opaline.icon.extended.Edit
-import io.github.a1b2d56.opaline.icon.extended.Info
+import io.github.a1b2d56.opaline.icon.system.Edit
+import io.github.a1b2d56.opaline.icon.system.Info
 
 @Composable
 fun TooltipDemo() {
@@ -52,7 +52,7 @@ fun TooltipDemo() {
                     ) {
                         TooltipBox(text = "Edit") {
                             IconButton(onClick = {}) {
-                                Icon(imageVector = OpalineIcons.Edit, contentDescription = "Edit")
+                                Icon(imageVector = OpalineIcons.System.Edit, contentDescription = "Edit")
                             }
                         }
                         RichTooltipBox(
@@ -64,7 +64,7 @@ fun TooltipDemo() {
                             state = richState,
                         ) {
                             IconButton(onClick = {}) {
-                                Icon(imageVector = OpalineIcons.Info, contentDescription = "Rich tooltip")
+                                Icon(imageVector = OpalineIcons.System.Info, contentDescription = "Rich tooltip")
                             }
                         }
                     }

@@ -89,7 +89,7 @@ SwitchPreference(
     onCheckedChange = { enabled = it },
     startAction = {
         Icon(
-            imageVector = OpalineIcons.Sort,
+            imageVector = OpalineIcons.System.Sort,
             contentDescription = "Command Icon",
             tint = OpalineTheme.colorScheme.onBackground,
             modifier = Modifier.padding(end = 12.dp)

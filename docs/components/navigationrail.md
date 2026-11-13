@@ -21,7 +21,7 @@ The NavigationRail component can be used to create side navigation menus:
 ```kotlin
 var selectedIndex by remember { mutableStateOf(0) }
 val items = listOf("Home", "Profile", "Settings")
-val icons = listOf(OpalineIcons.VerticalSplit, OpalineIcons.Contacts, OpalineIcons.Settings)
+val icons = listOf(OpalineIcons.System.SplitVertical, OpalineIcons.System.Contacts, OpalineIcons.System.Settings)
 
 Row {
     NavigationRail {
@@ -125,7 +125,7 @@ NavigationRail(
             onClick = { /* Handle click */ }
         ) {
             Icon(
-                imageVector = OpalineIcons.Add,
+                imageVector = OpalineIcons.System.Add,
                 contentDescription = "Add"
             )
         }

@@ -8,40 +8,45 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.PathFillType
 import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.vector.ImageVector
-import androidx.compose.ui.graphics.vector.path
+import androidx.compose.ui.graphics.vector.PathNode
 import androidx.compose.ui.unit.dp
 import io.github.a1b2d56.opaline.icon.OpalineIcons
 
+/** `coui_search_view_icon_normal` */
 val OpalineIcons.Basic.Search: ImageVector
     get() {
         if (_search != null) return _search!!
-        _search = ImageVector.Builder("Search", 20.0f.dp, 20.0f.dp, 20.0f, 20.0f).apply {
-            path(
-                fill = SolidColor(Color.White),
+        _search = ImageVector.Builder(
+            name = "Search",
+            defaultWidth = 20.0f.dp,
+            defaultHeight = 20.0f.dp,
+            viewportWidth = 20.0f,
+            viewportHeight = 20.0f,
+        ).apply {
+            addPath(
+                pathData = listOf(
+                    PathNode.MoveTo(2.822f, 8.191f),
+                    PathNode.CurveTo(2.822f, 5.226f, 5.226f, 2.822f, 8.191f, 2.822f),
+                    PathNode.CurveTo(11.156f, 2.822f, 13.56f, 5.226f, 13.56f, 8.191f),
+                    PathNode.CurveTo(13.56f, 11.156f, 11.156f, 13.56f, 8.191f, 13.56f),
+                    PathNode.CurveTo(5.226f, 13.56f, 2.822f, 11.156f, 2.822f, 8.191f),
+                    PathNode.Close,
+                    PathNode.MoveTo(8.191f, 1.422f),
+                    PathNode.CurveTo(4.452f, 1.422f, 1.422f, 4.452f, 1.422f, 8.191f),
+                    PathNode.CurveTo(1.422f, 11.929f, 4.452f, 14.96f, 8.191f, 14.96f),
+                    PathNode.CurveTo(9.735f, 14.96f, 11.159f, 14.442f, 12.298f, 13.571f),
+                    PathNode.LineTo(17.075f, 18.348f),
+                    PathNode.CurveTo(17.426f, 18.699f, 17.996f, 18.699f, 18.347f, 18.348f),
+                    PathNode.CurveTo(18.699f, 17.997f, 18.699f, 17.427f, 18.347f, 17.075f),
+                    PathNode.LineTo(13.571f, 12.299f),
+                    PathNode.CurveTo(14.442f, 11.16f, 14.96f, 9.736f, 14.96f, 8.191f),
+                    PathNode.CurveTo(14.96f, 4.452f, 11.929f, 1.422f, 8.191f, 1.422f),
+                    PathNode.Close,
+                ),
+                fill = SolidColor(Color.Black),
+                fillAlpha = 1.0f,
                 pathFillType = PathFillType.EvenOdd,
-            ) {
-                moveTo(12.572f, 13.379f)
-                curveTo(11.541f, 14.183f, 10.244f, 14.662f, 8.835f, 14.662f)
-                curveTo(5.477f, 14.662f, 2.754f, 11.94f, 2.754f, 8.581f)
-                curveTo(2.754f, 5.223f, 5.477f, 2.5f, 8.835f, 2.5f)
-                curveTo(12.194f, 2.5f, 14.916f, 5.223f, 14.916f, 8.581f)
-                curveTo(14.916f, 9.99f, 14.437f, 11.287f, 13.633f, 12.318f)
-                lineTo(17.464f, 16.149f)
-                curveTo(17.563f, 16.248f, 17.612f, 16.297f, 17.645f, 16.346f)
-                curveTo(17.78f, 16.548f, 17.78f, 16.811f, 17.645f, 17.013f)
-                curveTo(17.612f, 17.062f, 17.563f, 17.111f, 17.464f, 17.21f)
-                curveTo(17.366f, 17.308f, 17.316f, 17.358f, 17.267f, 17.39f)
-                curveTo(17.065f, 17.525f, 16.802f, 17.525f, 16.601f, 17.39f)
-                curveTo(16.551f, 17.358f, 16.502f, 17.308f, 16.403f, 17.21f)
-                lineTo(12.572f, 13.379f)
-                close()
-                moveTo(13.416f, 8.581f)
-                curveTo(13.416f, 11.111f, 11.365f, 13.162f, 8.835f, 13.162f)
-                curveTo(6.305f, 13.162f, 4.254f, 11.111f, 4.254f, 8.581f)
-                curveTo(4.254f, 6.051f, 6.305f, 4f, 8.835f, 4f)
-                curveTo(11.365f, 4f, 13.416f, 6.051f, 13.416f, 8.581f)
-                close()
-            }
+            )
         }.build()
         return _search!!
     }

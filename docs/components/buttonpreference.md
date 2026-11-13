@@ -166,7 +166,7 @@ ButtonPreference(
     onButtonClick = { /* connect */ },
     startAction = {
         Icon(
-            imageVector = OpalineIcons.Sort,
+            imageVector = OpalineIcons.System.Sort,
             contentDescription = null,
             tint = OpalineTheme.colorScheme.onBackground,
             modifier = Modifier.padding(end = 12.dp)

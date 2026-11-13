@@ -28,12 +28,12 @@ Scaffold(
             title = "Title",
             navigationIcon = {
                 IconButton(onClick = { /* Handle click event */ }) {
-                    Icon(OpalineIcons.Back, contentDescription = "Back")
+                    Icon(OpalineIcons.System.Back, contentDescription = "Back")
                 }
             },
             actions = {
                 IconButton(onClick = { /* Handle click event */ }) {
-                    Icon(OpalineIcons.More, contentDescription = "More")
+                    Icon(OpalineIcons.System.MoreHorizontal, contentDescription = "More")
                 }
             }
         )
@@ -51,12 +51,12 @@ Scaffold(
             largeTitle = "Large Title", // If not specified, title value will be used
             navigationIcon = {
                 IconButton(onClick = { /* Handle click event */ }) {
-                    Icon(OpalineIcons.Back, contentDescription = "Back")
+                    Icon(OpalineIcons.System.Back, contentDescription = "Back")
                 }
             },
             actions = {
                 IconButton(onClick = { /* Handle click event */ }) {
-                    Icon(OpalineIcons.More, contentDescription = "More")
+                    Icon(OpalineIcons.System.MoreHorizontal, contentDescription = "More")
                 }
             }
         )
@@ -280,7 +280,7 @@ Box(modifier = Modifier.fillMaxSize()) {
             navigationIcon = {
                 IconButton(onClick = { useSmallTopBar = false }) {
                     Icon(
-                        imageVector = OpalineIcons.Back,
+                        imageVector = OpalineIcons.System.Back,
                         contentDescription = "Switch to Large Title",
                         tint = OpalineTheme.colorScheme.onBackground
                     )
@@ -294,7 +294,7 @@ Box(modifier = Modifier.fillMaxSize()) {
             navigationIcon = {
                 IconButton(onClick = { useSmallTopBar = true }) {
                     Icon(
-                        imageVector = OpalineIcons.Back,
+                        imageVector = OpalineIcons.System.Back,
                         contentDescription = "Switch to Small Title",
                         tint = OpalineTheme.colorScheme.onBackground
                     )

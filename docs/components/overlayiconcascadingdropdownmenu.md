@@ -84,7 +84,7 @@ Scaffold(
             title = "Library",
             actions = {
                 OverlayIconCascadingDropdownMenu(entries = entries) {
-                    Icon(imageVector = OpalineIcons.Tune, contentDescription = "Adjust")
+                    Icon(imageVector = OpalineIcons.System.Tune, contentDescription = "Adjust")
                 }
             }
         )
@@ -114,7 +114,7 @@ val entry = DropdownEntry(
 
 Scaffold {
     OverlayIconCascadingDropdownMenu(entry = entry) {
-        Icon(imageVector = OpalineIcons.Tune, contentDescription = "Adjust")
+        Icon(imageVector = OpalineIcons.System.Tune, contentDescription = "Adjust")
     }
 }
 ```
@@ -128,7 +128,7 @@ OverlayIconCascadingDropdownMenu(
     entry = DropdownEntry(items = listOf(DropdownItem(text = "Option 1"))),
     enabled = false,
 ) {
-    Icon(imageVector = OpalineIcons.MoreCircle, contentDescription = "More")
+    Icon(imageVector = OpalineIcons.System.MoreVertical, contentDescription = "More")
 }
 ```
 
@@ -155,7 +155,7 @@ val entry = DropdownEntry(
 
 Scaffold {
     OverlayIconCascadingDropdownMenu(entry = entry) {
-        Icon(imageVector = OpalineIcons.Tune, contentDescription = "Adjust")
+        Icon(imageVector = OpalineIcons.System.Tune, contentDescription = "Adjust")
     }
 }
 ```

@@ -29,8 +29,8 @@ import io.github.a1b2d56.opaline.basic.Scaffold
 import io.github.a1b2d56.opaline.basic.SmallTopAppBar
 import io.github.a1b2d56.opaline.basic.Text
 import io.github.a1b2d56.opaline.icon.OpalineIcons
-import io.github.a1b2d56.opaline.icon.extended.MoreCircle
-import io.github.a1b2d56.opaline.icon.extended.Tune
+import io.github.a1b2d56.opaline.icon.system.MoreVertical
+import io.github.a1b2d56.opaline.icon.system.Tune
 import io.github.a1b2d56.opaline.menu.WindowIconCascadingDropdownMenu
 import io.github.a1b2d56.opaline.theme.OpalineTheme
 
@@ -96,7 +96,7 @@ fun WindowIconCascadingDropdownMenuDemo() {
                         actions = {
                             WindowIconCascadingDropdownMenu(entries = entries) {
                                 Icon(
-                                    imageVector = OpalineIcons.Tune,
+                                    imageVector = OpalineIcons.System.Tune,
                                     tint = OpalineTheme.colorScheme.onBackground,
                                     contentDescription = "Adjust",
                                 )
@@ -106,7 +106,7 @@ fun WindowIconCascadingDropdownMenuDemo() {
                                 enabled = false,
                             ) {
                                 Icon(
-                                    imageVector = OpalineIcons.MoreCircle,
+                                    imageVector = OpalineIcons.System.MoreVertical,
                                     tint = OpalineTheme.colorScheme.disabledOnSecondaryVariant,
                                     contentDescription = "More",
                                 )

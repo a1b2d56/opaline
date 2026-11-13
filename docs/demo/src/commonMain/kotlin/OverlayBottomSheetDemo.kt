@@ -23,8 +23,8 @@ import io.github.a1b2d56.opaline.basic.IconButton
 import io.github.a1b2d56.opaline.basic.Scaffold
 import io.github.a1b2d56.opaline.basic.TextButton
 import io.github.a1b2d56.opaline.icon.OpalineIcons
-import io.github.a1b2d56.opaline.icon.extended.Close
-import io.github.a1b2d56.opaline.icon.extended.Ok
+import io.github.a1b2d56.opaline.icon.system.Cancel
+import io.github.a1b2d56.opaline.icon.system.Done
 import io.github.a1b2d56.opaline.overlay.OverlayBottomSheet
 import io.github.a1b2d56.opaline.preference.SwitchPreference
 import io.github.a1b2d56.opaline.theme.OpalineTheme
@@ -61,7 +61,7 @@ fun OverlayBottomSheetDemo() {
                         startAction = {
                             IconButton(onClick = { showBottomSheet = false }) {
                                 Icon(
-                                    imageVector = OpalineIcons.Close,
+                                    imageVector = OpalineIcons.System.Cancel,
                                     contentDescription = "Cancel",
                                     tint = OpalineTheme.colorScheme.onBackground,
                                 )
@@ -70,7 +70,7 @@ fun OverlayBottomSheetDemo() {
                         endAction = {
                             IconButton(onClick = { showBottomSheet = false }) {
                                 Icon(
-                                    imageVector = OpalineIcons.Ok,
+                                    imageVector = OpalineIcons.System.Done,
                                     contentDescription = "Confirm",
                                     tint = OpalineTheme.colorScheme.onBackground,
                                 )

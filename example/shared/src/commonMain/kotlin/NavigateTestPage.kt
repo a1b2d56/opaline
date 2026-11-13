@@ -47,7 +47,7 @@ import io.github.a1b2d56.opaline.blur.isRuntimeShaderSupported
 import io.github.a1b2d56.opaline.blur.layerBackdrop
 import io.github.a1b2d56.opaline.blur.rememberLayerBackdrop
 import io.github.a1b2d56.opaline.icon.OpalineIcons
-import io.github.a1b2d56.opaline.icon.extended.Edit
+import io.github.a1b2d56.opaline.icon.system.Edit
 import io.github.a1b2d56.opaline.interfaces.ExperimentalScrollBarApi
 import io.github.a1b2d56.opaline.preference.ArrowPreference
 import io.github.a1b2d56.opaline.theme.LocalDismissState
@@ -255,7 +255,7 @@ fun TopBarActions() {
         holdDownState = topPopupHoldDown.value,
     ) {
         Icon(
-            imageVector = OpalineIcons.Edit,
+            imageVector = OpalineIcons.System.Edit,
             contentDescription = "WindowListPopup",
             tint = OpalineTheme.colorScheme.onBackground,
         )

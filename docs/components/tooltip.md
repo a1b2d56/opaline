@@ -27,7 +27,7 @@ The quickest way to label an icon-only control is the `text` convenience overloa
 TooltipBox(text = "Search") {
     IconButton(onClick = { /* ... */ }) {
         Icon(
-            imageVector = OpalineIcons.Search,
+            imageVector = OpalineIcons.System.Search,
             contentDescription = "Search",
         )
     }

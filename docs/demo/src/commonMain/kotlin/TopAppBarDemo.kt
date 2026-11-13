@@ -27,8 +27,8 @@ import io.github.a1b2d56.opaline.basic.Scaffold
 import io.github.a1b2d56.opaline.basic.SmallTopAppBar
 import io.github.a1b2d56.opaline.basic.TopAppBar
 import io.github.a1b2d56.opaline.icon.OpalineIcons
-import io.github.a1b2d56.opaline.icon.extended.Back
-import io.github.a1b2d56.opaline.icon.extended.More
+import io.github.a1b2d56.opaline.icon.system.Back
+import io.github.a1b2d56.opaline.icon.system.MoreHorizontal
 import io.github.a1b2d56.opaline.preference.ArrowPreference
 
 @Composable
@@ -65,7 +65,7 @@ fun TopAppBarDemo() {
                                         onClick = { /* Handle click event */ },
                                     ) {
                                         Icon(
-                                            OpalineIcons.Back,
+                                            OpalineIcons.System.Back,
                                             contentDescription = "Back",
                                         )
                                     }
@@ -75,7 +75,7 @@ fun TopAppBarDemo() {
                                         onClick = { /* Handle click event */ },
                                     ) {
                                         Icon(
-                                            OpalineIcons.More,
+                                            OpalineIcons.System.MoreHorizontal,
                                             contentDescription = "More",
                                         )
                                     }
@@ -116,7 +116,7 @@ fun TopAppBarDemo() {
                                         onClick = { /* Handle click event */ },
                                     ) {
                                         Icon(
-                                            OpalineIcons.Back,
+                                            OpalineIcons.System.Back,
                                             contentDescription = "Back",
                                         )
                                     }
@@ -126,7 +126,7 @@ fun TopAppBarDemo() {
                                         onClick = { /* Handle click event */ },
                                     ) {
                                         Icon(
-                                            OpalineIcons.More,
+                                            OpalineIcons.System.MoreHorizontal,
                                             contentDescription = "More",
                                         )
                                     }

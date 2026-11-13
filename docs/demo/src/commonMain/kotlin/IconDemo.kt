@@ -19,10 +19,10 @@ import androidx.compose.ui.unit.dp
 import io.github.a1b2d56.opaline.basic.Card
 import io.github.a1b2d56.opaline.basic.Icon
 import io.github.a1b2d56.opaline.icon.OpalineIcons
-import io.github.a1b2d56.opaline.icon.extended.Contacts
-import io.github.a1b2d56.opaline.icon.extended.Edit
-import io.github.a1b2d56.opaline.icon.extended.Rename
-import io.github.a1b2d56.opaline.icon.extended.Settings
+import io.github.a1b2d56.opaline.icon.system.Contacts
+import io.github.a1b2d56.opaline.icon.system.Edit
+import io.github.a1b2d56.opaline.icon.system.Rename
+import io.github.a1b2d56.opaline.icon.system.Settings
 import io.github.a1b2d56.opaline.theme.OpalineTheme
 
 @Composable
@@ -48,22 +48,22 @@ fun IconDemo() {
                     horizontalArrangement = Arrangement.spacedBy(32.dp),
                 ) {
                     Icon(
-                        imageVector = OpalineIcons.Contacts,
+                        imageVector = OpalineIcons.System.Contacts,
                         contentDescription = "Personal",
                         tint = OpalineTheme.colorScheme.onBackground,
                     )
                     Icon(
-                        imageVector = OpalineIcons.Settings,
+                        imageVector = OpalineIcons.System.Settings,
                         contentDescription = "Settings",
                         tint = OpalineTheme.colorScheme.onBackground,
                     )
                     Icon(
-                        imageVector = OpalineIcons.Edit,
+                        imageVector = OpalineIcons.System.Edit,
                         contentDescription = "Blue Edit",
                         tint = Color.Blue,
                     )
                     Icon(
-                        imageVector = OpalineIcons.Rename,
+                        imageVector = OpalineIcons.System.Rename,
                         contentDescription = "Green Rename",
                         tint = Color.Green,
                     )

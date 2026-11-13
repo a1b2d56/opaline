@@ -27,9 +27,9 @@ import io.github.a1b2d56.opaline.basic.NavigationRailDisplayMode
 import io.github.a1b2d56.opaline.basic.NavigationRailItem
 import io.github.a1b2d56.opaline.basic.Text
 import io.github.a1b2d56.opaline.icon.OpalineIcons
-import io.github.a1b2d56.opaline.icon.extended.Contacts
-import io.github.a1b2d56.opaline.icon.extended.Settings
-import io.github.a1b2d56.opaline.icon.extended.VerticalSplit
+import io.github.a1b2d56.opaline.icon.system.Contacts
+import io.github.a1b2d56.opaline.icon.system.Settings
+import io.github.a1b2d56.opaline.icon.system.SplitVertical
 import io.github.a1b2d56.opaline.theme.OpalineTheme
 
 @Composable
@@ -50,9 +50,9 @@ fun NavigationRailDemo() {
         ) {
             val pages = listOf("Home", "Profile", "Settings")
             val items = listOf(
-                NavigationItem("Home", OpalineIcons.VerticalSplit),
-                NavigationItem("Profile", OpalineIcons.Contacts),
-                NavigationItem("Settings", OpalineIcons.Settings),
+                NavigationItem("Home", OpalineIcons.System.SplitVertical),
+                NavigationItem("Profile", OpalineIcons.System.Contacts),
+                NavigationItem("Settings", OpalineIcons.System.Settings),
             )
             var selectedIndex by remember { mutableIntStateOf(0) }
 

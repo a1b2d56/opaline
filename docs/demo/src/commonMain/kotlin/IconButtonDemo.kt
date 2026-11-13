@@ -19,8 +19,8 @@ import io.github.a1b2d56.opaline.basic.Card
 import io.github.a1b2d56.opaline.basic.Icon
 import io.github.a1b2d56.opaline.basic.IconButton
 import io.github.a1b2d56.opaline.icon.OpalineIcons
-import io.github.a1b2d56.opaline.icon.extended.Favorites
-import io.github.a1b2d56.opaline.icon.extended.More
+import io.github.a1b2d56.opaline.icon.system.Favorites
+import io.github.a1b2d56.opaline.icon.system.MoreHorizontal
 import io.github.a1b2d56.opaline.theme.OpalineTheme
 
 @Composable
@@ -50,7 +50,7 @@ fun IconButtonDemo() {
                         onClick = {},
                     ) {
                         Icon(
-                            imageVector = OpalineIcons.More,
+                            imageVector = OpalineIcons.System.MoreHorizontal,
                             tint = OpalineTheme.colorScheme.onBackground,
                             contentDescription = "More",
                         )
@@ -60,7 +60,7 @@ fun IconButtonDemo() {
                         onClick = {},
                     ) {
                         Icon(
-                            imageVector = OpalineIcons.Favorites,
+                            imageVector = OpalineIcons.System.Favorites,
                             contentDescription = "Favorites",
                         )
                     }
@@ -70,7 +70,7 @@ fun IconButtonDemo() {
                         enabled = false,
                     ) {
                         Icon(
-                            imageVector = OpalineIcons.More,
+                            imageVector = OpalineIcons.System.MoreHorizontal,
                             tint = OpalineTheme.colorScheme.disabledOnSecondaryVariant,
                             contentDescription = "More",
                         )
@@ -81,7 +81,7 @@ fun IconButtonDemo() {
                         enabled = false,
                     ) {
                         Icon(
-                            imageVector = OpalineIcons.Favorites,
+                            imageVector = OpalineIcons.System.Favorites,
                             tint = OpalineTheme.colorScheme.disabledOnSecondaryVariant,
                             contentDescription = "Favorites",
                         )

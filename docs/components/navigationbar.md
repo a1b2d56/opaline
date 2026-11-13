@@ -30,7 +30,7 @@ The NavigationBar component can be used to create bottom navigation menus fixed 
 ```kotlin
 var selectedIndex by remember { mutableStateOf(0) }
 val items = listOf("Home", "Profile", "Settings")
-val icons = listOf(OpalineIcons.VerticalSplit, OpalineIcons.Contacts, OpalineIcons.Settings)
+val icons = listOf(OpalineIcons.System.SplitVertical, OpalineIcons.System.Contacts, OpalineIcons.System.Settings)
 
 Scaffold(
     bottomBar = {
@@ -55,7 +55,7 @@ The FloatingNavigationBar component can be used to create floating navigation me
 ```kotlin
 var selectedIndex by remember { mutableStateOf(0) }
 val items = listOf("Home", "Profile", "Settings")
-val icons = listOf(OpalineIcons.VerticalSplit, OpalineIcons.Contacts, OpalineIcons.Settings)
+val icons = listOf(OpalineIcons.System.SplitVertical, OpalineIcons.System.Contacts, OpalineIcons.System.Settings)
 
 Scaffold(
     bottomBar = {
@@ -279,7 +279,7 @@ FloatingNavigationBar(
 
 ```kotlin
 val pages = listOf("Home", "Profile", "Settings")
-val icons = listOf(OpalineIcons.VerticalSplit, OpalineIcons.Contacts, OpalineIcons.Settings)
+val icons = listOf(OpalineIcons.System.SplitVertical, OpalineIcons.System.Contacts, OpalineIcons.System.Settings)
 var selectedIndex by remember { mutableStateOf(0) }
 
 Scaffold(
@@ -315,7 +315,7 @@ Scaffold(
 
 ```kotlin
 val pages = listOf("Home", "Profile", "Settings")
-val icons = listOf(OpalineIcons.VerticalSplit, OpalineIcons.Contacts, OpalineIcons.Settings)
+val icons = listOf(OpalineIcons.System.SplitVertical, OpalineIcons.System.Contacts, OpalineIcons.System.Settings)
 var selectedIndex by remember { mutableStateOf(0) }
 
 Scaffold(

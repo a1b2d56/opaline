@@ -1,4 +1,6 @@
-# <SystemUI or Settings drawable> <OpalineIcons.System name>
+# <drawable> <OpalineIcons.System name>
+# Directory order used: SystemUI, Settings, FileManager, Contacts, Mms, OppoNote2, OppoGallery2,
+# NewSoundRecorder, Clock, Calendar, Calculator2, OppoWeather2, OplusLauncher, oplus-framework-res.
 
 # Volume panel
 systemui_icon_volume_media_multi_app VolumeMedia
@@ -116,3 +118,129 @@ settings_brightness_ic_max BrightnessHigh
 oplus_tile_icon_show_taps Touch
 oplus_tile_icon_sensors_off SensorsOff
 tile_icon_imput_method Keyboard
+
+# Files
+color_tool_menu_ic_edit Checklist
+color_tool_menu_ic_mode_grid GridView
+color_tool_menu_ic_mode_list ListView
+color_tool_menu_ic_upload_cloud CloudUpload
+color_tool_menu_recycle_bin_detail Info
+color_tool_menu_recycle_bin_restore_disable Restore
+ic_all_files PhoneStorage
+ic_create_folder AddFolder
+ic_main_category Folder
+ic_main_recent Recent
+ic_menu_download_new Download
+ic_menu_rename_new Rename
+ic_order_asc ArrowUp
+ic_order_desc ArrowDown
+ic_sd_card SdCard
+color_tool_menu_ic_label_new Label
+menu_ic_voice_normal Mic
+
+# Contacts
+pb_dr_contacts_normal Contacts
+pb_dr_dialer_normal Call
+pb_dr_detail_call_normal CallFill
+pb_dr_detail_email_normal EmailFill
+pb_dr_detail_sms_normal MessagesFill
+pb_dr_video_call_normal VideoCallFill
+pb_dr_menu_export_normal Export
+pb_dr_menu_import_normal Import
+pb_dr_menu_merge_normal Merge
+pb_dr_menu_qr_code_normal QrCode
+pb_dr_menu_scan_card_normal Scan
+pb_dr_edit_contact_normal Edit
+pb_dr_voice_mail_normal Voicemail
+pb_ic_address Location
+pb_ic_add_contact AddContact
+pb_dr_business_normal Store
+pb_dr_menu_remove_group_member_normal RemoveContact
+pb_ic_group Group
+pb_dr_menu_sms_normal Messages
+pb_dr_menu_email_normal Email
+bh_vector_menu_helper Help
+bh_vector_menu_record Document
+pb_ic_sync_cloud CloudSync
+pb_ic_cloud_synced CloudDone
+
+# Messages
+agent_fb_like Like
+agent_fb_bad Dislike
+agent_fb_refresh Refresh
+agent_input_ic_send_enable_normal Send
+conv_pin_to_top Pin
+conv_pin_to_untop Unpin
+mms_dr_menu_forward Forward
+mms_dr_menu_lock Star
+mms_dr_menu_unlock StarFill
+mms_dr_menu_favorite_remove StarOff
+rcs_ic_chatbot_website Globe
+mms_dr_menu_action_add_to_blacklist BlockContact
+coui_component_flashlight_on Flashlight
+rcs_dr_menu_feedback Feedback
+ic_embedded_top_tips_anti_fraud_shield Shield
+
+# Notes
+color_menu_ic_all_sel_normal SelectAll
+color_menu_ic_not_all_sel_disable DeselectAll
+color_menu_ic_link_disable Link
+color_menu_ic_redo_normal Redo
+color_menu_ic_undo_normal Undo
+color_menu_ic_paint_normal Draw
+color_menu_ic_style_normal Brush
+color_menu_ic_todo_normal Todo
+alarm_icon_new BellFill
+deep_link_base_translate Translate
+deep_link_new_schedule Calendar
+de_convert TextBox
+crop_item Crop
+color_menu_ic_voice_word_normal VoiceToText
+color_menu_ic_note_normal Notes
+note_book_icon Notebook
+notebook_icon_shopping Shopping
+
+# Photos
+app_ic_camera Camera
+base_ic_favorite_outline_normal Favorites
+base_ic_favorite_filled_normal FavoritesFill
+app_ic_sort Menu
+app_ic_tab_album Album
+app_ic_tab_photo Image
+app_ic_vedio Video
+photo_editor_ic_filter Filter
+photo_editor_ic_adjust Tune
+address_ic_navigate Navigate
+
+# Recorder
+ic_backward SeekBackward
+ic_forward SeekForward
+ic_edit_trim_normal Trim
+ic_mark_small Flag
+ic_group_cover_travel Flight
+ic_group_cover_gifts Gift
+ic_group_cover_pets Pets
+
+# Clock, Calendar, Calculator, Weather
+tab_alarm Alarm
+tab_stopwatch Stopwatch
+tab_timer Timer
+tab_world_time WorldClock
+item_state_pause Pause
+item_state_start Play
+ic_location_resident Home
+ic_birthday_calendar Birthday
+svg_calculator_history History
+icon_tips_calendar_cloud_sync Cloud
+ic_hour_overcast CloudFill
+
+# Text toolbar, recents, shared controls
+oplus_floating_toolbar_menu_icon_paste Paste
+oplus_floating_toolbar_menu_icon_replace Replace
+ic_oplus_task_shortcut_lock Lock
+ic_oplus_task_shortcut_unlock Unlock
+coui_ic_chevron_start ChevronBackward
+coui_ic_chevron_end ChevronForward
+coui_date_picker_expand_icon_down ArrowDropDown
+coui_preference_category_fold Sort
+ic_edit_text_delete Clear

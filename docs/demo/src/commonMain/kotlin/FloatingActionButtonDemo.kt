@@ -23,7 +23,7 @@ import io.github.a1b2d56.opaline.basic.FloatingActionButton
 import io.github.a1b2d56.opaline.basic.Icon
 import io.github.a1b2d56.opaline.basic.Scaffold
 import io.github.a1b2d56.opaline.icon.OpalineIcons
-import io.github.a1b2d56.opaline.icon.extended.SelectAll
+import io.github.a1b2d56.opaline.icon.system.SelectAll
 import io.github.a1b2d56.opaline.preference.ArrowPreference
 
 @Composable
@@ -56,7 +56,7 @@ fun FloatingActionButtonDemo() {
                                 },
                             ) {
                                 Icon(
-                                    imageVector = OpalineIcons.SelectAll,
+                                    imageVector = OpalineIcons.System.SelectAll,
                                     contentDescription = "SelectAll",
                                     tint = Color.White,
                                 )
@@ -85,7 +85,7 @@ fun FloatingActionButtonDemo() {
                                 },
                             ) {
                                 Icon(
-                                    imageVector = OpalineIcons.SelectAll,
+                                    imageVector = OpalineIcons.System.SelectAll,
                                     contentDescription = "SelectAll",
                                     tint = Color.White,
                                 )

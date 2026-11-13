@@ -175,7 +175,7 @@ Button(
     onClick = { /* Handle click event */ }
 ) {
     Icon(
-        imageVector = OpalineIcons.Favorites,
+        imageVector = OpalineIcons.System.Favorites,
         contentDescription = "Favorites"
     )
     Spacer(modifier = Modifier.width(8.dp))

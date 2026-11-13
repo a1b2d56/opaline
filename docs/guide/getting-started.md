@@ -31,7 +31,7 @@ Opaline is composed of several modules that can be used independently:
 | ------------------ | ---------------------------------------------------- |
 | `opaline-ui`         | Core UI component library                            |
 | `opaline-preference` | Preference components library, depends on `opaline-ui` |
-| `opaline-icons`      | Extended icon library, can be used independently     |
+| `opaline-icons`      | ColorOS 17 icon set, can be used independently       |
 | `opaline-blur`       | Blur effect library, can be used independently       |
 | `opaline-squircle`   | Squircle shapes library, can be used independently   |
 | `opaline-nav`        | Navigation library, can be used independently        |

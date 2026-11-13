@@ -92,14 +92,15 @@ import io.github.a1b2d56.opaline.blur.ProvideMaterialBackdrop
 import io.github.a1b2d56.opaline.blur.layerBackdrop
 import io.github.a1b2d56.opaline.blur.rememberLayerBackdrop
 import io.github.a1b2d56.opaline.icon.OpalineIcons
-import io.github.a1b2d56.opaline.icon.extended.Create
-import io.github.a1b2d56.opaline.icon.extended.Delete
-import io.github.a1b2d56.opaline.icon.extended.Edit
-import io.github.a1b2d56.opaline.icon.extended.HorizontalSplit
-import io.github.a1b2d56.opaline.icon.extended.Image
-import io.github.a1b2d56.opaline.icon.extended.Link
-import io.github.a1b2d56.opaline.icon.extended.More
-import io.github.a1b2d56.opaline.icon.extended.Settings
+import io.github.a1b2d56.opaline.icon.system.Album
+import io.github.a1b2d56.opaline.icon.system.Brush
+import io.github.a1b2d56.opaline.icon.system.Delete
+import io.github.a1b2d56.opaline.icon.system.Edit
+import io.github.a1b2d56.opaline.icon.system.GridView
+import io.github.a1b2d56.opaline.icon.system.Link
+import io.github.a1b2d56.opaline.icon.system.MoreHorizontal
+import io.github.a1b2d56.opaline.icon.system.Settings
+import io.github.a1b2d56.opaline.icon.system.TextBox
 import io.github.a1b2d56.opaline.theme.OpalineTheme
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Job
@@ -181,11 +182,11 @@ fun AppContent(
 
     val navigationItems = remember {
         listOf(
-            NavigationItem(UIConstants.PAGE_TITLES[0], OpalineIcons.HorizontalSplit),
-            NavigationItem(UIConstants.PAGE_TITLES[1], OpalineIcons.Create),
-            NavigationItem(UIConstants.PAGE_TITLES[2], OpalineIcons.Image),
-            NavigationItem(UIConstants.PAGE_TITLES[3], OpalineIcons.Edit),
-            NavigationItem(UIConstants.PAGE_TITLES[4], OpalineIcons.Settings),
+            NavigationItem(UIConstants.PAGE_TITLES[0], OpalineIcons.System.Album),
+            NavigationItem(UIConstants.PAGE_TITLES[1], OpalineIcons.System.GridView),
+            NavigationItem(UIConstants.PAGE_TITLES[2], OpalineIcons.System.Brush),
+            NavigationItem(UIConstants.PAGE_TITLES[3], OpalineIcons.System.TextBox),
+            NavigationItem(UIConstants.PAGE_TITLES[4], OpalineIcons.System.Settings),
         )
     }
 
@@ -530,7 +531,7 @@ private fun FloatingActionButton(
             },
         ) {
             Icon(
-                imageVector = OpalineIcons.Link,
+                imageVector = OpalineIcons.System.Link,
                 tint = OpalineTheme.colorScheme.onPrimary,
                 contentDescription = "GitHub",
             )
@@ -559,21 +560,21 @@ private fun FloatingToolbar(
                 val content = @Composable {
                     IconButton(onClick = { /* Action 1 */ }) {
                         Icon(
-                            OpalineIcons.Edit,
+                            OpalineIcons.System.Edit,
                             contentDescription = "Edit",
                             tint = iconTint,
                         )
                     }
                     IconButton(onClick = { /* Action 2 */ }) {
                         Icon(
-                            OpalineIcons.Delete,
+                            OpalineIcons.System.Delete,
                             contentDescription = "Delete",
                             tint = iconTint,
                         )
                     }
                     IconButton(onClick = { /* Action 3 */ }) {
                         Icon(
-                            OpalineIcons.More,
+                            OpalineIcons.System.MoreHorizontal,
                             contentDescription = "More",
                             tint = iconTint,
                         )

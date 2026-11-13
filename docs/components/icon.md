@@ -22,7 +22,7 @@ The Icon component can be used to display icons:
 
 ```kotlin
 Icon(
-    imageVector = OpalineIcons.Favorites,
+    imageVector = OpalineIcons.System.Favorites,
     contentDescription = "Favorites"
 )
 ```
@@ -35,7 +35,7 @@ COUI Icon supports multiple types of icon resources:
 
 ```kotlin
 Icon(
-    imageVector = OpalineIcons.Settings,
+    imageVector = OpalineIcons.System.Settings,
     contentDescription = "Settings Icon"
 )
 ```
@@ -67,7 +67,7 @@ Icon(
 
 ```kotlin
 Icon(
-    imageVector = OpalineIcons.Contacts,
+    imageVector = OpalineIcons.System.Contacts,
     contentDescription = "Personal Icon",
     tint = Color.Red
 )
@@ -77,7 +77,7 @@ Icon(
 
 ```kotlin
 Icon(
-    imageVector = OpalineIcons.Favorites,
+    imageVector = OpalineIcons.System.Favorites,
     contentDescription = "Favorites",
     tint = Color.Unspecified // Disable tinting and keep the source colors
 )
@@ -129,7 +129,7 @@ This overload defers the tint color read to the draw phase via a [`ColorProducer
 
 ```kotlin
 Icon(
-    imageVector = OpalineIcons.Favorites,
+    imageVector = OpalineIcons.System.Favorites,
     contentDescription = "Favorites",
     modifier = Modifier.size(32.dp)
 )
@@ -142,7 +142,7 @@ Button(
     onClick = { /* Handle click event */ }
 ) {
     Icon(
-        imageVector = OpalineIcons.Save,
+        imageVector = OpalineIcons.System.Download,
         contentDescription = "Download Icon"
     )
     Spacer(modifier = Modifier.width(8.dp))
@@ -154,7 +154,7 @@ Button(
 
 ```kotlin
 Icon(
-    imageVector = OpalineIcons.Info,
+    imageVector = OpalineIcons.System.Info,
     contentDescription = "Warning Icon",
     tint = Color(0xFFFFA500),
     modifier = Modifier
@@ -176,7 +176,7 @@ var isSelected by remember { mutableStateOf(false) }
 
 IconButton(onClick = { isSelected = !isSelected }) {
     Icon(
-        imageVector = if (isSelected) OpalineIcons.FavoritesFill else OpalineIcons.Favorites,
+        imageVector = if (isSelected) OpalineIcons.System.FavoritesFill else OpalineIcons.System.Favorites,
         contentDescription = "Favorites",
     )
 }
@@ -193,7 +193,7 @@ val tint by animateColorAsState(
 )
 
 Icon(
-    painter = rememberVectorPainter(OpalineIcons.Favorites),
+    painter = rememberVectorPainter(OpalineIcons.System.Favorites),
     tint = { tint },
     contentDescription = "Favorites",
 )

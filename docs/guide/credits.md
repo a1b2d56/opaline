@@ -21,5 +21,5 @@ Upstream Miuix fixes are still taken as reviewed patches; the log is
 ColorOS, COUI, OPPO and OnePlus are trademarks of their respective owners. Opaline is an
 independent project and is not affiliated with or endorsed by them. Opaline does not contain
 ColorOS code; its visual values are measurements read from the system software. The icons under
-`OpalineIcons.System` reproduce the shapes of ColorOS 17 system icons, which remain the property of
+`OpalineIcons` reproduce the shapes of ColorOS 17 icons, which remain the property of
 their owner.

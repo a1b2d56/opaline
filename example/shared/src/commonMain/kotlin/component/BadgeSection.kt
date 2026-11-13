@@ -28,7 +28,7 @@ import io.github.a1b2d56.opaline.basic.LoadingButton
 import io.github.a1b2d56.opaline.basic.SmallTitle
 import io.github.a1b2d56.opaline.basic.Stepper
 import io.github.a1b2d56.opaline.icon.OpalineIcons
-import io.github.a1b2d56.opaline.icon.extended.Settings
+import io.github.a1b2d56.opaline.icon.system.Settings
 import kotlinx.coroutines.delay
 
 fun LazyListScope.badgeSection() {
@@ -102,7 +102,7 @@ fun LazyListScope.badgeSection() {
             ) {
                 BadgeBox(badge = { Badge() }) {
                     Icon(
-                        imageVector = OpalineIcons.Settings,
+                        imageVector = OpalineIcons.System.Settings,
                         contentDescription = "Settings",
                         modifier = Modifier.size(32.dp),
                     )
@@ -112,7 +112,7 @@ fun LazyListScope.badgeSection() {
                     overhang = BadgeDefaults.CountOverhang,
                 ) {
                     Icon(
-                        imageVector = OpalineIcons.Settings,
+                        imageVector = OpalineIcons.System.Settings,
                         contentDescription = "Settings",
                         modifier = Modifier.size(32.dp),
                     )

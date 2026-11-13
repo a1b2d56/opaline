@@ -111,7 +111,7 @@ RangeSliderPreference(
     summary = "${frequencyRange.start.roundToInt()}Hz - ${frequencyRange.endInclusive.roundToInt()}Hz",
     startAction = {
         Icon(
-            imageVector = OpalineIcons.Basic.Audio,
+            imageVector = OpalineIcons.System.VolumeMedia,
             contentDescription = "Frequency Icon",
             tint = OpalineTheme.colorScheme.onBackground,
             modifier = Modifier.padding(end = 16.dp)

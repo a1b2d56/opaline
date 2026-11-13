@@ -20,10 +20,10 @@ import io.github.a1b2d56.opaline.basic.BadgeBox
 import io.github.a1b2d56.opaline.basic.Card
 import io.github.a1b2d56.opaline.basic.Icon
 import io.github.a1b2d56.opaline.icon.OpalineIcons
-import io.github.a1b2d56.opaline.icon.extended.Email
-import io.github.a1b2d56.opaline.icon.extended.Favorites
-import io.github.a1b2d56.opaline.icon.extended.Messages
-import io.github.a1b2d56.opaline.icon.extended.Settings
+import io.github.a1b2d56.opaline.icon.system.Email
+import io.github.a1b2d56.opaline.icon.system.Favorites
+import io.github.a1b2d56.opaline.icon.system.Messages
+import io.github.a1b2d56.opaline.icon.system.Settings
 
 @Composable
 fun BadgeDemo() {
@@ -53,28 +53,28 @@ fun BadgeDemo() {
                     ) {
                         BadgeBox(badge = { Badge() }) {
                             Icon(
-                                imageVector = OpalineIcons.Messages,
+                                imageVector = OpalineIcons.System.Messages,
                                 contentDescription = "Messages",
                                 modifier = Modifier.size(28.dp),
                             )
                         }
                         BadgeBox(badge = { Badge(count = 8) }) {
                             Icon(
-                                imageVector = OpalineIcons.Email,
+                                imageVector = OpalineIcons.System.Email,
                                 contentDescription = "Email",
                                 modifier = Modifier.size(28.dp),
                             )
                         }
                         BadgeBox(badge = { Badge(count = 99) }) {
                             Icon(
-                                imageVector = OpalineIcons.Settings,
+                                imageVector = OpalineIcons.System.Settings,
                                 contentDescription = "Settings",
                                 modifier = Modifier.size(28.dp),
                             )
                         }
                         BadgeBox(badge = { Badge(count = 1000) }) {
                             Icon(
-                                imageVector = OpalineIcons.Favorites,
+                                imageVector = OpalineIcons.System.Favorites,
                                 contentDescription = "Favorites",
                                 modifier = Modifier.size(28.dp),
                             )

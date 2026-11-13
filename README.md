@@ -44,7 +44,7 @@ each value came from, and what is still unverified.
 | -------------------------- | ---------------------------------------------------------------------- |
 | `opaline-ui`               | Components and theming (brings in `opaline-core` and `opaline-squircle`) |
 | `opaline-preference`       | Preference, menu and popup components                                  |
-| `opaline-icons`            | Extended icon set                                                      |
+| `opaline-icons`            | ColorOS 17 icon set                                                    |
 | `opaline-blur`             | Backdrop blur and the ColorOS 17 glass material                        |
 | `opaline-nav`              | Self-contained navigation runtime with gesture back                    |
 | `opaline-navigation3-ui`   | Navigation 3 UI                                                        |

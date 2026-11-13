@@ -11,7 +11,7 @@ import androidx.compose.ui.unit.LayoutDirection
 import io.github.a1b2d56.opaline.basic.Icon
 import io.github.a1b2d56.opaline.basic.IconButton
 import io.github.a1b2d56.opaline.icon.OpalineIcons
-import io.github.a1b2d56.opaline.icon.extended.Back
+import io.github.a1b2d56.opaline.icon.system.Back
 import io.github.a1b2d56.opaline.theme.OpalineTheme.colorScheme
 
 @Composable
@@ -28,7 +28,7 @@ fun BackNavigationIcon(
             modifier = Modifier.graphicsLayer {
                 if (layoutDirection == LayoutDirection.Rtl) scaleX = -1f
             },
-            imageVector = OpalineIcons.Back,
+            imageVector = OpalineIcons.System.Back,
             contentDescription = null,
             tint = colorScheme.onBackground,
         )

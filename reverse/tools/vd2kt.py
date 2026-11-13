@@ -4,7 +4,7 @@ Reads a manifest of `<drawable name> <IconName>` lines and writes one Kotlin fil
 per icon. Colors are dropped (icons are tinted where they are used); per-path
 alpha is kept relative to the most opaque path so two-tone icons survive.
 
-Usage: python -I vd2kt.py <manifest> <out dir> <res/drawable dir>... [--preview file.html]
+Usage: python -I vd2kt.py <manifest> <out dir> <res/drawable dir>... [--preview file.html] [--skip-errors]
 
 A drawable is taken from the first directory that has it.
 """
@@ -279,6 +279,8 @@ def main(argv):
         i = argv.index("--preview")
         preview = argv[i + 1]
         argv = argv[:i] + argv[i + 2:]
+    lenient = "--skip-errors" in argv
+    argv = [a for a in argv if a != "--skip-errors"]
     manifest, out, dirs = argv[1], argv[2], argv[3:]
     os.makedirs(out, exist_ok=True)
     cells, seen = [], set()
@@ -291,12 +293,15 @@ def main(argv):
             sys.exit("duplicate icon name: " + name)
         seen.add(name)
         found = [d for d in dirs if os.path.exists(os.path.join(d, source + ".xml"))]
-        if not found:
-            sys.exit(source + ": not found")
         try:
+            if not found:
+                raise ValueError("not found")
             icon = read_icon(os.path.join(found[0], source + ".xml"))
         except ValueError as e:
-            sys.exit("%s: %s" % (source, e))
+            if not lenient:
+                sys.exit("%s: %s" % (source, e))
+            print("skipped %s: %s" % (source, e))
+            continue
         with open(os.path.join(out, name + ".kt"), "w", encoding="utf-8", newline="\n") as fh:
             fh.write(kotlin(name, source, icon))
         cells.append("<figure>%s<figcaption>%s</figcaption></figure>" % (svg(icon), name))

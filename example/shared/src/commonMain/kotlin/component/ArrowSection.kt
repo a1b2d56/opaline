@@ -30,7 +30,7 @@ import io.github.a1b2d56.opaline.basic.Text
 import io.github.a1b2d56.opaline.basic.TextButton
 import io.github.a1b2d56.opaline.basic.TextField
 import io.github.a1b2d56.opaline.icon.OpalineIcons
-import io.github.a1b2d56.opaline.icon.extended.Contacts
+import io.github.a1b2d56.opaline.icon.system.Contacts
 import io.github.a1b2d56.opaline.overlay.OverlayDialog
 import io.github.a1b2d56.opaline.preference.ArrowPreference
 import io.github.a1b2d56.opaline.preference.SliderPreference
@@ -55,7 +55,7 @@ fun LazyListScope.arrowSection() {
                         modifier = Modifier.padding(end = 8.dp),
                     ) {
                         Icon(
-                            imageVector = OpalineIcons.Contacts,
+                            imageVector = OpalineIcons.System.Contacts,
                             contentDescription = "Personal",
                             tint = OpalineTheme.colorScheme.onBackground,
                         )

@@ -22,8 +22,8 @@ import io.github.a1b2d56.opaline.basic.Icon
 import io.github.a1b2d56.opaline.basic.IconButton
 import io.github.a1b2d56.opaline.basic.TextButton
 import io.github.a1b2d56.opaline.icon.OpalineIcons
-import io.github.a1b2d56.opaline.icon.extended.Close
-import io.github.a1b2d56.opaline.icon.extended.Ok
+import io.github.a1b2d56.opaline.icon.system.Cancel
+import io.github.a1b2d56.opaline.icon.system.Done
 import io.github.a1b2d56.opaline.preference.SwitchPreference
 import io.github.a1b2d56.opaline.theme.LocalDismissState
 import io.github.a1b2d56.opaline.theme.OpalineTheme
@@ -61,7 +61,7 @@ fun WindowBottomSheetDemo() {
                         val dismiss = LocalDismissState.current
                         IconButton(onClick = { dismiss?.invoke() }) {
                             Icon(
-                                imageVector = OpalineIcons.Close,
+                                imageVector = OpalineIcons.System.Cancel,
                                 contentDescription = "Cancel",
                                 tint = OpalineTheme.colorScheme.onBackground,
                             )
@@ -71,7 +71,7 @@ fun WindowBottomSheetDemo() {
                         val dismiss = LocalDismissState.current
                         IconButton(onClick = { dismiss?.invoke() }) {
                             Icon(
-                                imageVector = OpalineIcons.Ok,
+                                imageVector = OpalineIcons.System.Done,
                                 contentDescription = "Confirm",
                                 tint = OpalineTheme.colorScheme.onBackground,
                             )

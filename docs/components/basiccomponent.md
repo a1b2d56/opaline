@@ -46,7 +46,7 @@ BasicComponent(
     startAction = {
         Icon(
             modifier = Modifier.padding(end = 16.dp),
-            imageVector = OpalineIcons.Contacts,
+            imageVector = OpalineIcons.System.Contacts,
             contentDescription = "Avatar Icon",
             tint = OpalineTheme.colorScheme.onBackground
         )
@@ -80,7 +80,7 @@ BasicComponent(
     startAction = {
         Icon(
             modifier = Modifier.padding(end = 16.dp),
-            imageVector = OpalineIcons.Contacts,
+            imageVector = OpalineIcons.System.Contacts,
             contentDescription = "Avatar Icon",
             tint = OpalineTheme.colorScheme.onBackground
         )
@@ -191,7 +191,7 @@ BasicComponent(
     startAction = {
         Icon(
             modifier = Modifier.padding(end = 16.dp),
-            imageVector = OpalineIcons.Play,
+            imageVector = OpalineIcons.System.Play,
             contentDescription = "Volume Icon",
             tint = OpalineTheme.colorScheme.onBackground
         )
@@ -199,7 +199,7 @@ BasicComponent(
     endActions = {
         IconButton(onClick = { /* Decrease volume */ }) {
             Icon(
-                imageVector = OpalineIcons.Remove,
+                imageVector = OpalineIcons.System.Cancel,
                 contentDescription = "Decrease Volume",
                 tint = OpalineTheme.colorScheme.onBackground
             )
@@ -207,7 +207,7 @@ BasicComponent(
         Text("70%")
         IconButton(onClick = { /* Increase volume */ }) {
             Icon(
-                imageVector = OpalineIcons.Add,
+                imageVector = OpalineIcons.System.Add,
                 contentDescription = "Increase Volume",
                 tint = OpalineTheme.colorScheme.onBackground
             )

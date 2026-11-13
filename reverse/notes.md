@@ -29,7 +29,7 @@ obfuscated R references (`lb.d.A/*color/coui_color_error*/`).
 | `tools/citations.py <repo>` | every COUI token cited in the Kotlin sources, with its 17 value |
 | `tools/flag.py <repo>` | citations whose 17 value does not appear near the citing line (likely changed) |
 | `tools/deobf_r.py` | annotate jadx output with real resource names |
-| `tools/vd2kt.py tools/system_icons.txt <out dir> <res/drawable>...` | convert the listed SystemUI and Settings vector drawables into `OpalineIcons.System` (`--preview file.html` writes a contact sheet) |
+| `tools/vd2kt.py tools/system_icons.txt <out dir> <res/drawable>...` | convert the listed vector drawables of SystemUI, Settings and the system apps into `OpalineIcons.System` (the first directory that has a drawable wins; `--skip-errors` reports unusable ones instead of stopping) (`--preview file.html` writes a contact sheet) |
 | `tools/upstream_sync.py` | three-way merge of an upstream Miuix range, see `docs/upstream-sync.md` |
 | `tools/resolve.py` | resolve conflict hunks left by a sync, one choice per hunk |
 

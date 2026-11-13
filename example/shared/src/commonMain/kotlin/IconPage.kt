@@ -54,8 +54,6 @@ import io.github.a1b2d56.opaline.basic.VerticalScrollBar
 import io.github.a1b2d56.opaline.basic.rememberScrollBarAdapter
 import io.github.a1b2d56.opaline.blur.layerBackdrop
 import io.github.a1b2d56.opaline.icon.OpalineIcons
-import io.github.a1b2d56.opaline.icon.extended.ExpandLess
-import io.github.a1b2d56.opaline.icon.extended.ExpandMore
 import io.github.a1b2d56.opaline.interfaces.ExperimentalScrollBarApi
 import io.github.a1b2d56.opaline.theme.OpalineTheme
 import io.github.a1b2d56.opaline.theme.OpalineTheme.colorScheme
@@ -91,18 +89,8 @@ fun IconsPage(
     val density = LocalDensity.current
 
     // Icon data
-    val allIcons = remember { OpalineIcons.All }
-    val regularIcons = remember(allIcons) { allIcons["Regular"] ?: emptyList() }
-    val weightVariants: List<Pair<String, List<ImageVector>>> = remember(allIcons) {
-        listOf("Light", "Normal", "Regular", "Medium", "Demibold").map { name ->
-            name to (allIcons[name] ?: emptyList())
-        }
-    }
-    val systemIcons = remember(allIcons) { allIcons["System"] ?: emptyList() }
-    val iconNames = remember(regularIcons) { regularIcons.map { it.name.substringBefore(".") } }
-
-    // Accordion state — only one row may be expanded at a time. -1 = none.
-    var expandedIndex by remember { mutableIntStateOf(-1) }
+    val icons = remember { OpalineIcons.All }
+    val iconNames = remember(icons) { icons.map { it.name } }
 
     // Search filtering
     val filteredIndices = remember(searchStatus.searchText, iconNames) {
@@ -191,7 +179,7 @@ fun IconsPage(
                             title = iconNames[index],
                             startAction = {
                                 Icon(
-                                    imageVector = regularIcons[index],
+                                    imageVector = icons[index],
                                     contentDescription = iconNames[index],
                                     tint = colorScheme.onBackground,
                                     modifier = Modifier.size(24.dp),
@@ -251,27 +239,25 @@ fun IconsPage(
                             color = colorScheme.onSurfaceVariantActions,
                         )
                         Text(
-                            text = "Tap to compare weights",
+                            text = "Icon",
                             style = OpalineTheme.textStyles.footnote2,
                             color = colorScheme.onSurfaceVariantActions,
                         )
                     }
                 }
                 items(
-                    count = regularIcons.size,
+                    count = icons.size,
                     key = { "icon_$it" },
                 ) { index ->
-                    val isLast = index == regularIcons.lastIndex
+                    val isLast = index == icons.lastIndex
                     val shape = if (isLast) IconListBottomShape else RectangleShape
                     val bottomPadding = if (isLast) 6.dp else 0.dp
-                    val expanded = expandedIndex == index
                     Column(
                         modifier = Modifier
                             .fillMaxWidth()
                             .padding(horizontal = 16.dp)
                             .clip(shape)
                             .background(colorScheme.surfaceContainer)
-                            .clickable { expandedIndex = if (expanded) -1 else index }
                             .padding(horizontal = 16.dp)
                             .padding(vertical = 6.dp)
                             .padding(bottom = bottomPadding),
@@ -284,83 +270,12 @@ fun IconsPage(
                                 color = colorScheme.onSurface,
                             )
                             Icon(
-                                imageVector = regularIcons[index],
+                                imageVector = icons[index],
                                 contentDescription = iconNames[index],
                                 tint = colorScheme.onBackground,
                                 modifier = Modifier.size(24.dp),
                             )
-                            Spacer(modifier = Modifier.size(8.dp))
-                            Icon(
-                                imageVector = if (expanded) OpalineIcons.ExpandLess else OpalineIcons.ExpandMore,
-                                contentDescription = if (expanded) "Collapse" else "Expand",
-                                tint = colorScheme.onSurfaceVariantActions,
-                                modifier = Modifier.size(18.dp),
-                            )
                         }
-                        AnimatedVisibility(visible = expanded) {
-                            Row(
-                                modifier = Modifier
-                                    .fillMaxWidth()
-                                    .padding(top = 10.dp, bottom = 4.dp),
-                                verticalAlignment = Alignment.Top,
-                            ) {
-                                weightVariants.forEach { (label, icons) ->
-                                    Column(
-                                        modifier = Modifier.weight(1f),
-                                        horizontalAlignment = Alignment.CenterHorizontally,
-                                    ) {
-                                        Icon(
-                                            imageVector = icons[index],
-                                            contentDescription = "${iconNames[index]} ($label)",
-                                            tint = colorScheme.onBackground,
-                                            modifier = Modifier.size(28.dp),
-                                        )
-                                        Spacer(modifier = Modifier.height(4.dp))
-                                        Text(
-                                            text = label,
-                                            style = OpalineTheme.textStyles.footnote2,
-                                            color = colorScheme.onSurfaceVariantActions,
-                                            textAlign = TextAlign.Center,
-                                            maxLines = 1,
-                                        )
-                                    }
-                                }
-                            }
-                        }
-                    }
-                }
-                item(key = "system_title") { SmallTitle(text = "System") }
-                items(
-                    count = systemIcons.size,
-                    key = { "system_$it" },
-                ) { index ->
-                    val icon = systemIcons[index]
-                    val shape = when (index) {
-                        0 -> IconListTopShape
-                        systemIcons.lastIndex -> IconListBottomShape
-                        else -> RectangleShape
-                    }
-                    Row(
-                        modifier = Modifier
-                            .fillMaxWidth()
-                            .padding(horizontal = 16.dp)
-                            .clip(shape)
-                            .background(colorScheme.surfaceContainer)
-                            .padding(horizontal = 16.dp, vertical = 8.dp),
-                        verticalAlignment = Alignment.CenterVertically,
-                    ) {
-                        Text(
-                            text = icon.name,
-                            modifier = Modifier.weight(1f),
-                            style = OpalineTheme.textStyles.body2,
-                            color = colorScheme.onSurface,
-                        )
-                        Icon(
-                            imageVector = icon,
-                            contentDescription = icon.name,
-                            tint = colorScheme.onBackground,
-                            modifier = Modifier.size(24.dp),
-                        )
                     }
                 }
                 item { Spacer(modifier = Modifier.height(32.dp)) }
