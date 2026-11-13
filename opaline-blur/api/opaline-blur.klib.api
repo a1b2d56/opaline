@@ -111,18 +111,8 @@ final class io.github.a1b2d56.opaline.blur.highlight/BloomStroke : io.github.a1b
     final fun toString(): kotlin/String // io.github.a1b2d56.opaline.blur.highlight/BloomStroke.toString|toString(){}[0]
 
     final object Companion { // io.github.a1b2d56.opaline.blur.highlight/BloomStroke.Companion|null[0]
-        final val GlassStrokeBigDark // io.github.a1b2d56.opaline.blur.highlight/BloomStroke.Companion.GlassStrokeBigDark|{}GlassStrokeBigDark[0]
-            final fun <get-GlassStrokeBigDark>(): io.github.a1b2d56.opaline.blur.highlight/BloomStroke // io.github.a1b2d56.opaline.blur.highlight/BloomStroke.Companion.GlassStrokeBigDark.<get-GlassStrokeBigDark>|<get-GlassStrokeBigDark>(){}[0]
-        final val GlassStrokeBigLight // io.github.a1b2d56.opaline.blur.highlight/BloomStroke.Companion.GlassStrokeBigLight|{}GlassStrokeBigLight[0]
-            final fun <get-GlassStrokeBigLight>(): io.github.a1b2d56.opaline.blur.highlight/BloomStroke // io.github.a1b2d56.opaline.blur.highlight/BloomStroke.Companion.GlassStrokeBigLight.<get-GlassStrokeBigLight>|<get-GlassStrokeBigLight>(){}[0]
-        final val GlassStrokeMiddleDark // io.github.a1b2d56.opaline.blur.highlight/BloomStroke.Companion.GlassStrokeMiddleDark|{}GlassStrokeMiddleDark[0]
-            final fun <get-GlassStrokeMiddleDark>(): io.github.a1b2d56.opaline.blur.highlight/BloomStroke // io.github.a1b2d56.opaline.blur.highlight/BloomStroke.Companion.GlassStrokeMiddleDark.<get-GlassStrokeMiddleDark>|<get-GlassStrokeMiddleDark>(){}[0]
-        final val GlassStrokeMiddleLight // io.github.a1b2d56.opaline.blur.highlight/BloomStroke.Companion.GlassStrokeMiddleLight|{}GlassStrokeMiddleLight[0]
-            final fun <get-GlassStrokeMiddleLight>(): io.github.a1b2d56.opaline.blur.highlight/BloomStroke // io.github.a1b2d56.opaline.blur.highlight/BloomStroke.Companion.GlassStrokeMiddleLight.<get-GlassStrokeMiddleLight>|<get-GlassStrokeMiddleLight>(){}[0]
-        final val GlassStrokeSmallDark // io.github.a1b2d56.opaline.blur.highlight/BloomStroke.Companion.GlassStrokeSmallDark|{}GlassStrokeSmallDark[0]
-            final fun <get-GlassStrokeSmallDark>(): io.github.a1b2d56.opaline.blur.highlight/BloomStroke // io.github.a1b2d56.opaline.blur.highlight/BloomStroke.Companion.GlassStrokeSmallDark.<get-GlassStrokeSmallDark>|<get-GlassStrokeSmallDark>(){}[0]
-        final val GlassStrokeSmallLight // io.github.a1b2d56.opaline.blur.highlight/BloomStroke.Companion.GlassStrokeSmallLight|{}GlassStrokeSmallLight[0]
-            final fun <get-GlassStrokeSmallLight>(): io.github.a1b2d56.opaline.blur.highlight/BloomStroke // io.github.a1b2d56.opaline.blur.highlight/BloomStroke.Companion.GlassStrokeSmallLight.<get-GlassStrokeSmallLight>|<get-GlassStrokeSmallLight>(){}[0]
+        final val Default // io.github.a1b2d56.opaline.blur.highlight/BloomStroke.Companion.Default|{}Default[0]
+            final fun <get-Default>(): io.github.a1b2d56.opaline.blur.highlight/BloomStroke // io.github.a1b2d56.opaline.blur.highlight/BloomStroke.Companion.Default.<get-Default>|<get-Default>(){}[0]
     }
 }
 
@@ -147,18 +137,6 @@ final class io.github.a1b2d56.opaline.blur.highlight/Highlight { // io.github.a1
     final object Companion { // io.github.a1b2d56.opaline.blur.highlight/Highlight.Companion|null[0]
         final val Default // io.github.a1b2d56.opaline.blur.highlight/Highlight.Companion.Default|{}Default[0]
             final fun <get-Default>(): io.github.a1b2d56.opaline.blur.highlight/Highlight // io.github.a1b2d56.opaline.blur.highlight/Highlight.Companion.Default.<get-Default>|<get-Default>(){}[0]
-        final val GlassStrokeBigDark // io.github.a1b2d56.opaline.blur.highlight/Highlight.Companion.GlassStrokeBigDark|{}GlassStrokeBigDark[0]
-            final fun <get-GlassStrokeBigDark>(): io.github.a1b2d56.opaline.blur.highlight/Highlight // io.github.a1b2d56.opaline.blur.highlight/Highlight.Companion.GlassStrokeBigDark.<get-GlassStrokeBigDark>|<get-GlassStrokeBigDark>(){}[0]
-        final val GlassStrokeBigLight // io.github.a1b2d56.opaline.blur.highlight/Highlight.Companion.GlassStrokeBigLight|{}GlassStrokeBigLight[0]
-            final fun <get-GlassStrokeBigLight>(): io.github.a1b2d56.opaline.blur.highlight/Highlight // io.github.a1b2d56.opaline.blur.highlight/Highlight.Companion.GlassStrokeBigLight.<get-GlassStrokeBigLight>|<get-GlassStrokeBigLight>(){}[0]
-        final val GlassStrokeMiddleDark // io.github.a1b2d56.opaline.blur.highlight/Highlight.Companion.GlassStrokeMiddleDark|{}GlassStrokeMiddleDark[0]
-            final fun <get-GlassStrokeMiddleDark>(): io.github.a1b2d56.opaline.blur.highlight/Highlight // io.github.a1b2d56.opaline.blur.highlight/Highlight.Companion.GlassStrokeMiddleDark.<get-GlassStrokeMiddleDark>|<get-GlassStrokeMiddleDark>(){}[0]
-        final val GlassStrokeMiddleLight // io.github.a1b2d56.opaline.blur.highlight/Highlight.Companion.GlassStrokeMiddleLight|{}GlassStrokeMiddleLight[0]
-            final fun <get-GlassStrokeMiddleLight>(): io.github.a1b2d56.opaline.blur.highlight/Highlight // io.github.a1b2d56.opaline.blur.highlight/Highlight.Companion.GlassStrokeMiddleLight.<get-GlassStrokeMiddleLight>|<get-GlassStrokeMiddleLight>(){}[0]
-        final val GlassStrokeSmallDark // io.github.a1b2d56.opaline.blur.highlight/Highlight.Companion.GlassStrokeSmallDark|{}GlassStrokeSmallDark[0]
-            final fun <get-GlassStrokeSmallDark>(): io.github.a1b2d56.opaline.blur.highlight/Highlight // io.github.a1b2d56.opaline.blur.highlight/Highlight.Companion.GlassStrokeSmallDark.<get-GlassStrokeSmallDark>|<get-GlassStrokeSmallDark>(){}[0]
-        final val GlassStrokeSmallLight // io.github.a1b2d56.opaline.blur.highlight/Highlight.Companion.GlassStrokeSmallLight|{}GlassStrokeSmallLight[0]
-            final fun <get-GlassStrokeSmallLight>(): io.github.a1b2d56.opaline.blur.highlight/Highlight // io.github.a1b2d56.opaline.blur.highlight/Highlight.Companion.GlassStrokeSmallLight.<get-GlassStrokeSmallLight>|<get-GlassStrokeSmallLight>(){}[0]
     }
 }
 

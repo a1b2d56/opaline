@@ -485,7 +485,7 @@ Box(
         .textureBlur(
             backdrop = backdrop,
             shape = RoundedCornerShape(24.dp),
-            highlight = Highlight.GlassStrokeMiddleLight,
+            highlight = Highlight.Default,
         ),
 )
 ```
@@ -506,7 +506,7 @@ Box(
             backdrop = backdrop,
             shape = { RoundedCornerShape(24.dp) },
             effects = { blur(20.dp.toPx()) },
-            highlight = { Highlight.GlassStrokeMiddleLight.copy(alpha = pressProgress) },
+            highlight = { Highlight.Default.copy(alpha = pressProgress) },
         ),
 )
 ```
@@ -517,24 +517,13 @@ Pass `null` (or a `Highlight` with `width = 0.dp`) to disable.
 Edge highlight requires `isRuntimeShaderSupported()`. On unsupported platforms or API levels, the highlight is skipped silently.
 :::
 
-### Built-in Tokens
+### Default and Material Rims
 
-Six presets are provided. Pick by card size and theme:
-
-| Token | innerBlurRadius | Visual |
-| --- | --- | --- |
-| `Highlight.GlassStrokeBigLight` | 3.5 dp | Thickest, softest halo — large light-mode cards |
-| `Highlight.GlassStrokeMiddleLight` | 2.8 dp | Standard light-mode card (default) |
-| `Highlight.GlassStrokeSmallLight` | 2.6 dp | Compact, sharper light-mode card |
-| `Highlight.GlassStrokeBigDark` | 1.7 dp | Thinnest halo — large dark-mode card |
-| `Highlight.GlassStrokeMiddleDark` | 2.0 dp | Standard dark-mode card |
-| `Highlight.GlassStrokeSmallDark` | 2.3 dp | Compact, sharpest dark-mode card |
-
-`Highlight.Default` aliases `GlassStrokeMiddleLight`.
+`Highlight.Default` is a soft two-light rim. The ColorOS 17 materials carry their own rim: `OpalineMaterial.stroke(dark)?.toHighlight()` returns the width and opacity the system uses for that material, and `Modifier.opalineMaterial` draws it for you.
 
 ### Custom BloomStroke
 
-Override individual fields on a token, or build a `BloomStroke` from scratch:
+Override individual fields of `BloomStroke.Default`, or build a `BloomStroke` from scratch:
 
 ```kotlin
 import io.github.a1b2d56.opaline.blur.highlight.BloomStroke
@@ -559,7 +548,7 @@ val custom = Highlight(
 )
 ```
 
-`LightPosition` is in normalized UV with the reference origin at `(0.5, 0.7, 0)`. The shader normalizes `(x − 0.5, y − 0.7, z)` into a 3D unit direction. Negative `z` places the light behind the surface plane, illuminating the inward-facing edge — all built-in tokens use `z < 0`.
+`LightPosition` is in normalized UV with the reference origin at `(0.5, 0.7, 0)`. The shader normalizes `(x − 0.5, y − 0.7, z)` into a 3D unit direction. Negative `z` places the light behind the surface plane, illuminating the inward-facing edge — the default uses `z < 0`.
 
 The two lights are restricted to opposite hemispheres by the shader: `primaryLight` lights the upper half of the rounded rect, `secondaryLight` lights the lower half. Position `y < 0.7` biases a light upward; `y > 0.7` biases it downward.
 
@@ -570,7 +559,7 @@ The two lights are restricted to opposite hemispheres by the shader: `primaryLig
 ```kotlin
 import io.github.a1b2d56.opaline.blur.highlight.rememberTiltLight
 
-val baseStyle = Highlight.GlassStrokeMiddleLight.style as BloomStroke
+val baseStyle = Highlight.Default.style as BloomStroke
 
 val tiltPrimary = rememberTiltLight(
     basePosition = baseStyle.primaryLight.position,
@@ -583,7 +572,7 @@ val tiltSecondary = rememberTiltLight(
     sensitivity = 0.12f,
 )
 
-val highlight = Highlight.GlassStrokeMiddleLight.copy(
+val highlight = Highlight.Default.copy(
     style = baseStyle.copy(
         primaryLight = tiltPrimary,
         secondaryLight = tiltSecondary,

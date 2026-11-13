@@ -60,9 +60,9 @@ interface HighlightStyle {
 
     companion object {
 
-        /** Default style — aliases [BloomStroke.GlassStrokeMiddleLight]. */
+        /** Default style: [BloomStroke.Default]. */
         @Stable
-        val Default: BloomStroke = BloomStroke.GlassStrokeMiddleLight
+        val Default: BloomStroke = BloomStroke.Default
     }
 }
 
@@ -160,24 +160,9 @@ data class BloomStroke(
 
     companion object {
 
-        /** Large card preset, light theme. */
+        /** A soft two-light rim: a main light at the centre and a weaker fill light below it. */
         @Stable
-        val GlassStrokeBigLight: BloomStroke = BloomStroke(
-            color = Color.White.copy(alpha = 0.05f),
-            innerBlurRadius = 3.5.dp,
-            primaryLight = LightSource(
-                position = LightPosition(0.5f, 0.5f, -0.5f),
-                intensity = 0.3f,
-            ),
-            secondaryLight = LightSource(
-                position = LightPosition(0.5f, 0.6f, -0.5f),
-                intensity = 0.2f,
-            ),
-        )
-
-        /** Standard card preset, light theme. */
-        @Stable
-        val GlassStrokeMiddleLight: BloomStroke = BloomStroke(
+        val Default: BloomStroke = BloomStroke(
             color = Color.White.copy(alpha = 0.05f),
             innerBlurRadius = 2.8.dp,
             primaryLight = LightSource(
@@ -186,66 +171,6 @@ data class BloomStroke(
             ),
             secondaryLight = LightSource(
                 position = LightPosition(0.5f, 0.8f, -0.5f),
-                intensity = 0.25f,
-            ),
-        )
-
-        /** Compact card preset, light theme. */
-        @Stable
-        val GlassStrokeSmallLight: BloomStroke = BloomStroke(
-            color = Color.White.copy(alpha = 0.05f),
-            innerBlurRadius = 2.6.dp,
-            primaryLight = LightSource(
-                position = LightPosition(0.5f, 0.5f, -0.5f),
-                intensity = 0.6f,
-            ),
-            secondaryLight = LightSource(
-                position = LightPosition(0.5f, 0.95f, -0.5f),
-                intensity = 0.35f,
-            ),
-        )
-
-        /** Large card preset, dark theme. */
-        @Stable
-        val GlassStrokeBigDark: BloomStroke = BloomStroke(
-            color = Color.White.copy(alpha = 0.05f),
-            innerBlurRadius = 1.7.dp,
-            primaryLight = LightSource(
-                position = LightPosition(0.5f, 0.5f, -0.5f),
-                intensity = 0.4f,
-            ),
-            secondaryLight = LightSource(
-                position = LightPosition(0.5f, 0.6f, -0.5f),
-                intensity = 0.25f,
-            ),
-        )
-
-        /** Standard card preset, dark theme. */
-        @Stable
-        val GlassStrokeMiddleDark: BloomStroke = BloomStroke(
-            color = Color.White.copy(alpha = 0.06f),
-            innerBlurRadius = 2.0.dp,
-            primaryLight = LightSource(
-                position = LightPosition(0.5f, 0.5f, -0.5f),
-                intensity = 0.5f,
-            ),
-            secondaryLight = LightSource(
-                position = LightPosition(0.5f, 0.8f, -0.5f),
-                intensity = 0.25f,
-            ),
-        )
-
-        /** Compact card preset, dark theme. */
-        @Stable
-        val GlassStrokeSmallDark: BloomStroke = BloomStroke(
-            color = Color.White.copy(alpha = 0.08f),
-            innerBlurRadius = 2.3.dp,
-            primaryLight = LightSource(
-                position = LightPosition(0.5f, 0.5f, -0.5f),
-                intensity = 0.6f,
-            ),
-            secondaryLight = LightSource(
-                position = LightPosition(0.5f, 0.95f, -0.36f),
                 intensity = 0.25f,
             ),
         )

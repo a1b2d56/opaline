@@ -353,12 +353,7 @@ public final class io/github/a1b2d56/opaline/blur/highlight/BloomStroke : io/git
 }
 
 public final class io/github/a1b2d56/opaline/blur/highlight/BloomStroke$Companion {
-	public final fun getGlassStrokeBigDark ()Lio/github/a1b2d56/opaline/blur/highlight/BloomStroke;
-	public final fun getGlassStrokeBigLight ()Lio/github/a1b2d56/opaline/blur/highlight/BloomStroke;
-	public final fun getGlassStrokeMiddleDark ()Lio/github/a1b2d56/opaline/blur/highlight/BloomStroke;
-	public final fun getGlassStrokeMiddleLight ()Lio/github/a1b2d56/opaline/blur/highlight/BloomStroke;
-	public final fun getGlassStrokeSmallDark ()Lio/github/a1b2d56/opaline/blur/highlight/BloomStroke;
-	public final fun getGlassStrokeSmallLight ()Lio/github/a1b2d56/opaline/blur/highlight/BloomStroke;
+	public final fun getDefault ()Lio/github/a1b2d56/opaline/blur/highlight/BloomStroke;
 }
 
 public final class io/github/a1b2d56/opaline/blur/highlight/Highlight {
@@ -382,12 +377,6 @@ public final class io/github/a1b2d56/opaline/blur/highlight/Highlight {
 
 public final class io/github/a1b2d56/opaline/blur/highlight/Highlight$Companion {
 	public final fun getDefault ()Lio/github/a1b2d56/opaline/blur/highlight/Highlight;
-	public final fun getGlassStrokeBigDark ()Lio/github/a1b2d56/opaline/blur/highlight/Highlight;
-	public final fun getGlassStrokeBigLight ()Lio/github/a1b2d56/opaline/blur/highlight/Highlight;
-	public final fun getGlassStrokeMiddleDark ()Lio/github/a1b2d56/opaline/blur/highlight/Highlight;
-	public final fun getGlassStrokeMiddleLight ()Lio/github/a1b2d56/opaline/blur/highlight/Highlight;
-	public final fun getGlassStrokeSmallDark ()Lio/github/a1b2d56/opaline/blur/highlight/Highlight;
-	public final fun getGlassStrokeSmallLight ()Lio/github/a1b2d56/opaline/blur/highlight/Highlight;
 }
 
 public abstract interface class io/github/a1b2d56/opaline/blur/highlight/HighlightStyle {

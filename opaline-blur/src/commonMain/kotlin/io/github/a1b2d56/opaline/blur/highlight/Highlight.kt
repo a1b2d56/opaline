@@ -29,32 +29,8 @@ data class Highlight(
 
     companion object {
 
-        /** Large card preset, light theme. Thickest, softest halo. */
+        /** Default highlight: a [BloomStroke.Default] rim at the default width. */
         @Stable
-        val GlassStrokeBigLight: Highlight = Highlight(style = BloomStroke.GlassStrokeBigLight)
-
-        /** Standard card preset, light theme. */
-        @Stable
-        val GlassStrokeMiddleLight: Highlight = Highlight(style = BloomStroke.GlassStrokeMiddleLight)
-
-        /** Compact card preset, light theme. */
-        @Stable
-        val GlassStrokeSmallLight: Highlight = Highlight(style = BloomStroke.GlassStrokeSmallLight)
-
-        /** Large card preset, dark theme. Thinnest halo. */
-        @Stable
-        val GlassStrokeBigDark: Highlight = Highlight(style = BloomStroke.GlassStrokeBigDark)
-
-        /** Standard card preset, dark theme. */
-        @Stable
-        val GlassStrokeMiddleDark: Highlight = Highlight(style = BloomStroke.GlassStrokeMiddleDark)
-
-        /** Compact card preset, dark theme. */
-        @Stable
-        val GlassStrokeSmallDark: Highlight = Highlight(style = BloomStroke.GlassStrokeSmallDark)
-
-        /** Default highlight — aliases [GlassStrokeMiddleLight]. */
-        @Stable
-        val Default: Highlight = GlassStrokeMiddleLight
+        val Default: Highlight = Highlight()
     }
 }
