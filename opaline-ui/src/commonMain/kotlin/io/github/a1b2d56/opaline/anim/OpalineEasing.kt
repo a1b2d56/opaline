@@ -16,7 +16,7 @@ import kotlin.math.PI
  * @param visibilityThreshold The magnitude below which the animation is considered settled and the
  *   invisible settle tail is cut; null falls back to the framework default displacement threshold.
  */
-fun <T> folmeSpring(
+fun <T> responseSpring(
     damping: Float,
     response: Float,
     visibilityThreshold: T? = null,

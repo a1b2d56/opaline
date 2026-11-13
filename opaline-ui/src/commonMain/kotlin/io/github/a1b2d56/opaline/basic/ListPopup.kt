@@ -86,7 +86,7 @@ import androidx.compose.ui.unit.IntSize
 import androidx.compose.ui.unit.LayoutDirection
 import androidx.compose.ui.unit.dp
 import io.github.a1b2d56.opaline.anim.SinOutEasing
-import io.github.a1b2d56.opaline.anim.folmeSpring
+import io.github.a1b2d56.opaline.anim.responseSpring
 import io.github.a1b2d56.opaline.squircle.addSquircleRect
 import io.github.a1b2d56.opaline.squircle.squircleSurface
 import io.github.a1b2d56.opaline.theme.OpalineTheme
@@ -800,16 +800,16 @@ object ListPopupDefaults {
 
     /**
      * Content alpha enter spring (COUI main-menu enter alpha COUISpringForce
-     * response 0.35 / bounce 0.2, mapped by [folmeSpring]).
+     * response 0.35 / bounce 0.2, mapped by [responseSpring]).
      */
-    val AlphaEnterAnimationSpec = folmeSpring<Float>(damping = 0.8f, response = 0.35f)
+    val AlphaEnterAnimationSpec = responseSpring<Float>(damping = 0.8f, response = 0.35f)
 
     /**
      * Content alpha exit spring; also the master timing for unmounting the popup
      * (COUI main-menu exit alpha COUISpringForce response 0.25 / bounce 0). The Compose
      * default visibility threshold avoids COUI's long invisible tap-blocking tail.
      */
-    val AlphaExitAnimationSpec = folmeSpring<Float>(damping = 1f, response = 0.25f)
+    val AlphaExitAnimationSpec = responseSpring<Float>(damping = 1f, response = 0.25f)
 
     /**
      * Extra clearance reserved below the status bar before the popup may be placed

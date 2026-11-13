@@ -308,7 +308,7 @@ private const val TOOLTIP_LONG_PRESS_LABEL = "Show tooltip"
 private const val TOOLTIP_PANE_TITLE = "Tooltip"
 
 /**
- * Miuix's tooltip primitive. Forked from the experimental foundation `BasicTooltipBox` so the mouse
+ * The tooltip primitive. Forked from the experimental foundation `BasicTooltipBox` so the mouse
  * hover gesture keeps a persistent tooltip open: when the cursor leaves the anchor the tooltip is
  * dismissed only if it is not persistent. This lets the cursor travel onto a persistent [RichTooltip]
  * to reach its action, matching the Material 3 tooltip behavior.
@@ -438,12 +438,12 @@ private fun Modifier.tooltipAnchorSemantics(
 }
 
 /**
- * A plain tooltip that briefly describes an anchor with a short text label, using the Miuix inverse
+ * A plain tooltip that briefly describes an anchor with a short text label, using the inverse
  * surface style.
  *
  * @param modifier the modifier applied to the tooltip.
  * @param caretShape when non-null, draws a caret pointing at the anchor; null (default) keeps the
- *   Miuix caret-less style.
+ *   caret-less style.
  * @param maxWidth the maximum width of the tooltip.
  * @param cornerRadius the corner radius of the tooltip.
  * @param containerColor the container color of the tooltip.
@@ -481,13 +481,13 @@ fun TooltipScope.PlainTooltip(
 
 /**
  * A rich tooltip that explains an anchor with an optional [title], body [text], and an optional
- * [action], using the Miuix surface-container card style.
+ * [action], using the surface-container card style.
  *
  * @param modifier the modifier applied to the tooltip.
  * @param title the optional title shown above the body.
  * @param action the optional action shown below the body.
  * @param caretShape when non-null, draws a caret pointing at the anchor; null (default) keeps the
- *   Miuix caret-less style.
+ *   caret-less style.
  * @param maxWidth the maximum width of the tooltip.
  * @param cornerRadius the corner radius of the tooltip.
  * @param colors the [RichTooltipColors] of the tooltip.
@@ -855,7 +855,7 @@ object TooltipDefaults {
     /** The default margin inside a rich tooltip action button. */
     val RichTooltipActionInsideMargin = PaddingValues(horizontal = 12.dp, vertical = 6.dp)
 
-    /** Returns a [Shape] that, when passed as `caretShape`, enables the Miuix tooltip caret. */
+    /** Returns a [Shape] that, when passed as `caretShape`, enables the tooltip caret. */
     fun caretShape(): Shape = TooltipCaretShape
 
     @Composable

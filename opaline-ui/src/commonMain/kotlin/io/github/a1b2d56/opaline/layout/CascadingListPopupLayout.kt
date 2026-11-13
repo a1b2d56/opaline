@@ -44,7 +44,7 @@ import androidx.navigationevent.NavigationEventInfo
 import androidx.navigationevent.NavigationEventTransitionState
 import androidx.navigationevent.compose.NavigationBackHandler
 import androidx.navigationevent.compose.rememberNavigationEventState
-import io.github.a1b2d56.opaline.anim.folmeSpring
+import io.github.a1b2d56.opaline.anim.responseSpring
 import io.github.a1b2d56.opaline.basic.DropdownColors
 import io.github.a1b2d56.opaline.basic.DropdownDefaults
 import io.github.a1b2d56.opaline.basic.DropdownEntry
@@ -105,9 +105,9 @@ object CascadingPopupDefaults {
      * @param expanding Whether the menu is opening. It closes on a shorter and firmer spring.
      */
     fun <T> expandSpring(expanding: Boolean): SpringSpec<T> = if (expanding) {
-        folmeSpring(EXPAND_SPRING_DAMPING, EXPAND_SPRING_RESPONSE)
+        responseSpring(EXPAND_SPRING_DAMPING, EXPAND_SPRING_RESPONSE)
     } else {
-        folmeSpring(MAIN_SPRING_DAMPING, COLLAPSE_SPRING_RESPONSE)
+        responseSpring(MAIN_SPRING_DAMPING, COLLAPSE_SPRING_RESPONSE)
     }
 
     /**
@@ -115,7 +115,7 @@ object CascadingPopupDefaults {
      *
      * @param expanding Whether the menu is opening.
      */
-    fun <T> arrowSpring(expanding: Boolean): SpringSpec<T> = folmeSpring(
+    fun <T> arrowSpring(expanding: Boolean): SpringSpec<T> = responseSpring(
         damping = MAIN_SPRING_DAMPING,
         response = if (expanding) ARROW_EXPAND_SPRING_RESPONSE else ARROW_COLLAPSE_SPRING_RESPONSE,
     )
@@ -285,7 +285,7 @@ internal fun CascadingListPopupLayout(
                     if (expandedItemPosition != null) {
                         backExpandProgress.animateTo(
                             0f,
-                            folmeSpring(EXPAND_SPRING_DAMPING, EXPAND_SPRING_RESPONSE),
+                            responseSpring(EXPAND_SPRING_DAMPING, EXPAND_SPRING_RESPONSE),
                         )
                     } else {
                         backEnterProgress.animateTo(0f, ListPopupDefaults.ResetAnimationSpec)

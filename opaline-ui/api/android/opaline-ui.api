@@ -15,8 +15,8 @@ public final class io/github/a1b2d56/opaline/anim/DecelerateEasing : androidx/co
 }
 
 public final class io/github/a1b2d56/opaline/anim/OpalineEasingKt {
-	public static final fun folmeSpring (FFLjava/lang/Object;)Landroidx/compose/animation/core/SpringSpec;
-	public static synthetic fun folmeSpring$default (FFLjava/lang/Object;ILjava/lang/Object;)Landroidx/compose/animation/core/SpringSpec;
+	public static final fun responseSpring (FFLjava/lang/Object;)Landroidx/compose/animation/core/SpringSpec;
+	public static synthetic fun responseSpring$default (FFLjava/lang/Object;ILjava/lang/Object;)Landroidx/compose/animation/core/SpringSpec;
 }
 
 public final class io/github/a1b2d56/opaline/anim/SinOutEasingKt {

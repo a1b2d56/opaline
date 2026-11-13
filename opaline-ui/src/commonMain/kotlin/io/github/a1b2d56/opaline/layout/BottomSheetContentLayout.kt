@@ -75,7 +75,7 @@ import androidx.navigationevent.NavigationEventInfo
 import androidx.navigationevent.NavigationEventTransitionState
 import androidx.navigationevent.compose.NavigationBackHandler
 import androidx.navigationevent.compose.rememberNavigationEventState
-import io.github.a1b2d56.opaline.anim.folmeSpring
+import io.github.a1b2d56.opaline.anim.responseSpring
 import io.github.a1b2d56.opaline.basic.Text
 import io.github.a1b2d56.opaline.material.LocalContentMaterialRenderer
 import io.github.a1b2d56.opaline.material.MaterialType
@@ -472,7 +472,7 @@ internal fun BottomSheetContent(
                         val effectiveVelocity = if (!allowDismiss && velocity > 0) 0f else velocity
                         dragOffsetY.animateTo(
                             targetValue = 0f,
-                            animationSpec = folmeSpring(damping = 0.85f, response = 0.4f),
+                            animationSpec = responseSpring(damping = 0.85f, response = 0.4f),
                             initialVelocity = effectiveVelocity,
                         ) {
                             updateDimAlpha(value)
@@ -758,7 +758,7 @@ private fun <T> opalinePanelSlideSpring(
     val base = if (entering) 0.45f else 0.4f
     val denominator = containerPx - peekPx
     val fraction = if (denominator > 0f) ((travelPx - peekPx) / denominator).coerceIn(0f, 1f) else 1f
-    return folmeSpring(damping = 1f, response = 0.25f + (base - 0.25f) * fraction)
+    return responseSpring(damping = 1f, response = 0.25f + (base - 0.25f) * fraction)
 }
 
 /**
