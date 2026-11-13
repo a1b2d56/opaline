@@ -29,17 +29,12 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import component.blend.ColorBlendToken
-import component.effect.BgEffectBackground
-import component.highlight.HighlightConfig
-import component.highlight.rememberContainerHighlight
 import io.github.a1b2d56.opaline.basic.Card
 import io.github.a1b2d56.opaline.basic.HorizontalDivider
 import io.github.a1b2d56.opaline.basic.SmallTitle
 import io.github.a1b2d56.opaline.basic.Text
-import io.github.a1b2d56.opaline.blur.BlendColorEntry
-import io.github.a1b2d56.opaline.blur.BlurBlendMode
 import io.github.a1b2d56.opaline.blur.BlurDefaults
+import io.github.a1b2d56.opaline.blur.OpalineMaterial
 import io.github.a1b2d56.opaline.blur.isRuntimeShaderSupported
 import io.github.a1b2d56.opaline.blur.layerBackdrop
 import io.github.a1b2d56.opaline.blur.rememberLayerBackdrop
@@ -78,36 +73,15 @@ private fun BlurDemo() {
     val isInDark = isInDarkTheme()
 
     val backdrop = rememberLayerBackdrop()
-    val surface = OpalineTheme.colorScheme.surface.copy(alpha = 0.6f)
 
-    var tiltDriven by remember { mutableStateOf(true) }
-    val containers = HighlightConfig.Container.entries
-    val containerItems = remember { containers.map { it.displayName } }
-    var containerIndex by remember { mutableIntStateOf(HighlightConfig.Container.Small.ordinal) }
-    val currentContainer = containers[containerIndex]
-    val highlight = rememberContainerHighlight(
-        container = currentContainer,
-        isDark = isInDark,
-        tiltDriven = tiltDriven,
-    )
-
-    val blendConfigs = remember(isInDark, surface) {
-        listOf(
-            "None" to emptyList(),
-            "Info Thin" to if (isInDark) ColorBlendToken.Info_Thin_Dark else ColorBlendToken.Info_Thin_Light,
-            "Info Regular" to if (isInDark) ColorBlendToken.Info_Regular_Dark else ColorBlendToken.Info_Regular_Light,
-            "Colored Thin" to if (isInDark) ColorBlendToken.Colored_Thin_Dark else ColorBlendToken.Colored_Thin_Light,
-            "Colored Regular" to if (isInDark) ColorBlendToken.Colored_Regular_Dark else ColorBlendToken.Colored_Regular_Light,
-            "Colored Thick" to if (isInDark) ColorBlendToken.Colored_Thick_Dark else ColorBlendToken.Colored_Thick_Light,
-            "Pured Regular" to if (isInDark) ColorBlendToken.Pured_Regular_Dark else ColorBlendToken.Pured_Regular_Light,
-            "Pured Thick" to if (isInDark) ColorBlendToken.Pured_Thick_Dark else ColorBlendToken.Pured_Thick_Light,
-            "Overlay Thin" to ColorBlendToken.Overlay_Thin_Light,
-            "Overlay Thick" to if (isInDark) ColorBlendToken.Overlay_Thick_Dark else ColorBlendToken.Overlay_Thick_Light,
-        )
+    val materials = OpalineMaterial.entries
+    val materialItems = remember { listOf("None") + materials.map { it.name } }
+    var materialIndex by remember { mutableIntStateOf(materials.indexOf(OpalineMaterial.FrameworkBottomBar) + 1) }
+    val material = materials.getOrNull(materialIndex - 1)
+    val blendColors = remember(material, isInDark) {
+        material?.blur(isInDark)?.let { listOf(it.layer1, it.layer2) } ?: emptyList()
     }
-    var blendModeIndex by remember { mutableIntStateOf(5) }
-    val currentBlend = blendConfigs[blendModeIndex]
-    val blendModeItems = remember(blendConfigs) { blendConfigs.map { it.first } }
+    val highlight = remember(material, isInDark) { material?.stroke(isInDark)?.toHighlight() }
 
     Column(
         modifier = Modifier
@@ -144,7 +118,7 @@ private fun BlurDemo() {
                             blurRadiusY = blurRadiusY,
                             noiseCoefficient = noiseCoefficient,
                             colors = BlurDefaults.blurColors(
-                                blendColors = currentBlend.second,
+                                blendColors = blendColors,
                                 brightness = brightness,
                                 contrast = contrast,
                                 saturation = saturation,
@@ -160,7 +134,7 @@ private fun BlurDemo() {
                         )
                         Spacer(Modifier.height(4.dp))
                         Text(
-                            text = "${currentBlend.first} | ${containerItems[containerIndex]}",
+                            text = materialItems[materialIndex],
                             style = OpalineTheme.textStyles.body2,
                             color = OpalineTheme.colorScheme.onSurfaceVariantActions,
                         )
@@ -169,19 +143,10 @@ private fun BlurDemo() {
             }
 
             OverlayDropdownPreference(
-                title = "Blend Mode",
-                items = blendModeItems,
-                selectedIndex = blendModeIndex,
-                onSelectedIndexChange = { blendModeIndex = it },
-            )
-
-            HorizontalDivider(Modifier.padding(horizontal = 16.dp))
-
-            OverlayDropdownPreference(
-                title = "Highlight",
-                items = containerItems,
-                selectedIndex = containerIndex,
-                onSelectedIndexChange = { containerIndex = it },
+                title = "Material",
+                items = materialItems,
+                selectedIndex = materialIndex,
+                onSelectedIndexChange = { materialIndex = it },
             )
 
             HorizontalDivider(Modifier.fillMaxWidth().padding(horizontal = 16.dp))
@@ -241,40 +206,14 @@ private fun ForegroundBlurDemo() {
     var saturation by remember { mutableFloatStateOf(1f) }
 
     val isInDark = isInDarkTheme()
-    val dynamicBackground = remember { mutableStateOf(true) }
 
     val backdrop = rememberLayerBackdrop()
-    val onBackground = OpalineTheme.colorScheme.onBackground
-    val logoBlend = remember(isInDark) {
-        if (isInDark) {
-            listOf(
-                BlendColorEntry(Color(0xe6a1a1a1), BlurBlendMode.ColorDodge),
-                BlendColorEntry(Color(0x4de6e6e6), BlurBlendMode.LinearLight),
-                BlendColorEntry(Color(0xff1af500), BlurBlendMode.Lab),
-            )
-        } else {
-            listOf(
-                BlendColorEntry(Color(0xcc4a4a4a), BlurBlendMode.ColorBurn),
-                BlendColorEntry(Color(0xff4f4f4f), BlurBlendMode.LinearLight),
-                BlendColorEntry(Color(0xff1af200), BlurBlendMode.Lab),
-            )
-        }
+    val materials = OpalineMaterial.entries
+    val materialItems = remember { listOf("None") + materials.map { it.name } }
+    var materialIndex by remember { mutableIntStateOf(materials.indexOf(OpalineMaterial.FrameworkTopBar) + 1) }
+    val blendColors = remember(materialIndex, isInDark) {
+        materials.getOrNull(materialIndex - 1)?.blur(isInDark)?.let { listOf(it.layer1, it.layer2) } ?: emptyList()
     }
-    val blendConfigs = remember(isInDark, onBackground) {
-        listOf(
-            "None" to emptyList(),
-            "Logo Blend" to logoBlend,
-            "Colored Thin" to if (isInDark) ColorBlendToken.Colored_Thin_Dark else ColorBlendToken.Colored_Thin_Light,
-            "Colored Regular" to if (isInDark) ColorBlendToken.Colored_Regular_Dark else ColorBlendToken.Colored_Regular_Light,
-            "Colored Thick" to if (isInDark) ColorBlendToken.Colored_Thick_Dark else ColorBlendToken.Colored_Thick_Light,
-            "Pured Regular" to if (isInDark) ColorBlendToken.Pured_Regular_Dark else ColorBlendToken.Pured_Regular_Light,
-            "Overlay Thin" to ColorBlendToken.Overlay_Thin_Light,
-            "Info Colored" to ColorBlendToken.Info_Colored_Regular,
-        )
-    }
-    var blendModeIndex by remember { mutableIntStateOf(1) }
-    val currentBlend = blendConfigs[blendModeIndex]
-    val blendModeItems = remember(blendConfigs) { blendConfigs.map { it.first } }
 
     Column(
         modifier = Modifier.padding(horizontal = 16.dp),
@@ -282,14 +221,18 @@ private fun ForegroundBlurDemo() {
         Card(
             modifier = Modifier.padding(bottom = 16.dp),
         ) {
-            BgEffectBackground(
-                dynamicBackground = dynamicBackground.value,
-                isFullSize = true,
+            Box(
                 modifier = Modifier
                     .fillMaxWidth()
                     .height(280.dp),
-                bgModifier = Modifier.layerBackdrop(backdrop),
             ) {
+                Box(
+                    modifier = Modifier
+                        .matchParentSize()
+                        .layerBackdrop(backdrop),
+                ) {
+                    StaticBackground()
+                }
                 // Foreground blur text
                 Text(
                     text = "Foreground Blur\nOpaline Demo",
@@ -306,7 +249,7 @@ private fun ForegroundBlurDemo() {
                             blurRadiusY = blurRadiusY,
                             noiseCoefficient = noiseCoefficient,
                             colors = BlurDefaults.blurColors(
-                                blendColors = currentBlend.second,
+                                blendColors = blendColors,
                                 brightness = brightness,
                                 contrast = contrast,
                                 saturation = saturation,
@@ -317,18 +260,10 @@ private fun ForegroundBlurDemo() {
             }
 
             OverlayDropdownPreference(
-                title = "Blend Mode",
-                items = blendModeItems,
-                selectedIndex = blendModeIndex,
-                onSelectedIndexChange = { blendModeIndex = it },
-            )
-
-            HorizontalDivider(Modifier.padding(horizontal = 16.dp))
-
-            SwitchPreference(
-                title = "Dynamic Background",
-                checked = dynamicBackground.value,
-                onCheckedChange = { dynamicBackground.value = it },
+                title = "Material",
+                items = materialItems,
+                selectedIndex = materialIndex,
+                onSelectedIndexChange = { materialIndex = it },
             )
 
             HorizontalDivider(Modifier.fillMaxWidth().padding(horizontal = 16.dp))
