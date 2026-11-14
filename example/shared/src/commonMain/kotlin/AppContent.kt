@@ -503,6 +503,8 @@ private fun NavigationBar(
                         color = floatingBarColor,
                         horizontalAlignment = FloatingNavigationBarAlignment.fromInt(appState.floatingNavigationBarPosition)
                             .toAlignment(),
+                        // A phone leaves little room beside the bar; the default 36dp would land near the center.
+                        horizontalOutSidePadding = 16.dp,
                     ) {
                         navigationItems.forEachIndexed { index, item ->
                             FloatingNavigationBarItem(

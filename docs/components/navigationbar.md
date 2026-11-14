@@ -120,7 +120,7 @@ draws the bottom-bar material and `FloatingNavigationBar` the floating-bar mater
 | color                      | Color                    | Background color of the nav bar         | OpalineTheme.colorScheme.surfaceContainer | No       |
 | cornerRadius               | Dp                       | Corner radius of the nav bar            | FloatingToolbarDefaults.CornerRadius    | No       |
 | horizontalAlignment        | Alignment.Horizontal     | Horizontal alignment within its parent  | CenterHorizontally                      | No       |
-| horizontalOutSidePadding   | Dp                       | Horizontal padding outside the nav bar  | FloatingNavigationBarDefaults.HorizontalOutSidePadding | No       |
+| horizontalOutSidePadding   | Dp                       | Gap to the edge the bar is aligned to   | FloatingNavigationBarDefaults.HorizontalOutSidePadding | No       |
 | shadowElevation            | Dp                       | The shadow elevation of the nav bar     | FloatingNavigationBarDefaults.ShadowElevation          | No       |
 | showDivider                | Boolean                  | Show divider line around the nav bar    | false                                   | No       |
 | defaultWindowInsetsPadding | Boolean                  | Apply default window insets padding     | true                                    | No       |

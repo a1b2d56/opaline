@@ -58,6 +58,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.Dp
+import androidx.compose.ui.unit.LayoutDirection
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import io.github.a1b2d56.opaline.material.MaterialType
@@ -300,7 +301,8 @@ fun RowScope.NavigationBarItem(
  * @param color The background color of the [FloatingNavigationBar].
  * @param cornerRadius The corner radius of the [FloatingNavigationBar], used for rounded corners.
  * @param horizontalAlignment The alignment of the [FloatingNavigationBar] within its parent, typically used to center it horizontally.
- * @param horizontalOutSidePadding The horizontal padding to be applied outside the [FloatingNavigationBar].
+ * @param horizontalOutSidePadding The gap between the [FloatingNavigationBar] and the edge it is aligned to, at most half
+ *   of the room the bar leaves free.
  * @param shadowElevation The shadow elevation of the [FloatingNavigationBar].
  * @param showDivider Whether to show the divider line around the [FloatingNavigationBar].
  * @param defaultWindowInsetsPadding whether to apply default window insets padding to the [FloatingNavigationBar].
@@ -330,72 +332,77 @@ fun FloatingNavigationBar(
         }
     }
 
-    Column(
+    Row(
         modifier = Modifier
-            .fillMaxWidth()
-            .padding(
-                start = if (horizontalAlignment == Alignment.Start) horizontalOutSidePadding else 0.dp,
-                end = if (horizontalAlignment == Alignment.End) horizontalOutSidePadding else 0.dp,
-            ),
-    ) {
-        Row(
-            modifier = Modifier
-                .padding(bottom = bottomPaddingValue)
-                .defaultMinSize(minHeight = 52.dp)
-                .then(
-                    if (defaultWindowInsetsPadding) {
-                        Modifier
-                            .then(
-                                if (platform() != Platform.IOS) {
-                                    Modifier
-                                        .windowInsetsPadding(WindowInsets.statusBars.only(WindowInsetsSides.Bottom))
-                                } else {
-                                    Modifier
-                                },
-                            )
-                            .windowInsetsPadding(WindowInsets.captionBar.only(WindowInsetsSides.Bottom))
-                    } else {
-                        Modifier
-                    },
-                )
-                .then(
-                    if (showDivider) {
-                        Modifier
-                            .squircleBackground(
-                                color = OpalineTheme.colorScheme.dividerLine,
-                                cornerRadius = cornerRadius,
-                            )
-                            .padding(0.75.dp)
-                    } else {
-                        Modifier
-                    },
-                )
-                .then(
-                    if (shadowElevation > 0.dp) {
-                        Modifier.dropShadow(
-                            shape = shape,
-                            shadow = Shadow(
-                                radius = 10.dp,
-                                color = Color.Black,
-                                alpha = 0.2f,
-                            ),
+            // The bar keeps its own width. The outside padding is the gap to the edge it is aligned
+            // to, and never more than half the room the bar leaves free, so a bar that nearly fills a narrow
+            // screen is not pushed past the center towards the opposite edge.
+            .layout { measurable, constraints ->
+                val placeable = measurable.measure(constraints.copy(minWidth = 0))
+                val width = if (constraints.hasBoundedWidth) constraints.maxWidth else placeable.width
+                val free = (width - placeable.width).coerceAtLeast(0)
+                val edge = horizontalOutSidePadding.roundToPx().coerceAtMost(free / 2)
+                val x = when (horizontalAlignment) {
+                    Alignment.Start -> edge
+                    Alignment.End -> free - edge
+                    else -> horizontalAlignment.align(placeable.width, width, LayoutDirection.Ltr)
+                }
+                layout(width, placeable.height) { placeable.placeRelative(x, 0) }
+            }
+            .padding(bottom = bottomPaddingValue)
+            .defaultMinSize(minHeight = 52.dp)
+            .then(
+                if (defaultWindowInsetsPadding) {
+                    Modifier
+                        .then(
+                            if (platform() != Platform.IOS) {
+                                Modifier
+                                    .windowInsetsPadding(WindowInsets.statusBars.only(WindowInsetsSides.Bottom))
+                            } else {
+                                Modifier
+                            },
                         )
-                    } else {
-                        Modifier
-                    },
-                )
-                .materialOrSquircle(MaterialType.FloatingBar, shape, color, cornerRadius)
-                .then(modifier)
-                .padding(horizontal = FloatingNavigationBarDefaults.HorizontalPadding)
-                .align(horizontalAlignment)
-                .pointerInput(Unit) {
-                    detectTapGestures { /* Consume click */ }
+                        .windowInsetsPadding(WindowInsets.captionBar.only(WindowInsetsSides.Bottom))
+                } else {
+                    Modifier
                 },
-            horizontalArrangement = Arrangement.spacedBy(FloatingNavigationBarDefaults.ItemSpacing),
-            verticalAlignment = Alignment.CenterVertically,
-        ) {
-            content()
-        }
+            )
+            .then(
+                if (showDivider) {
+                    Modifier
+                        .squircleBackground(
+                            color = OpalineTheme.colorScheme.dividerLine,
+                            cornerRadius = cornerRadius,
+                        )
+                        .padding(0.75.dp)
+                } else {
+                    Modifier
+                },
+            )
+            .then(
+                if (shadowElevation > 0.dp) {
+                    Modifier.dropShadow(
+                        shape = shape,
+                        shadow = Shadow(
+                            radius = 10.dp,
+                            color = Color.Black,
+                            alpha = 0.2f,
+                        ),
+                    )
+                } else {
+                    Modifier
+                },
+            )
+            .materialOrSquircle(MaterialType.FloatingBar, shape, color, cornerRadius)
+            .then(modifier)
+            .padding(horizontal = FloatingNavigationBarDefaults.HorizontalPadding)
+            .pointerInput(Unit) {
+                detectTapGestures { /* Consume click */ }
+            },
+        horizontalArrangement = Arrangement.spacedBy(FloatingNavigationBarDefaults.ItemSpacing),
+        verticalAlignment = Alignment.CenterVertically,
+    ) {
+        content()
     }
 }
 
